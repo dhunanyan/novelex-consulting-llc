@@ -8,17 +8,16 @@ import {
   NavigatorWrapper,
 } from "./Navigator.styles";
 import { MdOutlineKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
-const LIST = ["asdasd", "asdasd", "asdasdas"];
 
-export const Navigator = () => {
+export const Navigator = ({ list }) => {
   return (
     <NavigatorWrapper>
       <NavigatorContainer>
         <NavigatorList>
-          {LIST.map((item, index) => (
-            <NavigatorItem>
+          {list.map((item, index) => (
+            <NavigatorItem key={index}>
               <NavigatorLink>{item}</NavigatorLink>
-              {index !== LIST.length - 1 && (
+              {index !== list.length - 1 && (
                 <NavigatorIcon>
                   <Arrow />
                 </NavigatorIcon>
