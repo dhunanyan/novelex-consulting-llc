@@ -10,7 +10,6 @@ import styled from "styled-components";
 export const HeroWrapper = styled.section`
   background-color: ${MAIN_WHITE_COLOR};
   overflow: hidden;
-  padding: 95px 0 0 0;
 `;
 
 export const HeroContainer = styled.div`

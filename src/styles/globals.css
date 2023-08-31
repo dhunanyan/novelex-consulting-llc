@@ -155,32 +155,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* width */
 ::-webkit-scrollbar {
-  width: 12px;
-  background: #619ffc;
+  background: #3a3e44;
 }
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #525252;
-  border-radius: 10px;
+  background: #d7e1e1;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #619ffc;
-  border-radius: 5px;
+  background: #3a3e44;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb :hover {
-  background: #4c89e4;
+  background: #3a3e44;
 }
-
 ::-webkit-scrollbar-corner {
-  background: #4c89e4;
+  background: #3a3e44;
 }
-
 input[type="file"] {
   display: none;
 }
