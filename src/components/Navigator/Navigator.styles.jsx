@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import {
   Container,
   MAIN_BLACK_COLOR,
@@ -16,19 +16,19 @@ export const NavigatorWrapper = styled.nav`
   transition: all 150ms ease-out;
 `;
 
-export const NavigatorContainer = styled.div`
-  ${Container};
-  width: 100%;
-  height: 40px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-`;
+export const NavigatorContainer = styled.div``;
 
 export const NavigatorList = styled.ul`
+  ${Container};
   width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  &:hover > li > a {
+    color: grey;
+  }
 `;
 
 export const NavigatorItem = styled.li`
@@ -36,9 +36,24 @@ export const NavigatorItem = styled.li`
   align-items: center;
 `;
 
-export const NavigatorLink = styled.a`
+const navigatorLinkStyles = css`
   color: ${MAIN_WHITE_COLOR};
   margin: 0 15px;
+  padding: 25px 0;
+  transition: all 150ms ease-out;
+
+  &:hover {
+    color: ${MAIN_WHITE_COLOR} !important;
+  }
+`;
+
+export const NavigatorLink = styled.a`
+  ${navigatorLinkStyles};
+  cursor: pointer;
+`;
+
+export const NavigatorText = styled.p`
+  ${navigatorLinkStyles};
 `;
 
 export const NavigatorIcon = styled.div`

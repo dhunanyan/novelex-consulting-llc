@@ -61,7 +61,7 @@ export const viewProps = {
     },
   },
   careers: {
-    title: "Who we are",
+    title: "Careers",
     description:
       "Join Novelex to shape the future of communication and connect the world through languages and technology.",
     goToLink: "Go to this section",

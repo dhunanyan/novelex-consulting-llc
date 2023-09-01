@@ -6,13 +6,14 @@ import { usePathname } from "next/navigation";
 export default function App({ Component, pageProps }) {
   const pathname = usePathname();
   const list = pathname.substring(1).split("/");
+  const isNavigatorActive = list.length > 1;
 
-  // TODO trzeba będzie zrobić mapping, które będzie miało key - pathname, value - displayText dla navigatora.
-  // TODO zrobić z tych itemów linki w nawigatorze + style dodać
+  // TODO Schować navigator jak się wprowadza zły route
+
   return (
     <>
       <Header />
-      {list.length > 1 && <Navigator list={list} />}
+      {isNavigatorActive && <Navigator list={list} />}
       <Component {...pageProps} />
     </>
   );

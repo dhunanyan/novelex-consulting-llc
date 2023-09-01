@@ -10,6 +10,8 @@ import styled from "styled-components";
 export const HeroWrapper = styled.section`
   background-color: ${MAIN_WHITE_COLOR};
   overflow: hidden;
+  padding-top: ${({ isNavigatorDisabled }) =>
+    isNavigatorDisabled ? "90px" : "0px"};
 `;
 
 export const HeroContainer = styled.div`

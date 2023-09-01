@@ -16,6 +16,8 @@ export const HeaderWrapper = styled.header`
   -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.47);
   transition: all 150ms ease-out;
+  padding-top: ${({ isNavigatorDisabled }) =>
+    isNavigatorDisabled ? "90px" : "0px"};
 
   > div:first-of-type {
     height: 100%;
