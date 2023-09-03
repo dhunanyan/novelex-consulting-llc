@@ -6,7 +6,7 @@ import {
 } from "@/utils/styles";
 import styled from "styled-components";
 
-export const PrimaryCardWrapper = styled.button`
+export const IconCardWrapper = styled.button`
   background-color: ${MAIN_WHITE_COLOR};
   color: ${MAIN_BLACK_COLOR};
   width: 100%;
@@ -38,14 +38,14 @@ export const PrimaryCardWrapper = styled.button`
   }
 `;
 
-export const PrimaryCardContainer = styled.div`
+export const IconCardContainer = styled.div`
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 `;
 
-export const PrimaryCardIcon = styled.div`
+export const IconCardIcon = styled.div`
   background-color: ${MAIN_COLOR};
   border-radius: 50%;
   padding: 5px;
@@ -64,7 +64,7 @@ export const PrimaryCardIcon = styled.div`
   }
 `;
 
-export const PrimaryCardButton = styled.div`
+export const IconCardButton = styled.div`
   display: flex;
   align-items: center;
   position: relative;
@@ -96,14 +96,14 @@ export const PrimaryCardButton = styled.div`
   }
 `;
 
-export const PrimaryCardTitle = styled.h4`
+export const IconCardTitle = styled.h4`
   font-size: 18px;
   letter-spacing: -1.5px;
   font-weight: 300;
   margin: 20px 0;
 `;
 
-export const PrimaryCardDescription = styled.p`
+export const IconCardDescription = styled.p`
   font-size: 14px;
   font-weight: 300;
   font-style: italic;

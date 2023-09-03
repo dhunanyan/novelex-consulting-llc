@@ -13,7 +13,7 @@ export const viewProps = {
       { id: 6, text: "Our partners", href: "#" },
     ],
     extraContent: {
-      imagePath: "/who-we-are.jpg",
+      imagePath: "/header/who-we-are.jpg",
       imageAlt: "temp",
       subtitle: "Crafting Connections Beyond Words",
       motto: "Bridging Cultures, Uniting Worlds",
@@ -33,7 +33,7 @@ export const viewProps = {
       { id: 6, text: "Wellness and Benefits", href: "#" },
     ],
     extraContent: {
-      imagePath: "/life-at-novelex.jpg",
+      imagePath: "/header/life-at-novelex.jpg",
       imageAlt: "temp",
       subtitle: "Thriving in a Culture of Diversity",
       motto: "Where Passion Meets Purpose",
@@ -54,7 +54,7 @@ export const viewProps = {
       { id: 7, text: "Digital Language Tools", href: "#" },
     ],
     extraContent: {
-      imagePath: "/services.jpg",
+      imagePath: "/header/services.jpg",
       imageAlt: "temp",
       subtitle: "Enabling Multilingual Excellence",
       motto: "Empowering Communication Across Borders",
@@ -74,10 +74,12 @@ export const viewProps = {
       { id: 6, text: "Professional Development", href: "#" },
     ],
     extraContent: {
-      imagePath: "/careers.jpg",
+      imagePath: "/header/careers.jpg",
       imageAlt: "temp",
       subtitle: "Join Our Global Team of Innovators",
       motto: "Your Path to Impactful Communication",
     },
   },
 };
+
+// Novelex Consulting LLC is a leading phone translation company dedicated to connecting people across languages and cultures with innovative technology and excellence.

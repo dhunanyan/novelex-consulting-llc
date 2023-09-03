@@ -2,9 +2,9 @@ import React from "react";
 
 import { HomeWrapper } from "./Home.styles";
 import { HeroSection } from "../HeroSection/HeroSection";
-import { WhoWeAreSection } from "../WhoWeAreSection/WhoWeAreSection";
-import { ManageSection } from "../ManageSection/ManageSection";
-import { ServicesSection } from "../ServicesSection/ServicesSection";
+import { IconCardsSection } from "../IconCardsSection/IconCardsSection";
+import { ImageCardsSection } from "../ImageCardsSection/ImageCardsSection";
+import { SECONDARY_BLACK_COLOR } from "@/utils/styles";
 
 export const Home = ({
   welcomeSection = null,
@@ -21,17 +21,20 @@ export const Home = ({
       <HeroSection
         content={welcomeSection.content}
         SVGs={welcomeSection.SVGs}
+        images={welcomeSection.images}
       />
-      <WhoWeAreSection content={whoWeAre.content} SVGs={whoWeAre.SVGs} />
-      <ManageSection
+      <IconCardsSection content={whoWeAre.content} SVGs={whoWeAre.SVGs} />
+      <ImageCardsSection
         content={imageCardsSection.content}
         SVGs={imageCardsSection.SVGs}
         images={imageCardsSection.images}
       />
-      <ServicesSection
+      <IconCardsSection
         content={services.content}
         SVGs={services.SVGs}
         images={services.images}
+        order={1}
+        contentBackgroundColor={SECONDARY_BLACK_COLOR}
       />
     </HomeWrapper>
   );

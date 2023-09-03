@@ -8,27 +8,30 @@ import {
   HeroSubtitle,
   HeroTitle,
   HeroWrapper,
-  HeroImage,
+  HeroIcon,
 } from "./HeroSection.styles";
 import { usePathname } from "next/navigation";
 
-export const HeroSection = ({ content, SVGs }) => {
+export const HeroSection = ({ content, images, SVGs }) => {
   const pathname = usePathname();
   const list = pathname.substring(1).split("/");
 
   return (
-    <HeroWrapper isNavigatorDisabled={list.length <= 1}>
+    <HeroWrapper
+      isNavigatorDisabled={list.length <= 1}
+      imageUrl={images.welcomeImage}
+    >
       <HeroContainer>
-        <HeroImage
-          dangerouslySetInnerHTML={{ __html: SVGs.homePageWelcomeIcon }}
-        />
+        {SVGs.welcomeIcon && (
+          <HeroIcon dangerouslySetInnerHTML={{ __html: SVGs.welcomeIcon }} />
+        )}
         <HeroContent>
-          <HeroSubtitle>{content.homePageWelcomeSubtitle}</HeroSubtitle>
-          <HeroTitle>{content.homePageWelcomeTitle}</HeroTitle>
-          <HeroDescription>
-            {content.homePageWelcomeDescription}
-          </HeroDescription>
-          <HeroButton>{content.homePageWelcomeButton}</HeroButton>
+          <HeroSubtitle>{content.welcomeSubtitle}</HeroSubtitle>
+          <HeroTitle>{content.welcomeTitle}</HeroTitle>
+          <HeroDescription>{content.welcomeDescription}</HeroDescription>
+          {content.welcomeButton && (
+            <HeroButton>{content.welcomeButton}</HeroButton>
+          )}
         </HeroContent>
       </HeroContainer>
     </HeroWrapper>

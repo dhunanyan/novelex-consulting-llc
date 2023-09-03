@@ -30,7 +30,10 @@ export default function HomePage({
 }
 
 export async function getServerSideProps() {
-  const welcomeSection = await getCurrentContentfulType("welcomeSection");
+  const welcomeSection = await getCurrentContentfulType(
+    "welcomeSection",
+    "home"
+  );
   const whoWeAre = await getCurrentContentfulType(
     "iconCardsSection",
     "whoWeAre"

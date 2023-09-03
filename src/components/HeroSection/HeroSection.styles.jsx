@@ -1,17 +1,47 @@
 import {
   BigTitle,
   Container,
+  MAIN_BLACK_COLOR,
   MAIN_WHITE_COLOR,
   PrimaryButton,
   Subtitle,
 } from "@/utils/styles";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+const heroWithImageStyles = (imageUrl) => css`
+  background-image: url(${({ imageUrl }) => imageUrl});
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: ${MAIN_WHITE_COLOR};
+
+  > div {
+    width: 100%;
+    justify-content: flex-start;
+
+    > div {
+      background-color: ${MAIN_BLACK_COLOR};
+    }
+  }
+
+  > h1 {
+    margin: 0;
+  }
+`;
 
 export const HeroWrapper = styled.section`
   background-color: ${MAIN_WHITE_COLOR};
   overflow: hidden;
   padding-top: ${({ isNavigatorDisabled }) =>
     isNavigatorDisabled ? "90px" : "0px"};
+
+  > h1 {
+    margin: 0 0 20px 0;
+  }
+  ${({ imageUrl }) => (imageUrl ? heroWithImageStyles(imageUrl) : "")}
 `;
 
 export const HeroContainer = styled.div`
@@ -22,7 +52,7 @@ export const HeroContainer = styled.div`
   position: relative;
 `;
 
-export const HeroImage = styled.div`
+export const HeroIcon = styled.div`
   width: 700px;
   position: absolute;
   top: 50%;
@@ -41,6 +71,7 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 15px;
 `;
 
 export const HeroSubtitle = styled.h3`
@@ -50,7 +81,6 @@ export const HeroSubtitle = styled.h3`
 
 export const HeroTitle = styled.h1`
   ${BigTitle}
-  margin: 0 0 20px 0;
 `;
 
 export const HeroDescription = styled.p`

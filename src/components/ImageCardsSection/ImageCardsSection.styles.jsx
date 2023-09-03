@@ -7,18 +7,18 @@ import {
 } from "@/utils/styles";
 import styled from "styled-components";
 
-export const ManageWrapper = styled.section`
+export const ImageCardsWrapper = styled.section`
   background-color: ${MAIN_WHITE_COLOR};
 `;
 
-export const ManageContainer = styled.div`
+export const ImageCardsContainer = styled.div`
   ${Container}
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
-export const ManageContent = styled.div`
+export const ImageCardsContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,18 +27,18 @@ export const ManageContent = styled.div`
   width: 700px;
 `;
 
-export const ManageTitle = styled.h2`
+export const ImageCardsTitle = styled.h2`
   ${BigTitle}
   margin: 0 0 20px 0;
   color: ${MAIN_COLOR};
 `;
 
-export const ManageSubtitle = styled.h3`
+export const ImageCardsSubtitle = styled.h3`
   ${Subtitle};
   font-weight: 100;
 `;
 
-export const ManageCards = styled.div`
+export const ImageCardsCards = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: space-between;
