@@ -5,12 +5,12 @@ export const viewProps = {
       "We are Novelex Consulting LLC, a dynamic language solutions provider driven by the mission to bridge global communication gaps.",
     goToLink: "Go to this section",
     navList: [
-      { id: 1, text: "Our Core Values", href: "#" },
-      { id: 2, text: "Meet Our Founders", href: "#" },
-      { id: 3, text: "Pioneering Communication Solutions", href: "#" },
-      { id: 4, text: "Quality at Our Core", href: "#" },
-      { id: 5, text: "Our Collaborative Culture", href: "#" },
-      { id: 6, text: "Building Bridges with Technology", href: "#" },
+      { id: 1, text: "Purpose, value and strategy", href: "#" },
+      { id: 2, text: "Our people", href: "#" },
+      { id: 3, text: "Global impact", href: "#" },
+      { id: 4, text: "Diversity and Inclusion", href: "#" },
+      { id: 5, text: "Climate strategy", href: "#" },
+      { id: 6, text: "Our partners", href: "#" },
     ],
     extraContent: {
       imagePath: "/who-we-are.jpg",
