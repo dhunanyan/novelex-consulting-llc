@@ -1,8 +1,7 @@
 const contentful = require("contentful");
 
 export default async (req, res) => {
-  const { contentType, tag } = req.query;
-
+  const { contentType, tag, nth } = req.query;
   try {
     const client = contentful.createClient({
       space: process.env.CONTENTFUL_SPACE_ID,
@@ -15,10 +14,17 @@ export default async (req, res) => {
     if (tag === "undefined") {
       res.status(200).json(response.items[0].fields);
     } else {
-      const entries = response.items.find((x) =>
+      const entries = response.items.filter((x) =>
         x.metadata.tags.find((y) => y.sys.id === tag)
-      ).fields;
-      res.status(200).json(entries);
+      );
+
+      if (!(nth === "undefined")) {
+        const fields = entries.reverse()[nth].fields;
+        res.status(200).json(fields);
+      }
+
+      const fields = entries[0].fields;
+      res.status(200).json(fields);
     }
   } catch (error) {
     res.status(500).json({ error: "Error fetching data from Contentful" });

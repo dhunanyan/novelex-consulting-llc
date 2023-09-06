@@ -1,4 +1,4 @@
-export async function getCurrentContentfulType(contentType, tag) {
+export async function getCurrentContentfulType(contentType, tag, nth) {
   try {
     const PORT = process.env.PORT || "3000";
     const IS_DEV = process.env.NODE_ENV === "development";
@@ -8,7 +8,7 @@ export async function getCurrentContentfulType(contentType, tag) {
       : `https://novelex-consulting.${JURISDICTION}`;
 
     const response = await fetch(
-      `${BASE_URL}/api/contentful?contentType=${contentType}&tag=${tag}`
+      `${BASE_URL}/api/contentful?contentType=${contentType}&tag=${tag}&nth=${nth}`
     );
     const allContent = await response.json();
 

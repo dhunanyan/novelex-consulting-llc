@@ -6,14 +6,21 @@ import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection
 import { ImageCardsSection } from "@/components/ImageCardsSection/ImageCardsSection";
 
 import { PRIMARY_BLACK_COLOR } from "@/utils/styles";
-
+import { HiMiniGlobeAlt } from "react-icons/hi2";
 export default function HomePage({
-  welcomeSection,
+  welcomeSection1,
+  welcomeSection0,
   whoWeAre,
   services,
   imageCardsSection,
 }) {
-  if (!welcomeSection || !services || !imageCardsSection || !whoWeAre) {
+  if (
+    !welcomeSection1 ||
+    !welcomeSection0 ||
+    !services ||
+    !imageCardsSection ||
+    !whoWeAre
+  ) {
     return <div>Loading</div>;
   }
 
@@ -28,10 +35,18 @@ export default function HomePage({
         <title>Novelex Consulting LLC</title>
       </Head>
       <main>
+        <HiMiniGlobeAlt />
         <HeroSection
-          content={welcomeSection.content}
-          SVGs={welcomeSection.SVGs}
-          images={welcomeSection.images}
+          content={welcomeSection1.content}
+          SVGs={welcomeSection1.SVGs}
+          images={welcomeSection1.images}
+          isInverted={true}
+        />
+        <HeroSection
+          content={welcomeSection0.content}
+          SVGs={welcomeSection0.SVGs}
+          images={welcomeSection0.images}
+          forceImageInsteadIcon={true}
         />
         <IconCardsSection content={whoWeAre.content} SVGs={whoWeAre.SVGs} />
         <ImageCardsSection
@@ -52,9 +67,15 @@ export default function HomePage({
 }
 
 export async function getServerSideProps() {
-  const welcomeSection = await getCurrentContentfulType(
+  const welcomeSection1 = await getCurrentContentfulType(
     "welcomeSection",
-    "home"
+    "home",
+    1
+  );
+  const welcomeSection0 = await getCurrentContentfulType(
+    "welcomeSection",
+    "home",
+    0
   );
   const whoWeAre = await getCurrentContentfulType(
     "iconCardsSection",
@@ -66,5 +87,13 @@ export async function getServerSideProps() {
     "services"
   );
 
-  return { props: { welcomeSection, whoWeAre, services, imageCardsSection } };
+  return {
+    props: {
+      welcomeSection1,
+      welcomeSection0,
+      whoWeAre,
+      services,
+      imageCardsSection,
+    },
+  };
 }

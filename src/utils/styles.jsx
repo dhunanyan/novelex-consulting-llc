@@ -27,7 +27,7 @@ export const PrimaryButton = (isBackgroundBlack = false) => css`
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.47);
   -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.47);
-  transition: all 180ms ease-in-out;
+  transition: all 150ms ease-in-out;
 
   &:hover {
     background-color: ${isBackgroundBlack

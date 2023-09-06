@@ -12,18 +12,31 @@ import {
 } from "./HeroSection.styles";
 import { usePathname } from "next/navigation";
 
-export const HeroSection = ({ content, images, SVGs }) => {
+export const HeroSection = ({
+  content,
+  images,
+  SVGs,
+  forceDisablePadding = false,
+  isInverted = false,
+  forceImageInsteadIcon = false,
+}) => {
   const pathname = usePathname();
   const list = pathname.substring(1).split("/");
 
   return (
     <HeroWrapper
-      isNavigatorDisabled={list.length <= 1}
+      isNavigatorDisabled={list.length <= 1 && !forceDisablePadding}
       imageUrl={images.welcomeImage}
+      isInverted={isInverted}
     >
       <HeroContainer>
-        {SVGs.welcomeIcon && (
+        {SVGs.welcomeIcon && !forceImageInsteadIcon && (
           <HeroIcon dangerouslySetInnerHTML={{ __html: SVGs.welcomeIcon }} />
+        )}
+        {forceImageInsteadIcon && (
+          <HeroIcon>
+            <img src="/hero/building.png" />
+          </HeroIcon>
         )}
         <HeroContent>
           <HeroSubtitle>{content.welcomeSubtitle}</HeroSubtitle>

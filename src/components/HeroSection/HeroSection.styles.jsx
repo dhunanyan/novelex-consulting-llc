@@ -8,15 +8,15 @@ import {
 } from "@/utils/styles";
 import styled, { css } from "styled-components";
 
-const heroWithImageStyles = (imageUrl) => css`
-  background-image: url(${({ imageUrl }) => imageUrl});
+const heroWithImageStyles = (imageUrl, isInverted) => css`
+  background-image: url(${imageUrl});
   background-size: cover;
   background-position: center;
   min-height: 500px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  color: ${MAIN_WHITE_COLOR};
+  color: ${isInverted ? SECONDARY_BLACK_COLOR : MAIN_WHITE_COLOR};
 
   > div {
     width: 100%;
@@ -24,6 +24,7 @@ const heroWithImageStyles = (imageUrl) => css`
 
     > div {
       position: relative;
+      max-width: 100%;
 
       h3 {
         font-weight: 200;
@@ -36,7 +37,9 @@ const heroWithImageStyles = (imageUrl) => css`
         position: absolute;
         height: 100%;
         width: 100vw;
-        background-color: ${SECONDARY_BLACK_COLOR};
+        background-color: ${isInverted
+          ? MAIN_WHITE_COLOR
+          : SECONDARY_BLACK_COLOR};
         opacity: 0.8;
         z-index: 0;
         padding: 15px;
@@ -50,6 +53,7 @@ const heroWithImageStyles = (imageUrl) => css`
 `;
 
 export const HeroWrapper = styled.section`
+  position: relative;
   background-color: ${MAIN_WHITE_COLOR};
   overflow: hidden;
   padding-top: ${({ isNavigatorDisabled }) =>
@@ -58,7 +62,8 @@ export const HeroWrapper = styled.section`
   > h1 {
     margin: 0 0 20px 0;
   }
-  ${({ imageUrl }) => (imageUrl ? heroWithImageStyles(imageUrl) : "")}
+  ${({ imageUrl, isInverted }) =>
+    imageUrl ? heroWithImageStyles(imageUrl, isInverted) : ""}
 `;
 
 export const HeroContainer = styled.div`
@@ -66,18 +71,18 @@ export const HeroContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  position: relative;
 `;
 
 export const HeroIcon = styled.div`
-  width: 700px;
+  width: 1280px;
   position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  pointer-events: none;
 
-  svg {
-    opacity: 0.6;
+  svg,
+  img {
+    opacity: 0.2;
     width: 100%;
     height: 100%;
   }
@@ -89,6 +94,7 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: flex-start;
   padding: 15px;
+  z-index: 1;
 `;
 
 export const HeroSubtitle = styled.h3`

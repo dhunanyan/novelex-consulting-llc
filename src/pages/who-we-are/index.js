@@ -2,9 +2,15 @@ import Head from "next/head";
 import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { BlankSection } from "@/components/BlankSection/BlankSection";
+import { TilesSection } from "@/components/TilesSection/TilesSection";
 
-export default function HomePage({ welcomeSection, blankSection }) {
-  if (!welcomeSection || !blankSection) {
+export default function HomePage({
+  welcomeSection,
+  blankSection0,
+  tilesSection,
+  blankSection1,
+}) {
+  if (!welcomeSection || !blankSection0 || !tilesSection || !blankSection1) {
     return <div>Loading</div>;
   }
 
@@ -25,9 +31,16 @@ export default function HomePage({ welcomeSection, blankSection }) {
           images={welcomeSection.images}
         />
         <BlankSection
-          content={blankSection.content}
-          SVGs={blankSection.SVGs}
-          images={blankSection.images}
+          content={blankSection0.content}
+          images={blankSection0.images}
+        />
+        <TilesSection
+          content={tilesSection.content}
+          images={tilesSection.images}
+        />
+        <BlankSection
+          content={blankSection1.content}
+          images={blankSection1.images}
         />
       </main>
     </>
@@ -39,15 +52,22 @@ export async function getServerSideProps() {
     "welcomeSection",
     "whoWeAre"
   );
-  const blankSection = await getCurrentContentfulType(
+  const blankSection0 = await getCurrentContentfulType(
     "blankSection",
+    "whoWeAre",
+    0
+  );
+  const tilesSection = await getCurrentContentfulType(
+    "tilesSection",
     "whoWeAre"
   );
-  // const imageCardsSection = await getCurrentContentfulType("imageCardsSection");
-  // const services = await getCurrentContentfulType(
-  //   "iconCardsSection",
-  //   "services"
-  // );
+  const blankSection1 = await getCurrentContentfulType(
+    "blankSection",
+    "whoWeAre",
+    1
+  );
 
-  return { props: { welcomeSection, blankSection } };
+  return {
+    props: { welcomeSection, blankSection0, tilesSection, blankSection1 },
+  };
 }

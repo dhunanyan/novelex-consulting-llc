@@ -1,6 +1,5 @@
 import {
   Container,
-  MAIN_BLACK_COLOR,
   MAIN_WHITE_COLOR,
   PRIMARY_BLACK_COLOR,
   PrimaryButton,
@@ -24,8 +23,8 @@ export const BlankSectionTitle = styled.h2`
 `;
 
 export const BlankSectionDescription = styled.p`
-  margin: 20px 0;
-  line-height: 22px;
+  margin: 30px 0;
+  line-height: 24px;
 `;
 
 export const BlankSectionButton = styled.button`
