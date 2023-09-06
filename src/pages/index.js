@@ -1,7 +1,11 @@
 import Head from "next/head";
 import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
 
-import { Home } from "@/components/Home/Home";
+import { HeroSection } from "@/components/HeroSection/HeroSection";
+import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
+import { ImageCardsSection } from "@/components/ImageCardsSection/ImageCardsSection";
+
+import { PRIMARY_BLACK_COLOR } from "@/utils/styles";
 
 export default function HomePage({
   welcomeSection,
@@ -9,6 +13,10 @@ export default function HomePage({
   services,
   imageCardsSection,
 }) {
+  if (!welcomeSection || !services || !imageCardsSection || !whoWeAre) {
+    return <div>Loading</div>;
+  }
+
   return (
     <>
       <Head>
@@ -19,12 +27,26 @@ export default function HomePage({
         <meta name="description" content="" />
         <title>Novelex Consulting LLC</title>
       </Head>
-      <Home
-        welcomeSection={welcomeSection}
-        whoWeAre={whoWeAre}
-        services={services}
-        imageCardsSection={imageCardsSection}
-      />
+      <main>
+        <HeroSection
+          content={welcomeSection.content}
+          SVGs={welcomeSection.SVGs}
+          images={welcomeSection.images}
+        />
+        <IconCardsSection content={whoWeAre.content} SVGs={whoWeAre.SVGs} />
+        <ImageCardsSection
+          content={imageCardsSection.content}
+          SVGs={imageCardsSection.SVGs}
+          images={imageCardsSection.images}
+        />
+        <IconCardsSection
+          content={services.content}
+          SVGs={services.SVGs}
+          images={services.images}
+          order={1}
+          contentBackgroundColor={PRIMARY_BLACK_COLOR}
+        />
+      </main>
     </>
   );
 }

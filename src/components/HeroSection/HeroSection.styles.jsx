@@ -1,10 +1,10 @@
 import {
   BigTitle,
   Container,
-  MAIN_BLACK_COLOR,
-  MAIN_WHITE_COLOR,
   PrimaryButton,
   Subtitle,
+  MAIN_WHITE_COLOR,
+  SECONDARY_BLACK_COLOR,
 } from "@/utils/styles";
 import styled, { css } from "styled-components";
 
@@ -23,7 +23,24 @@ const heroWithImageStyles = (imageUrl) => css`
     justify-content: flex-start;
 
     > div {
-      background-color: ${MAIN_BLACK_COLOR};
+      position: relative;
+
+      h3 {
+        font-weight: 200;
+      }
+
+      &::before {
+        top: -15px;
+        left: -15px;
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100vw;
+        background-color: ${SECONDARY_BLACK_COLOR};
+        opacity: 0.8;
+        z-index: 0;
+        padding: 15px;
+      }
     }
   }
 
@@ -77,10 +94,12 @@ export const HeroContent = styled.div`
 export const HeroSubtitle = styled.h3`
   ${Subtitle}
   margin: 0 0 10px 0;
+  z-index: 1;
 `;
 
 export const HeroTitle = styled.h1`
   ${BigTitle}
+  z-index: 1;
 `;
 
 export const HeroDescription = styled.p`

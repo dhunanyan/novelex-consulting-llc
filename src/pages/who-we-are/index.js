@@ -1,8 +1,13 @@
 import Head from "next/head";
 import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
-import { WhoWeAre } from "@/components/WhoWeAre/WhoWeAre";
+import { HeroSection } from "@/components/HeroSection/HeroSection";
+import { BlankSection } from "@/components/BlankSection/BlankSection";
 
-export default function HomePage({ welcomeSection }) {
+export default function HomePage({ welcomeSection, blankSection }) {
+  if (!welcomeSection || !blankSection) {
+    return <div>Loading</div>;
+  }
+
   return (
     <>
       <Head>
@@ -13,7 +18,18 @@ export default function HomePage({ welcomeSection }) {
         <meta name="description" content="" />
         <title>Novelex Consulting LLC</title>
       </Head>
-      <WhoWeAre welcomeSection={welcomeSection} />
+      <main>
+        <HeroSection
+          content={welcomeSection.content}
+          SVGs={welcomeSection.SVGs}
+          images={welcomeSection.images}
+        />
+        <BlankSection
+          content={blankSection.content}
+          SVGs={blankSection.SVGs}
+          images={blankSection.images}
+        />
+      </main>
     </>
   );
 }
@@ -23,15 +39,15 @@ export async function getServerSideProps() {
     "welcomeSection",
     "whoWeAre"
   );
-  // const whoWeAre = await getCurrentContentfulType(
-  //   "iconCardsSection",
-  //   "whoWeAre"
-  // );
+  const blankSection = await getCurrentContentfulType(
+    "blankSection",
+    "whoWeAre"
+  );
   // const imageCardsSection = await getCurrentContentfulType("imageCardsSection");
   // const services = await getCurrentContentfulType(
   //   "iconCardsSection",
   //   "services"
   // );
 
-  return { props: { welcomeSection } };
+  return { props: { welcomeSection, blankSection } };
 }
