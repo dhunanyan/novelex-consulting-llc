@@ -1,4 +1,4 @@
-export async function getCurrentContentfulType(contentType, tag, nth) {
+export async function getCurrentContentfulType(contentType, tag, nth = 0) {
   try {
     const PORT = process.env.PORT || "3000";
     const IS_DEV = process.env.NODE_ENV === "development";

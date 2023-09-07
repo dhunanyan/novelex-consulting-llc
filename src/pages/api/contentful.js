@@ -13,6 +13,7 @@ export default async (req, res) => {
 
     if (tag === "undefined") {
       res.status(200).json(response.items[0].fields);
+      return;
     } else {
       const entries = response.items.filter((x) =>
         x.metadata.tags.find((y) => y.sys.id === tag)
@@ -21,6 +22,7 @@ export default async (req, res) => {
       if (!(nth === "undefined")) {
         const fields = entries.reverse()[nth].fields;
         res.status(200).json(fields);
+        return;
       }
 
       const fields = entries[0].fields;
