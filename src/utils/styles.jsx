@@ -24,9 +24,9 @@ export const PrimaryButton = (isBackgroundBlack = false) => css`
   border-style: none;
   margin: 45px auto 0 0;
   padding: 10px 52px 10px 51px;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.47);
-  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.47);
-  -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.47);
   transition: all 150ms ease-in-out;
 
   &:hover {

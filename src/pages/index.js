@@ -5,21 +5,24 @@ import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 import { ImageCardsSection } from "@/components/ImageCardsSection/ImageCardsSection";
 
+import { FaHandshake, FaUsers } from "react-icons/fa";
+import { BiSolidLeaf } from "react-icons/bi";
+import { AiOutlineInfoCircle } from "react-icons/ai";
+
 import { PRIMARY_BLACK_COLOR } from "@/utils/styles";
-import { HiMiniGlobeAlt } from "react-icons/hi2";
 export default function HomePage({
   welcomeSection1,
   welcomeSection0,
-  whoWeAre,
-  services,
   imageCardsSection,
+  iconCardsSection0,
+  iconCardsSection1,
 }) {
   if (
     !welcomeSection1 ||
     !welcomeSection0 ||
-    !services ||
-    !imageCardsSection ||
-    !whoWeAre
+    !iconCardsSection0 ||
+    !iconCardsSection1 ||
+    !imageCardsSection
   ) {
     return <div>Loading</div>;
   }
@@ -35,7 +38,10 @@ export default function HomePage({
         <title>Novelex Consulting LLC</title>
       </Head>
       <main>
-        <HiMiniGlobeAlt />
+        <FaUsers />
+        <FaHandshake />
+        <BiSolidLeaf />
+        <AiOutlineInfoCircle />
         <HeroSection
           content={welcomeSection1.content}
           SVGs={welcomeSection1.SVGs}
@@ -48,16 +54,19 @@ export default function HomePage({
           images={welcomeSection0.images}
           forceImageInsteadIcon={true}
         />
-        <IconCardsSection content={whoWeAre.content} SVGs={whoWeAre.SVGs} />
+        <IconCardsSection
+          content={iconCardsSection0.content}
+          SVGs={iconCardsSection0.SVGs}
+        />
         <ImageCardsSection
           content={imageCardsSection.content}
           SVGs={imageCardsSection.SVGs}
           images={imageCardsSection.images}
         />
         <IconCardsSection
-          content={services.content}
-          SVGs={services.SVGs}
-          images={services.images}
+          content={iconCardsSection1.content}
+          SVGs={iconCardsSection1.SVGs}
+          images={iconCardsSection1.images}
           order={1}
           contentBackgroundColor={PRIMARY_BLACK_COLOR}
         />
@@ -77,23 +86,25 @@ export async function getServerSideProps() {
     "home",
     0
   );
-  const whoWeAre = await getCurrentContentfulType(
+  const iconCardsSection0 = await getCurrentContentfulType(
     "iconCardsSection",
-    "whoWeAre"
+    "home",
+    0
   );
   const imageCardsSection = await getCurrentContentfulType("imageCardsSection");
-  const services = await getCurrentContentfulType(
+  const iconCardsSection1 = await getCurrentContentfulType(
     "iconCardsSection",
-    "services"
+    "home",
+    1
   );
 
   return {
     props: {
       welcomeSection1,
       welcomeSection0,
-      whoWeAre,
-      services,
       imageCardsSection,
+      iconCardsSection0,
+      iconCardsSection1,
     },
   };
 }

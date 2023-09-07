@@ -3,14 +3,22 @@ import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { BlankSection } from "@/components/BlankSection/BlankSection";
 import { TilesSection } from "@/components/TilesSection/TilesSection";
+import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 
 export default function HomePage({
   welcomeSection,
   blankSection0,
   tilesSection,
   blankSection1,
+  iconCardsSection,
 }) {
-  if (!welcomeSection || !blankSection0 || !tilesSection || !blankSection1) {
+  if (
+    !welcomeSection ||
+    !blankSection0 ||
+    !tilesSection ||
+    !blankSection1 ||
+    !iconCardsSection
+  ) {
     return <div>Loading</div>;
   }
 
@@ -42,6 +50,10 @@ export default function HomePage({
           content={blankSection1.content}
           images={blankSection1.images}
         />
+        <IconCardsSection
+          content={iconCardsSection.content}
+          SVGs={iconCardsSection.SVGs}
+        />
       </main>
     </>
   );
@@ -66,8 +78,18 @@ export async function getServerSideProps() {
     "whoWeAre",
     1
   );
+  const iconCardsSection = await getCurrentContentfulType(
+    "iconCardsSection",
+    "whoWeAre"
+  );
 
   return {
-    props: { welcomeSection, blankSection0, tilesSection, blankSection1 },
+    props: {
+      welcomeSection,
+      blankSection0,
+      tilesSection,
+      blankSection1,
+      iconCardsSection,
+    },
   };
 }
