@@ -14,8 +14,6 @@ import { SOCIALS } from "@/data/socials";
 import { getIcon } from "./getIcon";
 
 export const FooterNav = () => {
-  console.log(SOCIALS);
-
   return (
     <FooterNavWrapper>
       <FooterNavContainer>

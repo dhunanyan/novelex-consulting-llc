@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function OurStrategy() {
+export default function ExperiencingNovelex() {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function OurStrategy() {
         <title>Novelex Consulting LLC</title>
       </Head>
       <main>
-        <div>Our Strategy</div>
+        <div>Experiencing Novelex</div>
       </main>
     </>
   );

@@ -7,7 +7,6 @@ export default function HomePage({
   services,
   imageCardsSection,
 }) {
-  console.log(welcomeSection, whoWeAre, services, imageCardsSection);
   return (
     <>
       <Head>
