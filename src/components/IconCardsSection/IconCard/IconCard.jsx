@@ -9,15 +9,24 @@ import {
 } from "./IconCard.styles";
 import Image from "next/image";
 
-export const IconCard = ({ icon, title, description, button }) => {
+export const IconCard = ({
+  icon,
+  title,
+  description,
+  button,
+  inverseColors,
+}) => {
   return (
-    <IconCardWrapper>
+    <IconCardWrapper inverseColors={inverseColors}>
       <IconCardContainer>
         {!button && icon && (
           <IconCardIcon dangerouslySetInnerHTML={{ __html: icon }} />
         )}
         {button && icon && (
-          <IconCardButton className="primary-card-button">
+          <IconCardButton
+            inverseColors={inverseColors}
+            className="primary-card-button"
+          >
             <IconCardIcon dangerouslySetInnerHTML={{ __html: icon }} />
             <p>
               <span>{button}</span>
@@ -26,7 +35,9 @@ export const IconCard = ({ icon, title, description, button }) => {
         )}
         {title && <IconCardTitle>{title}</IconCardTitle>}
         {description && (
-          <IconCardDescription>{description}</IconCardDescription>
+          <IconCardDescription inverseColors={inverseColors}>
+            {description}
+          </IconCardDescription>
         )}
       </IconCardContainer>
     </IconCardWrapper>

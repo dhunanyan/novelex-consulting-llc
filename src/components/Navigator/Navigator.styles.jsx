@@ -7,7 +7,6 @@ import {
 } from "@/utils/styles";
 
 export const NavigatorWrapper = styled.nav`
-  padding: 95px 0 0 0;
   width: 100%;
   background-color: ${MAIN_BLACK_COLOR};
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.47);

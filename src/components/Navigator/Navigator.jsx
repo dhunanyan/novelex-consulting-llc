@@ -21,6 +21,8 @@ export const Navigator = ({ list }) => {
   const filteredList = list.filter((item) => !!NAVIGATOR_MAPPING[item]);
   const isWrongRoute = filteredList.length !== list.length;
 
+  console.log(list, filteredList);
+
   return (
     <NavigatorWrapper>
       <NavigatorContainer>

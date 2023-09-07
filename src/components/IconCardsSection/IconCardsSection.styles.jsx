@@ -9,8 +9,10 @@ import {
 } from "@/utils/styles";
 
 export const IconCardsWrapper = styled.section`
-  background-color: ${MAIN_BLACK_COLOR};
-  color: ${MAIN_WHITE_COLOR};
+  background-color: ${({ inverseColors }) =>
+    inverseColors ? MAIN_WHITE_COLOR : MAIN_BLACK_COLOR};
+  color: ${({ inverseColors }) =>
+    inverseColors ? MAIN_BLACK_COLOR : MAIN_WHITE_COLOR};
 `;
 
 export const IconCardsContainer = styled.div`
@@ -49,7 +51,7 @@ export const IconCardsDescription = styled.p`
 `;
 
 export const IconCardsButton = styled.button`
-  ${PrimaryButton(true)}
+  ${({ inverseColors }) => PrimaryButton(!inverseColors)}
 `;
 
 export const IconCardsCards = styled.div`

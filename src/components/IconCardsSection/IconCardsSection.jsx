@@ -16,18 +16,22 @@ export const IconCardsSection = ({
   SVGs,
   order = 0,
   contentBackgroundColor = "transparent",
+  inverseColors = false,
 }) => {
   return (
-    <IconCardsWrapper>
+    <IconCardsWrapper inverseColors={inverseColors}>
       <IconCardsContainer>
         <IconCardsContent
           order={order}
           backgroundColor={contentBackgroundColor}
+          inverseColors={inverseColors}
         >
           <IconCardsSubtitle>{content.subtitle}</IconCardsSubtitle>
           <IconCardsTitle>{content.title}</IconCardsTitle>
           <IconCardsDescription>{content.description}</IconCardsDescription>
-          <IconCardsButton> {content.button}</IconCardsButton>
+          <IconCardsButton inverseColors={inverseColors}>
+            {content.button}
+          </IconCardsButton>
         </IconCardsContent>
         <IconCardsCards order={order}>
           {[0, 2].map((times, i) => (
@@ -39,6 +43,7 @@ export const IconCardsSection = ({
                   description={content[`card${times + nth}Description`]}
                   icon={SVGs[`card${times + nth}Icon`]}
                   button={content.button}
+                  inverseColors={inverseColors}
                 />
               ))}
             </div>

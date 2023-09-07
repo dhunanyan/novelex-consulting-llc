@@ -1,14 +1,11 @@
-import {
-  MAIN_COLOR,
-  MAIN_BLACK_COLOR,
-  MAIN_WHITE_COLOR,
-  SECONDARY_COLOR,
-} from "@/utils/styles";
+import { MAIN_COLOR, MAIN_BLACK_COLOR, MAIN_WHITE_COLOR } from "@/utils/styles";
 import styled from "styled-components";
 
 export const IconCardWrapper = styled.button`
-  background-color: ${MAIN_WHITE_COLOR};
-  color: ${MAIN_BLACK_COLOR};
+  color: ${({ inverseColors }) =>
+    inverseColors ? MAIN_WHITE_COLOR : MAIN_BLACK_COLOR};
+  background-color: ${({ inverseColors }) =>
+    inverseColors ? MAIN_BLACK_COLOR : MAIN_WHITE_COLOR};
   width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.47);
   -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.47);
@@ -72,7 +69,8 @@ export const IconCardButton = styled.div`
   width: 100%;
 
   p {
-    background-color: ${MAIN_BLACK_COLOR};
+    background-color: ${({ inverseColors }) =>
+      inverseColors ? MAIN_WHITE_COLOR : MAIN_BLACK_COLOR};
     transition: all 150ms ease-out;
     position: absolute;
     z-index: 0;
@@ -81,7 +79,8 @@ export const IconCardButton = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: ${MAIN_WHITE_COLOR};
+    color: ${({ inverseColors }) =>
+      inverseColors ? MAIN_BLACK_COLOR : MAIN_WHITE_COLOR};
     border-radius: 30px;
     white-space: nowrap;
     overflow: hidden;
@@ -107,7 +106,8 @@ export const IconCardDescription = styled.p`
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
-  color: #808080;
+  color: ${({ inverseColors }) =>
+    (inverseColors ? MAIN_WHITE_COLOR : MAIN_BLACK_COLOR) + "a0"};
   line-height: 16px;
   text-align: left;
 `;

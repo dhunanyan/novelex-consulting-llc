@@ -155,20 +155,20 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   background: #3a3e44;
 }
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: #d7e1e1;
 }
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: #3a3e44;
 }
 
-::-webkit-scrollbar-thumb :hover {
+body::-webkit-scrollbar-thumb :hover {
   background: #3a3e44;
 }
-::-webkit-scrollbar-corner {
+body::-webkit-scrollbar-corner {
   background: #3a3e44;
 }
 input[type="file"] {

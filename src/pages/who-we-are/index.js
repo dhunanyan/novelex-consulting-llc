@@ -5,7 +5,7 @@ import { BlankSection } from "@/components/BlankSection/BlankSection";
 import { TilesSection } from "@/components/TilesSection/TilesSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 
-export default function HomePage({
+export default function WhoWeAre({
   welcomeSection,
   blankSection0,
   tilesSection,
