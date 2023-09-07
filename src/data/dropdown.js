@@ -1,4 +1,4 @@
-export const viewProps = {
+export const DROPDOWN_SECTIONS = {
   "who-we-are": {
     title: "Who we are",
     description:
@@ -26,11 +26,10 @@ export const viewProps = {
     goToLink: "Go to this section",
     navList: [
       { id: 1, text: "Experiencing Novelex", href: "#" },
-      { id: 2, text: "Life at Novelex in Different Languages", href: "#" },
-      { id: 3, text: "Events and Highlights", href: "#" },
-      { id: 4, text: "Team and Culture Insights", href: "#" },
-      { id: 5, text: "Community Engagement", href: "#" },
-      { id: 6, text: "Wellness and Benefits", href: "#" },
+      { id: 2, text: "Events and Highlights", href: "#" },
+      { id: 3, text: "Team and Culture Insights", href: "#" },
+      { id: 4, text: "Community Engagement", href: "#" },
+      { id: 5, text: "Wellness and Benefits", href: "#" },
     ],
     extraContent: {
       imagePath: "/header/life-at-novelex.jpg",
@@ -45,13 +44,13 @@ export const viewProps = {
       "Novelex offers tailored language solutions that transcend borders, ensuring effective cross-cultural communication.",
     goToLink: "Go to this section",
     navList: [
-      { id: 1, text: "Our Comprehensive Services", href: "#" },
-      { id: 2, text: "Multilingual Solutions", href: "#" },
-      { id: 3, text: "Real-time Phone Translation", href: "#" },
-      { id: 4, text: "Document Translation", href: "#" },
-      { id: 5, text: "Interpretation Services", href: "#" },
-      { id: 6, text: "Language Consultancy", href: "#" },
-      { id: 7, text: "Digital Language Tools", href: "#" },
+      { id: 1, text: "Multilingual Solutions", href: "#" },
+      { id: 2, text: "Language Consultancy", href: "#" },
+      { id: 3, text: "Interpretation", href: "#" },
+      { id: 4, text: "Mobile Interpretation", href: "#" },
+      { id: 5, text: "Document Translation", href: "#" },
+      { id: 6, text: "Digital and Tech Solutions", href: "#" },
+      { id: 7, text: "Training programme", href: "#" },
     ],
     extraContent: {
       imagePath: "/header/services.jpg",
@@ -66,11 +65,11 @@ export const viewProps = {
       "Join Novelex to shape the future of communication and connect the world through languages and technology.",
     goToLink: "Go to this section",
     navList: [
-      { id: 1, text: "Joining the Novelex Team", href: "#" },
-      { id: 2, text: "Exploring Career Opportunities", href: "#" },
-      { id: 3, text: "Language Career Pathways", href: "#" },
-      { id: 4, text: "Digital and Tech Opportunities", href: "#" },
-      { id: 5, text: "Global Hiring at Novelex", href: "#" },
+      { id: 1, text: "Join Our Team", href: "#" },
+      { id: 2, text: "Explore Career Opportunities", href: "#" },
+      { id: 3, text: "Become a Trainer", href: "#" },
+      { id: 4, text: "Where We Hire", href: "#" },
+      { id: 5, text: "Find a Job", href: "#" },
       { id: 6, text: "Professional Development", href: "#" },
     ],
     extraContent: {
@@ -81,5 +80,3 @@ export const viewProps = {
     },
   },
 };
-
-// Novelex Consulting LLC is a leading phone translation company dedicated to connecting people across languages and cultures with innovative technology and excellence.

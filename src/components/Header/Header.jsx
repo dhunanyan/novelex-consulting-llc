@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import {
   HeaderBox,
@@ -15,12 +15,14 @@ import {
 } from "./Header.styles";
 import { PiDevToLogoFill as TempLogo } from "react-icons/pi";
 
-import { viewProps } from "./utils";
+import { NAVIGATION_ITEMS } from "@/data/navigation";
+import { DROPDOWN_SECTIONS } from "@/data/dropdown";
 import { useRouter } from "next/router";
 import { Dropdown } from "./Dropdown/Dropdown";
 
 export const Header = () => {
   const [currentView, setCurrentView] = useState("");
+  const [isScrolled, setIsScrolled] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -60,31 +62,26 @@ export const Header = () => {
     }
   };
 
-  const HEADER_ITEMS = [
-    {
-      text: "Who We Are",
-      id: "who-we-are",
-    },
-    {
-      text: "Life at Novelex",
-      id: "life-at-novelex",
-    },
-    {
-      text: "Services",
-      id: "services",
-    },
-    {
-      text: "Careers",
-      id: "careers",
-    },
-  ];
-
   const closeDropDown = () => {
     setCurrentView("");
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <HeaderWrapper>
+    <HeaderWrapper isScrolled={isScrolled}>
       <div>
         <HeaderContainer>
           <HeaderIcon href="/" onClick={(e) => onItemClick(e, "home")}>
@@ -93,12 +90,13 @@ export const Header = () => {
           </HeaderIcon>
           <HeaderNav>
             <HeaderList>
-              {HEADER_ITEMS.map((item) => (
+              {NAVIGATION_ITEMS.map((item) => (
                 <HeaderListItem
                   key={item.id}
                   onClick={(e) => onItemClick(e, item.id)}
                 >
                   <HeaderLink
+                    isScrolled={isScrolled}
                     activeView={currentView === item.id}
                     activeUrl={pathname === "/" + item.id}
                     href={item.id}
@@ -114,11 +112,11 @@ export const Header = () => {
           </HeaderSide>
         </HeaderContainer>
       </div>
-      <HeaderBox isActive={!!viewProps[currentView]}>
-        {viewProps[currentView] && (
+      <HeaderBox isActive={!!DROPDOWN_SECTIONS[currentView]}>
+        {DROPDOWN_SECTIONS[currentView] && (
           <HeaderBoxContainer>
             <Dropdown
-              {...viewProps[currentView]}
+              {...DROPDOWN_SECTIONS[currentView]}
               closeDropDown={closeDropDown}
               id={currentView}
             />

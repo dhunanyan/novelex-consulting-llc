@@ -9,13 +9,14 @@ import styled, { css } from "styled-components";
 export const HeaderWrapper = styled.header`
   position: fixed;
   z-index: 99999999999999;
-  height: 95px;
+  height: ${({ isScrolled }) => (isScrolled ? "60px" : "95px")};
   width: 100%;
   background-color: ${MAIN_WHITE_COLOR};
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.47);
-  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.47);
-  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px -1px 7px 1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 0px -1px 7px 1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0px -1px 7px 1px rgba(0, 0, 0, 0.47);
   transition: all 150ms ease-out;
+  transition: height 200ms ease-in;
   padding-top: ${({ isNavigatorDisabled }) =>
     isNavigatorDisabled ? "90px" : "0px"};
 
@@ -78,13 +79,14 @@ export const HeaderLink = styled.a`
   font-size: 18px;
   font-weight: 300;
   margin: 0 14px;
-  padding: 35.5px 0;
+  padding: ${({ isScrolled }) => (isScrolled ? "19px 0" : "35.5px 0")};
   white-space: nowrap;
   position: relative;
   cursor: pointer;
   text-decoration: none;
   color: ${MAIN_BLACK_COLOR};
   transition: all 150ms ease-out;
+  transition: padding 200ms ease-in;
 
   &::before,
   &::after {

@@ -56,8 +56,6 @@ export const HeroWrapper = styled.section`
   position: relative;
   background-color: ${MAIN_WHITE_COLOR};
   overflow: hidden;
-  padding-top: ${({ isNavigatorDisabled }) =>
-    isNavigatorDisabled ? "90px" : "0px"};
 
   > h1 {
     margin: 0 0 20px 0;

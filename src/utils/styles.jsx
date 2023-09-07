@@ -4,6 +4,7 @@ export const MAIN_COLOR = "#3f82f4";
 export const MAIN_WHITE_COLOR = "#e8f2f2";
 export const MAIN_BLACK_COLOR = "#292d33";
 export const PRIMARY_BLACK_COLOR = "#555c66";
+export const PRIMARY_WHITE_COLOR = "#d4d4d4";
 export const SECONDARY_BLACK_COLOR = "#3f3d48";
 export const SECONDARY_COLOR = "#4f93f5";
 

@@ -5,10 +5,6 @@ import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 import { ImageCardsSection } from "@/components/ImageCardsSection/ImageCardsSection";
 
-import { FaHandshake, FaUsers } from "react-icons/fa";
-import { BiSolidLeaf } from "react-icons/bi";
-import { AiOutlineInfoCircle } from "react-icons/ai";
-
 import { PRIMARY_BLACK_COLOR } from "@/utils/styles";
 export default function HomePage({
   welcomeSection1,
@@ -38,10 +34,6 @@ export default function HomePage({
         <title>Novelex Consulting LLC</title>
       </Head>
       <main>
-        <FaUsers />
-        <FaHandshake />
-        <BiSolidLeaf />
-        <AiOutlineInfoCircle />
         <HeroSection
           content={welcomeSection1.content}
           SVGs={welcomeSection1.SVGs}

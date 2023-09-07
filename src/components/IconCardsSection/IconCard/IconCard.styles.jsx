@@ -10,7 +10,6 @@ export const IconCardWrapper = styled.button`
   background-color: ${MAIN_WHITE_COLOR};
   color: ${MAIN_BLACK_COLOR};
   width: 100%;
-  min-height: 280px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.47);
   -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.47);
@@ -39,7 +38,8 @@ export const IconCardWrapper = styled.button`
 `;
 
 export const IconCardContainer = styled.div`
-  padding: 30px 20px;
+  min-height: 280px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
