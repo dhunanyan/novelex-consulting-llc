@@ -15,19 +15,17 @@ import {
   DropdownNav,
   DropdownTitle,
 } from "./Dropdown.styles";
+
 import { FaTimes as CloseIcon } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
-export const Dropdown = ({
-  closeDropDown,
-  title,
-  description,
-  goToLink,
-  navList,
-  extraContent,
-  id,
-}) => {
-  const [currentHover, setCurrentHover] = useState(0);
+import { DROPDOWN_SECTIONS } from "@/data/dropdown";
+import { SUB_DROPDOWN_SECTIONS } from "@/data/subDropdown";
+
+export const Dropdown = ({ closeDropDown, viewId, subViewId, onItemClick }) => {
+  const { title, description, goToLink, navList, extraContent } =
+    DROPDOWN_SECTIONS[viewId];
+
   return (
     <DropdownContainer>
       <DropdownCloseButton onClick={closeDropDown}>
@@ -37,7 +35,7 @@ export const Dropdown = ({
       <DropdownContent>
         <DropdownTitle>{title}</DropdownTitle>
         <DropdownDescription>{description}</DropdownDescription>
-        <DropdownGoToLink href={id}>
+        <DropdownGoToLink href={"/" + viewId}>
           <span>{goToLink}</span>
           <Arrow />
         </DropdownGoToLink>
@@ -48,10 +46,7 @@ export const Dropdown = ({
           {navList.map((navItem) => (
             <DropdownItem key={navItem.id}>
               <DropdownLink
-                onMouseOut={() => setCurrentHover(0)}
-                onMouseOver={() => setCurrentHover(navItem.id)}
-                isDisabled={currentHover !== navItem.id && currentHover !== 0}
-                isActive={currentHover === navItem.id}
+                onClick={(e) => onItemClick(e, navItem.id, navItem.href)}
                 href={navItem.href}
               >
                 {navItem.text}
@@ -61,19 +56,38 @@ export const Dropdown = ({
         </DropdownList>
       </DropdownNav>
 
-      <DropdownExtraContent>
-        <DropdownExtraContentImage>
-          <img src={extraContent.imagePath} alt={extraContent.imageAlt} />
-        </DropdownExtraContentImage>
+      {!subViewId ? (
+        <DropdownExtraContent>
+          <DropdownExtraContentImage>
+            <img src={extraContent.imagePath} alt={extraContent.imageAlt} />
+          </DropdownExtraContentImage>
 
-        <DropdownExtraContentSubtitle>
-          {extraContent.subtitle}
-        </DropdownExtraContentSubtitle>
+          <DropdownExtraContentSubtitle>
+            {extraContent.subtitle}
+          </DropdownExtraContentSubtitle>
 
-        <DropdownExtraContentMotto>
-          {extraContent.motto}
-        </DropdownExtraContentMotto>
-      </DropdownExtraContent>
+          <DropdownExtraContentMotto>
+            {extraContent.motto}
+          </DropdownExtraContentMotto>
+        </DropdownExtraContent>
+      ) : (
+        <DropdownExtraContent>
+          <DropdownNav justifyContent="flex-start">
+            <DropdownList>
+              {SUB_DROPDOWN_SECTIONS[viewId][subViewId].map((navItem) => (
+                <DropdownItem key={navItem.id}>
+                  <DropdownLink
+                    // onClick={(e) => onItemClick(e, navItem.id, navItem.href)}
+                    href={navItem.href}
+                  >
+                    {navItem.text}
+                  </DropdownLink>
+                </DropdownItem>
+              ))}
+            </DropdownList>
+          </DropdownNav>
+        </DropdownExtraContent>
+      )}
     </DropdownContainer>
   );
 };

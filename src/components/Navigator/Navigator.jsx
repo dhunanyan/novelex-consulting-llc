@@ -10,14 +10,8 @@ import {
 } from "./Navigator.styles";
 import { MdOutlineKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 import { NAVIGATOR_MAPPING } from "./utils";
-import { useRouter } from "next/router";
 
 export const Navigator = ({ list }) => {
-  const router = useRouter();
-  const onLinkClick = (e, id) => {
-    e.preventDefault();
-    router.replace(id);
-  };
   const filteredList = list.filter((item) => !!NAVIGATOR_MAPPING[item]);
   const isWrongRoute = filteredList.length !== list.length;
 
@@ -28,7 +22,7 @@ export const Navigator = ({ list }) => {
           {filteredList.map((item, index) =>
             index !== list.length - 1 ? (
               <NavigatorItem key={index}>
-                <NavigatorLink onClick={(e) => onLinkClick(e, item)}>
+                <NavigatorLink href={"/" + item}>
                   {NAVIGATOR_MAPPING[item]}
                 </NavigatorLink>
                 <NavigatorIcon>

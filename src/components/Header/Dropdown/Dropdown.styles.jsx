@@ -64,17 +64,26 @@ export const DropdownGoToLink = styled.a`
 export const DropdownNav = styled.nav`
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: ${({ justifyContent = "center" }) => justifyContent};
   margin: 0 30px;
 `;
 
 export const DropdownList = styled.ul`
   display: flex;
   flex-direction: column;
+
+  &:hover a {
+    opacity: 0.4;
+  }
 `;
 
 export const DropdownItem = styled.li`
   display: flex;
+
+  &:hover a {
+    opacity: 1;
+    transform: translate(20px, 0);
+  }
 `;
 
 export const DropdownLink = styled.a`
@@ -82,16 +91,14 @@ export const DropdownLink = styled.a`
   font-size: 20px;
   padding: 0 30px 30px 0;
   cursor: pointer;
-  opacity: ${({ isDisabled }) => (isDisabled ? 0.4 : 1)};
+  opacity: 1;
   color: ${MAIN_WHITE_COLOR};
   transition: all 150ms ease-out;
-  transform: translate(${({ isActive }) => (isActive ? "20px" : "0")}, 0);
 `;
 
 export const DropdownExtraContent = styled.div`
   max-width: 300px;
   width: 100%;
-
   display: flex;
   flex-direction: column;
 `;

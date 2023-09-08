@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 import {
   HeaderBox,
   HeaderBoxContainer,
@@ -13,56 +13,44 @@ import {
   HeaderSide,
   HeaderWrapper,
 } from "./Header.styles";
+import { Dropdown } from "./Dropdown/Dropdown";
+
 import { PiDevToLogoFill as TempLogo } from "react-icons/pi";
 
 import { NAVIGATION_ITEMS } from "@/data/navigation";
 import { DROPDOWN_SECTIONS } from "@/data/dropdown";
-import { useRouter } from "next/router";
-import { Dropdown } from "./Dropdown/Dropdown";
 
 export const Header = () => {
-  const [currentView, setCurrentView] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
+  const [currentView, setCurrentView] = useState("");
+  const [currentSubView, setCurrentSubView] = useState("");
   const router = useRouter();
-  const pathname = usePathname();
 
   const onItemClick = (e, id) => {
     e.preventDefault();
+    setCurrentSubView("");
     if (currentView === id) {
       router.push("/" + id);
       return;
     }
 
-    switch (id) {
-      case "home":
-        router.push("/");
-        setCurrentView("");
-        break;
-
-      case "who-we-are":
-        setCurrentView(id);
-        break;
-
-      case "life-at-novelex":
-        setCurrentView(id);
-        break;
-
-      case "services":
-        setCurrentView(id);
-        break;
-
-      case "careers":
-        setCurrentView(id);
-        break;
-
-      default:
-        setCurrentView("");
-        break;
+    if (id !== "home") {
+      setCurrentView(id);
+      return;
     }
+
+    setCurrentView("");
+    router.push("/");
   };
 
-  const closeDropDown = () => {
-    setCurrentView("");
+  const onSubItemClick = (e, navItemId, navItemHref) => {
+    e.preventDefault();
+    if (currentSubView === navItemId) {
+      router.push(navItemHref);
+      return;
+    }
+
+    setCurrentSubView(navItemId);
   };
 
   useEffect(() => {
@@ -97,7 +85,7 @@ export const Header = () => {
                   <HeaderLink
                     isScrolled={isScrolled}
                     activeView={currentView === item.id}
-                    activeUrl={pathname === "/" + item.id}
+                    activeUrl={router.pathname === "/" + item.id}
                     href={item.id}
                   >
                     {item.text}
@@ -115,9 +103,10 @@ export const Header = () => {
         {DROPDOWN_SECTIONS[currentView] && (
           <HeaderBoxContainer>
             <Dropdown
-              {...DROPDOWN_SECTIONS[currentView]}
-              closeDropDown={closeDropDown}
-              id={currentView}
+              closeDropDown={() => setCurrentView("")}
+              viewId={currentView}
+              subViewId={currentSubView}
+              onItemClick={onSubItemClick}
             />
           </HeaderBoxContainer>
         )}
