@@ -20,7 +20,7 @@ export const FooterNav = () => {
         <FooterNavList>
           {NAVIGATION_ITEMS.map((item) => (
             <FooterNavItem key={item.id}>
-              <FooterNavLink href={item.id}>{item.text}</FooterNavLink>
+              <FooterNavLink href={"/" + item.id}>{item.text}</FooterNavLink>
             </FooterNavItem>
           ))}
         </FooterNavList>

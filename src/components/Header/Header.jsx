@@ -29,14 +29,13 @@ export const Header = () => {
   const onItemClick = (e, id) => {
     e.preventDefault();
     if (currentView === id) {
-      router.replace("/" + id);
-      setCurrentView("");
+      router.push("/" + id);
       return;
     }
 
     switch (id) {
       case "home":
-        router.replace("/");
+        router.push("/");
         setCurrentView("");
         break;
 
