@@ -350,6 +350,74 @@ const CARERS_SUB_DROPDOWN = {
       href: "/careers/explore-career-opportunities/inclusive-work-culture",
     },
   ],
+  "become-a-trainer": [
+    {
+      id: 0,
+      text: "Train Future Stars",
+      href: "/careers/become-a-trainer/train-future-stars",
+    },
+    {
+      id: 1,
+      text: "Mentor the Next Generation",
+      href: "/careers/become-a-trainer/mentor-the-next-generation",
+    },
+    {
+      id: 2,
+      text: "Shape Minds and Careers",
+      href: "/careers/become-a-trainer/shape-minds-and-careers",
+    },
+  ],
+  "where-we-hire": [
+    {
+      id: 0,
+      text: "Our Global Locations",
+      href: "/careers/where-we-hire/our-global-locations",
+    },
+    {
+      id: 1,
+      text: "Join Us Across the World",
+      href: "/careers/where-we-hire/join-us-across-the-world",
+    },
+    {
+      id: 2,
+      text: "Discover New Horizons",
+      href: "/careers/where-we-hire/discover-new-horizons",
+    },
+  ],
+  "find-a-job": [
+    {
+      id: 0,
+      text: "Unlock Your Dream Job",
+      href: "/careers/find-a-job/unlock-your-dream-job",
+    },
+    {
+      id: 1,
+      text: "Explore Exciting Opportunities",
+      href: "/careers/find-a-job/explore-exciting-opportunities",
+    },
+    {
+      id: 2,
+      text: "Your Career Awaits",
+      href: "/careers/find-a-job/your-career-awaits",
+    },
+  ],
+  "professional-development": [
+    {
+      id: 0,
+      text: "Invest in Your Growth",
+      href: "/careers/professional-development/invest-in-your-growth",
+    },
+    {
+      id: 1,
+      text: "Climb the Ladder of Success",
+      href: "/careers/professional-development/climb-the-ladder-of-success",
+    },
+    {
+      id: 2,
+      text: "Become a Top Performer",
+      href: "/careers/professional-development/become-a-top-performer",
+    },
+  ],
 };
 
 export const SUB_DROPDOWN_SECTIONS = {
