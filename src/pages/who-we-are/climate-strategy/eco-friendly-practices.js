@@ -12,7 +12,7 @@ export default function EcoFriendlyPractices() {
           name="description"
           content="Novelex Consulting is committed to minimizing its environmental footprint through the implementation of eco-friendly office practices. This includes energy-efficient lighting, recycling programs, and reduction of single-use plastics. By adopting sustainable office practices, we aim to create a workspace that aligns with our values of environmental responsibility."
         />
-        <title>Novelex Consulting</title>
+        <title>Eco-Friendly Practices | Novelex Consulting</title>
       </Head>
       <main>
         <div>Eco-Friendly Practices</div>

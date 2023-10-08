@@ -12,10 +12,10 @@ export default function ContributionsToSustainability() {
           name="description"
           content="Understanding the importance of addressing climate change, we implement strategies to reduce our carbon footprint. This includes the use of renewable energy sources, energy-efficient technologies, and regular assessments to identify areas for improvement. By adopting carbon footprint reduction strategies, we strive to be a leader in sustainable business practices and contribute to a low-carbon future."
         />
-        <title>Novelex Consulting</title>
+        <title>Carbon Footprint Reduction | Novelex Consulting</title>
       </Head>
       <main>
-        <div>Contributions to Sustainability</div>
+        <div>Carbon Footprint Reduction</div>
       </main>
     </>
   );

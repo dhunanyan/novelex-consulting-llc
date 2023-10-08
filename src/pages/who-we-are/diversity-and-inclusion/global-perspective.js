@@ -12,7 +12,7 @@ export default function GlobalPerspective() {
           name="description"
           content="In a globalized world, embracing diversity is not just a moral imperative—it's a strategic advantage. Our diverse team helps us better understand and serve a wide range of clients from diverse backgrounds and regions."
         />
-        <title>Novelex Consulting</title>
+        <title>Global Perspective | Novelex Consulting</title>
       </Head>
       <main>
         <div>Global Perspective</div>

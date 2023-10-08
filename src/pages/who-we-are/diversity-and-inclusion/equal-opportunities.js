@@ -12,7 +12,7 @@ export default function EqualOpportunities() {
           name="description"
           content="We take deliberate steps to ensure that diversity and inclusion are not just words on paper but principles in action. Our commitment extends to fair hiring practices, equal opportunities for growth, and ongoing education and awareness programs."
         />
-        <title>Novelex Consulting</title>
+        <title>Equal Opportunities | Novelex Consulting</title>
       </Head>
       <main>
         <div>Equal Opportunities</div>

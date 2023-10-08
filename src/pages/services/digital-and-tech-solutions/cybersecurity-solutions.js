@@ -12,7 +12,7 @@ export default function CybersecuritySolutions() {
           name="description"
           content="Learn about Novelex's commitment to cybersecurity solutions. This section outlines how we address the evolving challenges of digital security. Our cybersecurity experts employ cutting-edge technologies and best practices to safeguard digital assets, sensitive information, and critical systems. From threat detection and prevention to risk management, our solutions are tailored to fortify the digital infrastructure of our clients, ensuring a secure and resilient digital presence."
         />
-        <title>Novelex Consulting</title>
+        <title>Cybersecurity Solutions | Novelex Consulting</title>
       </Head>
       <main>
         <div>CybersecuritySolutions</div>

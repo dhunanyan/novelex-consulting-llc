@@ -12,7 +12,7 @@ export default function MutualGrowthEndeavors() {
           name="description"
           content="Our partnerships go beyond transactional relationships; they are opportunities for mutual growth. We actively seek partners who are invested in fostering long-term success and innovation. Whether it's joint ventures, research collaborations, or shared projects, we believe that by growing together, we can create lasting impact and stay at the forefront of industry advancements."
         />
-        <title>Novelex Consulting</title>
+        <title>Mutual Growth Endeavors | Novelex Consulting</title>
       </Head>
       <main>
         <div>Mutual Growth Endeavors</div>

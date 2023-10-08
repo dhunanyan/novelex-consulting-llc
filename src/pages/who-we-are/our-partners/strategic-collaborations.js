@@ -12,7 +12,7 @@ export default function StrategicCollaborations() {
           name="description"
           content="Novelex Consulting values strategic collaborations with partners who share our commitment to excellence and integrity. These partnerships are carefully chosen to align with our business objectives and enhance the value we deliver to our clients. Through strategic collaborations, we leverage the collective expertise of our partners to achieve mutual success and amplify our impact in the industry."
         />
-        <title>Novelex Consulting</title>
+        <title>Strategic Collaborations | Novelex Consulting</title>
       </Head>
       <main>
         <div>Strategic Collaborations</div>

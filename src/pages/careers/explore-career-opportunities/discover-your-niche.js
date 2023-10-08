@@ -12,7 +12,7 @@ export default function DiscoverYourNiche() {
           name="description"
           content="Explore a world of exciting possibilities at Novelex with diverse career roles spanning languages, technology, law, and finance. Whether you're passionate about languages, technology innovations, legal complexities, or financial strategies, Novelex offers a spectrum of roles tailored to your expertise and interests. Discover your niche and thrive in a career that aligns with your aspirations."
         />
-        <title>Novelex Consulting</title>
+        <title> | Novelex Consulting</title>
       </Head>
       <main>
         <div>DiscoverYourNiche</div>

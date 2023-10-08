@@ -12,7 +12,7 @@ export default function EmbraceTeamSynergyAndCollaboration() {
           name="description"
           content="At Novelex, we believe in the power of teamwork. Joining our team means embracing a culture of synergy and collaboration. This section highlights our commitment to creating an environment where every team member's contribution is valued, fostering a sense of unity that enhances creativity and productivity. Discover the strength that comes from working together towards shared goals."
         />
-        <title>Novelex Consulting</title>
+        <title> | Novelex Consulting</title>
       </Head>
       <main>
         <div>EmbraceTeamSynergyAndCollaboration</div>

@@ -133,7 +133,7 @@ export const NAVIGATOR_MAPPING = {
 
   "explore-career-opportunities": "Explore Career Opportunities",
   "discover-your-niche": "Discover Your Niche",
-  "Innovate-thrive-succeed": "Innovate, Thrive, Succeed",
+  "innovate-thrive-succeed": "Innovate, Thrive, Succeed",
   "craft-your-career-story": "Craft Your Career Story",
   "collaborate-and-soar": "Collaborate and Soar",
 

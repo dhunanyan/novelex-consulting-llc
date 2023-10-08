@@ -12,7 +12,7 @@ export default function PersonalizedLearning() {
           name="description"
           content="We understand that each individual and organization has unique learning requirements. That's why our training programs are highly customizable, allowing you to tailor your learning journey to align with your specific goals and aspirations."
         />
-        <title>Novelex Consulting</title>
+        <title>Personalized Learning | Novelex Consulting</title>
       </Head>
       <main>
         <div>PersonalizedLearning</div>

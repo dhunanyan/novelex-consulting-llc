@@ -12,7 +12,7 @@ export default function DigitalAndTechSolutions() {
           name="description"
           content="Explore Novelex's capabilities in data analytics and business intelligence. This section highlights how we leverage advanced analytics tools and technologies to derive meaningful insights from data. Our data experts work to transform raw data into actionable information, empowering businesses to make informed decisions. Whether it's predictive analytics, data visualization, or business intelligence dashboards, our solutions are designed to enhance data-driven decision-making and drive business success."
         />
-        <title>Novelex Consulting</title>
+        <title>Digital and Tech Solutions | Novelex Consulting</title>
       </Head>
       <main>
         <div>Digital and Tech Solutions</div>

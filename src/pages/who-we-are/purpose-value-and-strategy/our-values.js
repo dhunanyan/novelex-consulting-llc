@@ -19,7 +19,7 @@ export default function OurStrategy({ welcomeSection, iconCardsSection }) {
           name="description"
           content="Our Values: Integrity, Innovation, Collaboration—these aren't just words on a wall; they are the very essence of Novelex. We hold ourselves to the highest ethical standards, constantly seek fresh ideas and innovative solutions, and foster an environment where collaboration is not just encouraged but cherished."
         />
-        <title>Novelex Consulting</title>
+        <title>Our Values | Novelex Consulting</title>
       </Head>
       <main>
         <HeroSection

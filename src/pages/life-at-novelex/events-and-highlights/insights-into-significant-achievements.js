@@ -12,7 +12,9 @@ export default function InsightsIntoSignificantAchievements() {
           name="description"
           content="This section provides a curated insight into our significant achievements, offering a closer look at the moments that define our success story. Whether it's the launch of a groundbreaking project, industry recognition, or notable contributions to the community, we invite you to celebrate these achievements with us. By delving into the details, you'll gain a comprehensive understanding of the impact Novelex is making across various domains."
         />
-        <title>Novelex Consulting</title>
+        <title>
+          Insights into Significant Achievements | Novelex Consulting
+        </title>
       </Head>
       <main>
         <div>Insights into Significant Achievements</div>

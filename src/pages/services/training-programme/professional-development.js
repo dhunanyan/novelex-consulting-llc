@@ -12,7 +12,7 @@ export default function ProfessionalDevelopment() {
           name="description"
           content="Invest in your career growth with Novelex's professional development programs. Whether you're a seasoned professional or just starting your career, we offer courses that will help you stay competitive in your industry."
         />
-        <title>Novelex Consulting</title>
+        <title>Professional Development | Novelex Consulting</title>
       </Head>
       <main>
         <div>ProfessionalDevelopment</div>

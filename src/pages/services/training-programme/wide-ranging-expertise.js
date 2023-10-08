@@ -12,7 +12,7 @@ export default function WideRangingExpertise() {
           name="description"
           content="Our training programs encompass a diverse range of topics tailored to meet the diverse needs of modern professionals. Whether you're looking to enhance your project management capabilities, hone your soft skills, or acquire new expertise, we have you covered."
         />
-        <title>Novelex Consulting</title>
+        <title>Wide Ranging Expertise | Novelex Consulting</title>
       </Head>
       <main>
         <div>WideRangingExpertise</div>

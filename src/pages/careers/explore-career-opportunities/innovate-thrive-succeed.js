@@ -12,7 +12,7 @@ export default function InnovateThriveSucceed() {
           name="description"
           content="Ignite your career in a dynamic and innovative environment at Novelex. This section emphasizes our commitment to providing opportunities that challenge and inspire. Explore roles that blend innovation and dynamism, pushing you to excel and contribute to cutting-edge projects. Your journey at Novelex isn't just a job—it's a dynamic career that embraces innovation and encourages continuous growth."
         />
-        <title>Novelex Consulting</title>
+        <title> | Novelex Consulting</title>
       </Head>
       <main>
         <div>InnovateThriveSucceed</div>

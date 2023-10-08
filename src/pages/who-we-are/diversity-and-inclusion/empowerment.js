@@ -12,7 +12,7 @@ export default function Empowerment() {
           name="description"
           content="We actively seek out and amplify voices that may have been historically underrepresented. We believe that diversity is not just about numbers; it's about empowering all voices to contribute to our collective success."
         />
-        <title>Novelex Consulting</title>
+        <title>Empowerment | Novelex Consulting</title>
       </Head>
       <main>
         <div>Empowerment</div>

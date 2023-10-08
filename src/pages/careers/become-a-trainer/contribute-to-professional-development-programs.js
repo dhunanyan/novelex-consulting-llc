@@ -12,7 +12,9 @@ export default function ContributeToProfessionalDevelopmentPrograms() {
           name="description"
           content="Joining Novelex as a trainer means contributing to professional development programs. This section emphasizes the role of trainers in shaping the skills and competencies of fellow team members. Explore the opportunity to design and deliver training programs that foster continuous learning, skill enhancement, and career growth. Contribute to the development of a dynamic and skilled workforce within the Novelex community."
         />
-        <title>Novelex Consulting</title>
+        <title>
+          Contribute To Professional Development Programs | Novelex Consulting
+        </title>
       </Head>
       <main>
         <div>ContributeToProfessionalDevelopmentPrograms</div>

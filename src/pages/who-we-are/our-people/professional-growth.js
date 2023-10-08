@@ -12,7 +12,7 @@ export default function ProfessionalGrowth() {
           name="description"
           content="Our commitment to our people extends to their professional growth and development. We provide a platform for continuous learning, offering opportunities for skill enhancement and career advancement. From mentorship programs to personalised development plans, we invest in our team members, ensuring they stay at the forefront of industry trends and are equipped for long-term success."
         />
-        <title>Novelex Consulting</title>
+        <title>Professional Growth | Novelex Consulting</title>
       </Head>
       <main>
         <div>Professional Growth</div>

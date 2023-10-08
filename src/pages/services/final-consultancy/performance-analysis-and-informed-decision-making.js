@@ -12,7 +12,9 @@ export default function PerformanceAnalysisAndInformedDecisionMaking() {
           name="description"
           content="Our Financial Consultancy is dedicated to empowering clients with the insights needed for informed decision-making. This includes thorough performance analysis, development of financial models, and identification of key metrics for success. By staying ahead of financial trends and leveraging our expertise, we empower our clients with the financial insights required to drive their business forward confidently and strategically."
         />
-        <title>Novelex Consulting</title>
+        <title>
+          Performance analysis and informed decision making | Novelex Consulting
+        </title>
       </Head>
       <main>
         <div>PerformanceAnalysisAndInformedDecisionMaking</div>

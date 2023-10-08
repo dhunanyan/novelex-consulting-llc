@@ -12,7 +12,7 @@ export default function CelebrationWithOurCommunity() {
           name="description"
           content={`Stay informed about our latest developments and innovations through the "Events and Highlights" section. We understand the importance of staying at the forefront of industry trends and technological advancements. This section not only highlights our past achievements but also showcases the innovative solutions and developments that characterize Novelex. It's a window into our commitment to pushing boundaries and staying ahead in a rapidly evolving landscape.`}
         />
-        <title>Novelex Consulting</title>
+        <title>Celebration with Our Community | Novelex Consulting</title>
       </Head>
       <main>
         <div>Celebration with Our Community</div>

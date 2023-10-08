@@ -19,7 +19,7 @@ export default function OurStrategy({ welcomeSection, iconCardsSection }) {
           name="description"
           content="Our Strategy: Our strategic vision is a roadmap that guides us towards our goals. We envision a future where our clients can confidently navigate the complexities of a globalised world. We achieve this by offering comprehensive language, digital, and tech solutions, always striving to exceed expectations and set industry standards."
         />
-        <title>Novelex Consulting</title>
+        <title>Our Strategy | Novelex Consulting</title>
       </Head>
       <main>
         <HeroSection

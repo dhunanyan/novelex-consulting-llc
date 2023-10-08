@@ -12,7 +12,7 @@ export default function ClimateStrategy() {
           name="description"
           content="Our Climate Strategy revolves around the implementation of Eco-Friendly Practices, encouraging Contributions to Sustainability, advocating for green initiatives, and adopting strategies to reduce our carbon footprint. Through these initiatives, we aim to demonstrate our commitment to environmental responsibility and contribute positively to the global effort to combat climate change."
         />
-        <title>Novelex Consulting</title>
+        <title>Climate Strategy | Novelex Consulting</title>
       </Head>
       <main>
         <div>Climate Strategy</div>

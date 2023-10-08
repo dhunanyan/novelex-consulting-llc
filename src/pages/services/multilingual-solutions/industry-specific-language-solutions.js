@@ -12,7 +12,7 @@ export default function IndustrySpecificLanguageSolutions() {
           name="description"
           content="Discover Novelex's tailored language solutions designed for specific industries. This section emphasizes our ability to provide industry-specific linguistic support, ensuring that translations and interpretations align with the specialized terminology and nuances of particular sectors. Whether it's healthcare, legal, technical, or any other industry, our language experts are equipped with the knowledge and expertise to deliver accurate and contextually relevant solutions."
         />
-        <title>Novelex Consulting</title>
+        <title>Industry Specific Language Solutions | Novelex Consulting</title>
       </Head>
       <main>
         <div>IndustrySpecificLanguageSolutions</div>

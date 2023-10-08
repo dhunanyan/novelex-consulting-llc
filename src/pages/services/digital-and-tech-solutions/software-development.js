@@ -12,7 +12,7 @@ export default function SoftwareDevelopment() {
           name="description"
           content="Dive into Novelex's expertise in customized software development. This section showcases our proficiency in crafting tailored digital solutions to meet the unique needs of our clients. Our team of skilled developers works collaboratively to understand client requirements and deliver software solutions that are not only technologically advanced but also aligned with the specific goals and challenges of the business. From user-friendly interfaces to robust backend systems, our customized software development ensures a seamless digital experience."
         />
-        <title>Novelex Consulting</title>
+        <title>Software Development | Novelex Consulting</title>
       </Head>
       <main>
         <div>SoftwareDevelopment</div>

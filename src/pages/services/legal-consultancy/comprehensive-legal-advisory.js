@@ -13,7 +13,7 @@ export default function ComprehensiveLegalAdvisory() {
           content="Explore the comprehensive legal advisory services offered by Novelex. This section details how our legal consultancy goes beyond conventional support, providing a broad spectrum of services to address diverse legal needs. Whether it's contract review, regulatory compliance, intellectual property matters, or legal risk assessments, our team of experienced legal consultants offers strategic guidance to navigate complex legal landscapes.
 "
         />
-        <title>Novelex Consulting</title>
+        <title>Comprehensive Legal Advisory | Novelex Consulting</title>
       </Head>
       <main>
         <div>ComprehensiveLegalAdvisory</div>

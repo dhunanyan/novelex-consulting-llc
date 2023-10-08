@@ -12,7 +12,7 @@ export default function EmbracingDifferences() {
           name="description"
           content="We believe that diversity is a wellspring of creativity and innovation. By embracing differences in ethnicity, gender, age, abilities, and experiences, we create an environment where fresh ideas flourish, and varied viewpoints enrich our solutions."
         />
-        <title>Novelex Consulting</title>
+        <title>Embracing Differences | Novelex Consulting</title>
       </Head>
       <main>
         <div>Embracing Differences</div>

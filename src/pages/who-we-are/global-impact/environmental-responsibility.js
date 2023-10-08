@@ -12,7 +12,7 @@ export default function EnvironmentalResponsibility() {
           name="description"
           content="Recognising the importance of environmental sustainability, we integrate eco-friendly practices into our operations. From minimizing our carbon footprint to implementing green office initiatives, we strive to be stewards of the environment. Our commitment extends to promoting sustainability practices among our partners and clients."
         />
-        <title>Novelex Consulting</title>
+        <title>Environmental Responsibility | Novelex Consulting</title>
       </Head>
       <main>
         <div>Environmental Responsibility</div>

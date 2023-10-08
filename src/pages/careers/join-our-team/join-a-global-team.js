@@ -12,7 +12,7 @@ export default function JoinAGlobalTeam() {
           name="description"
           content="Novelex is a global team, bringing together diverse perspectives and talents. This section provides insights into our global presence, emphasizing the strength that comes from a team with varied experiences and backgrounds. Join us in embracing the richness of diversity as we work together towards shared goals. Learn, collaborate, and contribute to a team that transcends boundaries and thrives on the collective strength of its members."
         />
-        <title>Novelex Consulting</title>
+        <title> | Novelex Consulting</title>
       </Head>
       <main>
         <div>JoinAGlobalTeam</div>

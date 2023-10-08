@@ -12,7 +12,7 @@ export default function WorkLifeBalance() {
           name="description"
           content="Delve into the work-life balance initiatives implemented at Novelex to support the overall well-being of our employees. This includes flexible work arrangements, family-friendly policies, and initiatives that promote a healthy integration of work and personal life. By fostering a positive work-life balance, we aim to enhance job satisfaction, reduce stress, and contribute to the overall happiness and fulfillment of our team members."
         />
-        <title>Novelex Consulting</title>
+        <title>Work Life Balance | Novelex Consulting</title>
       </Head>
       <main>
         <div>WorkLifeBalance</div>

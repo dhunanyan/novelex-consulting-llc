@@ -12,7 +12,7 @@ export default function ExperiencedInstructors() {
           name="description"
           content="Our instructors are seasoned experts in their respective fields, bringing real-world knowledge and insights to the training room. You'll learn from the best, gaining practical skills that can be applied immediately in your professional life."
         />
-        <title>Novelex Consulting</title>
+        <title>Experienced Instructors | Novelex Consulting</title>
       </Head>
       <main>
         <div>ExperiencedInstructors</div>

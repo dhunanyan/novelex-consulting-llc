@@ -13,7 +13,7 @@ export default function CollaborativeSpiritInAction() {
           content="Uncover the collaborative spirit that defines Novelex's unique culture. It goes beyond words to showcase the collaborative spirit in action. Through anecdotes, projects, and collaborative initiatives, you'll see how our culture fosters an environment where ideas flourish and teamwork thrives. This collaborative ethos is a key component of what sets Novelex apart, contributing to our collective success and the positive impact we make.
 "
         />
-        <title>Novelex Consulting</title>
+        <title>Collaborative Spirit in Action | Novelex Consulting</title>
       </Head>
       <main>
         <div>CollaborativeSpiritInAction</div>
