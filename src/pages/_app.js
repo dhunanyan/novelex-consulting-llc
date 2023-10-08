@@ -10,8 +10,6 @@ export default function App({ Component, pageProps }) {
   const list = pathname.substring(1).split("/");
   const isNavigatorActive = list.length > 1;
 
-  // TODO Schować navigator jak się wprowadza zły route
-
   return (
     <>
       <Header />

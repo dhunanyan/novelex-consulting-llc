@@ -72,17 +72,17 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroIcon = styled.div`
-  width: 1280px;
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
+  right: 0;
   pointer-events: none;
 
   svg,
   img {
     opacity: 0.2;
     width: 100%;
-    height: 100%;
   }
 `;
 

@@ -7,7 +7,6 @@ import {
   IconCardTitle,
   IconCardWrapper,
 } from "./IconCard.styles";
-import Image from "next/image";
 
 export const IconCard = ({
   icon,
@@ -15,31 +14,33 @@ export const IconCard = ({
   description,
   button,
   inverseColors,
-}) => {
-  return (
-    <IconCardWrapper inverseColors={inverseColors}>
-      <IconCardContainer>
-        {!button && icon && (
+  forceHideButton,
+}) => (
+  <IconCardWrapper
+    inverseColors={inverseColors}
+    cursor={forceHideButton || !button ? "auto" : "pointer"}
+  >
+    <IconCardContainer>
+      {(forceHideButton || !button) && icon && (
+        <IconCardIcon dangerouslySetInnerHTML={{ __html: icon }} />
+      )}
+      {!forceHideButton && button && icon && (
+        <IconCardButton
+          inverseColors={inverseColors}
+          className="primary-card-button"
+        >
           <IconCardIcon dangerouslySetInnerHTML={{ __html: icon }} />
-        )}
-        {button && icon && (
-          <IconCardButton
-            inverseColors={inverseColors}
-            className="primary-card-button"
-          >
-            <IconCardIcon dangerouslySetInnerHTML={{ __html: icon }} />
-            <p>
-              <span>{button}</span>
-            </p>
-          </IconCardButton>
-        )}
-        {title && <IconCardTitle>{title}</IconCardTitle>}
-        {description && (
-          <IconCardDescription inverseColors={inverseColors}>
-            {description}
-          </IconCardDescription>
-        )}
-      </IconCardContainer>
-    </IconCardWrapper>
-  );
-};
+          <p>
+            <span>{button}</span>
+          </p>
+        </IconCardButton>
+      )}
+      {title && <IconCardTitle>{title}</IconCardTitle>}
+      {description && (
+        <IconCardDescription inverseColors={inverseColors}>
+          {description}
+        </IconCardDescription>
+      )}
+    </IconCardContainer>
+  </IconCardWrapper>
+);

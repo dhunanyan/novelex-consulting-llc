@@ -15,7 +15,7 @@ export default function HomePage({
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
         <meta name="description" content="" />
-        <title>Novelex Consulting LLC</title>
+        <title>Novelex Consulting</title>
       </Head>
     </>
   );

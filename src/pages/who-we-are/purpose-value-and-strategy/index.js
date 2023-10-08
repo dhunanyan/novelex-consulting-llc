@@ -25,8 +25,11 @@ export default function PurposeValueAndStrategy({
         <link rel="icon" href="/temp-logo.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
-        <meta name="description" content="" />
-        <title>Novelex Consulting LLC</title>
+        <meta
+          name="description"
+          content="At Novelex Consulting, we are driven by a clear purpose - to bridge the communication gaps across languages and technology. Our values of integrity, innovation, and collaboration underpin everything we do. Our strategic vision is to provide comprehensive language, digital, and tech solutions that empower our clients to succeed in a globalised world."
+        />
+        <title>Novelex Consulting</title>
       </Head>
       <main>
         <HeroSection

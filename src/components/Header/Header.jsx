@@ -26,6 +26,8 @@ export const Header = () => {
   const [currentSubView, setCurrentSubView] = useState("");
   const router = useRouter();
 
+  // TODO: Naprawić problem z tym, że jak się jest w najbardziej zagnieżdżonym roucie i się klika w inny zagnieżdżont route z innej sekcji to się psuje mocno redirection
+
   const onItemClick = (e, id) => {
     e.preventDefault();
     setCurrentSubView("");

@@ -2,7 +2,7 @@ export const DROPDOWN_SECTIONS = {
   "who-we-are": {
     title: "Who we are",
     description:
-      "We are Novelex Consulting LLC, a dynamic language solutions provider driven by the mission to bridge global communication gaps.",
+      "We are Novelex Consulting, a dynamic language solutions provider driven by the mission to bridge global communication gaps.",
     goToLink: "Go to this section",
     navList: [
       {
@@ -94,24 +94,14 @@ export const DROPDOWN_SECTIONS = {
         href: "/services/multilingual-solutions",
       },
       {
-        id: "language-consultancy",
-        text: "Language Consultancy",
-        href: "/services/language-consultancy",
+        id: "legal-consultancy",
+        text: "Legal Consultancy",
+        href: "/services/legal-consultancy",
       },
       {
-        id: "interpretation",
-        text: "Interpretation",
-        href: "/services/interpretation",
-      },
-      {
-        id: "mobile-interpretation",
-        text: "Mobile Interpretation",
-        href: "/services/mobile-interpretation",
-      },
-      {
-        id: "document-translation",
-        text: "Document Translation",
-        href: "/services/document-translation",
+        id: "final-consultancy",
+        text: "Final Consultancy",
+        href: "/services/final-consultancy",
       },
       {
         id: "digital-and-tech-solutions",
@@ -163,9 +153,9 @@ export const DROPDOWN_SECTIONS = {
         href: "/careers/find-a-job",
       },
       {
-        id: "professional-development",
-        text: "Professional Development",
-        href: "/careers/professional-development",
+        id: "personal-and-professional-development",
+        text: "Personal and Professional Development",
+        href: "/careers/personal-and-professional-development",
       },
     ],
     extraContent: {

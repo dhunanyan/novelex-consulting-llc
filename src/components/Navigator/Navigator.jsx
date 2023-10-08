@@ -10,6 +10,7 @@ import {
 } from "./Navigator.styles";
 import { MdOutlineKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 import { NAVIGATOR_MAPPING } from "./utils";
+import { getHref } from "./getHref";
 
 export const Navigator = ({ list }) => {
   const filteredList = list.filter((item) => !!NAVIGATOR_MAPPING[item]);
@@ -22,7 +23,7 @@ export const Navigator = ({ list }) => {
           {filteredList.map((item, index) =>
             index !== list.length - 1 ? (
               <NavigatorItem key={index}>
-                <NavigatorLink href={"/" + item}>
+                <NavigatorLink href={getHref(filteredList, index)}>
                   {NAVIGATOR_MAPPING[item]}
                 </NavigatorLink>
                 <NavigatorIcon>

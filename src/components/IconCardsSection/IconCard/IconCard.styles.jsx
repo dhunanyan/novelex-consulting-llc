@@ -11,6 +11,7 @@ export const IconCardWrapper = styled.button`
   -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.47);
   transition: all 150ms ease-out;
+  cursor: ${({ cursor }) => cursor};
 
   &:last-of-type {
     margin: 0 0 0 20px;
