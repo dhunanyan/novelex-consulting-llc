@@ -8,7 +8,10 @@ export default function GlobalCollaborations() {
         <link rel="icon" href="/temp-logo.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Novelex Consulting believes in the power of collaboration. We actively seek and foster partnerships with organizations, nonprofits, and businesses that share our commitment to positive global impact. Through collaborative efforts, we aim to amplify our reach, share expertise, and collectively contribute to a better world."
+        />
         <title>Novelex Consulting</title>
       </Head>
       <main>

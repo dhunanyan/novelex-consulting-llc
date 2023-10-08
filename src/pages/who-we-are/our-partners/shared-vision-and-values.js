@@ -8,7 +8,10 @@ export default function SharedVisionAndValues() {
         <link rel="icon" href="/temp-logo.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Central to our partnerships is a shared vision and a set of core values. We seek partners whose vision aligns with ours, ensuring a cohesive approach to problem-solving and goal achievement. Shared values, such as integrity, collaboration, and a commitment to excellence, form the foundation of our partnerships, fostering trust and synergy in our collaborative endeavors."
+        />
         <title>Novelex Consulting</title>
       </Head>
       <main>

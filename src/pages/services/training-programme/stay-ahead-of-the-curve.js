@@ -8,7 +8,10 @@ export default function StayAheadOfTheCurve() {
         <link rel="icon" href="/temp-logo.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="In today's fast-paced world, staying ahead of the curve is essential. Our training programs provide you with the tools and knowledge needed to adapt to changing trends and emerging technologies."
+        />
         <title>Novelex Consulting</title>
       </Head>
       <main>

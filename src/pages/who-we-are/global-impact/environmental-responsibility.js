@@ -8,7 +8,10 @@ export default function EnvironmentalResponsibility() {
         <link rel="icon" href="/temp-logo.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Recognising the importance of environmental sustainability, we integrate eco-friendly practices into our operations. From minimizing our carbon footprint to implementing green office initiatives, we strive to be stewards of the environment. Our commitment extends to promoting sustainability practices among our partners and clients."
+        />
         <title>Novelex Consulting</title>
       </Head>
       <main>

@@ -12,9 +12,9 @@ export const NAVIGATOR_MAPPING = {
 
   "our-people": "Our People",
   "collective-excellence": "Collective Excellence",
-  "nurturing-a-culture-of-inclusivity": "Nurturing a Culture of Inclusivity",
-  "investing-in-professional-growth": "Investing in Professional Growth",
-  "caring-for-well-being": "Caring for Well-being",
+  "culture-of-inclusivity": "Culture of Inclusivity",
+  "professional-growth": "Professional Growth",
+  "well-being": "Well-being",
 
   "global-impact": "Global Impact",
   "leveraging-diversity": "Leveraging Diversity",
@@ -25,30 +25,26 @@ export const NAVIGATOR_MAPPING = {
   "diversity-and-inclusion": "Diversity and Inclusion",
   "embracing-differences": "Embracing Differences",
   "inclusive-culture": "Inclusive Culture",
-  "equality-in-action": "Equality in Action",
+  "equal-opportunities": "Equal Opportunities",
   "global-perspective": "Global Perspective",
-  "empowering-all-voices": "Empowering All Voices",
+  empowerment: "Empowerment",
 
   "climate-strategy": "Climate Strategy",
-  "eco-friendly-office-practices": "Eco-Friendly Office Practices",
-  "individual-contributions-to-sustainability":
-    "Individual Contributions to Sustainability",
-  "advocacy-for-green-initiatives": "Advocacy for Green Initiatives",
-  "carbon-footprint-reduction-strategies":
-    "Carbon Footprint Reduction Strategies",
+  "eco-friendly-practices": "Eco-Friendly Practices",
+  "contributions-to-sustainability": "Contributions to Sustainability",
+  "green-initiatives": "Green Initiatives",
+  "carbon-footprint-reduction": "Contributions to Sustainability",
 
   "our-partners": "Our Partners",
   "strategic-collaborations": "Strategic Collaborations",
   "mutual-growth-endeavors": "Mutual Growth Endeavors",
   "shared-vision-and-values": "Shared Vision and Values",
-  "innovative-solutions-through-collaboration":
-    "Innovative Solutions through Collaboration",
+  "innovative-solutions": "Innovative Solutions",
 
   // LIFE-AT-NOVELEX
   "experiencing-novelex": "Experiencing Novelex",
   "vibrant-and-diverse-culture": "Vibrant and Diverse Culture",
-  "atmosphere-of-creativity-and-openness":
-    "Atmosphere of Creativity and Openness",
+  "creativity-and-openness": "Creativity and Openness",
   "sense-of-purpose-in-everything-we-do":
     "Sense of Purpose in Everything We Do",
   "energy-and-enthusiasm-for-success": "Energy and Enthusiasm for Success",
@@ -59,8 +55,7 @@ export const NAVIGATOR_MAPPING = {
     "Insights into Significant Achievements",
   "showcasing-innovations-and-developments":
     "Showcasing Innovations and Developments",
-  "a-collective-celebration-with-our-community":
-    "A Collective Celebration with Our Community",
+  "celebration-with-our-community": "Celebration with Our Community",
 
   "team-and-culture-insights": "Team and Culture Insights",
   "values-and-principles-at-the-core": "Values and Principles at the Core",
@@ -83,9 +78,9 @@ export const NAVIGATOR_MAPPING = {
   "comprehensive-health-and-wellness-programs":
     "Comprehensive Health and Wellness Programs",
   "customized-benefits-packages": "Customized Benefits Packages",
-  "professional-development-and-training-opportunities":
-    "Professional Development and Training Opportunities",
-  "work-life-balance-initiatives": "Work-Life Balance Initiatives",
+  "professional-development-opportunities":
+    "Professional Development Opportunities",
+  "work-life-balance": "Work-Life Balance",
 
   // SERVICES
   "multilingual-solutions": "Multilingual Solutions",
@@ -96,7 +91,7 @@ export const NAVIGATOR_MAPPING = {
     "Industry-Specific Language Solutions",
 
   "digital-and-tech-solutions": "Digital and Tech Solutions",
-  "customized-software-development": "Customized Software Development",
+  "software-development": "Software Development",
   "data-analytics-and-business-intelligence":
     "Data Analytics and Business Intelligence",
   "cybersecurity-solutions": "Cybersecurity Solutions",
@@ -111,8 +106,8 @@ export const NAVIGATOR_MAPPING = {
 
   "legal-consultancy": "Legal Consultancy",
   "comprehensive-legal-advisory": "Comprehensive Legal Advisory",
-  "specialized-expertise-in-multinational-regulations":
-    "Specialized Expertise in Multinational Regulations",
+  "specialised-expertise-in-multinational-regulations":
+    "Specialised Expertise in Diverse Regulations",
   "dispute-resolution-and-litigation-support":
     "Dispute Resolution and Litigation Support",
   "proactive-compliance-strategies": "Proactive Compliance Strategies",
@@ -120,10 +115,10 @@ export const NAVIGATOR_MAPPING = {
   "final-consultancy": "Final Consultancy",
   "comprehensive-financial-advisory-services":
     "Comprehensive Financial Advisory Services",
-  "specialized-expertise-in-financial-regulations":
-    "Specialized Expertise in Financial Regulations",
-  "proactive-financial-planning-and-risk-management":
-    "Proactive Financial Planning and Risk Management",
+  "specialised-expertise-in-financial-regulations":
+    "Specialised Expertise in Financial Regulations",
+  "financial-planning-and-risk-management":
+    "Financial Planning and Risk Management",
   "performance-analysis-and-informed-decision-making":
     "Performance Analysis and Informed Decision-Making",
 
@@ -134,38 +129,27 @@ export const NAVIGATOR_MAPPING = {
   "forge-connections-in-a-supportive-work-community":
     "Forge Connections in a Supportive Work Community",
   "team-growth-is-personal-growth": "Team Growth is Personal Growth",
-  "join-a-global-team-–-diverse-perspectives-shared-goals":
-    "Join a Global Team – Diverse Perspectives Shared Goals",
+  "join-a-global-team": "Join a Global Team",
 
   "explore-career-opportunities": "Explore Career Opportunities",
-  "discover-your-niche-exciting-roles-across-disciplines":
-    "Discover Your Niche Exciting Roles Across Disciplines",
-  "thrive-in-dynamic-careers-fueled-by-innovation":
-    "Thrive in Dynamic Careers Fueled by Innovation",
-  "craft-your-career-story-personalized-growth-paths-await":
-    "Craft Your Career Story Personalized Growth Paths Await",
-  "collaborate-and-soar-inclusive-team-culture-endless-career-opportunities":
-    "Collaborate and Soar Inclusive Team Culture Endless Career Opportunities",
+  "discover-your-niche": "Discover Your Niche",
+  "Innovate-thrive-succeed": "Innovate, Thrive, Succeed",
+  "craft-your-career-story": "Craft Your Career Story",
+  "collaborate-and-soar": "Collaborate and Soar",
 
   "become-a-trainer": "Become a Trainer",
-  "share-your-expertise-training-in-your-domain-of-excellence":
-    "Share Your Expertise Training in Your Domain of Excellence",
+  "share-your-expertise": "Share Your Expertise",
   "contribute-to-professional-development-programs":
     "Contribute to Professional Development Programs",
-  "shape-the-learning-experience-tailored-training-approaches":
-    "Shape the Learning Experience Tailored Training Approaches",
-  "grow-your-career-by-empowering-others-trainer-development-pathways":
-    "Grow Your Career by Empowering Others Trainer Development Pathways",
+  "shape-the-learning-experience": "Shape the Learning Experience",
+  "grow-your-career-by-empowering-others":
+    "Grow Your Career by Empowering Others",
 
   "where-we-hire": "Where We Hire",
-  "explore-novelex-worldwide-unlock-varied-career-horizons":
-    "Explore Novelex Worldwide Unlock Varied Career Horizons",
-  "regional-career-hubs-chart-your-path-in-specific-geographic-zones":
-    "Regional Career Hubs Chart Your Path in Specific Geographic Zones",
-  "global-collaboration-center-engage-in-cross-continental-dialogue":
-    "Global Collaboration Center Engage in Cross-Continental Dialogue",
-  "global-reach-local-impact-opportunities-awaiting-your-expertise":
-    "Global Reach Local Impact Opportunities Awaiting Your Expertise",
+  "explore-novelex-worldwide": "Explore Novelex Worldwide",
+  "regional-career-hubs": "Regional Career Hubs",
+  "global-collaboration-center": "Global Collaboration Center",
+  "global-reach-local-impact": "Global Reach, Local Impact",
 
   "find-a-job": "Find a Job",
   "language-jobs": "Language Jobs",

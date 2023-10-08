@@ -8,7 +8,10 @@ export default function ProfessionalDevelopment() {
         <link rel="icon" href="/temp-logo.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Invest in your career growth with Novelex's professional development programs. Whether you're a seasoned professional or just starting your career, we offer courses that will help you stay competitive in your industry."
+        />
         <title>Novelex Consulting</title>
       </Head>
       <main>
