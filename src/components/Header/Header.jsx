@@ -72,8 +72,7 @@ export const Header = () => {
       <div>
         <HeaderContainer>
           <HeaderIcon href="/" onClick={(e) => onItemClick(e, "home")}>
-            <TempLogo />
-            <span>Novelex</span>
+            <img src="/logo/i_logo.svg" alt="Novelex Logo" />
           </HeaderIcon>
           <HeaderNav>
             <HeaderList>

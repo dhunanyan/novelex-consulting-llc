@@ -5,7 +5,7 @@ export default function ShareYourExpertise() {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/temp-logo.png" />
+        <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
         <meta name="keywords" content="" />
         <meta

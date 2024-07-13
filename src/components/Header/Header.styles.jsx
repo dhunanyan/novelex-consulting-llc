@@ -49,17 +49,14 @@ export const HeaderBoxContainer = styled.div`
 `;
 
 export const HeaderIcon = styled.a`
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  font-size: 24px;
-  font-weight: 600;
   color: ${MAIN_BLACK_COLOR};
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
 
-  svg {
-    color: ${MAIN_COLOR};
-    margin: 0 2px 0 0;
-    font-size: 50px;
+  img {
+    width: 100%;
   }
 `;
 
