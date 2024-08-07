@@ -3,6 +3,8 @@ import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 
+import { PAGES_HTML } from "@/data";
+
 export default function OurStrategy({ welcomeSection, iconCardsSection }) {
   if (!welcomeSection || !iconCardsSection) {
     return <div>Loading</div>;
@@ -14,12 +16,29 @@ export default function OurStrategy({ welcomeSection, iconCardsSection }) {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"][
+              "our-strategy"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Our Strategy: Our strategic vision is a roadmap that guides us towards our goals. We envision a future where our clients can confidently navigate the complexities of a globalised world. We achieve this by offering comprehensive language, digital, and tech solutions, always striving to exceed expectations and set industry standards."
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"][
+              "our-strategy"
+            ].description
+          }
         />
-        <title>Our Strategy | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"][
+              "our-strategy"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <HeroSection

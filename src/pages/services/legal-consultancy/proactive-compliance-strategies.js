@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ProactiveComplianceStrategies() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function ProactiveComplianceStrategies() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["legal-consultancy"][
+              "proactive-compliance-strategies"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Uncover Novelex's emphasis on proactive compliance strategies. This section emphasizes our commitment to helping clients establish and maintain robust compliance frameworks. Our legal consultants work collaboratively to identify potential risks, interpret regulatory changes, and develop strategies to ensure proactive compliance with applicable laws and regulations. By staying ahead of legal requirements, we assist our clients in fostering a culture of compliance and minimizing legal challenges."
+          content={
+            PAGES_HTML["services"]["legal-consultancy"][
+              "proactive-compliance-strategies"
+            ].description
+          }
         />
-        <title>Proactive Compliance Strategies | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["legal-consultancy"][
+              "proactive-compliance-strategies"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>ProactiveComplianceStrategies</div>

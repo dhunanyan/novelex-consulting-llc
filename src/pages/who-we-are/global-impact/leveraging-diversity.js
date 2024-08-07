@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function LeveragingDiversity() {
   return (
     <>
@@ -7,12 +9,26 @@ export default function LeveragingDiversity() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["global-impact"]["leveraging-diversity"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Our diverse workforce is a strategic asset that fuels our global impact. We believe in harnessing the power of different perspectives, cultures, and experiences. By fostering a multicultural environment, we bring unique insights to every project, ensuring solutions that are not only effective but culturally sensitive."
+          content={
+            PAGES_HTML["who-we-are"]["global-impact"]["leveraging-diversity"]
+              .description
+          }
         />
-        <title>Leveraging Diversity | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["global-impact"]["leveraging-diversity"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <div>Leveraging Diversity</div>

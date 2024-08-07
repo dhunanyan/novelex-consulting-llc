@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ValuesAndPrinciplesAtTheCore() {
   return (
     <>
@@ -7,13 +9,29 @@ export default function ValuesAndPrinciplesAtTheCore() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "values-and-principles-at-the-core"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Delve into the heart of Novelex by exploring our team and culture insights, where you'll encounter the foundational values and principles that drive every decision and action within our organization. It will provide an in-depth understanding of the bedrock upon which Novelex's success is built. Our commitment to fostering a culture of inclusivity, collaboration, and respect is highlighted, showcasing the core values that guide our daily operations and interactions.
-"
+          content={
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "values-and-principles-at-the-core"
+            ].description
+          }
         />
-        <title>Values and Principles at TheCore | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "values-and-principles-at-the-core"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>ValuesAndPrinciplesAtTheCore</div>

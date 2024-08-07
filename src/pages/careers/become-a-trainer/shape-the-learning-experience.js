@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ShapeTheLearningExperience() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function ShapeTheLearningExperience() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["careers"]["become-a-trainer"][
+              "shape-the-learning-experience"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Becoming a trainer at Novelex means shaping the learning experience for your peers. This section highlights the importance of trainers in tailoring training approaches to meet the diverse needs of the team. Whether it's designing language courses, tech workshops, legal training, or financial education, trainers play a pivotal role in creating engaging and impactful learning experiences that contribute to the professional growth of the entire team."
+          content={
+            PAGES_HTML["careers"]["become-a-trainer"][
+              "shape-the-learning-experience"
+            ].description
+          }
         />
-        <title> | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["careers"]["become-a-trainer"][
+              "shape-the-learning-experience"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>ShapeTheLearningExperience</div>

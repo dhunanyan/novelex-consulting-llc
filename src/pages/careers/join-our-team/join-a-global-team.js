@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function JoinAGlobalTeam() {
   return (
     <>
@@ -7,12 +9,23 @@ export default function JoinAGlobalTeam() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["careers"]["join-our-team"]["join-a-global-team"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Novelex is a global team, bringing together diverse perspectives and talents. This section provides insights into our global presence, emphasizing the strength that comes from a team with varied experiences and backgrounds. Join us in embracing the richness of diversity as we work together towards shared goals. Learn, collaborate, and contribute to a team that transcends boundaries and thrives on the collective strength of its members."
+          content={
+            PAGES_HTML["careers"]["join-our-team"]["join-a-global-team"]
+              .description
+          }
         />
-        <title> | Novelex Consulting</title>
+        <title>
+          {PAGES_HTML["careers"]["join-our-team"]["join-a-global-team"].title}
+        </title>
       </Head>
       <main>
         <div>JoinAGlobalTeam</div>

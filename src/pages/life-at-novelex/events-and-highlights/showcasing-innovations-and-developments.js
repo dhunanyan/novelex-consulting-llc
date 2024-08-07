@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ShowcasingInnovationsAndDevelopments() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function ShowcasingInnovationsAndDevelopments() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["events-and-highlights"][
+              "showcasing-innovations-and-developments"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content={`Stay informed about our latest developments and innovations through the "Events and Highlights" section. We understand the importance of staying at the forefront of industry trends and technological advancements. This section not only highlights our past achievements but also showcases the innovative solutions and developments that characterize Novelex. It's a window into our commitment to pushing boundaries and staying ahead in a rapidly evolving landscape.`}
+          content={
+            PAGES_HTML["life-at-novelex"]["events-and-highlights"][
+              "showcasing-innovations-and-developments"
+            ].description
+          }
         />
         <title>
-          Showcasing Innovations and Developments | Novelex Consulting
+          {
+            PAGES_HTML["life-at-novelex"]["events-and-highlights"][
+              "showcasing-innovations-and-developments"
+            ].title
+          }
         </title>
       </Head>
       <main>

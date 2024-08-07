@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { PAGES_HTML } from "@/data";
 
 export default function BecomeATrainer() {
   return (
@@ -7,12 +8,15 @@ export default function BecomeATrainer() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={PAGES_HTML["careers"]["become-a-trainer"].keywords}
+        />
         <meta
           name="description"
-          content="Shape the Future by Becoming a Novelex Trainer. Share Your Expertise and Help Others Succeed. Are you an expert in your field, passionate about sharing your knowledge and shaping future talent? Consider becoming a Novelex trainer. As a Novelex trainer, you have the opportunity to pass on your expertise to others and contribute to their success. Join us in our mission to empower individuals and organizations through education and training. Together, we can make a lasting impact on the skills and careers of others."
+          content={PAGES_HTML["careers"]["become-a-trainer"].content}
         />
-        <title> | Novelex Consulting</title>
+        <title>{PAGES_HTML["careers"]["become-a-trainer"].title}</title>
       </Head>
       <main>
         <div>Become a Trainer</div>

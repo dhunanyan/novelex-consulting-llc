@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function Interpretation() {
   return (
     <>
@@ -7,12 +9,26 @@ export default function Interpretation() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["multilingual-solutions"]["interpretation"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Real-time language support for effective communication. Seize the moment with Novelex Interpretation services. In the fast-paced world of global business, real-time communication is paramount. Our interpreters bridge language gaps, ensuring that your meetings, negotiations, and conferences run smoothly. With exceptional linguistic skills and cultural awareness, our interpreters enable you to communicate effectively, no matter the language spoken."
+          content={
+            PAGES_HTML["services"]["multilingual-solutions"]["interpretation"]
+              .description
+          }
         />
-        <title>Interpretation | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["multilingual-solutions"]["interpretation"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <div>Interpretation</div>

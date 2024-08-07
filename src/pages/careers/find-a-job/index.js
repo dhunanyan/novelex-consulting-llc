@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function FindAJob() {
   return (
     <>
@@ -7,12 +9,15 @@ export default function FindAJob() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={PAGES_HTML["careers"]["find-a-job"]["index"].keywords}
+        />
         <meta
           name="description"
-          content="Discover your next career opportunity with Novelex - this is your gateway to exciting career possibilities. Whether you're an experienced professional or a newcomer to the workforce, Novelex offers a range of roles that align with your skills, passions, and aspirations. Explore our job listings and find the perfect fit for your career journey. We believe in empowering our team members to excel and make a global impact. Join us, and be part of a dynamic community that's dedicated to bridging communication gaps and fostering innovation. Your next adventure awaits here."
+          content={PAGES_HTML["careers"]["find-a-job"]["index"].description}
         />
-        <title> | Novelex Consulting</title>
+        <title>{PAGES_HTML["careers"]["find-a-job"]["index"].title}</title>
       </Head>
       <main>
         <div>Find a Job</div>

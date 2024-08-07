@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ProfessionalDevelopmentOpportunities() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function ProfessionalDevelopmentOpportunities() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "professional-development-opportunities"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Uncover how Novelex goes beyond traditional benefits by providing professional development and training opportunities. We believe that investing in the growth and skill enhancement of our employees is integral to their overall well-being. This section highlights initiatives such as ongoing training programs, skill-building workshops, and opportunities for career advancement, ensuring that our team members stay ahead in their professional journey."
+          content={
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "professional-development-opportunities"
+            ].description
+          }
         />
         <title>
-          Professional Development Opportunities | Novelex Consulting
+          {
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "professional-development-opportunities"
+            ].title
+          }
         </title>
       </Head>
       <main>

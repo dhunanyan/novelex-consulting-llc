@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function CustomizedBenefitsPackages() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function CustomizedBenefitsPackages() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "customized-benefits-packages"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Learn about the customized benefits packages designed to support the diverse needs of our team members. This section outlines the range of benefits offered, including health insurance, retirement plans, flexible work arrangements, and more. Our goal is to create a supportive work environment where employees feel valued and cared for, allowing them to focus on their roles with peace of mind regarding their overall well-being."
+          content={
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "customized-benefits-packages"
+            ].description
+          }
         />
-        <title>Customized Benefits Packages | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "customized-benefits-packages"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>CustomizedBenefitsPackages</div>

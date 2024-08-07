@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function CreativityAndOpenness() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function CreativityAndOpenness() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["experiencing-novelex"][
+              "creativity-and-openness"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="At Novelex, you'll encounter an atmosphere of creativity and openness that sets us apart. We foster an environment where ideas flow freely, encouraging every team member to contribute their unique insights. The culture we cultivate values open communication, allowing every voice to be heard. This commitment to creativity and openness is a catalyst for innovation, ensuring that our workplace is not ordinary but a space where new ideas are embraced and thrive."
+          content={
+            PAGES_HTML["life-at-novelex"]["experiencing-novelex"][
+              "creativity-and-openness"
+            ].description
+          }
         />
-        <title>Creativity and Openness | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["life-at-novelex"]["experiencing-novelex"][
+              "creativity-and-openness"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>Creativity and Openness</div>

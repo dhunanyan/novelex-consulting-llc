@@ -3,6 +3,8 @@ import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 
+import { PAGES_HTML } from "@/data";
+
 export default function OurPurpose({ welcomeSection, iconCardsSection }) {
   if (!welcomeSection || !iconCardsSection) {
     return <div>Loading</div>;
@@ -14,12 +16,29 @@ export default function OurPurpose({ welcomeSection, iconCardsSection }) {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"][
+              "our-purpose"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Our Purpose: At the heart of Novelex lies a clear and compelling purpose—to bridge communication gaps. In an era where global collaboration is paramount, our mission is to facilitate effective communication across linguistic and technological divides. We believe that when communication flows seamlessly, opportunities flourish, and businesses thrive."
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"][
+              "our-purpose"
+            ].description
+          }
         />
-        <title>Our Purpose | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"][
+              "our-purpose"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <HeroSection

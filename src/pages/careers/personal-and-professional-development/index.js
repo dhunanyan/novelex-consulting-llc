@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function PersonalAndProfessionalDevelopment() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function PersonalAndProfessionalDevelopment() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["careers"]["personal-and-professional-development"][
+              "index"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Personal and Professional Development at Novelex: Cultivating Excellence in Every Individual. Personal and Professional Development is a comprehensive journey that recognizes the individuality of each team member. Through tailored learning, mentorship, skill-building initiatives, and career path planning, we cultivate an environment where every individual is empowered to reach their full potential, both personally and professionally."
+          content={
+            PAGES_HTML["careers"]["personal-and-professional-development"][
+              "index"
+            ].description
+          }
         />
-        <title> | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["careers"]["personal-and-professional-development"][
+              "index"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>PersonalAndProfessionalDevelopment</div>

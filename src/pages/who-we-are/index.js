@@ -5,6 +5,8 @@ import { BlankSection } from "@/components/BlankSection/BlankSection";
 import { TilesSection } from "@/components/TilesSection/TilesSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 
+import { PAGES_HTML } from "@/data";
+
 export default function WhoWeAre({
   welcomeSection,
   blankSection0,
@@ -28,12 +30,15 @@ export default function WhoWeAre({
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={PAGES_HTML["who-we-are"]["index"].keywords}
+        />
         <meta
           name="description"
-          content="Novelex Consulting is a purpose-driven company dedicated to bridging communication gaps in an interconnected world. Our core values of integrity, innovation, and collaboration guide our mission to provide comprehensive language, digital, and tech solutions. With a diverse team of linguistic experts and tech enthusiasts, we're committed to empowering clients to thrive in a globalized landscape. Sustainability is at the heart of our corporate responsibility, and strong partnerships with industry leaders underscore our dedication to client success. At Novelex, we transcend boundaries to create a future of limitless communication and growth.  Join us on this transformative journey. Explore the world of Novelex, where purpose-driven values meet cutting-edge strategy, and where language and technology converge to open doors to new possibilities. Together, we transcend boundaries and create a future of limitless communication and growth."
+          content={PAGES_HTML["who-we-are"]["index"].description}
         />
-        <title>Who We Are | Novelex Consulting</title>
+        <title>{PAGES_HTML["who-we-are"]["index"].title}</title>
       </Head>
       <main>
         <HeroSection

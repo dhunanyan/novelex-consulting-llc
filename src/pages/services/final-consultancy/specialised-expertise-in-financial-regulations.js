@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function SpecialisedExpertiseInFinancialRegulations() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function SpecialisedExpertiseInFinancialRegulations() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["final-consultancy"][
+              "specialised-expertise-in-financial-regulations"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="What sets our Financial Consultancy apart is our specialized expertise in navigating the dynamic landscape of financial regulations. Our consultants are well-versed in interpreting complex financial regulations, staying abreast of industry standards, and providing insights that reflect the ever-evolving financial landscape. This ensures that our clients receive accurate advice aligned with the latest regulatory requirements, contributing to the sound financial governance of their business."
+          content={
+            PAGES_HTML["services"]["final-consultancy"][
+              "specialised-expertise-in-financial-regulations"
+            ].description
+          }
         />
         <title>
-          Specialised Expertise in Financial Regulations | Novelex Consulting
+          {
+            PAGES_HTML["services"]["final-consultancy"][
+              "specialised-expertise-in-financial-regulations"
+            ].title
+          }
         </title>
       </Head>
       <main>

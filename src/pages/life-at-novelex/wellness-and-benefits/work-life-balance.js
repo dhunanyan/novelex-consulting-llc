@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function WorkLifeBalance() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function WorkLifeBalance() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "work-life-balance"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Delve into the work-life balance initiatives implemented at Novelex to support the overall well-being of our employees. This includes flexible work arrangements, family-friendly policies, and initiatives that promote a healthy integration of work and personal life. By fostering a positive work-life balance, we aim to enhance job satisfaction, reduce stress, and contribute to the overall happiness and fulfillment of our team members."
+          content={
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "work-life-balance"
+            ].description
+          }
         />
-        <title>Work Life Balance | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["life-at-novelex"]["wellness-and-benefits"][
+              "work-life-balance"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>WorkLifeBalance</div>

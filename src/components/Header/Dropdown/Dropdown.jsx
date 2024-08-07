@@ -19,8 +19,7 @@ import {
 import { FaTimes as CloseIcon } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
-import { DROPDOWN_SECTIONS } from "@/data/dropdown";
-import { SUB_DROPDOWN_SECTIONS } from "@/data/subDropdown";
+import { DROPDOWN_SECTIONS, SUB_DROPDOWN_SECTIONS } from "@/data";
 
 export const Dropdown = ({ closeDropDown, viewId, subViewId, onItemClick }) => {
   const { title, description, goToLink, navList, extraContent } =

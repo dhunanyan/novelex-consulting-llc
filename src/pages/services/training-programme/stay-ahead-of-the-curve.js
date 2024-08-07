@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function StayAheadOfTheCurve() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function StayAheadOfTheCurve() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["training-programme"][
+              "stay-ahead-of-the-curve"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="In today's fast-paced world, staying ahead of the curve is essential. Our training programs provide you with the tools and knowledge needed to adapt to changing trends and emerging technologies."
+          content={
+            PAGES_HTML["services"]["training-programme"][
+              "stay-ahead-of-the-curve"
+            ].description
+          }
         />
-        <title>Stay Ahead of The Curve | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["training-programme"][
+              "stay-ahead-of-the-curve"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>StayAheadOfTheCurve</div>

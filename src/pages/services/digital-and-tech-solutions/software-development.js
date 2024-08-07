@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function SoftwareDevelopment() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function SoftwareDevelopment() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "software-development"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Dive into Novelex's expertise in customized software development. This section showcases our proficiency in crafting tailored digital solutions to meet the unique needs of our clients. Our team of skilled developers works collaboratively to understand client requirements and deliver software solutions that are not only technologically advanced but also aligned with the specific goals and challenges of the business. From user-friendly interfaces to robust backend systems, our customized software development ensures a seamless digital experience."
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "software-development"
+            ].description
+          }
         />
-        <title>Software Development | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "software-development"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>SoftwareDevelopment</div>

@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function EnvironmentalSustainabilityProjects() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function EnvironmentalSustainabilityProjects() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["community-engagement"][
+              "environmental-sustainability-projects"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Explore Novelex's role in environmental sustainability projects as part of our community engagement strategy. This includes initiatives to promote environmental awareness, conservation, and sustainable practices. Learn about our efforts to contribute to a healthier planet by participating in tree-planting campaigns, waste reduction projects, and other environmentally conscious activities. This section demonstrates our commitment to creating a positive impact not only in social spheres but also in environmental sustainability."
+          content={
+            PAGES_HTML["life-at-novelex"]["community-engagement"][
+              "environmental-sustainability-projects"
+            ].description
+          }
         />
         <title>
-          Environmental Sustainability Projects | Novelex Consulting
+          {
+            PAGES_HTML["life-at-novelex"]["community-engagement"][
+              "environmental-sustainability-projects"
+            ].title
+          }
         </title>
       </Head>
       <main>

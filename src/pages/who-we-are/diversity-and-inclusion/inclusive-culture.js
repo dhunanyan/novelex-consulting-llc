@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function InclusiveCulture() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function InclusiveCulture() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"][
+              "inclusive-culture"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Inclusion is more than a buzzword for us; it's a daily practice. We actively foster an inclusive culture where every team member feels valued, heard, and empowered to contribute their best. We understand that true inclusivity goes beyond numbers—it's about creating a sense of belonging."
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"][
+              "inclusive-culture"
+            ].description
+          }
         />
-        <title>Inclusive Culture | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"][
+              "inclusive-culture"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>Inclusive Culture</div>

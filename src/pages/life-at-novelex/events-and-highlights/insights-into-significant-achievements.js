@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function InsightsIntoSignificantAchievements() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function InsightsIntoSignificantAchievements() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["events-and-highlights"][
+              "insights-into-significant-achievements"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="This section provides a curated insight into our significant achievements, offering a closer look at the moments that define our success story. Whether it's the launch of a groundbreaking project, industry recognition, or notable contributions to the community, we invite you to celebrate these achievements with us. By delving into the details, you'll gain a comprehensive understanding of the impact Novelex is making across various domains."
+          content={
+            PAGES_HTML["life-at-novelex"]["events-and-highlights"][
+              "insights-into-significant-achievements"
+            ].description
+          }
         />
         <title>
-          Insights into Significant Achievements | Novelex Consulting
+          {
+            PAGES_HTML["life-at-novelex"]["events-and-highlights"][
+              "insights-into-significant-achievements"
+            ].title
+          }
         </title>
       </Head>
       <main>

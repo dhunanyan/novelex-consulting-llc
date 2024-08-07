@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ContributeToProfessionalDevelopmentPrograms() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function ContributeToProfessionalDevelopmentPrograms() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["careers"]["become-a-trainer"][
+              "contribute-to-professional-development-programs"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Joining Novelex as a trainer means contributing to professional development programs. This section emphasizes the role of trainers in shaping the skills and competencies of fellow team members. Explore the opportunity to design and deliver training programs that foster continuous learning, skill enhancement, and career growth. Contribute to the development of a dynamic and skilled workforce within the Novelex community."
+          content={
+            PAGES_HTML["careers"]["become-a-trainer"][
+              "contribute-to-professional-development-programs"
+            ].description
+          }
         />
         <title>
-          Contribute To Professional Development Programs | Novelex Consulting
+          {
+            PAGES_HTML["careers"]["become-a-trainer"][
+              "contribute-to-professional-development-programs"
+            ].title
+          }
         </title>
       </Head>
       <main>

@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function WideRangingExpertise() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function WideRangingExpertise() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["training-programme"][
+              "wide-ranging-expertise"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Our training programs encompass a diverse range of topics tailored to meet the diverse needs of modern professionals. Whether you're looking to enhance your project management capabilities, hone your soft skills, or acquire new expertise, we have you covered."
+          content={
+            PAGES_HTML["services"]["training-programme"][
+              "wide-ranging-expertise"
+            ].description
+          }
         />
-        <title>Wide Ranging Expertise | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["training-programme"][
+              "wide-ranging-expertise"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>WideRangingExpertise</div>

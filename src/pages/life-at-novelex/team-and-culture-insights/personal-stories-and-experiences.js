@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function PersonalStoriesAndExperiences() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function PersonalStoriesAndExperiences() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "personal-stories-and-experiences"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Gain a unique perspective by exploring the personal stories and experiences of our team members. Here you will find a treasure trove of narratives that offer a firsthand look at the driving force behind Novelex's success—our exceptional people. Through these stories, you'll witness the diverse backgrounds, skills, and journeys that contribute to the richness of our culture. It's an opportunity to connect with the human side of our organization and understand the individual experiences that collectively shape Novelex."
+          content={
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "personal-stories-and-experiences"
+            ].description
+          }
         />
-        <title>Personal Stories and Experiences | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "personal-stories-and-experiences"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>PersonalStoriesAndExperiences</div>

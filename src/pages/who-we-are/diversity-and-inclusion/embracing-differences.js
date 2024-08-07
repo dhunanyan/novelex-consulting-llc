@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function EmbracingDifferences() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function EmbracingDifferences() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"][
+              "embracing-differences"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="We believe that diversity is a wellspring of creativity and innovation. By embracing differences in ethnicity, gender, age, abilities, and experiences, we create an environment where fresh ideas flourish, and varied viewpoints enrich our solutions."
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"][
+              "embracing-differences"
+            ].description
+          }
         />
-        <title>Embracing Differences | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"][
+              "embracing-differences"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>Embracing Differences</div>

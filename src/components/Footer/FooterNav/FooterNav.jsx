@@ -9,8 +9,7 @@ import {
   FooterNavSocialItem,
   FooterNavSocialLink,
 } from "./FooterNav.styles";
-import { NAVIGATION_ITEMS } from "@/data/navigation";
-import { SOCIALS } from "@/data/socials";
+import { NAVIGATION_ITEMS, SOCIAL_MEDIAS } from "@/data";
 import { getIcon } from "./getIcon";
 
 export const FooterNav = () => {
@@ -25,7 +24,7 @@ export const FooterNav = () => {
           ))}
         </FooterNavList>
         <FooterNavSocialList>
-          {SOCIALS.map((social) => (
+          {SOCIAL_MEDIAS.map((social) => (
             <FooterNavSocialItem key={social.id}>
               <FooterNavSocialLink href={social.url} target="_blank">
                 <span>{getIcon(social.id)}</span>

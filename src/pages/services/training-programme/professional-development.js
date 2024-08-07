@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ProfessionalDevelopment() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function ProfessionalDevelopment() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["training-programme"][
+              "professional-development"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Invest in your career growth with Novelex's professional development programs. Whether you're a seasoned professional or just starting your career, we offer courses that will help you stay competitive in your industry."
+          content={
+            PAGES_HTML["services"]["training-programme"][
+              "professional-development"
+            ].description
+          }
         />
-        <title>Professional Development | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["training-programme"][
+              "professional-development"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>ProfessionalDevelopment</div>

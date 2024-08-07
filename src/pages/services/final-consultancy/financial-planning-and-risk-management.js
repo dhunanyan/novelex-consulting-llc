@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function FinancialPlanningAndRiskManagement() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function FinancialPlanningAndRiskManagement() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["final-consultancy"][
+              "financial-planning-and-risk-management"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Beyond routine financial management, Novelex's Financial Consultancy emphasizes proactive financial planning and risk management. Our experts work closely with clients to develop strategies for optimal resource allocation, identify opportunities for growth, and address specific financial concerns. This proactive approach ensures that businesses are well-prepared to navigate uncertainties, optimize financial processes, and foster long-term financial sustainability."
+          content={
+            PAGES_HTML["services"]["final-consultancy"][
+              "financial-planning-and-risk-management"
+            ].description
+          }
         />
         <title>
-          Financial Planning and Risk Management | Novelex Consulting
+          {
+            PAGES_HTML["services"]["final-consultancy"][
+              "financial-planning-and-risk-management"
+            ].title
+          }
         </title>
       </Head>
       <main>

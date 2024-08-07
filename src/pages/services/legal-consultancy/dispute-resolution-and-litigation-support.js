@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function DisputeResolutionAndLitigationSupport() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function DisputeResolutionAndLitigationSupport() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["legal-consultancy"][
+              "dispute-resolution-and-litigation-support"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Learn about Novelex's capabilities in dispute resolution and litigation support. This section outlines how our legal consultancy extends to managing legal conflicts effectively. From alternative dispute resolution mechanisms to providing support in litigation processes, our legal experts work to protect the interests of our clients. We aim to find practical and efficient solutions, mitigating legal risks and ensuring that our clients are well-prepared in legal disputes."
+          content={
+            PAGES_HTML["services"]["legal-consultancy"][
+              "dispute-resolution-and-litigation-support"
+            ].description
+          }
         />
         <title>
-          Dispute Resolution and Litigation Support | Novelex Consulting
+          {
+            PAGES_HTML["services"]["legal-consultancy"][
+              "dispute-resolution-and-litigation-support"
+            ].title
+          }
         </title>
       </Head>
       <main>

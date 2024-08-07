@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function CollectiveExcellence() {
   return (
     <>
@@ -7,12 +9,26 @@ export default function CollectiveExcellence() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["our-people"]["collective-excellence"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Our people are the heartbeat of Novelex Consulting, driving collective excellence through their diverse talents and unwavering dedication. We foster an environment that encourages collaboration, ensuring that each team member contributes their unique skills to the collective success of the organisation. This commitment to teamwork results in innovative solutions and high-quality service delivery."
+          content={
+            PAGES_HTML["who-we-are"]["our-people"]["collective-excellence"]
+              .description
+          }
         />
-        <title>Collective Excellence | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["our-people"]["collective-excellence"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <div>Collective Excellence</div>

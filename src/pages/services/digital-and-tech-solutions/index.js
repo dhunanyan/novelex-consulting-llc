@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function DigitalAndTechSolutions() {
   return (
     <>
@@ -7,12 +9,23 @@ export default function DigitalAndTechSolutions() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"]["index"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Navigate the digital landscape with confidence. Our tech solutions empower you to stay ahead in the fast-paced world of technology. The digital age demands agility and innovation. Novelex's Digital and Tech Solutions equip you with the tools and knowledge needed to navigate the ever-evolving tech landscape. From digital transformation strategies to cybersecurity solutions, we empower your business to not only stay ahead but lead the way in a world driven by technology. Our experts guide you through the intricacies of the digital realm, ensuring you harness its full potential for growth and success."
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"]["index"]
+              .description
+          }
         />
-        <title>Digital and Tech Solutions | Novelex Consulting</title>
+        <title>
+          {PAGES_HTML["services"]["digital-and-tech-solutions"]["index"].title}
+        </title>
       </Head>
       <main>
         <div>Digital and Tech Solutions</div>

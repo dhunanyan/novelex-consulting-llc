@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function PerformanceAnalysisAndInformedDecisionMaking() {
   return (
     <>
@@ -7,13 +9,28 @@ export default function PerformanceAnalysisAndInformedDecisionMaking() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["final-consultancy"][
+              "performance-analysis-and-informed-decision-making"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Our Financial Consultancy is dedicated to empowering clients with the insights needed for informed decision-making. This includes thorough performance analysis, development of financial models, and identification of key metrics for success. By staying ahead of financial trends and leveraging our expertise, we empower our clients with the financial insights required to drive their business forward confidently and strategically."
+          content={
+            PAGES_HTML["services"]["final-consultancy"][
+              "performance-analysis-and-informed-decision-making"
+            ].description
+          }
         />
         <title>
-          Performance analysis and informed decision making | Novelex Consulting
+          {
+            PAGES_HTML["services"]["final-consultancy"][
+              "performance-analysis-and-informed-decision-making"
+            ].title
+          }
         </title>
       </Head>
       <main>

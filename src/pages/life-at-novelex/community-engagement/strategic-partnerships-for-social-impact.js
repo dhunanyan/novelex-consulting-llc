@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function StrategicPartnershipsForSocialImpact() {
   return (
     <>
@@ -7,14 +9,28 @@ export default function StrategicPartnershipsForSocialImpact() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["community-engagement"][
+              "strategic-partnerships-for-social-impact"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Novelex's commitment to community engagement extends through strategic partnerships for social impact. In this section, explore how we collaborate with non-profit organizations, community groups, and local initiatives to address societal challenges. These partnerships go beyond financial contributions; they involve active participation and the application of our expertise to make a tangible and positive difference in the communities where we operate.
-"
+          content={
+            PAGES_HTML["life-at-novelex"]["community-engagement"][
+              "strategic-partnerships-for-social-impact"
+            ].description
+          }
         />
         <title>
-          Strategic Partnerships For Social Impact | Novelex Consulting
+          {
+            PAGES_HTML["life-at-novelex"]["community-engagement"][
+              "strategic-partnerships-for-social-impact"
+            ].title
+          }
         </title>
       </Head>
       <main>

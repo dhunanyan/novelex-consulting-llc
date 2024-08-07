@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function GlobalReachLocalImpact() {
   return (
     <>
@@ -7,12 +9,26 @@ export default function GlobalReachLocalImpact() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["careers"]["where-we-hire"]["global-reach-local-impact"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Novelex ensures a seamless journey for those pursuing global careers, offering opportunities that await your expertise. This section provides insights into our global presence and the localized impact you can make. Whether you're interested in regional hubs or global projects, our process ensures a smooth entry, connecting you to the diverse opportunities that contribute to our global success story."
+          content={
+            PAGES_HTML["careers"]["where-we-hire"]["global-reach-local-impact"]
+              .description
+          }
         />
-        <title> | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["careers"]["where-we-hire"]["global-reach-local-impact"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <div>GlobalReachLocalImpact</div>

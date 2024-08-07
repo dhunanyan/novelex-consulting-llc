@@ -3,6 +3,8 @@ import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 
+import { PAGES_HTML } from "@/data";
+
 export default function PurposeValueAndStrategy({
   welcomeSection,
   iconCardsSection0,
@@ -24,12 +26,26 @@ export default function PurposeValueAndStrategy({
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"]["index"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="At Novelex Consulting, we are driven by a clear purpose - to bridge the communication gaps across languages and technology. Our values of integrity, innovation, and collaboration underpin everything we do. Our strategic vision is to provide comprehensive language, digital, and tech solutions that empower our clients to succeed in a globalised world."
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"]["index"]
+              .description
+          }
         />
-        <title>Purpose, Value and Strategy | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"]["index"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <HeroSection

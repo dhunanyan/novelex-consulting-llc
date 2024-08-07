@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function RegionalCareerHubs() {
   return (
     <>
@@ -7,12 +9,23 @@ export default function RegionalCareerHubs() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["careers"]["where-we-hire"]["regional-career-hubs"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Navigate your career within Novelex's regional hubs, each presenting a unique landscape for growth. This section offers insights into the distinctive opportunities and challenges within each hub. Delve into how your skills can make a meaningful impact in these specific regions, shaping your career in alignment with regional dynamics and global aspirations."
+          content={
+            PAGES_HTML["careers"]["where-we-hire"]["regional-career-hubs"]
+              .description
+          }
         />
-        <title> | Novelex Consulting</title>
+        <title>
+          {PAGES_HTML["careers"]["where-we-hire"]["regional-career-hubs"].title}
+        </title>
       </Head>
       <main>
         <div>RegionalCareerHubs</div>

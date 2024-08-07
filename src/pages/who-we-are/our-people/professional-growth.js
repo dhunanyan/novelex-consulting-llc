@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ProfessionalGrowth() {
   return (
     <>
@@ -7,12 +9,23 @@ export default function ProfessionalGrowth() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["our-people"]["professional-growth"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Our commitment to our people extends to their professional growth and development. We provide a platform for continuous learning, offering opportunities for skill enhancement and career advancement. From mentorship programs to personalised development plans, we invest in our team members, ensuring they stay at the forefront of industry trends and are equipped for long-term success."
+          content={
+            PAGES_HTML["who-we-are"]["our-people"]["professional-growth"]
+              .description
+          }
         />
-        <title>Professional Growth | Novelex Consulting</title>
+        <title>
+          {PAGES_HTML["who-we-are"]["our-people"]["professional-growth"].title}
+        </title>
       </Head>
       <main>
         <div>Professional Growth</div>

@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function MobileInterpretation() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function MobileInterpretation() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["multilingual-solutions"][
+              "mobile-interpretation"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Seamless interpretation services at your fingertips. In today's mobile world, access to interpretation services should be as simple as tapping a screen. Novelex's Mobile Interpretation brings real-time language support to your smartphone or tablet. Our user-friendly app connects you with professional interpreters instantly, allowing you to engage in multilingual conversations, no matter where you are. Seamlessly break language barriers and communicate with confidence, all from the palm of your hand."
+          content={
+            PAGES_HTML["services"]["multilingual-solutions"][
+              "mobile-interpretation"
+            ].description
+          }
         />
-        <title>Mobile Interpretation | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["multilingual-solutions"][
+              "mobile-interpretation"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>MobileInterpretation</div>

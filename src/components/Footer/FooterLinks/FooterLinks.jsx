@@ -5,7 +5,7 @@ import {
   FooterLinksList,
   FooterLinksWrapper,
 } from "./FooterLinks.styles";
-import { FOOTER_LINKS } from "@/data/footerLinks";
+import { FOOTER_LINKS } from "@/data";
 
 export const FooterLinks = () => (
   <FooterLinksWrapper>

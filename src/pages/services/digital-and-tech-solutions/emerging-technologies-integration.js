@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function EmergingTechnologiesIntegration() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function EmergingTechnologiesIntegration() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "emerging-technologies-integration"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Uncover Novelex's proficiency in integrating emerging technologies. This section emphasizes our capability to stay at the forefront of technological advancements, including artificial intelligence, machine learning, blockchain, and more. Our team actively explores and incorporates innovative technologies to enhance the digital capabilities of our clients. Whether it's automating processes, improving efficiency, or exploring new frontiers, we integrate emerging technologies strategically to drive digital transformation and stay ahead in the digital landscape."
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "emerging-technologies-integration"
+            ].description
+          }
         />
-        <title>Emerging Technologies Integration | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "emerging-technologies-integration"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>EmergingTechnologiesIntegration</div>

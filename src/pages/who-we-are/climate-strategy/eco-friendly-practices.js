@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function EcoFriendlyPractices() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function EcoFriendlyPractices() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["climate-strategy"][
+              "eco-friendly-practices"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Novelex Consulting is committed to minimizing its environmental footprint through the implementation of eco-friendly office practices. This includes energy-efficient lighting, recycling programs, and reduction of single-use plastics. By adopting sustainable office practices, we aim to create a workspace that aligns with our values of environmental responsibility."
+          content={
+            PAGES_HTML["who-we-are"]["climate-strategy"][
+              "eco-friendly-practices"
+            ].description
+          }
         />
-        <title>Eco-Friendly Practices | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["climate-strategy"][
+              "eco-friendly-practices"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>Eco-Friendly Practices</div>

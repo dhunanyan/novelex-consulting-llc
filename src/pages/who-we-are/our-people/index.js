@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function OurPeople() {
   return (
     <>
@@ -7,12 +9,15 @@ export default function OurPeople() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={PAGES_HTML["who-we-are"]["our-people"]["index"].keywords}
+        />
         <meta
           name="description"
-          content=" Novelex is more than a company; it's a family of dedicated professionals, each with their own unique expertise and passion. Our team comprises linguistic experts who master the nuances of language, tech enthusiasts who drive innovation, dedicated trainers who empower growth, and professionals who ensure excellence in every service we provide. Together, we create a synergy that powers our success."
+          content={PAGES_HTML["who-we-are"]["our-people"]["index"].description}
         />
-        <title>Our People | Novelex Consulting</title>
+        <title>{PAGES_HTML["who-we-are"]["our-people"]["index"].title}</title>
       </Head>
       <main>
         <div>Our People</div>

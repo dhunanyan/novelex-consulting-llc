@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function DiversityAndInclusion() {
   return (
     <>
@@ -7,12 +9,23 @@ export default function DiversityAndInclusion() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"]["index"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="We take pride in our commitment to diversity and inclusion. At Novelex we celebrate the unique tapestry of talents, backgrounds, and perspectives that our team members bring to the table. Our commitment to diversity and inclusion is not just a statement; it is a core value that fuels our success. Join us in our journey of embracing diversity and inclusion, because we know that it's not only the right thing to do but also the key to unlocking our full potential. Together, we build a stronger, more innovative, and inclusive Novelex family."
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"]["index"]
+              .description
+          }
         />
-        <title>Diversity and Inclusion | Novelex Consulting</title>
+        <title>
+          {PAGES_HTML["who-we-are"]["diversity-and-inclusion"]["index"].title}
+        </title>
       </Head>
       <main>
         <div>Diversity and Inclusion</div>

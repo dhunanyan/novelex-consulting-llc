@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ComprehensiveLegalAdvisory() {
   return (
     <>
@@ -7,13 +9,29 @@ export default function ComprehensiveLegalAdvisory() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["legal-consultancy"][
+              "comprehensive-legal-advisory"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Explore the comprehensive legal advisory services offered by Novelex. This section details how our legal consultancy goes beyond conventional support, providing a broad spectrum of services to address diverse legal needs. Whether it's contract review, regulatory compliance, intellectual property matters, or legal risk assessments, our team of experienced legal consultants offers strategic guidance to navigate complex legal landscapes.
-"
+          content={
+            PAGES_HTML["services"]["legal-consultancy"][
+              "comprehensive-legal-advisory"
+            ].description
+          }
         />
-        <title>Comprehensive Legal Advisory | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["legal-consultancy"][
+              "comprehensive-legal-advisory"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>ComprehensiveLegalAdvisory</div>

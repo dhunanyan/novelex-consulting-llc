@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function DocumentTranslation() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function DocumentTranslation() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["multilingual-solutions"][
+              "document-translation"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Our precise and culturally aware translation services ensure that your content speaks to your target audience, no matter where they are in the world. In a global marketplace, your message must transcend borders and cultures. Novelex's Document Translation services ensure that your content is not merely translated but also culturally adapted for maximum impact. Our meticulous translators carefully preserve the nuances and tone of your original document, delivering precise translations that resonate with your target audience, regardless of their geographic location."
+          content={
+            PAGES_HTML["services"]["multilingual-solutions"][
+              "document-translation"
+            ].description
+          }
         />
-        <title>Document Translation | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["multilingual-solutions"][
+              "document-translation"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>Document Translation</div>

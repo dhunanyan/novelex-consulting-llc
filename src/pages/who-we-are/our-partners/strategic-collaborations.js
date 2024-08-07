@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function StrategicCollaborations() {
   return (
     <>
@@ -7,12 +9,26 @@ export default function StrategicCollaborations() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["our-partners"]["strategic-collaborations"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Novelex Consulting values strategic collaborations with partners who share our commitment to excellence and integrity. These partnerships are carefully chosen to align with our business objectives and enhance the value we deliver to our clients. Through strategic collaborations, we leverage the collective expertise of our partners to achieve mutual success and amplify our impact in the industry."
+          content={
+            PAGES_HTML["who-we-are"]["our-partners"]["strategic-collaborations"]
+              .description
+          }
         />
-        <title>Strategic Collaborations | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["our-partners"]["strategic-collaborations"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <div>Strategic Collaborations</div>

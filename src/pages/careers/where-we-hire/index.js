@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function WhereWeHire() {
   return (
     <>
@@ -7,12 +9,15 @@ export default function WhereWeHire() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={PAGES_HTML["careers"]["where-we-hire"]["index"].keywords}
+        />
         <meta
           name="description"
-          content="Novelex has a Global Reach. Learn About the Locations Where You Can Join Our Team and Contribute to Our Mission. With a global presence, Novelex operates in various locations around the world. Discover where you can join our team and become part of our mission to bridge communication gaps on a global scale. From vibrant urban centers to emerging markets, Novelex provides diverse opportunities to work with clients and colleagues across borders. Explore the locations where you can contribute your talents and make a difference."
+          content={PAGES_HTML["careers"]["where-we-hire"]["index"].description}
         />
-        <title> | Novelex Consulting</title>
+        <title>{PAGES_HTML["careers"]["where-we-hire"]["index"].title}</title>
       </Head>
       <main>
         <div>Where We Hire</div>

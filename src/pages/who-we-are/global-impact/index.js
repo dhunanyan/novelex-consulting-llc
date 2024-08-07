@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function GlobalImpact() {
   return (
     <>
@@ -7,12 +9,19 @@ export default function GlobalImpact() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={PAGES_HTML["who-we-are"]["global-impact"]["index"].keywords}
+        />
         <meta
           name="description"
-          content="At Novelex Consulting, we recognise the profound influence our actions can have on a global scale. It embodies our commitment to making a positive difference beyond the boundaries of our immediate operations. We leverage our diverse team and resources to contribute to social, economic, and environmental well-being on a global scale. In essence, the Global Impact section reflects our belief that businesses have a responsibility to contribute positively to the world. By embracing diversity, practicing social and environmental responsibility, and engaging in global collaborations, Novelex Consulting strives to be a force for positive change on a global scale."
+          content={
+            PAGES_HTML["who-we-are"]["global-impact"]["index"].description
+          }
         />
-        <title>Global Impact | Novelex Consulting</title>
+        <title>
+          {PAGES_HTML["who-we-are"]["global-impact"]["index"].title}
+        </title>
       </Head>
       <main>
         <div>Global Impact</div>

@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function ContributionsToSustainability() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function ContributionsToSustainability() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["climate-strategy"][
+              "carbon-footprint-reduction"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Understanding the importance of addressing climate change, we implement strategies to reduce our carbon footprint. This includes the use of renewable energy sources, energy-efficient technologies, and regular assessments to identify areas for improvement. By adopting carbon footprint reduction strategies, we strive to be a leader in sustainable business practices and contribute to a low-carbon future."
+          content={
+            PAGES_HTML["who-we-are"]["climate-strategy"][
+              "carbon-footprint-reduction"
+            ].description
+          }
         />
-        <title>Carbon Footprint Reduction | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["climate-strategy"][
+              "carbon-footprint-reduction"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>Carbon Footprint Reduction</div>

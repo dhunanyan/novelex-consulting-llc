@@ -17,8 +17,7 @@ import { Dropdown } from "./Dropdown/Dropdown";
 
 import { PiDevToLogoFill as TempLogo } from "react-icons/pi";
 
-import { NAVIGATION_ITEMS } from "@/data/navigation";
-import { DROPDOWN_SECTIONS } from "@/data/dropdown";
+import { NAVIGATION_ITEMS, DROPDOWN_SECTIONS } from "@/data";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

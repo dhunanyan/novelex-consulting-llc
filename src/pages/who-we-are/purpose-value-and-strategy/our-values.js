@@ -3,6 +3,8 @@ import { getCurrentContentfulType } from "@/api/getCurrentContentfulType";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { IconCardsSection } from "@/components/IconCardsSection/IconCardsSection";
 
+import { PAGES_HTML } from "@/data";
+
 export default function OurStrategy({ welcomeSection, iconCardsSection }) {
   if (!welcomeSection || !iconCardsSection) {
     return <div>Loading</div>;
@@ -14,12 +16,26 @@ export default function OurStrategy({ welcomeSection, iconCardsSection }) {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"]["our-values"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="Our Values: Integrity, Innovation, Collaboration—these aren't just words on a wall; they are the very essence of Novelex. We hold ourselves to the highest ethical standards, constantly seek fresh ideas and innovative solutions, and foster an environment where collaboration is not just encouraged but cherished."
+          content={
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"]["our-values"]
+              .description
+          }
         />
-        <title>Our Values | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["purpose-value-and-strategy"]["our-values"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <HeroSection

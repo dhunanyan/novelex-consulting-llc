@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function Empowerment() {
   return (
     <>
@@ -7,12 +9,26 @@ export default function Empowerment() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"]["empowerment"]
+              .keywords
+          }
+        />
         <meta
           name="description"
-          content="We actively seek out and amplify voices that may have been historically underrepresented. We believe that diversity is not just about numbers; it's about empowering all voices to contribute to our collective success."
+          content={
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"]["empowerment"]
+              .description
+          }
         />
-        <title>Empowerment | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["who-we-are"]["diversity-and-inclusion"]["empowerment"]
+              .title
+          }
+        </title>
       </Head>
       <main>
         <div>Empowerment</div>

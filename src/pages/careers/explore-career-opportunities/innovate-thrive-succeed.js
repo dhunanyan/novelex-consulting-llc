@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function InnovateThriveSucceed() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function InnovateThriveSucceed() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["careers"]["explore-career-opportunities"][
+              "innovate-thrive-succeed"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Ignite your career in a dynamic and innovative environment at Novelex. This section emphasizes our commitment to providing opportunities that challenge and inspire. Explore roles that blend innovation and dynamism, pushing you to excel and contribute to cutting-edge projects. Your journey at Novelex isn't just a job—it's a dynamic career that embraces innovation and encourages continuous growth."
+          content={
+            PAGES_HTML["careers"]["explore-career-opportunities"][
+              "innovate-thrive-succeed"
+            ].description
+          }
         />
-        <title> | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["careers"]["explore-career-opportunities"][
+              "innovate-thrive-succeed"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>InnovateThriveSucceed</div>

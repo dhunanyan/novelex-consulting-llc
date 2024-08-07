@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function CollaborativeSpiritInAction() {
   return (
     <>
@@ -7,13 +9,29 @@ export default function CollaborativeSpiritInAction() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "collaborative-spirit-in-action"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Uncover the collaborative spirit that defines Novelex's unique culture. It goes beyond words to showcase the collaborative spirit in action. Through anecdotes, projects, and collaborative initiatives, you'll see how our culture fosters an environment where ideas flourish and teamwork thrives. This collaborative ethos is a key component of what sets Novelex apart, contributing to our collective success and the positive impact we make.
-"
+          content={
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "collaborative-spirit-in-action"
+            ].description
+          }
         />
-        <title>Collaborative Spirit in Action | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["life-at-novelex"]["team-and-culture-insights"][
+              "collaborative-spirit-in-action"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>CollaborativeSpiritInAction</div>

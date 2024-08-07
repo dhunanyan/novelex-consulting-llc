@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { PAGES_HTML } from "@/data";
+
 export default function CybersecuritySolutions() {
   return (
     <>
@@ -7,12 +9,29 @@ export default function CybersecuritySolutions() {
         <meta charSet="utf-8" />
         <link rel="icon" href="/logo/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
-        <meta name="keywords" content="" />
+        <meta
+          name="keywords"
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "cybersecurity-solutions"
+            ].keywords
+          }
+        />
         <meta
           name="description"
-          content="Learn about Novelex's commitment to cybersecurity solutions. This section outlines how we address the evolving challenges of digital security. Our cybersecurity experts employ cutting-edge technologies and best practices to safeguard digital assets, sensitive information, and critical systems. From threat detection and prevention to risk management, our solutions are tailored to fortify the digital infrastructure of our clients, ensuring a secure and resilient digital presence."
+          content={
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "cybersecurity-solutions"
+            ].description
+          }
         />
-        <title>Cybersecurity Solutions | Novelex Consulting</title>
+        <title>
+          {
+            PAGES_HTML["services"]["digital-and-tech-solutions"][
+              "cybersecurity-solutions"
+            ].title
+          }
+        </title>
       </Head>
       <main>
         <div>CybersecuritySolutions</div>
