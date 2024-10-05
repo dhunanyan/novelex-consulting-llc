@@ -1,6 +1,11 @@
 import Head from "next/head";
 
-import { HtmlData } from "@data";
+import { HeroSection } from "@components/HeroSection/HeroSection";
+import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import { HtmlData, Content } from "@data";
+
+const { heroSection, iconCardsSection } =
+  Content["who-we-are"]["global-impact"]["leveraging-diversity"];
 
 export default function LeveragingDiversity() {
   return (
@@ -31,7 +36,12 @@ export default function LeveragingDiversity() {
         </title>
       </Head>
       <main>
-        <div>Leveraging Diversity</div>
+        <HeroSection {...heroSection} />
+        <IconCardsSection
+          {...iconCardsSection}
+          inverseColors={true}
+          forceHideButton={true}
+        />
       </main>
     </>
   );

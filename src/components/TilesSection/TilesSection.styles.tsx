@@ -68,8 +68,9 @@ export const TilesSelectionImage = styled.div`
   right: 0;
   transform: translate(0, -50%);
   z-index: 0;
-  max-width: 600px;
   box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
   -webkit-box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
+  width: 700px;
+  height: 700px;
 `;

@@ -1,6 +1,24 @@
 import Head from "next/head";
+import { HeroSection } from "@components/HeroSection/HeroSection";
+import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
 
-import { HtmlData } from "@data";
+import { HtmlData, Content } from "@data";
+
+const {
+  index: { heroSection },
+  "environmental-responsibility": {
+    iconCardsSection: iconCardsSectionEnvironmentalResponsibility,
+  },
+  "global-collaborations": {
+    iconCardsSection: iconCardsSectionGlobalCollaborations,
+  },
+  "leveraging-diversity": {
+    iconCardsSection: iconCardsSectionLeveragingDiversity,
+  },
+  "social-responsibility": {
+    iconCardsSection: iconCardsSectionSocialResponsibility,
+  },
+} = Content["who-we-are"]["global-impact"];
 
 export default function GlobalImpact() {
   return (
@@ -20,7 +38,17 @@ export default function GlobalImpact() {
         <title>{HtmlData["who-we-are"]["global-impact"]["index"].title}</title>
       </Head>
       <main>
-        <div>Global Impact</div>
+        <HeroSection {...heroSection} />
+        <IconCardsSection
+          {...iconCardsSectionEnvironmentalResponsibility}
+          inverseColors={true}
+        />
+        <IconCardsSection {...iconCardsSectionGlobalCollaborations} order={2} />
+        <IconCardsSection
+          {...iconCardsSectionLeveragingDiversity}
+          inverseColors={true}
+        />
+        <IconCardsSection {...iconCardsSectionSocialResponsibility} order={2} />
       </main>
     </>
   );

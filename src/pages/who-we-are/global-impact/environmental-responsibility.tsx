@@ -1,6 +1,11 @@
 import Head from "next/head";
 
-import { HtmlData } from "@data";
+import { HeroSection } from "@components/HeroSection/HeroSection";
+import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import { HtmlData, Content } from "@data";
+
+const { heroSection, iconCardsSection } =
+  Content["who-we-are"]["global-impact"]["environmental-responsibility"];
 
 export default function EnvironmentalResponsibility() {
   return (
@@ -34,7 +39,12 @@ export default function EnvironmentalResponsibility() {
         </title>
       </Head>
       <main>
-        <div>Environmental Responsibility</div>
+        <HeroSection {...heroSection} />
+        <IconCardsSection
+          {...iconCardsSection}
+          inverseColors={true}
+          forceHideButton={true}
+        />
       </main>
     </>
   );

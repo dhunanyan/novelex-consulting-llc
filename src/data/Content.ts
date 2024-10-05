@@ -719,5 +719,190 @@ export const Content = {
         },
       },
     },
+    "global-impact": {
+      index: {
+        heroSection: {
+          title: "Global Impact",
+          subtitle: "Beyond Boundaries, Forging Global Footprints",
+          imageURL: "/images/hero/global-impact.jpg",
+        },
+      },
+      "environmental-responsibility": {
+        heroSection: {
+          title: "Environmental Responsibility",
+          subtitle: "Our Commitment to a Sustainable Future",
+          imageURL: "/images/hero/global-impact.jpg",
+        },
+        iconCardsSection: {
+          title: "Sustainable Practices for a Greener Tomorrow",
+          subtitle: "Innovative Approaches to Environmental Challenges",
+          description:
+            "We believe in fostering sustainable practices that benefit both the planet and society. Through responsible resource management and innovative solutions, we strive to make a positive impact.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Renewable Energy Initiatives",
+              description:
+                "Investing in solar, wind, and other renewable energy sources to reduce our carbon footprint.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Waste Reduction Strategies",
+              description:
+                "Implementing waste management programs to minimize landfill contributions and promote recycling.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Sustainable Sourcing",
+              description:
+                "Working with suppliers who prioritize sustainability and ethical practices in their operations.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Conservation Efforts",
+              description:
+                "Supporting initiatives aimed at protecting wildlife and preserving natural habitats.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+      "global-collaborations": {
+        heroSection: {
+          title: "Global Collaborations",
+          subtitle: "Working Together Across Borders",
+          imageURL: "/images/hero/global-impact.jpg",
+        },
+        iconCardsSection: {
+          title: "Connecting Communities Worldwide",
+          subtitle: "Empowering Change Through Partnerships",
+          description:
+            "Our global collaborations focus on uniting diverse talents and resources to tackle pressing challenges. Together, we aim to create innovative solutions that have a lasting impact.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "International Partnerships",
+              description:
+                "Building relationships with organizations around the world to share knowledge and expertise.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Cross-Cultural Initiatives",
+              description:
+                "Promoting cultural exchange programs that enhance understanding and cooperation among nations.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Global Health Initiatives",
+              description:
+                "Collaborating with international agencies to improve health outcomes in underserved communities.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Disaster Relief Efforts",
+              description:
+                "Partnering with global organizations to provide timely support in times of crisis.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+      "leveraging-diversity": {
+        heroSection: {
+          title: "Leveraging Diversity",
+          subtitle: "Strength in Our Differences",
+          imageURL: "/images/hero/global-impact.jpg",
+        },
+        iconCardsSection: {
+          title: "Harnessing Diverse Perspectives",
+          subtitle: "Inclusion as a Catalyst for Innovation",
+          description:
+            "We recognize that diversity fuels creativity and innovation. By embracing varied perspectives, we cultivate an inclusive environment where everyone can thrive.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Diversity Training Programs",
+              description:
+                "Offering training to promote awareness and understanding of diverse backgrounds and experiences.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Inclusive Hiring Practices",
+              description:
+                "Implementing strategies to ensure equitable hiring and retention of diverse talent.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Cultural Celebrations",
+              description:
+                "Hosting events that celebrate cultural diversity within our organization.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Mentorship Programs",
+              description:
+                "Providing mentorship opportunities to empower underrepresented groups in the workforce.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+      "social-responsibility": {
+        heroSection: {
+          title: "Social Responsibility",
+          subtitle: "Making a Difference in Our Communities",
+          imageURL: "/images/hero/global-impact.jpg",
+        },
+        iconCardsSection: {
+          title: "Commitment to Community Engagement",
+          subtitle: "Empowering People and Building Futures",
+          description:
+            "We believe in the power of social responsibility. By investing in our communities and fostering positive change, we strive to create a better tomorrow for all.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Community Development Projects",
+              description:
+                "Supporting initiatives that uplift and empower local communities.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Volunteer Programs",
+              description:
+                "Encouraging our employees to engage in volunteer opportunities that make a positive impact.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Educational Outreach",
+              description:
+                "Providing resources and support for education initiatives in underserved areas.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Advocacy for Social Issues",
+              description:
+                "Championing causes that promote social justice and equity.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+    },
   },
 };
