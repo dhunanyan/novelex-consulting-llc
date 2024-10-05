@@ -1,280 +1,158 @@
 {
-  "INPUT": {
-    "our-value": {
-      "heroSection": {
-        "title": "Our Values",
-        "subtitle": "Elevating Excellence, Fostering Diversity",
-        "imageURL": "/images/hero/who-we-are.jpg"
-      },
-      "iconCardsSection": {
-        "title": "Values",
-        "subtitle": "Our Core Principles",
-        "description": "Our values are the pillars of our organization. They drive our decisions and actions every day. Explore our commitment to innovation, quality, diversity, and sustainability.",
-        "button": "Learn more",
-        "cards": [
-          {
-            "title": "Innovation Excellence",
-            "description": "Learn how innovation is at the heart of everything we do.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_rocket.svg"
-          },
-          {
-            "title": "Quality Assurance",
-            "description": "Explore our unwavering commitment to quality and accuracy.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_check-circle.svg"
-          },
-          {
-            "title": "Embracing Diversity",
-            "description": "Dive into our inclusive workplace and the strength of diverse perspectives.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_users.svg"
-          },
-          {
-            "title": "Environmental Responsibility",
-            "description": "Discover our sustainability initiatives and commitment to the environment.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_cogs.svg"
-          }
-        ]
-      }
+  "innovative-solutions": {
+    "heroSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "imageURL": "/images/our-partners.jpg"
     },
-    "our-strategy": {
-      "heroSection": {
-        "title": "Our Strategy",
-        "subtitle": "Shaping the Future with Purposeful Excellence",
-        "imageURL": "/images/hero/who-we-are.jpg"
-      },
-      "iconCardsSection": {
-        "title": "Strategy",
-        "subtitle": "Our Roadmap to Success",
-        "description": "Our strategy is a blend of innovation and adaptability. We navigate the ever-evolving landscape of global communication to bring you the best solutions.",
-        "button": "Learn more",
-        "cards": [
-          {
-            "title": "Innovative Approach",
-            "description": "Explore our innovative strategies for staying ahead in the industry.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_leaf.svg"
-          },
-          {
-            "title": "Adaptive Solutions",
-            "description": "Discover how we adapt to meet the unique needs of our clients.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_sliders-h.svg"
-          },
-          {
-            "title": "Global Expansion",
-            "description": "Learn about our plans for expanding our reach and impact.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_globe-americas.svg"
-          },
-          {
-            "title": "Technology Integration",
-            "description": "Dive into how we integrate cutting-edge technology into our language solutions.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_laptop.svg"
-          }
-        ]
-      }
-    },
-    "our-purpose": {
-      "heroSection": {
-        "title": "Our Purpose",
-        "subtitle": "Connecting Worlds, Transforming Lives",
-        "imageURL": "/images/hero/who-we-are.jpg"
-      },
-      "iconCardsSection": {
-        "title": "Purpose",
-        "subtitle": "Our Guiding Light",
-        "description": "At Novelex Consulting LLC, our purpose is clear: To break down language barriers and foster global understanding. Discover how this guiding principle shapes our mission and defines our identity.",
-        "button": "Learn more",
-        "cards": [
-          {
-            "title": "Empowering Communication",
-            "description": "Learn how we empower individuals and businesses to communicate across languages.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_dots.svg"
-          },
-          {
-            "title": "Connecting Cultures",
-            "description": "Explore how we bridge cultures and foster global connections.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_globe.svg"
-          },
-          {
-            "title": "Innovating Seamlessness",
-            "description": "Dive into our innovative solutions that make communication seamless.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_light-bulb.svg"
-          },
-          {
-            "title": "Driving Change",
-            "description": "Discover how our purpose is driving positive change in the world.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_exchange-alt.svg"
-          }
-        ]
-      }
+    "iconCardsSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "description": "MISSING_CONTENT",
+      "button": "Learn more",
+      "cards": [
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        }
+      ]
     }
   },
-
-  "OUTPUT": {
-    "collective-excellence": {
-      "heroSection": {
-        "title": "Collective Excellence",
-        "subtitle": "Beyond Limits, Together We Shine",
-        "imageURL": "/images/hero/our-people.jpg"
-      },
-      "iconCardsSection": {
-        "title": "MISSING_CONTENT",
-        "subtitle": "MISSING_CONTENT",
-        "description": "MISSING_CONTENT",
-        "button": "MISSING_CONTENT",
-        "cards": [
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_rocket.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_check-circle.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_users.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "Discover our sustainability initiatives and commitment to the environment.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_cogs.svg"
-          }
-        ]
-      }
+  "mutual-growth-endeavors": {
+    "heroSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "imageURL": "/images/our-partners.jpg"
     },
-    "culture-of-inclusivity": {
-      "heroSection": {
-        "title": "Culture of Inclusivity",
-        "subtitle": "Where Every Voice Resonates",
-        "imageURL": "/images/hero/our-people.jpg"
-      },
-      "iconCardsSection": {
-        "title": "MISSING_CONTENT",
-        "subtitle": "MISSING_CONTENT",
-        "description": "MISSING_CONTENT",
-        "button": "MISSING_CONTENT",
-        "cards": [
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_rocket.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_check-circle.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_users.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "Discover our sustainability initiatives and commitment to the environment.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_cogs.svg"
-          }
-        ]
-      }
+    "iconCardsSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "description": "MISSING_CONTENT",
+      "button": "Learn more",
+      "cards": [
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        }
+      ]
+    }
+  },
+  "shared-vision-and-values": {
+    "heroSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "imageURL": "/images/our-partners.jpg"
     },
-    "professional-growth": {
-      "heroSection": {
-        "title": "Professional Growth",
-        "subtitle": "Nurturing Ambitions, Empowering Journeys, Inspiring Heights",
-        "imageURL": "/images/hero/our-people.jpg"
-      },
-      "iconCardsSection": {
-        "title": "MISSING_CONTENT",
-        "subtitle": "MISSING_CONTENT",
-        "description": "MISSING_CONTENT",
-        "button": "MISSING_CONTENT",
-        "cards": [
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_rocket.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_check-circle.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_users.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "Discover our sustainability initiatives and commitment to the environment.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_cogs.svg"
-          }
-        ]
-      }
+    "iconCardsSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "description": "MISSING_CONTENT",
+      "button": "Learn more",
+      "cards": [
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        }
+      ]
+    }
+  },
+  "strategic-collaborations": {
+    "heroSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "imageURL": "/images/our-partners.jpg"
     },
-    "well-being": {
-      "heroSection": {
-        "title": "Well-being",
-        "subtitle": "Balanced Lives, Resilient Spirits",
-        "imageURL": "/images/hero/our-people.jpg"
-      },
-      "iconCardsSection": {
-        "title": "MISSING_CONTENT",
-        "subtitle": "MISSING_CONTENT",
-        "description": "MISSING_CONTENT",
-        "button": "MISSING_CONTENT",
-        "cards": [
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_rocket.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_check-circle.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "MISSING_CONTENT",
-            "button": "Learn more",
-            "iconURL": "/icons/i_users.svg"
-          },
-          {
-            "title": "MISSING_CONTENT",
-            "description": "Discover our sustainability initiatives and commitment to the environment.",
-            "button": "Learn more",
-            "iconURL": "/icons/i_cogs.svg"
-          }
-        ]
-      }
+    "iconCardsSection": {
+      "title": "MISSING_CONTENT",
+      "subtitle": "MISSING_CONTENT",
+      "description": "MISSING_CONTENT",
+      "button": "Learn more",
+      "cards": [
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        },
+        {
+          "title": "MISSING_CONTENT",
+          "description": "MISSING_CONTENT",
+          "button": "Learn more",
+          "iconURL": "/icons/i_logo.svg"
+        }
+      ]
     }
   }
 }

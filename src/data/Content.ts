@@ -534,5 +534,190 @@ export const Content = {
         },
       },
     },
+    "our-partners": {
+      index: {
+        heroSection: {
+          title: "Our Partners",
+          subtitle: "Commitment to Dynamic and Supportive Partnerships",
+          imageURL: "/images/hero/our-partners.jpg",
+        },
+      },
+      "innovative-solutions": {
+        heroSection: {
+          title: "Innovative Solutions",
+          subtitle: "Empowering Transformation through Innovation",
+          imageURL: "/images/our-partners.jpg",
+        },
+        iconCardsSection: {
+          title: "Forward-Thinking Solutions",
+          subtitle: "Innovating for a Better Tomorrow",
+          description:
+            "We push boundaries and think outside the box to develop solutions that redefine industries. Our innovative strategies drive growth, efficiency, and lasting impact.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "AI and Automation",
+              description:
+                "Explore how artificial intelligence and automation shape our cutting-edge solutions.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Data-Driven Insights",
+              description:
+                "Discover how we leverage big data to create actionable business insights.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Sustainability Initiatives",
+              description:
+                "Learn about our sustainable innovations for a greener future.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Customer-Centric Design",
+              description:
+                "See how we build solutions focused on enhancing customer experience.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+      "mutual-growth-endeavors": {
+        heroSection: {
+          title: "Mutual Growth Endeavors",
+          subtitle: "Growing Together for Lasting Success",
+          imageURL: "/images/our-partners.jpg",
+        },
+        iconCardsSection: {
+          title: "Collaborative Growth",
+          subtitle: "Partnerships that Empower Progress",
+          description:
+            "We believe that true success is achieved when we grow together. Our mutual growth endeavors foster relationships that drive innovation, success, and shared achievements.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Co-Innovation Partnerships",
+              description:
+                "Collaborating with partners to co-create groundbreaking solutions.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Joint Ventures",
+              description:
+                "Explore how we form strategic joint ventures to expand our impact.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Shared Investment Strategies",
+              description:
+                "Learn about our investment approach focused on shared success.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Global Expansion Initiatives",
+              description:
+                "See how we work with partners to expand into new markets.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+      "shared-vision-and-values": {
+        heroSection: {
+          title: "Shared Vision and Values",
+          subtitle: "Aligned for Purpose-Driven Success",
+          imageURL: "/images/our-partners.jpg",
+        },
+        iconCardsSection: {
+          title: "Vision and Values",
+          subtitle: "A Unified Path to a Better Future",
+          description:
+            "Our shared vision and values are at the core of everything we do. Together, we strive to create a future where success is measured not just by profits but by the positive impact we have on the world.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Purpose-Driven Goals",
+              description:
+                "Discover our commitment to creating meaningful, purpose-driven outcomes.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Ethical Leadership",
+              description:
+                "Explore our leadership principles based on integrity and ethics.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Sustainability Commitment",
+              description:
+                "Learn how our values guide us towards sustainable, long-term success.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Community Impact",
+              description:
+                "See how our shared vision drives positive change in our communities.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+      "strategic-collaborations": {
+        heroSection: {
+          title: "Strategic Collaborations",
+          subtitle: "Building Strategic Partnerships for Success",
+          imageURL: "/images/our-partners.jpg",
+        },
+        iconCardsSection: {
+          title: "Collaborative Synergy",
+          subtitle: "Together, We Achieve More",
+          description:
+            "Strategic collaborations are key to unlocking new opportunities. By working together, we leverage our combined strengths to innovate, grow, and lead in our industries.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Industry Partnerships",
+              description:
+                "Explore our strategic partnerships with leading industry players.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Innovative Joint Efforts",
+              description:
+                "Learn how joint efforts lead to breakthrough innovations.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Global Collaborations",
+              description:
+                "See how our global collaborations drive success in multiple markets.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+            {
+              title: "Long-Term Alliances",
+              description:
+                "Discover the power of long-term alliances in creating lasting impact.",
+              button: "Learn more",
+              iconURL: "/icons/i_logo.svg",
+            },
+          ],
+        },
+      },
+    },
   },
 };

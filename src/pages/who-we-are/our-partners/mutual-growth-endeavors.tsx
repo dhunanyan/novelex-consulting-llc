@@ -1,6 +1,11 @@
 import Head from "next/head";
 
-import { HtmlData } from "@data";
+import { HeroSection } from "@components/HeroSection/HeroSection";
+import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import { HtmlData, Content } from "@data";
+
+const { heroSection, iconCardsSection } =
+  Content["who-we-are"]["our-partners"]["mutual-growth-endeavors"];
 
 export default function MutualGrowthEndeavors() {
   return (
@@ -31,7 +36,12 @@ export default function MutualGrowthEndeavors() {
         </title>
       </Head>
       <main>
-        <div>Mutual Growth Endeavors</div>
+        <HeroSection {...heroSection} />
+        <IconCardsSection
+          {...iconCardsSection}
+          inverseColors={true}
+          forceHideButton={true}
+        />
       </main>
     </>
   );
