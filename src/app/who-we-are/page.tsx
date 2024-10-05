@@ -1,8 +1,10 @@
 import { HtmlData, Content } from "@data";
-import { HeroSection } from "@components/HeroSection/HeroSection";
-import { BlankSection } from "@components/BlankSection/BlankSection";
-import { TilesSection } from "@components/TilesSection/TilesSection";
-import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import {
+  HeroSection,
+  BlankSection,
+  TilesSection,
+  IconCardsSection,
+} from "@components";
 
 export const metadata = HtmlData["who-we-are"]["index"];
 

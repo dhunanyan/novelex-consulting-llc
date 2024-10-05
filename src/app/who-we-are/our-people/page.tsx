@@ -1,6 +1,5 @@
 import { HtmlData, Content } from "@data";
-import { HeroSection } from "@components/HeroSection/HeroSection";
-import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import { HeroSection, IconCardsSection } from "@components";
 
 export const metadata = HtmlData["who-we-are"]["our-people"]["index"];
 

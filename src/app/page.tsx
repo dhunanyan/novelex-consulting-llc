@@ -1,11 +1,13 @@
-import { HeroSection } from "@components/HeroSection/HeroSection";
-import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
-import { ImageCardsSection } from "@components/ImageCardsSection/ImageCardsSection";
+import {
+  HeroSection,
+  IconCardsSection,
+  ImageCardsSection,
+  SummarySection,
+} from "@components";
 
 import { PRIMARY_BLACK_COLOR } from "@utils/styles";
 
 import { Content } from "@data";
-import { SummarySection } from "@components/SummarySection/SummarySection";
 
 const {
   heroSection,

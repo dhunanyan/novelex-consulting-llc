@@ -1,11 +1,7 @@
 import * as React from "react";
 import { HtmlData } from "@data";
 
-import { Header } from "@components/Header/Header";
-import { HeaderLayout } from "@components/Header/HeaderLayout/HeaderLayout";
-import { Navigator } from "@components/Navigator/Navigator";
-import { Footer } from "@components/Footer/Footer";
-import { HeaderFallback } from "@components/Header/HeaderFallback";
+import { Header, Footer, HeaderFallback } from "@components";
 
 export const metadata = HtmlData["index"];
 
@@ -29,8 +25,6 @@ export default function RootLayout({ children }: RootLayoutPropsType) {
       <header>
         <React.Suspense fallback={<HeaderFallback />}>
           <Header />
-          <HeaderLayout />
-          <Navigator />
         </React.Suspense>
       </header>
       <main>{children}</main>
