@@ -14,7 +14,7 @@ export type Props = {
   isRouteActive: boolean;
 };
 
-export const HeaderWrapper = styled.header<Pick<Props, "isScrolled">>`
+export const HeaderWrapper = styled.div<Pick<Props, "isScrolled">>`
   position: fixed;
   z-index: 99999999999999;
   height: ${({ isScrolled }) => (isScrolled ? "60px" : "95px")};

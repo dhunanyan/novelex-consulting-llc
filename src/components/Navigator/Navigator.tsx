@@ -1,4 +1,6 @@
 import * as React from "react";
+import { usePathname } from "next/navigation";
+
 import {
   NavigatorContainer,
   NavigatorIcon,
@@ -14,15 +16,19 @@ import { NavigatorData } from "@data";
 import { getHref } from "@utils";
 import { NavigatorID } from "@types";
 
-export type NavigatorPropsType = {
-  list: string[];
-};
+export const Navigator = () => {
+  const pathname = usePathname();
+  const list = pathname.substring(1).split("/");
+  const isNavigatorActive = list.length > 1;
 
-export const Navigator = ({ list }: NavigatorPropsType) => {
   const filteredList = list.filter(
     (item) => !!NavigatorData[item as NavigatorID]
   );
   const isWrongRoute = filteredList.length !== list.length;
+
+  if (isNavigatorActive) {
+    return null;
+  }
 
   return (
     <NavigatorWrapper>

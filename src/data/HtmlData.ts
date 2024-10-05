@@ -1,4 +1,11 @@
 export const HtmlData = {
+  index: {
+    title: "Novelex Consulting",
+    description:
+      "Novelex Consulting LLC specializes in providing tailored consulting services to drive business growth and efficiency. Our expert team offers innovative strategies in management consulting, operational excellence, and market analysis to help organizations achieve their goals. Partner with us for a brighter, more sustainable future.",
+    keywords:
+      "Novelex Consulting, business consulting, management consulting, operational excellence, market analysis, innovative solutions, business growth, strategic planning, consulting services, business efficiency, sustainable practices, corporate strategy",
+  },
   careers: {
     index: {
       title: "Careers | Novelex Consulting",
