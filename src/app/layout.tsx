@@ -1,9 +1,11 @@
 import * as React from "react";
+import { HtmlData } from "@data";
+
 import { Header } from "@components/Header/Header";
 import { HeaderLayout } from "@components/Header/HeaderLayout/HeaderLayout";
-import { HtmlData } from "@data";
 import { Navigator } from "@components/Navigator/Navigator";
 import { Footer } from "@components/Footer/Footer";
+import { HeaderFallback } from "@components/Header/HeaderFallback";
 
 export const metadata = HtmlData["index"];
 
@@ -25,9 +27,11 @@ export default function RootLayout({ children }: RootLayoutPropsType) {
         <meta name="theme-color" content="#000000" />
       </head>
       <header>
-        <Header />
-        <HeaderLayout />
-        <Navigator />
+        <React.Suspense fallback={<HeaderFallback />}>
+          <Header />
+          <HeaderLayout />
+          <Navigator />
+        </React.Suspense>
       </header>
       <main>{children}</main>
       <footer>

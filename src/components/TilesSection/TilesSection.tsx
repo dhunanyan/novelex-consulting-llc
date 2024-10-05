@@ -1,6 +1,6 @@
 import * as React from "react";
 import Image from "next/image";
-import { Tile } from "./Tile/Tile";
+import { Tile } from "./Tile";
 
 import {
   TilesSectionCollection,

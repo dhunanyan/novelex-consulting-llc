@@ -10,7 +10,7 @@ import {
   FooterNavSocialLink,
 } from "./FooterNav.styles";
 import { NavigationData, SocialMediasData } from "@data";
-import { getIcon } from "./getIcon";
+import { getIcon } from "@utils";
 
 export const FooterNav = () => (
   <FooterNavWrapper>

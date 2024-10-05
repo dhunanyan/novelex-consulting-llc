@@ -7,7 +7,7 @@ import {
   ImageCardsTitle,
   ImageCardsWrapper,
 } from "./ImageCardsSection.styles";
-import { ImageCard } from "./ImageCard/ImageCard";
+import { ImageCard } from "./ImageCard";
 
 export type ImageCardsSectionPropsType = {
   title: string;

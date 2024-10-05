@@ -3,15 +3,16 @@ import {
   MAIN_BLACK_COLOR,
   MAIN_COLOR,
   MAIN_WHITE_COLOR,
+  SECONDARY_BLACK_COLOR,
 } from "@utils/styles";
 import styled, { css } from "styled-components";
 
 export type Props = {
-  isScrolled: boolean;
-  isNavigatorDisabled: boolean;
-  isActive: boolean;
-  isViewActive: boolean;
-  isRouteActive: boolean;
+  isScrolled?: boolean;
+  isNavigatorDisabled?: boolean;
+  isActive?: boolean;
+  isViewActive?: boolean;
+  isRouteActive?: boolean;
 };
 
 export const HeaderWrapper = styled.div<Pick<Props, "isScrolled">>`
@@ -83,8 +84,7 @@ export const HeaderLink = styled.a<
   font-size: 18px;
   font-weight: 300;
   margin: 0 14px;
-  padding: ${({ isScrolled }: { isScrolled: boolean }) =>
-    isScrolled ? "19px 0" : "35.5px 0"};
+  padding: ${({ isScrolled }) => (isScrolled ? "19px 0" : "35.5px 0")};
   white-space: nowrap;
   position: relative;
   cursor: pointer;
@@ -137,3 +137,10 @@ export const HeaderBox = styled.div<Pick<Props, "isActive">>`
 export const HeaderSide = styled.div``;
 
 export const HeaderContact = styled.div``;
+
+export const HeaderLayout = styled.div`
+  width: 100%;
+  height: 94px;
+  background-color: ${MAIN_WHITE_COLOR};
+  border-bottom: 1px solid ${SECONDARY_BLACK_COLOR};
+`;

@@ -1,7 +1,14 @@
 import { MAIN_COLOR, MAIN_BLACK_COLOR, MAIN_WHITE_COLOR } from "@utils/styles";
 import styled from "styled-components";
 
-export const IconCardWrapper = styled.button`
+export type Props = {
+  inverseColors?: boolean;
+  cursor?: "pointer" | "auto";
+};
+
+export const IconCardWrapper = styled.button<
+  Pick<Props, "inverseColors" | "cursor">
+>`
   color: ${({ inverseColors }) =>
     inverseColors ? MAIN_WHITE_COLOR : MAIN_BLACK_COLOR};
   background-color: ${({ inverseColors }) =>
@@ -62,7 +69,7 @@ export const IconCardIcon = styled.div`
   }
 `;
 
-export const IconCardButton = styled.div`
+export const IconCardButton = styled.div<Pick<Props, "inverseColors">>`
   display: flex;
   align-items: center;
   position: relative;
@@ -103,7 +110,7 @@ export const IconCardTitle = styled.h4`
   margin: 20px 0;
 `;
 
-export const IconCardDescription = styled.p`
+export const IconCardDescription = styled.p<Pick<Props, "inverseColors">>`
   font-size: 14px;
   font-weight: 300;
   font-style: italic;

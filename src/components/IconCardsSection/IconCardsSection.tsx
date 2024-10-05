@@ -9,7 +9,7 @@ import {
   IconCardsTitle,
   IconCardsWrapper,
 } from "./IconCardsSection.styles";
-import { IconCard } from "@components/IconCardsSection/IconCard/IconCard";
+import { IconCard } from "./IconCard";
 
 export type IconCardsSectionPropsType = {
   title: string;
@@ -60,7 +60,7 @@ export const IconCardsSection = ({
                   title={title}
                   description={description}
                   button={button}
-                  icon={iconURL}
+                  iconURL={iconURL}
                   forceHideButton={forceHideButton}
                   inverseColors={inverseColors}
                 />
