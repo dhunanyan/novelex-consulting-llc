@@ -59,11 +59,10 @@ export const HeaderIcon = styled.a`
   color: ${MAIN_BLACK_COLOR};
   display: flex;
   justify-content: space-between;
+  padding: 5px;
   width: 50px;
-
-  img {
-    width: 100%;
-  }
+  height: 50px;
+  position: relative;
 `;
 
 export const HeaderNav = styled.nav`

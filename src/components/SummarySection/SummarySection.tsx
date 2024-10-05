@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 
 import {
   SummaryButton,
@@ -31,7 +32,7 @@ export const SummarySection = ({
   <SummaryWrapper imageURL={imageURL} isInverted={isInverted}>
     <SummaryContainer>
       <SummaryIcon>
-        <img src={imageURL} />
+        <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
       </SummaryIcon>
       <SummaryContent>
         <SummarySubtitle>{subtitle}</SummarySubtitle>

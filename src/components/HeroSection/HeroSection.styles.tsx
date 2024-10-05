@@ -62,11 +62,6 @@ export const HeroWrapper = styled.section<Pick<Props, "isInverted">>`
     margin: 0 0 20px 0;
   }
 
-  img {
-    position: absolute;
-    width: 100%;
-  }
-
   ${({ isInverted }) => heroWithImageStyles(isInverted)}
 `;
 
@@ -75,21 +70,6 @@ export const HeroContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-`;
-
-export const HeroIcon = styled.div`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  pointer-events: none;
-
-  svg,
-  img {
-    opacity: 0.2;
-    width: 100%;
-  }
 `;
 
 export const HeroContent = styled.div`

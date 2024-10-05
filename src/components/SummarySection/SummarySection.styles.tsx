@@ -88,12 +88,7 @@ export const SummaryIcon = styled.div`
   left: 0;
   right: 0;
   pointer-events: none;
-
-  svg,
-  img {
-    opacity: 0.2;
-    width: 100%;
-  }
+  opacity: 0.2;
 `;
 
 export const SummaryContent = styled.div`

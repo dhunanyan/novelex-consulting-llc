@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 
 import {
   HeroContainer,
@@ -22,7 +23,7 @@ export const HeroSection = ({
   isInverted = false,
 }: HeroSectionPropsType) => (
   <HeroWrapper isInverted={isInverted}>
-    <img src={imageURL} />
+    <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
     <HeroContainer>
       <HeroContent>
         <HeroSubtitle>{subtitle}</HeroSubtitle>

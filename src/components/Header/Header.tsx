@@ -78,8 +78,8 @@ export const Header = () => {
         <HeaderContainer>
           <HeaderIcon href="/" onClick={(e) => onItemClick(e, "home")}>
             <Image
-              height={45}
-              width={45}
+              layout="fill"
+              objectFit="contain"
               src="/icons/i_logo.svg"
               alt="Novelex Logo"
             />

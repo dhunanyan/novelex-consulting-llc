@@ -1,4 +1,5 @@
 import * as React from "react";
+import Image from "next/image";
 import {
   DropdownCloseButton,
   DropdownContainer,
@@ -74,7 +75,12 @@ export const Dropdown = ({
       {!subViewId ? (
         <DropdownExtraContent>
           <DropdownExtraContentImage>
-            <img src={extraContent.imagePath} alt={extraContent.imageAlt} />
+            <Image
+              layout="fill"
+              objectFit="cover"
+              src={extraContent.imagePath}
+              alt={extraContent.imageAlt}
+            />
           </DropdownExtraContentImage>
 
           <DropdownExtraContentSubtitle>

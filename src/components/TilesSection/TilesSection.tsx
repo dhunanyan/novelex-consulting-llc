@@ -1,5 +1,7 @@
 import * as React from "react";
+import Image from "next/image";
 import { Tile } from "./Tile/Tile";
+
 import {
   TilesSectionCollection,
   TilesSectionPreview,
@@ -48,7 +50,7 @@ export const TilesSection = ({
         </TilesSectionCollection>
 
         <TilesSelectionImage>
-          <img src={imageURL} alt={title} />
+          <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
         </TilesSelectionImage>
       </TilesSectionPreview>
     </TilesSectionContainer>

@@ -1,10 +1,5 @@
 import styled, { css } from "styled-components";
-import {
-  Container,
-  MAIN_BLACK_COLOR,
-  MAIN_COLOR,
-  MAIN_WHITE_COLOR,
-} from "@utils/styles";
+import { Container, MAIN_BLACK_COLOR, MAIN_WHITE_COLOR } from "@utils/styles";
 
 export const NavigatorWrapper = styled.nav`
   width: 100%;

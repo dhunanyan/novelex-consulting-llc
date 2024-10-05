@@ -110,10 +110,8 @@ export const DropdownExtraContent = styled.div`
 export const DropdownExtraContentImage = styled.div`
   margin: 0 0 30px 0;
   width: 100%;
-
-  img {
-    width: 100%;
-  }
+  height: 200px;
+  position: relative;
 `;
 
 export const DropdownExtraContentSubtitle = styled.h3`

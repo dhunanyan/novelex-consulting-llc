@@ -72,8 +72,4 @@ export const TilesSelectionImage = styled.div`
   box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
   -webkit-box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
-
-  img {
-    width: 100%;
-  }
 `;

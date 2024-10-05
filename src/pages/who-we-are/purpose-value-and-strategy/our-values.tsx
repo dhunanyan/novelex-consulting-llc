@@ -7,7 +7,8 @@ import { HtmlData, Content } from "@data";
 const { heroSection, iconCardsSection } =
   Content["who-we-are"]["purpose-value-and-strategy"]["our-strategy"];
 
-export default function OurStrategy() 
+export default function OurStrategy() {
+  return (
     <>
       <Head>
         <meta charSet="utf-8" />
@@ -44,3 +45,4 @@ export default function OurStrategy()
       </main>
     </>
   );
+}

@@ -1,9 +1,4 @@
-import {
-  Container,
-  MAIN_WHITE_COLOR,
-  PRIMARY_WHITE_COLOR,
-  SECONDARY_BLACK_COLOR,
-} from "@utils/styles";
+import { Container, PRIMARY_WHITE_COLOR } from "@utils/styles";
 import styled from "styled-components";
 
 export const FooterLinksWrapper = styled.div`
