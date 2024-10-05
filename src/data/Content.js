@@ -4,7 +4,6 @@ export const Content = {
       title: "Novelex Consulting LLC",
       subtitle: "Connecting Worlds",
       imageURL: "/images/hero/home.jpg",
-      icon: "/icons/i_globe-americas",
     },
     aboutSection: {
       title: "About company",
