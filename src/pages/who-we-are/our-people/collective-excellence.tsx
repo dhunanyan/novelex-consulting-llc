@@ -1,6 +1,11 @@
 import Head from "next/head";
 
-import { HtmlData } from "@data";
+import { HeroSection } from "@components/HeroSection/HeroSection";
+import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import { HtmlData, Content } from "@data";
+
+const { heroSection, iconCardsSection } =
+  Content["who-we-are"]["our-people"]["collective-excellence"];
 
 export default function CollectiveExcellence() {
   return (
@@ -28,7 +33,12 @@ export default function CollectiveExcellence() {
         </title>
       </Head>
       <main>
-        <div>Collective Excellence</div>
+        <HeroSection {...heroSection} />
+        <IconCardsSection
+          {...iconCardsSection}
+          inverseColors={true}
+          forceHideButton={true}
+        />
       </main>
     </>
   );

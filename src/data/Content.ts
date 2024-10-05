@@ -362,12 +362,86 @@ export const Content = {
           subtitle: "Beyond Limits, Together We Shine",
           imageURL: "/images/hero/our-people.jpg",
         },
+        iconCardsSection: {
+          title: "Excellence in Unity",
+          subtitle: "Our Strength is in Our Collaboration",
+          description:
+            "Collective excellence drives our success. By embracing teamwork and collaboration, we surpass individual potential and reach greater heights together. Learn more about how we thrive through unity.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Synergized Efforts",
+              description:
+                "Explore how teamwork amplifies our capabilities and drives innovation.",
+              button: "Learn more",
+              iconURL: "/icons/i_rocket.svg",
+            },
+            {
+              title: "Shared Success",
+              description:
+                "Discover how our collective achievements fuel our growth and resilience.",
+              button: "Learn more",
+              iconURL: "/icons/i_check-circle.svg",
+            },
+            {
+              title: "Collaborative Culture",
+              description:
+                "Learn how our inclusive environment fosters collaboration across teams.",
+              button: "Learn more",
+              iconURL: "/icons/i_users.svg",
+            },
+            {
+              title: "Sustainability Together",
+              description:
+                "Discover our joint efforts towards sustainability and environmental responsibility.",
+              button: "Learn more",
+              iconURL: "/icons/i_cogs.svg",
+            },
+          ],
+        },
       },
       "culture-of-inclusivity": {
         heroSection: {
           title: "Culture of Inclusivity",
           subtitle: "Where Every Voice Resonates",
           imageURL: "/images/hero/our-people.jpg",
+        },
+        iconCardsSection: {
+          title: "Celebrating Diversity",
+          subtitle: "Empowering All Perspectives",
+          description:
+            "Our culture of inclusivity is the foundation of our success. We believe in the power of diverse perspectives and the strength that comes from embracing each individual. Learn how we foster an inclusive and empowering environment.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Embracing All Voices",
+              description:
+                "Learn how every voice contributes to our inclusive environment.",
+              button: "Learn more",
+              iconURL: "/icons/i_rocket.svg",
+            },
+            {
+              title: "Equality in Action",
+              description:
+                "Explore how we ensure equality and fairness in every aspect of our work.",
+              button: "Learn more",
+              iconURL: "/icons/i_check-circle.svg",
+            },
+            {
+              title: "Diverse Perspectives",
+              description:
+                "See how we harness diverse perspectives to drive creativity and innovation.",
+              button: "Learn more",
+              iconURL: "/icons/i_users.svg",
+            },
+            {
+              title: "Inclusive Sustainability",
+              description:
+                "Discover our commitment to creating sustainable solutions for everyone.",
+              button: "Learn more",
+              iconURL: "/icons/i_cogs.svg",
+            },
+          ],
         },
       },
       "professional-growth": {
@@ -377,12 +451,86 @@ export const Content = {
             "Nurturing Ambitions, Empowering Journeys, Inspiring Heights",
           imageURL: "/images/hero/our-people.jpg",
         },
+        iconCardsSection: {
+          title: "Growth Opportunities",
+          subtitle: "Empowering Your Future",
+          description:
+            "Professional growth is at the heart of our mission. We are dedicated to nurturing your skills, supporting your career journey, and inspiring you to reach new heights. Learn more about how we cultivate personal and professional development.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Continuous Learning",
+              description:
+                "Discover how we foster a culture of learning and development.",
+              button: "Learn more",
+              iconURL: "/icons/i_rocket.svg",
+            },
+            {
+              title: "Career Pathways",
+              description:
+                "Explore the numerous opportunities for career advancement.",
+              button: "Learn more",
+              iconURL: "/icons/i_check-circle.svg",
+            },
+            {
+              title: "Mentorship Programs",
+              description:
+                "Learn how our mentorship programs help guide your professional growth.",
+              button: "Learn more",
+              iconURL: "/icons/i_users.svg",
+            },
+            {
+              title: "Sustainable Growth",
+              description:
+                "See how our commitment to sustainability extends to long-term career growth.",
+              button: "Learn more",
+              iconURL: "/icons/i_cogs.svg",
+            },
+          ],
+        },
       },
       "well-being": {
         heroSection: {
           title: "Well-being",
           subtitle: "Balanced Lives, Resilient Spirits",
           imageURL: "/images/hero/our-people.jpg",
+        },
+        iconCardsSection: {
+          title: "Wellness at the Core",
+          subtitle: "Thriving in Every Aspect of Life",
+          description:
+            "We believe in nurturing the well-being of our people—both in and out of the workplace. Learn how we support physical, mental, and emotional wellness, empowering our team to lead balanced and fulfilling lives.",
+          button: "Learn more",
+          cards: [
+            {
+              title: "Holistic Health",
+              description:
+                "Learn how we promote mental, emotional, and physical health for our team.",
+              button: "Learn more",
+              iconURL: "/icons/i_rocket.svg",
+            },
+            {
+              title: "Work-Life Balance",
+              description:
+                "Explore our initiatives to help employees maintain a healthy work-life balance.",
+              button: "Learn more",
+              iconURL: "/icons/i_check-circle.svg",
+            },
+            {
+              title: "Supportive Community",
+              description:
+                "Discover how we foster a supportive and compassionate work environment.",
+              button: "Learn more",
+              iconURL: "/icons/i_users.svg",
+            },
+            {
+              title: "Sustainable Wellness",
+              description:
+                "See how sustainability is integrated into our approach to employee well-being.",
+              button: "Learn more",
+              iconURL: "/icons/i_cogs.svg",
+            },
+          ],
         },
       },
     },

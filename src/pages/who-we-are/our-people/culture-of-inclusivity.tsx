@@ -1,7 +1,10 @@
 import Head from "next/head";
+import { HeroSection } from "@components/HeroSection/HeroSection";
+import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import { HtmlData, Content } from "@data";
 
-import { HtmlData } from "@data";
-
+const { heroSection, iconCardsSection } =
+  Content["who-we-are"]["our-people"]["culture-of-inclusivity"];
 export default function CultureOfInclusivity() {
   return (
     <>
@@ -28,7 +31,12 @@ export default function CultureOfInclusivity() {
         </title>
       </Head>
       <main>
-        <div>Culture Of Inclusivity</div>
+        <HeroSection {...heroSection} />
+        <IconCardsSection
+          {...iconCardsSection}
+          inverseColors={true}
+          forceHideButton={true}
+        />
       </main>
     </>
   );

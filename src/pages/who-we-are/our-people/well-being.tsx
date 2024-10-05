@@ -1,6 +1,10 @@
 import Head from "next/head";
+import { HeroSection } from "@components/HeroSection/HeroSection";
+import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection";
+import { HtmlData, Content } from "@data";
 
-import { HtmlData } from "@data";
+const { heroSection, iconCardsSection } =
+  Content["who-we-are"]["our-people"]["well-being"];
 
 export default function WellBeing() {
   return (
@@ -24,7 +28,12 @@ export default function WellBeing() {
         </title>
       </Head>
       <main>
-        <div>Well Being</div>
+        <HeroSection {...heroSection} />
+        <IconCardsSection
+          {...iconCardsSection}
+          inverseColors={true}
+          forceHideButton={true}
+        />
       </main>
     </>
   );

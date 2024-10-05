@@ -5,11 +5,11 @@ import { IconCardsSection } from "@components/IconCardsSection/IconCardsSection"
 import { HtmlData, Content } from "@data";
 
 const {
-  heroSection,
-  "our-values": { iconCardsSection: iconCardsSectionValues },
+  index: { heroSection },
+  "our-value": { iconCardsSection: iconCardsSectionValues },
   "our-purpose": { iconCardsSection: iconCardsSectionPurpose },
   "our-strategy": { iconCardsSection: iconCardsSectionStrategy },
-} = Content["who-we-are"]["purpose-value-and-strategy"]["index"];
+} = Content["who-we-are"]["purpose-value-and-strategy"];
 
 export default function PurposeValueAndStrategy() {
   return (
