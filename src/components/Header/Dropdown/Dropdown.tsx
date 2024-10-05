@@ -20,12 +20,11 @@ import { FaTimes as CloseIcon } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
 import { DropdownData, SubDropdownData } from "@data";
-import { ViewID, SubViewID } from "@types";
 
 export type DropdownPropsType = {
   closeDropDown: () => void;
-  viewId: ViewID | "";
-  subViewId: SubViewID;
+  viewId: string;
+  subViewId: string;
   onItemClick: (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
     navItemId: string,
@@ -40,7 +39,7 @@ export const Dropdown = ({
   onItemClick,
 }: DropdownPropsType) => {
   const { title, description, goToLink, navList, extraContent } =
-    DropdownData[viewId as ViewID];
+    DropdownData[viewId];
 
   return (
     <DropdownContainer>
@@ -91,7 +90,7 @@ export const Dropdown = ({
           <DropdownNav justifyContent="flex-start">
             <DropdownList>
               {(
-                SubDropdownData[viewId as ViewID] as {
+                SubDropdownData[viewId] as {
                   [key: string]: {
                     id: string;
                     text: string;

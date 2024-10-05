@@ -1,7 +1,11 @@
 import { MAIN_COLOR, MAIN_WHITE_COLOR, Subtitle } from "@utils/styles";
 import styled from "styled-components";
 
-export const ImageCardContainer = styled.a`
+export type Props = {
+  imageURL: string;
+};
+
+export const ImageCardContainer = styled.a<Pick<Props, "imageURL">>`
   background-image: url(${({ imageURL }) => imageURL});
   background-size: cover;
   background-position: center;

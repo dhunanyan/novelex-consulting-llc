@@ -1,4 +1,17 @@
-export const DropdownData = {
+export const DropdownData: {
+  [key: string]: {
+    title: string;
+    description: string;
+    goToLink: string;
+    navList: { id: string; text: string; href: string }[];
+    extraContent: {
+      imagePath: string;
+      imageAlt: string;
+      subtitle: string;
+      motto: string;
+    };
+  };
+} = {
   "who-we-are": {
     title: "Who we are",
     description:
@@ -38,7 +51,7 @@ export const DropdownData = {
     ],
     extraContent: {
       imagePath: "/images/header/who-we-are.jpg",
-      imageAlt: "temp",
+      imageAlt: "Who we are",
       subtitle: "Crafting Connections Beyond Words",
       motto: "Bridging Cultures, Uniting Worlds",
     },
@@ -77,7 +90,7 @@ export const DropdownData = {
     ],
     extraContent: {
       imagePath: "/images/header/life-at-novelex.jpg",
-      imageAlt: "temp",
+      imageAlt: "Life at Novelex",
       subtitle: "Thriving in a Culture of Diversity",
       motto: "Where Passion Meets Purpose",
     },
@@ -116,7 +129,7 @@ export const DropdownData = {
     ],
     extraContent: {
       imagePath: "/images/header/services.jpg",
-      imageAlt: "temp",
+      imageAlt: "Services",
       subtitle: "Enabling Multilingual Excellence",
       motto: "Empowering Communication Across Borders",
     },
@@ -160,7 +173,7 @@ export const DropdownData = {
     ],
     extraContent: {
       imagePath: "/images/header/careers.jpg",
-      imageAlt: "temp",
+      imageAlt: "Careers",
       subtitle: "Join Our Global Team of Innovators",
       motto: "Your Path to Impactful Communication",
     },

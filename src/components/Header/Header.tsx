@@ -17,14 +17,11 @@ import {
 import { Dropdown } from "./Dropdown/Dropdown";
 
 import { NavigationData, DropdownData } from "@data";
-import { SubViewID, ViewID } from "@types";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = React.useState(false);
-  const [currentView, setCurrentView] = React.useState<ViewID | "">("");
-  const [currentSubView, setCurrentSubView] = React.useState<SubViewID | "">(
-    ""
-  );
+  const [currentView, setCurrentView] = React.useState<string>("");
+  const [currentSubView, setCurrentSubView] = React.useState<string>("");
   const router = useRouter();
 
   const onItemClick = (
@@ -39,7 +36,7 @@ export const Header = () => {
     }
 
     if (id !== "home") {
-      setCurrentView(id as ViewID);
+      setCurrentView(id);
       return;
     }
 
@@ -58,7 +55,7 @@ export const Header = () => {
       return;
     }
 
-    setCurrentSubView(navItemId as SubViewID);
+    setCurrentSubView(navItemId);
   };
 
   React.useEffect(() => {
@@ -99,7 +96,7 @@ export const Header = () => {
                   <HeaderLink
                     isScrolled={isScrolled}
                     isViewActive={currentView === item.id}
-                    activeUrl={router.pathname + "/" + item.id}
+                    isRouteActive={router.pathname === "/" + item.id}
                     href={item.id}
                   >
                     {item.text}
@@ -119,7 +116,7 @@ export const Header = () => {
             <Dropdown
               closeDropDown={() => setCurrentView("")}
               viewId={currentView}
-              subViewId={currentSubView as SubViewID}
+              subViewId={currentSubView}
               onItemClick={onSubItemClick}
             />
           </HeaderBoxContainer>

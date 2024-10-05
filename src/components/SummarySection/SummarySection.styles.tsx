@@ -8,7 +8,15 @@ import {
 } from "@utils/styles";
 import styled, { css } from "styled-components";
 
-const summaryWithImageStyles = (imageURL, isInverted) => css`
+export type Props = {
+  imageURL?: string;
+  isInverted?: boolean;
+};
+
+const summaryWithImageStyles = (
+  imageURL: Props["imageURL"],
+  isInverted: Props["isInverted"]
+) => css`
   background-image: url(${imageURL});
   background-size: cover;
   background-position: center;
@@ -52,7 +60,9 @@ const summaryWithImageStyles = (imageURL, isInverted) => css`
   }
 `;
 
-export const SummaryWrapper = styled.section`
+export const SummaryWrapper = styled.section<
+  Pick<Props, "imageURL" | "isInverted">
+>`
   position: relative;
   background-color: ${MAIN_WHITE_COLOR};
   overflow: hidden;

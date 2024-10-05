@@ -8,7 +8,14 @@ import {
   MAIN_WHITE_COLOR,
 } from "@utils/styles";
 
-export const IconCardsWrapper = styled.section`
+export type Props = {
+  inverseColors?: boolean;
+  forceHideButton?: boolean;
+  backgroundColor?: string;
+  order?: number;
+};
+
+export const IconCardsWrapper = styled.section<Pick<Props, "inverseColors">>`
   background-color: ${({ inverseColors }) =>
     inverseColors ? MAIN_WHITE_COLOR : MAIN_BLACK_COLOR};
   color: ${({ inverseColors }) =>
@@ -22,13 +29,15 @@ export const IconCardsContainer = styled.div`
   justify-content: flex-start;
 `;
 
-const switchedOrderStyles = (order) => css`
+const switchedOrderStyles = (order?: number) => css`
   order: ${order};
   padding: 20px;
   margin: 0 0 0 30px;
 `;
 
-export const IconCardsContent = styled.div`
+export const IconCardsContent = styled.div<
+  Pick<Props, "backgroundColor" | "order">
+>`
   ${({ order }) => (order !== 0 ? switchedOrderStyles(order) : "")};
   display: flex;
   flex-direction: column;
@@ -50,11 +59,11 @@ export const IconCardsDescription = styled.p`
   line-height: 22px;
 `;
 
-export const IconCardsButton = styled.button`
+export const IconCardsButton = styled.button<Pick<Props, "inverseColors">>`
   ${({ inverseColors }) => PrimaryButton(!inverseColors)}
 `;
 
-export const IconCardsCards = styled.div`
+export const IconCardsCards = styled.div<Pick<Props, "order">>`
   min-width: 550px;
   display: flex;
   align-items: center;

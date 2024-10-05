@@ -6,11 +6,19 @@ import {
   ImageCardTitle,
 } from "./ImageCard.styles";
 
-export const ImageCard = ({ title, icon, image }) => (
-  <ImageCardContainer imageURL={image} href="#">
+export type ImageCardPropsType = {
+  title: string;
+  iconURL: string;
+  imageURL: string;
+};
+
+export const ImageCard = ({ title, iconURL, imageURL }: ImageCardPropsType) => (
+  <ImageCardContainer imageURL={imageURL} href="#">
     <ImageCardContent>
       <ImageCardTitle>{title}</ImageCardTitle>
-      {icon && <ImageCardIcon dangerouslySetInnerHTML={{ __html: icon }} />}
+      {iconURL && (
+        <ImageCardIcon dangerouslySetInnerHTML={{ __html: iconURL }} />
+      )}
     </ImageCardContent>
   </ImageCardContainer>
 );

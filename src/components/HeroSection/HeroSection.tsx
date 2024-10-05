@@ -1,31 +1,33 @@
 import * as React from "react";
 
 import {
-  HeroButton,
   HeroContainer,
   HeroContent,
-  HeroDescription,
   HeroSubtitle,
   HeroTitle,
   HeroWrapper,
-  HeroIcon,
 } from "./HeroSection.styles";
+
+export type HeroSectionPropsType = {
+  title: string;
+  subtitle: string;
+  imageURL: string;
+  isInverted?: boolean;
+};
 
 export const HeroSection = ({
   title,
   subtitle,
   imageURL,
-  icon,
   isInverted = false,
-}) => {
-    <HeroWrapper isInverted={isInverted}>
-      <img src={imageURL} />
-      <HeroContainer>
-        {icon && <HeroIcon dangerouslySetInnerHTML={{ __html: icon }} />}
-        <HeroContent>
-          <HeroSubtitle>{subtitle}</HeroSubtitle>
-          <HeroTitle>{title}</HeroTitle>
-        </HeroContent>
-      </HeroContainer>
-    </HeroWrapper>
-  );
+}: HeroSectionPropsType) => (
+  <HeroWrapper isInverted={isInverted}>
+    <img src={imageURL} />
+    <HeroContainer>
+      <HeroContent>
+        <HeroSubtitle>{subtitle}</HeroSubtitle>
+        <HeroTitle>{title}</HeroTitle>
+      </HeroContent>
+    </HeroContainer>
+  </HeroWrapper>
+);

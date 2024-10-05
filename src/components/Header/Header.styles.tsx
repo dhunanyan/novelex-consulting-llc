@@ -11,7 +11,7 @@ export type Props = {
   isNavigatorDisabled: boolean;
   isActive: boolean;
   isViewActive: boolean;
-  activeUrl: string;
+  isRouteActive: boolean;
 };
 
 export const HeaderWrapper = styled.header<Pick<Props, "isScrolled">>`
@@ -79,7 +79,7 @@ export const HeaderList = styled.ul`
 export const HeaderListItem = styled.li``;
 
 export const HeaderLink = styled.a<
-  Pick<Props, "isScrolled" | "activeUrl" | "isViewActive">
+  Pick<Props, "isScrolled" | "isRouteActive" | "isViewActive">
 >`
   font-size: 18px;
   font-weight: 300;
@@ -101,8 +101,8 @@ export const HeaderLink = styled.a<
     display: block;
     position: absolute;
     height: 6px;
-    background-color: ${({ activeUrl, isViewActive }) =>
-      activeUrl ? MAIN_COLOR : isViewActive ? "#767676" : "transparent"};
+    background-color: ${({ isRouteActive, isViewActive }) =>
+      isRouteActive ? MAIN_COLOR : isViewActive ? "#767676" : "transparent"};
     left: 0;
     bottom: 0;
   }
@@ -110,14 +110,13 @@ export const HeaderLink = styled.a<
   &::before {
     z-index: 0;
     background-color: ${MAIN_COLOR};
-    width: ${({ activeUrl }: { activeUrl: string }) =>
-      activeUrl ? "100%" : "0"};
+    width: ${({ isRouteActive }) => (isRouteActive ? "100%" : "0")};
   }
 
   &::after {
     z-index: 1;
-    width: ${({ activeUrl, isViewActive }) =>
-      !activeUrl && isViewActive ? "100%" : "0"};
+    width: ${({ isRouteActive, isViewActive }) =>
+      !isRouteActive && isViewActive ? "100%" : "0"};
     background-color: #767676;
   }
 `;

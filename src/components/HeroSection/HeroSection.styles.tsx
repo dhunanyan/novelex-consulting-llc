@@ -8,7 +8,11 @@ import {
 } from "@utils/styles";
 import styled, { css } from "styled-components";
 
-const heroWithImageStyles = (isInverted) => css`
+export type Props = {
+  isInverted?: boolean;
+};
+
+const heroWithImageStyles = (isInverted: Props["isInverted"]) => css`
   min-height: 600px;
   display: flex;
   align-items: flex-end;
@@ -49,7 +53,7 @@ const heroWithImageStyles = (isInverted) => css`
   }
 `;
 
-export const HeroWrapper = styled.section`
+export const HeroWrapper = styled.section<Pick<Props, "isInverted">>`
   position: relative;
   background-color: ${MAIN_WHITE_COLOR};
   overflow: hidden;

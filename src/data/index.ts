@@ -5,3 +5,4 @@ export { DropdownData } from "./DropdownData";
 export { FooterData } from "./FooterData";
 export { SocialMediasData } from "./SocialMediasData";
 export { SubDropdownData } from "./SubDropdownData";
+export { NavigatorData } from "./NavigatorData";

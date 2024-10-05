@@ -16,7 +16,6 @@ export const Content = {
     imageCardsSection: {
       title: "Who we are",
       description: "Opening up a world of opportunities",
-      button: "Read more",
       cards: [
         {
           title: "Purpose",

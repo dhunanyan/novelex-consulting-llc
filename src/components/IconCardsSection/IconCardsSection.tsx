@@ -11,9 +11,26 @@ import {
 } from "./IconCardsSection.styles";
 import { IconCard } from "@components/IconCardsSection/IconCard/IconCard";
 
+export type IconCardsSectionPropsType = {
+  title: string;
+  subtitle: string;
+  description: string;
+  button: string;
+  cards: {
+    title: string;
+    description: string;
+    button: string;
+    iconURL: string;
+  }[];
+  order?: number;
+  contentBackgroundColor?: string;
+  inverseColors?: boolean;
+  forceHideButton?: boolean;
+};
+
 export const IconCardsSection = ({
-  subtitle,
   title,
+  subtitle,
   description,
   button,
   cards,
@@ -21,14 +38,10 @@ export const IconCardsSection = ({
   contentBackgroundColor = "transparent",
   inverseColors = false,
   forceHideButton = false,
-}) => (
+}: IconCardsSectionPropsType) => (
   <IconCardsWrapper inverseColors={inverseColors}>
     <IconCardsContainer>
-      <IconCardsContent
-        order={order}
-        backgroundColor={contentBackgroundColor}
-        inverseColors={inverseColors}
-      >
+      <IconCardsContent order={order} backgroundColor={contentBackgroundColor}>
         <IconCardsSubtitle>{subtitle}</IconCardsSubtitle>
         <IconCardsTitle>{title}</IconCardsTitle>
         <IconCardsDescription>{description}</IconCardsDescription>
@@ -41,9 +54,9 @@ export const IconCardsSection = ({
           .slice(0, cards.length / 2)
           .map(({ title, description, button, iconURL }, i) => (
             <div key={i}>
-              {cards.slice(cards.length / 2).map((nth) => (
+              {cards.slice(cards.length / 2).map(() => (
                 <IconCard
-                  key={nth}
+                  key={i + cards.length / 2}
                   title={title}
                   description={description}
                   button={button}

@@ -1,4 +1,4 @@
-export const getHref = (parentList, currentParentIndex) => {
+export const getHref = (parentList: string[], currentParentIndex: number) => {
   let href = "/";
   parentList.every((v, i) => {
     if (i > currentParentIndex) {

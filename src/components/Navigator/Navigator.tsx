@@ -9,11 +9,19 @@ import {
   NavigatorWrapper,
 } from "./Navigator.styles";
 import { MdOutlineKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
-import { NAVIGATOR_MAPPING } from "./utils";
-import { getHref } from "./getHref";
 
-export const Navigator = ({ list }) => {
-  const filteredList = list.filter((item) => !!NAVIGATOR_MAPPING[item]);
+import { NavigatorData } from "@data";
+import { getHref } from "@utils";
+import { NavigatorID } from "@types";
+
+export type NavigatorPropsType = {
+  list: string[];
+};
+
+export const Navigator = ({ list }: NavigatorPropsType) => {
+  const filteredList = list.filter(
+    (item) => !!NavigatorData[item as NavigatorID]
+  );
   const isWrongRoute = filteredList.length !== list.length;
 
   return (
@@ -24,7 +32,7 @@ export const Navigator = ({ list }) => {
             index !== list.length - 1 ? (
               <NavigatorItem key={index}>
                 <NavigatorLink href={getHref(filteredList, index)}>
-                  {NAVIGATOR_MAPPING[item]}
+                  {NavigatorData[item as NavigatorID]}
                 </NavigatorLink>
                 <NavigatorIcon>
                   <Arrow />
@@ -32,7 +40,9 @@ export const Navigator = ({ list }) => {
               </NavigatorItem>
             ) : (
               <NavigatorItem key={index}>
-                <NavigatorText>{NAVIGATOR_MAPPING[item]}</NavigatorText>
+                <NavigatorText>
+                  {NavigatorData[item as NavigatorID]}
+                </NavigatorText>
               </NavigatorItem>
             )
           )}

@@ -1,4 +1,12 @@
-export const SubDropdownData = {
+export const SubDropdownData: {
+  [key: string]: {
+    [key: string]: {
+      id: string;
+      text: string;
+      href: string;
+    }[];
+  };
+} = {
   "who-we-are": {
     "purpose-value-and-strategy": [
       {

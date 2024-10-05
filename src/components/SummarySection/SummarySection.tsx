@@ -11,6 +11,15 @@ import {
   SummaryIcon,
 } from "./SummarySection.styles";
 
+export type SummarySectionPropsType = {
+  title: string;
+  subtitle: string;
+  description: string;
+  button: string;
+  imageURL: string;
+  isInverted?: boolean;
+};
+
 export const SummarySection = ({
   title,
   subtitle,
@@ -18,20 +27,18 @@ export const SummarySection = ({
   button,
   imageURL,
   isInverted = false,
-}) => {
-  return (
-    <SummaryWrapper imageURL={imageURL} isInverted={isInverted}>
-      <SummaryContainer>
-        <SummaryIcon>
-          <img src={imageURL} />
-        </SummaryIcon>
-        <SummaryContent>
-          <SummarySubtitle>{subtitle}</SummarySubtitle>
-          <SummaryTitle>{title}</SummaryTitle>
-          <SummaryDescription>{description}</SummaryDescription>
-          <SummaryButton>{button}</SummaryButton>
-        </SummaryContent>
-      </SummaryContainer>
-    </SummaryWrapper>
-  );
-};
+}: SummarySectionPropsType) => (
+  <SummaryWrapper imageURL={imageURL} isInverted={isInverted}>
+    <SummaryContainer>
+      <SummaryIcon>
+        <img src={imageURL} />
+      </SummaryIcon>
+      <SummaryContent>
+        <SummarySubtitle>{subtitle}</SummarySubtitle>
+        <SummaryTitle>{title}</SummaryTitle>
+        <SummaryDescription>{description}</SummaryDescription>
+        <SummaryButton>{button}</SummaryButton>
+      </SummaryContent>
+    </SummaryContainer>
+  </SummaryWrapper>
+);
