@@ -9,11 +9,14 @@ import {
   IconCardsTitle,
   IconCardsWrapper,
 } from "./IconCardsSection.styles";
-import { IconCard } from "@/components/IconCardsSection/IconCard/IconCard";
+import { IconCard } from "@components/IconCardsSection/IconCard/IconCard";
 
 export const IconCardsSection = ({
-  content,
-  SVGs,
+  subtitle,
+  title,
+  description,
+  button,
+  cards,
   order = 0,
   contentBackgroundColor = "transparent",
   inverseColors = false,
@@ -26,29 +29,31 @@ export const IconCardsSection = ({
         backgroundColor={contentBackgroundColor}
         inverseColors={inverseColors}
       >
-        <IconCardsSubtitle>{content.subtitle}</IconCardsSubtitle>
-        <IconCardsTitle>{content.title}</IconCardsTitle>
-        <IconCardsDescription>{content.description}</IconCardsDescription>
+        <IconCardsSubtitle>{subtitle}</IconCardsSubtitle>
+        <IconCardsTitle>{title}</IconCardsTitle>
+        <IconCardsDescription>{description}</IconCardsDescription>
         <IconCardsButton inverseColors={inverseColors}>
-          {content.button}
+          {button}
         </IconCardsButton>
       </IconCardsContent>
       <IconCardsCards order={order}>
-        {[0, 2].map((times, i) => (
-          <div key={i}>
-            {[1, 2].map((nth) => (
-              <IconCard
-                key={nth}
-                title={content[`card${times + nth}Title`]}
-                description={content[`card${times + nth}Description`]}
-                icon={SVGs[`card${times + nth}Icon`]}
-                button={content.button}
-                forceHideButton={forceHideButton}
-                inverseColors={inverseColors}
-              />
-            ))}
-          </div>
-        ))}
+        {cards
+          .slice(0, cards.length / 2)
+          .map(({ title, description, button, iconURL }, i) => (
+            <div key={i}>
+              {cards.slice(cards.length / 2).map((nth) => (
+                <IconCard
+                  key={nth}
+                  title={title}
+                  description={description}
+                  button={button}
+                  icon={iconURL}
+                  forceHideButton={forceHideButton}
+                  inverseColors={inverseColors}
+                />
+              ))}
+            </div>
+          ))}
       </IconCardsCards>
     </IconCardsContainer>
   </IconCardsWrapper>

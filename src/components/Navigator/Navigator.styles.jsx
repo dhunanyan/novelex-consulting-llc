@@ -4,7 +4,7 @@ import {
   MAIN_BLACK_COLOR,
   MAIN_COLOR,
   MAIN_WHITE_COLOR,
-} from "@/utils/styles";
+} from "@utils/styles";
 
 export const NavigatorWrapper = styled.nav`
   width: 100%;

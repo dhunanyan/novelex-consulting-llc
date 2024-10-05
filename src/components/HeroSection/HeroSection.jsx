@@ -12,30 +12,20 @@ import {
 } from "./HeroSection.styles";
 
 export const HeroSection = ({
-  content,
-  images,
-  SVGs,
+  title,
+  subtitle,
+  imageURL,
+  icon,
   isInverted = false,
-  forceImageInsteadIcon = false,
 }) => {
   return (
-    <HeroWrapper imageUrl={images.welcomeImage} isInverted={isInverted}>
+    <HeroWrapper isInverted={isInverted}>
+      <img src={imageURL} />
       <HeroContainer>
-        {SVGs.welcomeIcon && !forceImageInsteadIcon && (
-          <HeroIcon dangerouslySetInnerHTML={{ __html: SVGs.welcomeIcon }} />
-        )}
-        {forceImageInsteadIcon && (
-          <HeroIcon>
-            <img src="/hero/building.png" />
-          </HeroIcon>
-        )}
+        {icon && <HeroIcon dangerouslySetInnerHTML={{ __html: icon }} />}
         <HeroContent>
-          <HeroSubtitle>{content.welcomeSubtitle}</HeroSubtitle>
-          <HeroTitle>{content.welcomeTitle}</HeroTitle>
-          <HeroDescription>{content.welcomeDescription}</HeroDescription>
-          {content.welcomeButton && (
-            <HeroButton>{content.welcomeButton}</HeroButton>
-          )}
+          <HeroSubtitle>{subtitle}</HeroSubtitle>
+          <HeroTitle>{title}</HeroTitle>
         </HeroContent>
       </HeroContainer>
     </HeroWrapper>

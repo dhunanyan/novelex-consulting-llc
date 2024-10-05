@@ -1,4 +1,4 @@
-export const SOCIAL_MEDIAS = [
+export const SocialMediasData = [
   {
     id: "twitter",
     url: "https://twitter.com",

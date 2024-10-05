@@ -4,7 +4,7 @@ import {
   MAIN_COLOR,
   MAIN_WHITE_COLOR,
   Subtitle,
-} from "@/utils/styles";
+} from "@utils/styles";
 import styled from "styled-components";
 
 export const ImageCardsWrapper = styled.section`

@@ -5,12 +5,12 @@ import {
   FooterLinksList,
   FooterLinksWrapper,
 } from "./FooterLinks.styles";
-import { FOOTER_LINKS } from "@/data";
+import { FooterData } from "@data";
 
 export const FooterLinks = () => (
   <FooterLinksWrapper>
     <FooterLinksList>
-      {FOOTER_LINKS.map((item) => (
+      {FooterData.map((item) => (
         <FooterLinksItem key={item.id}>
           <FooterLinksLink href={item.id}>{item.text}</FooterLinksLink>
         </FooterLinksItem>

@@ -2,7 +2,7 @@ import {
   MAIN_BLACK_COLOR,
   MAIN_WHITE_COLOR,
   PrimaryButton,
-} from "@/utils/styles";
+} from "@utils/styles";
 import styled from "styled-components";
 
 export const TileContainer = styled.div`

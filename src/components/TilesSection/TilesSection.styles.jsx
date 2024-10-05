@@ -4,7 +4,7 @@ import {
   MAIN_WHITE_COLOR,
   Subtitle,
   Title,
-} from "@/utils/styles";
+} from "@utils/styles";
 import styled from "styled-components";
 
 export const TilesSectionWrapper = styled.section`

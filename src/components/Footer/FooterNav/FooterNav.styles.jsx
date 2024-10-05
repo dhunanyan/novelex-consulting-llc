@@ -5,7 +5,7 @@ import {
   PRIMARY_BLACK_COLOR,
   PRIMARY_WHITE_COLOR,
   SECONDARY_BLACK_COLOR,
-} from "@/utils/styles";
+} from "@utils/styles";
 import styled from "styled-components";
 
 export const FooterNavWrapper = styled.div`

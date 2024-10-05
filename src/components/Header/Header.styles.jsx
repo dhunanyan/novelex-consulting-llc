@@ -3,7 +3,7 @@ import {
   MAIN_BLACK_COLOR,
   MAIN_COLOR,
   MAIN_WHITE_COLOR,
-} from "@/utils/styles";
+} from "@utils/styles";
 import styled, { css } from "styled-components";
 
 export const HeaderWrapper = styled.header`

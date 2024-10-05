@@ -1,4 +1,4 @@
-import { MAIN_COLOR, MAIN_BLACK_COLOR, MAIN_WHITE_COLOR } from "@/utils/styles";
+import { MAIN_COLOR, MAIN_BLACK_COLOR, MAIN_WHITE_COLOR } from "@utils/styles";
 import styled from "styled-components";
 
 export const IconCardWrapper = styled.button`

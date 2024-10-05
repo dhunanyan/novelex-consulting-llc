@@ -17,7 +17,8 @@ import { Dropdown } from "./Dropdown/Dropdown";
 
 import { PiDevToLogoFill as TempLogo } from "react-icons/pi";
 
-import { NAVIGATION_ITEMS, DROPDOWN_SECTIONS } from "@/data";
+import { NavigationData, DropdownData } from "@data";
+import Image from "next/image";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -71,11 +72,16 @@ export const Header = () => {
       <div>
         <HeaderContainer>
           <HeaderIcon href="/" onClick={(e) => onItemClick(e, "home")}>
-            <img src="/logo/i_logo.svg" alt="Novelex Logo" />
+            <Image
+              height={45}
+              width={45}
+              src="/icons/i_logo.svg"
+              alt="Novelex Logo"
+            />
           </HeaderIcon>
           <HeaderNav>
             <HeaderList>
-              {NAVIGATION_ITEMS.map((item) => (
+              {NavigationData.map((item) => (
                 <HeaderListItem
                   key={item.id}
                   onClick={(e) => onItemClick(e, item.id)}
@@ -97,8 +103,8 @@ export const Header = () => {
           </HeaderSide>
         </HeaderContainer>
       </div>
-      <HeaderBox isActive={!!DROPDOWN_SECTIONS[currentView]}>
-        {DROPDOWN_SECTIONS[currentView] && (
+      <HeaderBox isActive={!!DropdownData[currentView]}>
+        {DropdownData[currentView] && (
           <HeaderBoxContainer>
             <Dropdown
               closeDropDown={() => setCurrentView("")}

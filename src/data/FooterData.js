@@ -1,4 +1,4 @@
-export const FOOTER_LINKS = [
+export const FooterData = [
   {
     text: "Terms and conditions",
     id: "terms-and-conditions",

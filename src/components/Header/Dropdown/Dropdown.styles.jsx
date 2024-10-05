@@ -1,4 +1,4 @@
-import { MAIN_WHITE_COLOR, Subtitle, Title } from "@/utils/styles";
+import { MAIN_WHITE_COLOR, Subtitle, Title } from "@utils/styles";
 import styled from "styled-components";
 
 export const DropdownContainer = styled.div`

@@ -5,14 +5,11 @@ import {
   Subtitle,
   MAIN_WHITE_COLOR,
   SECONDARY_BLACK_COLOR,
-} from "@/utils/styles";
+} from "@utils/styles";
 import styled, { css } from "styled-components";
 
-const heroWithImageStyles = (imageUrl, isInverted) => css`
-  background-image: url(${imageUrl});
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
+const heroWithImageStyles = (isInverted) => css`
+  min-height: 600px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -60,8 +57,13 @@ export const HeroWrapper = styled.section`
   > h1 {
     margin: 0 0 20px 0;
   }
-  ${({ imageUrl, isInverted }) =>
-    imageUrl ? heroWithImageStyles(imageUrl, isInverted) : ""}
+
+  img {
+    position: absolute;
+    width: 100%;
+  }
+
+  ${({ isInverted }) => heroWithImageStyles(isInverted)}
 `;
 
 export const HeroContainer = styled.div`

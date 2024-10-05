@@ -1,6 +1,7 @@
-export { PAGES_HTML } from "./PAGES_HTML";
-export { NAVIGATION_ITEMS } from "./NAVIGATION_ITEMS";
-export { DROPDOWN_SECTIONS } from "./DROPDOWN_SECTIONS";
-export { FOOTER_LINKS } from "./FOOTER_LINKS";
-export { SOCIAL_MEDIAS } from "./SOCIAL_MEDIAS";
-export { SUB_DROPDOWN_SECTIONS } from "./SUB_DROPDOWN_SECTIONS";
+export { Content } from "./Content";
+export { HtmlData } from "./HtmlData";
+export { NavigationData } from "./NavigationData";
+export { DropdownData } from "./DropdownData";
+export { FooterData } from "./FooterData";
+export { SocialMediasData } from "./SocialMediasData";
+export { SubDropdownData } from "./SubDropdownData";

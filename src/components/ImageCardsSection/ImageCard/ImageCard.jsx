@@ -7,7 +7,7 @@ import {
 } from "./ImageCard.styles";
 
 export const ImageCard = ({ title, icon, image }) => (
-  <ImageCardContainer imageUrl={image} href="#">
+  <ImageCardContainer imageURL={image} href="#">
     <ImageCardContent>
       <ImageCardTitle>{title}</ImageCardTitle>
       {icon && <ImageCardIcon dangerouslySetInnerHTML={{ __html: icon }} />}

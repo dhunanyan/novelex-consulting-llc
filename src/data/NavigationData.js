@@ -1,4 +1,4 @@
-export const NAVIGATION_ITEMS = [
+export const NavigationData = [
   {
     text: "Who We Are",
     id: "who-we-are",

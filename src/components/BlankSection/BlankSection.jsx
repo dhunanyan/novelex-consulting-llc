@@ -7,14 +7,12 @@ import {
   BlankSectionWrapper,
 } from "./BlankSection.styles";
 
-export const BlankSection = ({ content }) => {
-  return (
-    <BlankSectionWrapper>
-      <BlankSectionContainer>
-        <BlankSectionTitle>{content.title}</BlankSectionTitle>
-        <BlankSectionDescription>{content.description}</BlankSectionDescription>
-        <BlankSectionButton>{content.button}</BlankSectionButton>
-      </BlankSectionContainer>
-    </BlankSectionWrapper>
-  );
-};
+export const BlankSection = ({ title, description, button }) => (
+  <BlankSectionWrapper>
+    <BlankSectionContainer>
+      <BlankSectionTitle>{title}</BlankSectionTitle>
+      <BlankSectionDescription>{description}</BlankSectionDescription>
+      <BlankSectionButton>{button}</BlankSectionButton>
+    </BlankSectionContainer>
+  </BlankSectionWrapper>
+);

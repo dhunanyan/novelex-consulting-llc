@@ -1,8 +1,8 @@
-import { MAIN_COLOR, MAIN_WHITE_COLOR, Subtitle } from "@/utils/styles";
+import { MAIN_COLOR, MAIN_WHITE_COLOR, Subtitle } from "@utils/styles";
 import styled from "styled-components";
 
 export const ImageCardContainer = styled.a`
-  background-image: url(${({ imageUrl }) => imageUrl});
+  background-image: url(${({ imageURL }) => imageURL});
   background-size: cover;
   background-position: center;
   width: calc((100% / 3) - 10px);

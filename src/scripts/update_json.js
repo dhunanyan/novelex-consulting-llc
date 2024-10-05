@@ -1,13 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 
-const PAGES_HTML_FILE = path.resolve(__dirname, "../data/PAGES_HTML.json");
+const PAGES_HTML_FILE = path.resolve(__dirname, "../data/HtmlData.json");
 
 let pagesHtml;
 try {
   pagesHtml = JSON.parse(fs.readFileSync(PAGES_HTML_FILE, "utf8"));
 } catch (err) {
-  console.error(`Error reading PAGES_HTML.json: ${err.message}`);
+  console.error(`Error reading HtmlData.json: ${err.message}`);
   process.exit(1);
 }
 

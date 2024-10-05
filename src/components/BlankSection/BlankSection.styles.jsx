@@ -4,7 +4,7 @@ import {
   PRIMARY_BLACK_COLOR,
   PrimaryButton,
   Title,
-} from "@/utils/styles";
+} from "@utils/styles";
 import styled from "styled-components";
 
 export const BlankSectionWrapper = styled.section`

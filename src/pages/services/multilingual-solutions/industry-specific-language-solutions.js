@@ -1,18 +1,18 @@
 import Head from "next/head";
 
-import { PAGES_HTML } from "@/data";
+import { HtmlData } from "@data";
 
 export default function IndustrySpecificLanguageSolutions() {
   return (
     <>
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/logo/i_logo.svg" />
+        <link rel="icon" href="/icons/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
         <meta
           name="keywords"
           content={
-            PAGES_HTML["services"]["multilingual-solutions"][
+            HtmlData["services"]["multilingual-solutions"][
               "industry-specific-language-solutions"
             ].keywords
           }
@@ -20,14 +20,14 @@ export default function IndustrySpecificLanguageSolutions() {
         <meta
           name="description"
           content={
-            PAGES_HTML["services"]["multilingual-solutions"][
+            HtmlData["services"]["multilingual-solutions"][
               "industry-specific-language-solutions"
             ].description
           }
         />
         <title>
           {
-            PAGES_HTML["services"]["multilingual-solutions"][
+            HtmlData["services"]["multilingual-solutions"][
               "industry-specific-language-solutions"
             ].title
           }

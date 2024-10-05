@@ -1,4 +1,4 @@
-export const PAGES_HTML = {
+export const HtmlData = {
   careers: {
     index: {
       title: "Careers | Novelex Consulting",

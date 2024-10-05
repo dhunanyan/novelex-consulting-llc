@@ -1,18 +1,18 @@
 import Head from "next/head";
 
-import { PAGES_HTML } from "@/data";
+import { HtmlData } from "@data";
 
 export default function ForgeConnectionsInASupportiveWorkCommunity() {
   return (
     <>
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/logo/i_logo.svg" />
+        <link rel="icon" href="/icons/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
         <meta
           name="keywords"
           content={
-            PAGES_HTML["careers"]["join-our-team"][
+            HtmlData["careers"]["join-our-team"][
               "forge-connections-in-a-supportive-work-community"
             ].keywords
           }
@@ -20,14 +20,14 @@ export default function ForgeConnectionsInASupportiveWorkCommunity() {
         <meta
           name="description"
           content={
-            PAGES_HTML["careers"]["join-our-team"][
+            HtmlData["careers"]["join-our-team"][
               "forge-connections-in-a-supportive-work-community"
             ].description
           }
         />
         <title>
           {
-            PAGES_HTML["careers"]["join-our-team"][
+            HtmlData["careers"]["join-our-team"][
               "forge-connections-in-a-supportive-work-community"
             ].title
           }

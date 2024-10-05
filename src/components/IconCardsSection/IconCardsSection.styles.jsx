@@ -6,7 +6,7 @@ import {
   Subtitle,
   MAIN_BLACK_COLOR,
   MAIN_WHITE_COLOR,
-} from "@/utils/styles";
+} from "@utils/styles";
 
 export const IconCardsWrapper = styled.section`
   background-color: ${({ inverseColors }) =>

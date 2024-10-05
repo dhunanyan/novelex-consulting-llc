@@ -9,23 +9,23 @@ import {
 } from "./ImageCardsSection.styles";
 import { ImageCard } from "./ImageCard/ImageCard";
 
-export const ImageCardsSection = ({ content, images, SVGs }) => {
+export const ImageCardsSection = ({ title, description, button, cards }) => {
   return (
     <ImageCardsWrapper>
       <ImageCardsContainer>
         <ImageCardsContent>
-          <ImageCardsTitle>{content.title}</ImageCardsTitle>
-          <ImageCardsSubtitle>{content.description}</ImageCardsSubtitle>
+          <ImageCardsTitle>{title}</ImageCardsTitle>
+          <ImageCardsSubtitle>{description}</ImageCardsSubtitle>
         </ImageCardsContent>
 
         <ImageCardsCards>
-          {[...Array(6).keys()].map((nth) => (
+          {cards.map(({ title, imageURL, iconURL }, i) => (
             <ImageCard
-              key={nth}
-              title={content[`card${nth + 1}Title`]}
-              image={images[`card${nth + 1}Image`]}
-              icon={SVGs[`card${nth + 1}Icon`]}
-              button={content.button}
+              key={i}
+              title={title}
+              image={imageURL}
+              icon={iconURL}
+              button={button}
             />
           ))}
         </ImageCardsCards>

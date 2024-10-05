@@ -11,31 +11,29 @@ import {
   TilesSectionWrapper,
 } from "./TilesSection.styles";
 
-export const TilesSection = ({ content, images }) => {
+export const TilesSection = ({ title, description, tiles, imageURL }) => {
   return (
     <TilesSectionWrapper>
       <TilesSectionContainer>
         <TilesSectionContent>
-          <TilesSectionTitle>{content.title}</TilesSectionTitle>
-          <TilesSectionDescription>
-            {content.description}
-          </TilesSectionDescription>
+          <TilesSectionTitle>{title}</TilesSectionTitle>
+          <TilesSectionDescription>{description}</TilesSectionDescription>
         </TilesSectionContent>
 
         <TilesSectionPreview>
           <TilesSectionCollection>
-            {[...Array(3).keys()].map((nth) => (
+            {tiles.map(({ title, description, button }, i) => (
               <Tile
-                key={nth}
-                title={content[`tile${nth + 1}Title`]}
-                description={content[`tile${nth + 1}Description`]}
-                button={content.button}
+                key={i}
+                title={title}
+                description={description}
+                button={button}
               />
             ))}
           </TilesSectionCollection>
 
           <TilesSelectionImage>
-            <img src={images.image} alt="Purpose, Values and Strategy" />
+            <img src={imageURL} alt={title} />
           </TilesSelectionImage>
         </TilesSectionPreview>
       </TilesSectionContainer>

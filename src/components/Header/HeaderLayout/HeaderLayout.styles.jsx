@@ -1,4 +1,4 @@
-import { MAIN_WHITE_COLOR, SECONDARY_BLACK_COLOR } from "@/utils/styles";
+import { MAIN_WHITE_COLOR, SECONDARY_BLACK_COLOR } from "@utils/styles";
 import styled from "styled-components";
 
 export const HeaderLayoutWrapper = styled.div`

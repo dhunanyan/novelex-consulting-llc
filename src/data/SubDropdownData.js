@@ -1,4 +1,4 @@
-export const SUB_DROPDOWN_SECTIONS = {
+export const SubDropdownData = {
   "who-we-are": {
     "purpose-value-and-strategy": [
       {

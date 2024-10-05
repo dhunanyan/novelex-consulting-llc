@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const jsonFilePath = path.join(__dirname, "../data/PAGES_HTML.json");
+const jsonFilePath = path.join(__dirname, "../data/HtmlData.json");
 const jsonData = JSON.parse(fs.readFileSync(jsonFilePath, "utf8"));
 const jsDirectory = path.join(__dirname, "../pages");
 
@@ -38,9 +38,9 @@ function updateJsFilesFromJson(json, currentPath = "") {
           let content = fs.readFileSync(jsFile, "utf8");
 
           const jsonPathString = newPath.split("/").join("']['");
-          const titleReplacement = `<title>{PAGES_HTML['${jsonPathString}'].title}</title>`;
-          const descriptionReplacement = `<meta name="description" content={PAGES_HTML['${jsonPathString}'].description} />`;
-          const keywordsReplacement = `<meta name="keywords" content={PAGES_HTML['${jsonPathString}'].keywords} />`;
+          const titleReplacement = `<title>{HtmlData['${jsonPathString}'].title}</title>`;
+          const descriptionReplacement = `<meta name="description" content={HtmlData['${jsonPathString}'].description} />`;
+          const keywordsReplacement = `<meta name="keywords" content={HtmlData['${jsonPathString}'].keywords} />`;
 
           content = content.replace(
             /<meta name="keywords" content="[^"]*" \/>/,
@@ -52,7 +52,7 @@ function updateJsFilesFromJson(json, currentPath = "") {
           );
           content = content.replace(/<title>[^<]*<\/title>/, titleReplacement);
 
-          const importStatement = `import PAGES_HTML from "@/data/PAGES_HTML";\n`;
+          const importStatement = `import HtmlData from "@data/HtmlData";\n`;
           if (!content.startsWith(importStatement)) {
             content = importStatement + content;
           }

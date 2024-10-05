@@ -5,11 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/logo/i_logo.svg" />
+        <link rel="icon" href="/icons/i_logo.svg" />
         <meta name="theme-color" content="#000000" />
       </Head>
       <body>
-        <div id="fb-root" />
         <Main />
         <NextScript />
       </body>

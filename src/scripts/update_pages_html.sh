@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PAGES_HTML_FILE="./src/data/PAGES_HTML.json"
+PAGES_HTML_FILE="./src/data/HtmlData.json"
 
 update_json() {
     local json_path=("$@")
@@ -33,4 +33,4 @@ json_root_path=()
 
 traverse_directory "$root_directory" "${json_root_path[@]}"
 
-echo "PAGES_HTML.json has been updated successfully!"
+echo "HtmlData.json has been updated successfully!"
