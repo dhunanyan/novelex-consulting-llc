@@ -6,7 +6,15 @@ import {
 } from "@utils/styles";
 import styled, { css } from "styled-components";
 
-export const HeaderWrapper = styled.header`
+export type Props = {
+  isScrolled: boolean;
+  isNavigatorDisabled: boolean;
+  isActive: boolean;
+  isViewActive: boolean;
+  activeUrl: string;
+};
+
+export const HeaderWrapper = styled.header<Pick<Props, "isScrolled">>`
   position: fixed;
   z-index: 99999999999999;
   height: ${({ isScrolled }) => (isScrolled ? "60px" : "95px")};
@@ -17,8 +25,6 @@ export const HeaderWrapper = styled.header`
   -moz-box-shadow: 0px -1px 7px 1px rgba(0, 0, 0, 0.47);
   transition: all 150ms ease-out;
   transition: height 200ms ease-in;
-  padding-top: ${({ isNavigatorDisabled }) =>
-    isNavigatorDisabled ? "90px" : "0px"};
 
   > div:first-of-type {
     height: 100%;
@@ -72,11 +78,14 @@ export const HeaderList = styled.ul`
 
 export const HeaderListItem = styled.li``;
 
-export const HeaderLink = styled.a`
+export const HeaderLink = styled.a<
+  Pick<Props, "isScrolled" | "activeUrl" | "isViewActive">
+>`
   font-size: 18px;
   font-weight: 300;
   margin: 0 14px;
-  padding: ${({ isScrolled }) => (isScrolled ? "19px 0" : "35.5px 0")};
+  padding: ${({ isScrolled }: { isScrolled: boolean }) =>
+    isScrolled ? "19px 0" : "35.5px 0"};
   white-space: nowrap;
   position: relative;
   cursor: pointer;
@@ -92,8 +101,8 @@ export const HeaderLink = styled.a`
     display: block;
     position: absolute;
     height: 6px;
-    background-color: ${({ activeUrl, activeViw }) =>
-      activeUrl ? MAIN_COLOR : activeViw ? "#767676" : "transparent"};
+    background-color: ${({ activeUrl, isViewActive }) =>
+      activeUrl ? MAIN_COLOR : isViewActive ? "#767676" : "transparent"};
     left: 0;
     bottom: 0;
   }
@@ -101,18 +110,19 @@ export const HeaderLink = styled.a`
   &::before {
     z-index: 0;
     background-color: ${MAIN_COLOR};
-    width: ${({ activeUrl }) => (activeUrl ? "100%" : "0")};
+    width: ${({ activeUrl }: { activeUrl: string }) =>
+      activeUrl ? "100%" : "0"};
   }
 
   &::after {
     z-index: 1;
-    width: ${({ activeUrl, activeView }) =>
-      !activeUrl && activeView ? "100%" : "0"};
+    width: ${({ activeUrl, isViewActive }) =>
+      !activeUrl && isViewActive ? "100%" : "0"};
     background-color: #767676;
   }
 `;
 
-export const HeaderBox = styled.div`
+export const HeaderBox = styled.div<Pick<Props, "isActive">>`
   background-color: ${({ isActive }) =>
     isActive ? MAIN_BLACK_COLOR : MAIN_WHITE_COLOR};
   opacity: ${({ isActive }) => (isActive ? 1 : 0)};

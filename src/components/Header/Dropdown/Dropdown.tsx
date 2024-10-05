@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import * as React from "react";
 import {
   DropdownCloseButton,
   DropdownContainer,
@@ -20,10 +20,27 @@ import { FaTimes as CloseIcon } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
 import { DropdownData, SubDropdownData } from "@data";
+import { ViewID, SubViewID } from "@types";
 
-export const Dropdown = ({ closeDropDown, viewId, subViewId, onItemClick }) => {
+export type DropdownPropsType = {
+  closeDropDown: () => void;
+  viewId: ViewID | "";
+  subViewId: SubViewID;
+  onItemClick: (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    navItemId: string,
+    navItemHref: string
+  ) => void;
+};
+
+export const Dropdown = ({
+  closeDropDown,
+  viewId,
+  subViewId,
+  onItemClick,
+}: DropdownPropsType) => {
   const { title, description, goToLink, navList, extraContent } =
-    DropdownData[viewId];
+    DropdownData[viewId as ViewID];
 
   return (
     <DropdownContainer>
@@ -73,12 +90,17 @@ export const Dropdown = ({ closeDropDown, viewId, subViewId, onItemClick }) => {
         <DropdownExtraContent>
           <DropdownNav justifyContent="flex-start">
             <DropdownList>
-              {SubDropdownData[viewId][subViewId].map((navItem) => (
+              {(
+                SubDropdownData[viewId as ViewID] as {
+                  [key: string]: {
+                    id: string;
+                    text: string;
+                    href: string;
+                  }[];
+                }
+              )[subViewId].map((navItem) => (
                 <DropdownItem key={navItem.id}>
-                  <DropdownLink
-                    // onClick={(e) => onItemClick(e, navItem.id, navItem.href)}
-                    href={navItem.href}
-                  >
+                  <DropdownLink href={navItem.href}>
                     {navItem.text}
                   </DropdownLink>
                 </DropdownItem>

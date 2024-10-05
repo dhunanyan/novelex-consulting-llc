@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { FooterNav } from "./FooterNav/FooterNav";
 import { FooterLinks } from "./FooterLinks/FooterLinks";
 import { FooterWrapper } from "./Footer.styles";

@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 
 import {
   HeroButton,
@@ -18,7 +18,6 @@ export const HeroSection = ({
   icon,
   isInverted = false,
 }) => {
-  return (
     <HeroWrapper isInverted={isInverted}>
       <img src={imageURL} />
       <HeroContainer>
@@ -30,4 +29,3 @@ export const HeroSection = ({
       </HeroContainer>
     </HeroWrapper>
   );
-};

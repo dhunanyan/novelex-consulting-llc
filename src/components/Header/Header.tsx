@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import * as React from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import {
   HeaderBox,
   HeaderBoxContainer,
@@ -15,18 +16,21 @@ import {
 } from "./Header.styles";
 import { Dropdown } from "./Dropdown/Dropdown";
 
-import { PiDevToLogoFill as TempLogo } from "react-icons/pi";
-
 import { NavigationData, DropdownData } from "@data";
-import Image from "next/image";
+import { SubViewID, ViewID } from "@types";
 
 export const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [currentView, setCurrentView] = useState("");
-  const [currentSubView, setCurrentSubView] = useState("");
+  const [isScrolled, setIsScrolled] = React.useState(false);
+  const [currentView, setCurrentView] = React.useState<ViewID | "">("");
+  const [currentSubView, setCurrentSubView] = React.useState<SubViewID | "">(
+    ""
+  );
   const router = useRouter();
 
-  const onItemClick = (e, id) => {
+  const onItemClick = (
+    e: React.MouseEvent<HTMLLIElement | HTMLAnchorElement, MouseEvent>,
+    id: string
+  ) => {
     e.preventDefault();
     setCurrentSubView("");
     if (currentView === id) {
@@ -35,7 +39,7 @@ export const Header = () => {
     }
 
     if (id !== "home") {
-      setCurrentView(id);
+      setCurrentView(id as ViewID);
       return;
     }
 
@@ -43,17 +47,21 @@ export const Header = () => {
     router.push("/");
   };
 
-  const onSubItemClick = (e, navItemId, navItemHref) => {
+  const onSubItemClick = (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    navItemId: string,
+    navItemHref: string
+  ) => {
     e.preventDefault();
     if (currentSubView === navItemId) {
       router.push(navItemHref);
       return;
     }
 
-    setCurrentSubView(navItemId);
+    setCurrentSubView(navItemId as SubViewID);
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setIsScrolled(true);
@@ -84,12 +92,14 @@ export const Header = () => {
               {NavigationData.map((item) => (
                 <HeaderListItem
                   key={item.id}
-                  onClick={(e) => onItemClick(e, item.id)}
+                  onClick={(e: React.MouseEvent<HTMLLIElement, MouseEvent>) =>
+                    onItemClick(e, item.id)
+                  }
                 >
                   <HeaderLink
                     isScrolled={isScrolled}
-                    activeView={currentView === item.id}
-                    activeUrl={router.pathname === "/" + item.id}
+                    isViewActive={currentView === item.id}
+                    activeUrl={router.pathname + "/" + item.id}
                     href={item.id}
                   >
                     {item.text}
@@ -103,13 +113,13 @@ export const Header = () => {
           </HeaderSide>
         </HeaderContainer>
       </div>
-      <HeaderBox isActive={!!DropdownData[currentView]}>
-        {DropdownData[currentView] && (
+      <HeaderBox isActive={!!currentView && !!DropdownData[currentView]}>
+        {currentView && DropdownData[currentView] && (
           <HeaderBoxContainer>
             <Dropdown
               closeDropDown={() => setCurrentView("")}
               viewId={currentView}
-              subViewId={currentSubView}
+              subViewId={currentSubView as SubViewID}
               onItemClick={onSubItemClick}
             />
           </HeaderBoxContainer>

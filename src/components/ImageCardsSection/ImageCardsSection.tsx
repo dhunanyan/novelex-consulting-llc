@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import {
   ImageCardsCards,
   ImageCardsContainer,
@@ -9,8 +9,7 @@ import {
 } from "./ImageCardsSection.styles";
 import { ImageCard } from "./ImageCard/ImageCard";
 
-export const ImageCardsSection = ({ title, description, button, cards }) => {
-  return (
+export const ImageCardsSection = ({ title, description, button, cards }) => 
     <ImageCardsWrapper>
       <ImageCardsContainer>
         <ImageCardsContent>
@@ -32,4 +31,3 @@ export const ImageCardsSection = ({ title, description, button, cards }) => {
       </ImageCardsContainer>
     </ImageCardsWrapper>
   );
-};

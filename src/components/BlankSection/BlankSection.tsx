@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import {
   BlankSectionButton,
   BlankSectionContainer,
@@ -7,7 +7,17 @@ import {
   BlankSectionWrapper,
 } from "./BlankSection.styles";
 
-export const BlankSection = ({ title, description, button }) => (
+export type BlankSectionPropsType = {
+  title: string;
+  description: string;
+  button: string;
+};
+
+export const BlankSection = ({
+  title,
+  description,
+  button,
+}: BlankSectionPropsType) => (
   <BlankSectionWrapper>
     <BlankSectionContainer>
       <BlankSectionTitle>{title}</BlankSectionTitle>

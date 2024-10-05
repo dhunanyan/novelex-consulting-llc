@@ -1,4 +1,9 @@
-export const SocialMediasData = [
+import { SocialIconsType } from "@types";
+
+export const SocialMediasData: {
+  id: SocialIconsType;
+  url: string;
+}[] = [
   {
     id: "twitter",
     url: "https://twitter.com",

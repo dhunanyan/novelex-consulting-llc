@@ -1,10 +1,8 @@
 import {
   Container,
-  MAIN_BLACK_COLOR,
   MAIN_WHITE_COLOR,
   PRIMARY_BLACK_COLOR,
   PRIMARY_WHITE_COLOR,
-  SECONDARY_BLACK_COLOR,
 } from "@utils/styles";
 import styled from "styled-components";
 

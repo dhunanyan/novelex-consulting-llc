@@ -1,4 +1,5 @@
-import React from "react";
+import * as React from "react";
+import { SocialIconsType } from "@types";
 
 import {
   AiOutlineTwitter,
@@ -14,4 +15,4 @@ const ICONS = {
   facebook: <AiFillFacebook />,
 };
 
-export const getIcon = (id) => ICONS[id];
+export const getIcon = (id: SocialIconsType): React.JSX.Element => ICONS[id];

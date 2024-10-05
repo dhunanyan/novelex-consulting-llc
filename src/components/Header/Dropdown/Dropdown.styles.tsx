@@ -1,6 +1,10 @@
 import { MAIN_WHITE_COLOR, Subtitle, Title } from "@utils/styles";
 import styled from "styled-components";
 
+export type Props = {
+  justifyContent?: string;
+};
+
 export const DropdownContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -61,7 +65,7 @@ export const DropdownGoToLink = styled.a`
   }
 `;
 
-export const DropdownNav = styled.nav`
+export const DropdownNav = styled.nav<Pick<Props, "justifyContent">>`
   width: 100%;
   display: flex;
   justify-content: ${({ justifyContent = "center" }) => justifyContent};
