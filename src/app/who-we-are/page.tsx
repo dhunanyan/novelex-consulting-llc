@@ -1,28 +1,16 @@
-import { HtmlData, Content } from "@data";
-import {
-  HeroSection,
-  BlankSection,
-  TilesSection,
-  IconCardsSection,
-} from "@components";
+import { Content } from "@data";
+import { renderSection, SectionPropsType } from "@utils";
 
-export const metadata = HtmlData["who-we-are"]["index"];
+const PAGE_ID = "who-we-are";
+const SUB_PAGE_ID = "index";
 
-const {
-  heroSection,
-  blankSectionPurpose,
-  tilesSection,
-  blankSectionDiversity,
-  iconCardsSection,
-} = Content["who-we-are"]["index"];
+const sections = Content[PAGE_ID][SUB_PAGE_ID] as SectionPropsType[];
 
 const Page = () => (
   <>
-    <HeroSection {...heroSection} />
-    <BlankSection {...blankSectionPurpose} />
-    <TilesSection {...tilesSection} />
-    <BlankSection {...blankSectionDiversity} />
-    <IconCardsSection {...iconCardsSection} />
+    {sections.map((section, index) =>
+      renderSection({ section, index, styleEvenIconCards: true })
+    )}
   </>
 );
 

@@ -1,7 +1,17 @@
-import { HtmlData } from "@data";
+import { Content } from "@data";
+import { renderSection, SectionPropsType } from "@utils";
 
-export const metadata = HtmlData["careers"]["index"];
+const PAGE_ID = "careers";
+const SUB_PAGE_ID = "index";
 
-const Page = () => <>text</>;
+const sections = Content[PAGE_ID][SUB_PAGE_ID] as SectionPropsType[];
+
+const Page = () => (
+  <>
+    {sections.map((section, index) =>
+      renderSection({ section, index, styleEvenIconCards: true })
+    )}
+  </>
+);
 
 export default Page;

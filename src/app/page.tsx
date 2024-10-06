@@ -1,34 +1,12 @@
-import {
-  HeroSection,
-  IconCardsSection,
-  ImageCardsSection,
-  SummarySection,
-} from "@components";
-
-import { Colors } from "@config";
-
 import { Content } from "@data";
+import { renderSection, SectionPropsType } from "@utils";
 
-const {
-  heroSection,
-  summarySection,
-  iconCardsSectionCareers,
-  imageCardsSection,
-  iconCardsSectionServices,
-} = Content["index"];
+const PAGE_ID = "index";
 
-export default function HomePage() {
-  return (
-    <>
-      <HeroSection {...heroSection} isInverted={true} />
-      <SummarySection {...summarySection} />
-      <IconCardsSection {...iconCardsSectionCareers} />
-      <ImageCardsSection {...imageCardsSection} />
-      <IconCardsSection
-        {...iconCardsSectionServices}
-        order={1}
-        contentBackgroundColor={Colors.PRIMARY_BLACK_COLOR}
-      />
-    </>
-  );
-}
+const sections = Content[PAGE_ID] as SectionPropsType[];
+
+const Page = () => (
+  <>{sections.map((section, index) => renderSection({ section, index }))}</>
+);
+
+export default Page;

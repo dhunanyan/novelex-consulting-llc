@@ -80,7 +80,7 @@ export const Content = {
             "Transform your love for language into a profession at Novelex. Shape conversations, build bridges, and connect cultures. Join us as an interpreter, translator, or language consultant. Make language your career catalyst.",
           iconURL: "languages",
           button: "Learn more",
-          redirectURL: "/careers/language-jobs",
+          redirectURL: "/careers/find-a-job/language-jobs",
         },
         {
           title: "Digital & Tech Solutions",

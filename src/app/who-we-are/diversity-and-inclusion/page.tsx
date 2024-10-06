@@ -1,7 +1,6 @@
 import { HtmlData, Content } from "@data";
 import { Sections } from "@config";
 import { renderSection, SectionPropsType } from "@utils";
-import { HeroSectionPropsType } from "@components";
 
 const PAGE_ID = "who-we-are";
 const SUB_PAGE_ID = "diversity-and-inclusion";
@@ -14,7 +13,7 @@ const sections = Content[PAGE_ID][SUB_PAGE_ID] as unknown as {
 
 const sectionsToRender = [
   // HeroSection
-  Content[PAGE_ID][SUB_PAGE_ID].index[0] as HeroSectionPropsType,
+  ...(Content[PAGE_ID][SUB_PAGE_ID].index as SectionPropsType[]),
   // Icon Cards Sub pages
   ...Object.keys(sections).map((key) =>
     sections[key].find((s) => s.type === Sections.ICON_CARDS)
@@ -22,7 +21,11 @@ const sectionsToRender = [
 ];
 
 const Page = () => (
-  <>{sectionsToRender.map((section) => renderSection(section))}</>
+  <>
+    {sectionsToRender.map((section, index) =>
+      renderSection({ section, index, styleEvenIconCards: true })
+    )}
+  </>
 );
 
 export default Page;

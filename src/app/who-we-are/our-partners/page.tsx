@@ -1,37 +1,30 @@
 import { HtmlData, Content } from "@data";
-import { HeroSection, IconCardsSection } from "@components";
+import { Sections } from "@config";
+import { renderSection, SectionPropsType } from "@utils";
 
-export const metadata = HtmlData["who-we-are"]["our-partners"]["index"];
+const PAGE_ID = "who-we-are";
+const SUB_PAGE_ID = "our-partners";
 
-const {
-  index: { heroSection },
-  "innovative-solutions": {
-    iconCardsSection: iconCardsSectionInnovativeSolutions,
-  },
-  "mutual-growth-endeavors": {
-    iconCardsSection: iconCardsSectionMutualGrowthEndeavors,
-  },
-  "shared-vision-and-values": {
-    iconCardsSection: iconCardsSectionSharedVisionAndValues,
-  },
-  "strategic-collaborations": {
-    iconCardsSection: iconCardsSectionStrategicCollaborations,
-  },
-} = Content["who-we-are"]["our-partners"];
+export const metadata = HtmlData[PAGE_ID][SUB_PAGE_ID]["index"];
+
+const sections = Content[PAGE_ID][SUB_PAGE_ID] as unknown as {
+  [key: string]: SectionPropsType[];
+};
+
+const sectionsToRender = [
+  // HeroSection
+  ...(Content[PAGE_ID][SUB_PAGE_ID].index as SectionPropsType[]),
+  // Icon Cards Sub pages
+  ...Object.keys(sections).map((key) =>
+    sections[key].find((s) => s.type === Sections.ICON_CARDS)
+  ),
+];
 
 const Page = () => (
   <>
-    <HeroSection {...heroSection} />
-    <IconCardsSection
-      {...iconCardsSectionInnovativeSolutions}
-      inverseColors={true}
-    />
-    <IconCardsSection {...iconCardsSectionMutualGrowthEndeavors} order={2} />
-    <IconCardsSection
-      {...iconCardsSectionSharedVisionAndValues}
-      inverseColors={true}
-    />
-    <IconCardsSection {...iconCardsSectionStrategicCollaborations} order={2} />
+    {sectionsToRender.map((section, index) =>
+      renderSection({ section, index, styleEvenIconCards: true })
+    )}
   </>
 );
 

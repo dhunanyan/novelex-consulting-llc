@@ -1,7 +1,31 @@
-import { HtmlData } from "@data";
+import { HtmlData, Content } from "@data";
+import { Sections } from "@config";
+import { renderSection, SectionPropsType } from "@utils";
 
-export const metadata = HtmlData["who-we-are"]["climate-strategy"]["index"];
+const PAGE_ID = "who-we-are";
+const SUB_PAGE_ID = "climate-strategy";
 
-const Page = () => <>text</>;
+export const metadata = HtmlData[PAGE_ID][SUB_PAGE_ID]["index"];
+
+const sections = Content[PAGE_ID][SUB_PAGE_ID] as unknown as {
+  [key: string]: SectionPropsType[];
+};
+
+const sectionsToRender = [
+  // HeroSection
+  ...(Content[PAGE_ID][SUB_PAGE_ID].index as SectionPropsType[]),
+  // Icon Cards Sub pages
+  ...Object.keys(sections).map((key) =>
+    sections[key].find((s) => s.type === Sections.ICON_CARDS)
+  ),
+];
+
+const Page = () => (
+  <>
+    {sectionsToRender.map((section, index) =>
+      renderSection({ section, index, styleEvenIconCards: true })
+    )}
+  </>
+);
 
 export default Page;

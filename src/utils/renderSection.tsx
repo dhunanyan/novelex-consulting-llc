@@ -22,10 +22,15 @@ export type SectionPropsType =
   | SummarySectionPropsType
   | TilesSectionPropsType;
 
-export const renderSection = (
-  section: SectionPropsType | undefined,
-  index: number = 0
-) => {
+export const renderSection = ({
+  section,
+  index = 0,
+  styleEvenIconCards = false,
+}: {
+  section: SectionPropsType | undefined;
+  index: number;
+  styleEvenIconCards?: boolean;
+}) => {
   if (!section) {
     return null;
   }
@@ -38,12 +43,15 @@ export const renderSection = (
     case Sections.BLANK:
       return <BlankSection {...(section as BlankSectionPropsType)} />;
     case Sections.ICON_CARDS:
-      console.log(section.cards);
       return (
         <IconCardsSection
           {...(section as IconCardsSectionPropsType)}
-          inverseColors={index % 2 === 0}
-          order={index % 2 !== 0 ? 2 : 0}
+          {...(styleEvenIconCards
+            ? {
+                inverseColors: index % 2 === 0,
+                order: index % 2 !== 0 ? 2 : 0,
+              }
+            : {})}
         />
       );
     case Sections.IMAGE_CARDS:
