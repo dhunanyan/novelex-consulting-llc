@@ -8,6 +8,7 @@ export type SummarySectionPropsType = {
   subtitle: string;
   description: string;
   button: string;
+  redirectURL: string;
   imageURL: string;
   isInverted?: boolean;
 };
@@ -17,6 +18,7 @@ export const SummarySection = ({
   subtitle,
   description,
   button,
+  redirectURL,
   imageURL,
   isInverted = false,
 }: SummarySectionPropsType) => (
@@ -29,7 +31,9 @@ export const SummarySection = ({
         <h3 className="summary__subtitle">{subtitle}</h3>
         <h1 className="summary__title">{title}</h1>
         <p className="summary__description">{description}</p>
-        <button className="summary__button">{button}</button>
+        <a href={redirectURL} className="summary__button">
+          {button}
+        </a>
       </div>
     </div>
   </section>

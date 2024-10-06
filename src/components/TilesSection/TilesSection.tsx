@@ -12,6 +12,7 @@ export type TileSectionPropsType = {
     title: string;
     description: string;
     button: string;
+    redirectURL: string;
   }[];
 };
 
@@ -30,12 +31,13 @@ export const TilesSection = ({
 
       <div className="tiles__preview">
         <ul className="tiles__list">
-          {tiles.map(({ title, description, button }, i) => (
+          {tiles.map(({ title, description, button, redirectURL }, i) => (
             <Tile
               key={i}
               title={title}
               description={description}
               button={button}
+              redirectURL={redirectURL}
             />
           ))}
         </ul>
