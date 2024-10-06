@@ -1,4 +1,4 @@
-import { SocialIconsType } from "@types";
+import { SocialIconsType } from "@config";
 
 export const SocialMediasData: {
   id: SocialIconsType;

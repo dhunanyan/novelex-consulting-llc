@@ -1,5 +1,5 @@
 import * as React from "react";
-import { SocialIconsType } from "@types";
+import { SocialIconsType } from "@config";
 
 import {
   AiOutlineTwitter,

@@ -6,7 +6,7 @@ import { MdOutlineKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
 import { NavigatorData } from "@data";
 import { getHref } from "@utils";
-import { NavigatorID } from "@types";
+import { NavigatorID } from "@config/types";
 
 import "./Navigator.scss";
 

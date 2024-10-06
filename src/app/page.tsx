@@ -5,7 +5,7 @@ import {
   SummarySection,
 } from "@components";
 
-import { PRIMARY_BLACK_COLOR } from "@utils/styles";
+import { Colors } from "@config";
 
 import { Content } from "@data";
 
@@ -27,7 +27,7 @@ export default function HomePage() {
       <IconCardsSection
         {...iconCardsSectionServices}
         order={1}
-        contentBackgroundColor={PRIMARY_BLACK_COLOR}
+        contentBackgroundColor={Colors.PRIMARY_BLACK_COLOR}
       />
     </>
   );
