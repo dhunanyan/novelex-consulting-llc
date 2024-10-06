@@ -6,8 +6,8 @@
   color: $main-white-color;
 
   &--inverse {
-    background-color: $main-black-color;
-    color: $main-white-color;
+    color: $main-black-color;
+    background-color: $main-white-color;
   }
 
   &__container {
@@ -24,7 +24,7 @@
 
     &--switched-order {
       padding: 20px;
-      margin: 0 0 0 30px;
+      margin: 0 0 0 30px !important;
     }
   }
 

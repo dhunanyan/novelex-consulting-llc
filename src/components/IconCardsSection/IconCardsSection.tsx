@@ -31,13 +31,13 @@ export const IconCardsSection = ({
   forceHideButton = false,
 }: IconCardsSectionPropsType) => (
   <section
-    className={"icon-cards" + (inverseColors ? "icon-cards--inverse" : "")}
+    className={"icon-cards" + (inverseColors ? " icon-cards--inverse" : "")}
   >
     <div className="icon-cards__container">
       <div
         className={
           "icon-cards__content" +
-          (order !== 0 ? "icons-cards__content--switched-order" : "")
+          (order !== 0 ? " icon-cards__content--switched-order" : "")
         }
         style={{ backgroundColor: contentBackgroundColor, order: order }}
       >
@@ -47,7 +47,7 @@ export const IconCardsSection = ({
         <button
           className={
             "icon-cards__button" +
-            (inverseColors ? "icon-cards__button--inverse" : "")
+            (inverseColors ? " icon-cards__button--inverse" : "")
           }
         >
           {button}

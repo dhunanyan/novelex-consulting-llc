@@ -12,6 +12,7 @@
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.47);
   -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.47);
   transition: all 180ms ease-in-out;
+  position: relative;
 
   &:hover {
     .image-card {
@@ -31,6 +32,19 @@
         color: $main-color;
       }
     }
+  }
+
+  &__content {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
   }
 
   &__link {

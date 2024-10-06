@@ -23,15 +23,17 @@ export default function RootLayout({ children }: RootLayoutPropsType) {
         />
         <meta name="theme-color" content="#000000" />
       </head>
-      <header>
-        <React.Suspense fallback={<HeaderFallback />}>
-          <Header />
-        </React.Suspense>
-      </header>
-      <main>{children}</main>
-      <footer>
-        <Footer />
-      </footer>
+      <body>
+        <header>
+          {/* <React.Suspense fallback={<HeaderFallback />}>
+            <Header />
+          </React.Suspense> */}
+        </header>
+        <main>{children}</main>
+        <footer>
+          <Footer />
+        </footer>
+      </body>
     </html>
   );
 }

@@ -23,12 +23,14 @@
   &__title {
     @include title;
     margin: 0 0 10px 0;
+    color: $main-white-color;
   }
 
   &__description {
     @include subtitle;
     text-transform: none;
     font-size: 20px;
+    color: $main-white-color;
   }
 
   &__preview {

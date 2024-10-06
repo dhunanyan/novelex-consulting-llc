@@ -1,6 +1,8 @@
 import * as React from "react";
 import Image from "next/image";
 
+import "./SummarySection.scss";
+
 export type SummarySectionPropsType = {
   title: string;
   subtitle: string;
@@ -18,9 +20,9 @@ export const SummarySection = ({
   imageURL,
   isInverted = false,
 }: SummarySectionPropsType) => (
-  <section className={"summary" + isInverted ? "summary--inverted" : ""}>
+  <section className={"summary" + (isInverted ? " summary--inverted" : "")}>
     <div className="summary__container">
-      <div className="summary__icon">
+      <div className="summary__image">
         <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
       </div>
       <div className="summary__content">

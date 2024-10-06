@@ -1,4 +1,6 @@
 import * as React from "react";
+import Image from "next/image";
+
 import "./ImageCard.scss";
 
 export type ImageCardPropsType = {
@@ -8,12 +10,10 @@ export type ImageCardPropsType = {
 };
 
 export const ImageCard = ({ title, iconURL, imageURL }: ImageCardPropsType) => (
-  <li
-    className="image-card"
-    style={{
-      backgroundImage: imageURL,
-    }}
-  >
+  <li className="image-card">
+    <div className="image-card__image">
+      <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
+    </div>
     <a className="image-card__content" href="#">
       <h3 className="image-card__title">{title}</h3>
       {iconURL && (
