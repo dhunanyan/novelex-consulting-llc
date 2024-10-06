@@ -1,21 +1,20 @@
-import { HtmlData, Content } from "@data";
-import { HeroSection, IconCardsSection } from "@components";
+import { Content } from "@data";
+import { renderSection, SectionPropsType } from "@utils";
 
-export const metadata =
-  HtmlData["who-we-are"]["our-partners"]["shared-vision-and-values"];
+const PAGE_ID = "who-we-are";
+const SUB_PAGE_ID = "our-partners";
+const CURRENT_PAGE_ID = "shared-vision-and-values";
 
-const { heroSection, iconCardsSection } =
-  Content["who-we-are"]["our-partners"]["shared-vision-and-values"];
+const sections = (
+  Content[PAGE_ID] as unknown as {
+    [key: string]: {
+      [key: string]: SectionPropsType[];
+    };
+  }
+)[SUB_PAGE_ID][CURRENT_PAGE_ID];
 
 const Page = () => (
-  <>
-    <HeroSection {...heroSection} />
-    <IconCardsSection
-      {...iconCardsSection}
-      inverseColors={true}
-      forceHideButton={true}
-    />
-  </>
+  <>{sections.map((section, index) => renderSection({ section, index }))}</>
 );
 
 export default Page;
