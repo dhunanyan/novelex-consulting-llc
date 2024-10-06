@@ -1,10 +1,20 @@
-import { HtmlData } from "@data";
+import { Content } from "@data";
+import { renderSection, SectionPropsType } from "@utils";
 
-export const metadata =
-  HtmlData["services"]["final-consultancy"][
-    "financial-planning-and-risk-management"
-  ];
+const PAGE_ID = "services";
+const SUB_PAGE_ID = "final-consultancy";
+const CURRENT_PAGE_ID = "financial-planning-and-risk-management";
 
-const Page = () => <>text</>;
+const sections = (
+  Content[PAGE_ID] as unknown as {
+    [key: string]: {
+      [key: string]: SectionPropsType[];
+    };
+  }
+)[SUB_PAGE_ID][CURRENT_PAGE_ID];
+
+const Page = () => (
+  <>{sections.map((section, index) => renderSection({ section, index }))}</>
+);
 
 export default Page;
