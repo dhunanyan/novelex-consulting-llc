@@ -37,11 +37,16 @@ export const renderSection = ({
 
   switch (section.type) {
     case Sections.HERO:
-      return <HeroSection {...(section as HeroSectionPropsType)} />;
+      console.log(section.imageURL);
+      return <HeroSection {...(section as HeroSectionPropsType)} key={index} />;
     case Sections.SUMMARY:
-      return <SummarySection {...(section as SummarySectionPropsType)} />;
+      return (
+        <SummarySection {...(section as SummarySectionPropsType)} key={index} />
+      );
     case Sections.BLANK:
-      return <BlankSection {...(section as BlankSectionPropsType)} />;
+      return (
+        <BlankSection {...(section as BlankSectionPropsType)} key={index} />
+      );
     case Sections.ICON_CARDS:
       return (
         <IconCardsSection
@@ -52,12 +57,20 @@ export const renderSection = ({
                 order: index % 2 !== 0 ? 2 : 0,
               }
             : {})}
+          key={index}
         />
       );
     case Sections.IMAGE_CARDS:
-      return <ImageCardsSection {...(section as ImageCardsSectionPropsType)} />;
+      return (
+        <ImageCardsSection
+          {...(section as ImageCardsSectionPropsType)}
+          key={index}
+        />
+      );
     case Sections.TILES:
-      return <TilesSection {...(section as TilesSectionPropsType)} />;
+      return (
+        <TilesSection {...(section as TilesSectionPropsType)} key={index} />
+      );
     default:
       return <div>ERROR: Could not find section type</div>;
   }

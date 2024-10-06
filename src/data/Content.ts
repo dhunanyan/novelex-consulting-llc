@@ -651,7 +651,7 @@ export const Content = {
           type: "hero",
           title: "Innovative Solutions",
           subtitle: "Empowering Transformation through Innovation",
-          imageURL: "/images/our-partners.jpg",
+          imageURL: "/images/hero/our-partners.jpg",
         },
         {
           type: "icon-cards",
@@ -702,7 +702,7 @@ export const Content = {
           type: "hero",
           title: "Mutual Growth Endeavors",
           subtitle: "Growing Together for Lasting Success",
-          imageURL: "/images/our-partners.jpg",
+          imageURL: "/images/hero/our-partners.jpg",
         },
         {
           type: "icon-cards",
@@ -753,7 +753,7 @@ export const Content = {
           type: "hero",
           title: "Shared Vision and Values",
           subtitle: "Aligned for Purpose-Driven Success",
-          imageURL: "/images/our-partners.jpg",
+          imageURL: "/images/hero/our-partners.jpg",
         },
         {
           type: "icon-cards",
@@ -804,7 +804,7 @@ export const Content = {
           type: "hero",
           title: "Strategic Collaborations",
           subtitle: "Building Strategic Partnerships for Success",
-          imageURL: "/images/our-partners.jpg",
+          imageURL: "/images/hero/our-partners.jpg",
         },
         {
           type: "icon-cards",
@@ -1083,7 +1083,7 @@ export const Content = {
           type: "hero",
           title: "Embracing Differences",
           subtitle: "Celebrating diversity to build a more inclusive future",
-          imageURL: "/images/diversity-and-inclusion.jpg",
+          imageURL: "/images/hero/diversity-and-inclusion.jpg",
         },
         {
           type: "icon-cards",
@@ -1139,7 +1139,7 @@ export const Content = {
           type: "hero",
           title: "Empowerment",
           subtitle: "Enabling individuals to reach their full potential",
-          imageURL: "/images/diversity-and-inclusion.jpg",
+          imageURL: "/images/hero/diversity-and-inclusion.jpg",
         },
         {
           type: "icon-cards",
@@ -1190,7 +1190,7 @@ export const Content = {
           type: "hero",
           title: "Equal Opportunities",
           subtitle: "Ensuring fairness and equality for all",
-          imageURL: "/images/diversity-and-inclusion.jpg",
+          imageURL: "/images/hero/diversity-and-inclusion.jpg",
         },
         {
           type: "icon-cards",
@@ -1246,7 +1246,7 @@ export const Content = {
           type: "hero",
           title: "Global Perspective",
           subtitle: "Incorporating diverse global views",
-          imageURL: "/images/diversity-and-inclusion.jpg",
+          imageURL: "/images/hero/diversity-and-inclusion.jpg",
         },
         {
           type: "icon-cards",
@@ -1301,7 +1301,7 @@ export const Content = {
           type: "hero",
           title: "Inclusive Culture",
           subtitle: "Creating a culture where everyone feels valued",
-          imageURL: "/images/diversity-and-inclusion.jpg",
+          imageURL: "/images/hero/diversity-and-inclusion.jpg",
         },
         {
           type: "icon-cards",
@@ -1366,7 +1366,7 @@ export const Content = {
           type: "hero",
           title: "Carbon Footprint Reduction",
           subtitle: "Taking Action to Minimize Environmental Impact",
-          imageURL: "/images/climate-strategy.jpg",
+          imageURL: "/images/hero/climate-strategy.jpg",
         },
         {
           type: "icon-cards",
@@ -1422,7 +1422,7 @@ export const Content = {
           type: "hero",
           title: "Contributions to Sustainability",
           subtitle: "Innovating for a Sustainable Future",
-          imageURL: "/images/climate-strategy.jpg",
+          imageURL: "/images/hero/climate-strategy.jpg",
         },
         {
           type: "icon-cards",
@@ -1478,7 +1478,7 @@ export const Content = {
           type: "hero",
           title: "Eco-Friendly Practices",
           subtitle: "Embedding Sustainability Into Our Daily Operations",
-          imageURL: "/images/climate-strategy.jpg",
+          imageURL: "/images/hero/climate-strategy.jpg",
         },
         {
           type: "icon-cards",
@@ -1533,7 +1533,7 @@ export const Content = {
           type: "hero",
           title: "Green Initiatives",
           subtitle: "Creating Positive Environmental Change",
-          imageURL: "/images/climate-strategy.jpg",
+          imageURL: "/images/hero/climate-strategy.jpg",
         },
         {
           type: "icon-cards",
@@ -1716,7 +1716,7 @@ export const Content = {
           title: "Cybersecurity Solutions",
           subtitle:
             "Protect your business with cutting-edge cybersecurity measures.",
-          imageURL: "/images/digital-and-tech-solutions.jpg",
+          imageURL: "/images/hero/digital-and-tech-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -1774,7 +1774,7 @@ export const Content = {
           title: "Data Analytics & Business Intelligence",
           subtitle:
             "Leverage data-driven insights to fuel growth and innovation.",
-          imageURL: "/images/digital-and-tech-solutions.jpg",
+          imageURL: "/images/hero/digital-and-tech-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -1831,7 +1831,7 @@ export const Content = {
           title: "Emerging Technologies Integration",
           subtitle:
             "Stay ahead of the curve with the latest in tech innovation.",
-          imageURL: "/images/digital-and-tech-solutions.jpg",
+          imageURL: "/images/hero/digital-and-tech-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -1889,7 +1889,7 @@ export const Content = {
           title: "Software Development",
           subtitle:
             "Customized software solutions to meet your unique business needs.",
-          imageURL: "/images/digital-and-tech-solutions.jpg",
+          imageURL: "/images/hero/digital-and-tech-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -1956,7 +1956,7 @@ export const Content = {
           title: "Comprehensive Financial Advisory Services",
           subtitle:
             "Tailored strategies to optimize financial health and growth.",
-          imageURL: "/images/final-consultancy.jpg",
+          imageURL: "/images/hero/final-consultancy.jpg",
         },
         {
           type: "icon-cards",
@@ -2013,7 +2013,7 @@ export const Content = {
           title: "Financial Planning & Risk Management",
           subtitle:
             "Secure your future with comprehensive risk management solutions.",
-          imageURL: "/images/final-consultancy.jpg",
+          imageURL: "/images/hero/final-consultancy.jpg",
         },
         {
           type: "icon-cards",
@@ -2069,7 +2069,7 @@ export const Content = {
           type: "hero",
           title: "Performance Analysis & Informed Decision Making",
           subtitle: "Data-driven insights for strategic business decisions.",
-          imageURL: "/images/final-consultancy.jpg",
+          imageURL: "/images/hero/final-consultancy.jpg",
         },
         {
           type: "icon-cards",
@@ -2125,7 +2125,7 @@ export const Content = {
           type: "hero",
           title: "Specialized Expertise in Financial Regulations",
           subtitle: "Stay compliant with ever-evolving financial regulations.",
-          imageURL: "/images/final-consultancy.jpg",
+          imageURL: "/images/hero/final-consultancy.jpg",
         },
         {
           type: "icon-cards",
@@ -2191,7 +2191,7 @@ export const Content = {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2241,7 +2241,7 @@ export const Content = {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2292,7 +2292,7 @@ export const Content = {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2338,7 +2338,7 @@ export const Content = {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2398,7 +2398,7 @@ export const Content = {
           type: "hero",
           title: "Document Translation Services",
           subtitle: "Precision and Accuracy for Your Written Content",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2453,7 +2453,7 @@ export const Content = {
           type: "hero",
           title: "Industry-Specific Language Solutions",
           subtitle: "Tailored Translation and Interpretation for Every Sector",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2509,7 +2509,7 @@ export const Content = {
           type: "hero",
           title: "Professional Interpretation Services",
           subtitle: "Real-Time Language Solutions for Effective Communication",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2560,7 +2560,7 @@ export const Content = {
           type: "hero",
           title: "Mobile Interpretation Solutions",
           subtitle: "On-Demand Interpretation at Your Fingertips",
-          imageURL: "/images/multilingual-solutions.jpg",
+          imageURL: "/images/hero/multilingual-solutions.jpg",
         },
         {
           type: "icon-cards",
@@ -2625,7 +2625,7 @@ export const Content = {
           type: "hero",
           title: "Learn from the Best",
           subtitle: "Expert Trainers with Real-World Experience",
-          imageURL: "/images/training-programme.jpg",
+          imageURL: "/images/hero/training-programme.jpg",
         },
         {
           type: "icon-cards",
@@ -2680,7 +2680,7 @@ export const Content = {
           type: "hero",
           title: "Tailored Learning Experiences",
           subtitle: "Customized Training for Everyone",
-          imageURL: "/images/training-programme.jpg",
+          imageURL: "/images/hero/training-programme.jpg",
         },
         {
           type: "icon-cards",
@@ -2730,7 +2730,7 @@ export const Content = {
           type: "hero",
           title: "Stay Ahead of Industry Trends",
           subtitle: "Continuous Learning for Future Success",
-          imageURL: "/images/training-programme.jpg",
+          imageURL: "/images/hero/training-programme.jpg",
         },
         {
           type: "icon-cards",
@@ -2785,7 +2785,7 @@ export const Content = {
           type: "hero",
           title: "Diverse Training Programs",
           subtitle: "Explore a Variety of Fields",
-          imageURL: "/images/training-programme.jpg",
+          imageURL: "/images/hero/training-programme.jpg",
         },
         {
           type: "icon-cards",
@@ -2971,7 +2971,7 @@ export const Content = {
           type: "hero",
           title: "Empowering Through Education",
           subtitle: "Developing Skills for a Brighter Future",
-          imageURL: "/images/community-engagement.jpg",
+          imageURL: "/images/hero/community-engagement.jpg",
         },
         {
           type: "icon-cards",
@@ -3025,7 +3025,7 @@ export const Content = {
           type: "hero",
           title: "Making a Difference Together",
           subtitle: "Engaging Employees in Community Service",
-          imageURL: "/images/community-engagement.jpg",
+          imageURL: "/images/hero/community-engagement.jpg",
         },
         {
           type: "icon-cards",
@@ -3080,7 +3080,7 @@ export const Content = {
           type: "hero",
           title: "Commitment to the Planet",
           subtitle: "Sustainable Practices for a Greener Future",
-          imageURL: "/images/community-engagement.jpg",
+          imageURL: "/images/hero/community-engagement.jpg",
         },
         {
           type: "icon-cards",
@@ -3134,7 +3134,7 @@ export const Content = {
           type: "hero",
           title: "Collaborating for Change",
           subtitle: "Strategic Partnerships for Greater Impact",
-          imageURL: "/images/community-engagement.jpg",
+          imageURL: "/images/hero/community-engagement.jpg",
         },
         {
           type: "icon-cards",
@@ -3200,7 +3200,7 @@ export const Content = {
           type: "hero",
           title: "Celebrating Together",
           subtitle: "Join us as we celebrate our vibrant community.",
-          imageURL: "/images/events-and-highlights.jpg",
+          imageURL: "/images/hero/events-and-highlights.jpg",
         },
         {
           type: "icon-cards",
@@ -3252,7 +3252,7 @@ export const Content = {
           type: "hero",
           title: "Milestones Achieved",
           subtitle: "Recognizing our growth and achievements.",
-          imageURL: "/images/events-and-highlights.jpg",
+          imageURL: "/images/hero/events-and-highlights.jpg",
         },
         {
           type: "icon-cards",
@@ -3305,7 +3305,7 @@ export const Content = {
           type: "hero",
           title: "Significant Achievements",
           subtitle: "Highlighting our impactful moments.",
-          imageURL: "/images/events-and-highlights.jpg",
+          imageURL: "/images/hero/events-and-highlights.jpg",
         },
         {
           type: "icon-cards",
@@ -3356,7 +3356,7 @@ export const Content = {
           type: "hero",
           title: "Innovations and Developments",
           subtitle: "Showcasing our latest advancements.",
-          imageURL: "/images/events-and-highlights.jpg",
+          imageURL: "/images/hero/events-and-highlights.jpg",
         },
         {
           type: "icon-cards",
@@ -3420,7 +3420,7 @@ export const Content = {
           type: "hero",
           title: "Creativity and Openness",
           subtitle: "Fostering innovation through collaboration.",
-          imageURL: "/images/experiencing-novelex.jpg",
+          imageURL: "/images/hero/experiencing-novelex.jpg",
         },
         {
           type: "icon-cards",
@@ -3473,7 +3473,7 @@ export const Content = {
           type: "hero",
           title: "Energy and Enthusiasm for Success",
           subtitle: "Driving success through passion.",
-          imageURL: "/images/experiencing-novelex.jpg",
+          imageURL: "/images/hero/experiencing-novelex.jpg",
         },
         {
           type: "icon-cards",
@@ -3526,7 +3526,7 @@ export const Content = {
           type: "hero",
           title: "Sense of Purpose in Everything We Do",
           subtitle: "Making a difference through our work.",
-          imageURL: "/images/experiencing-novelex.jpg",
+          imageURL: "/images/hero/experiencing-novelex.jpg",
         },
         {
           type: "icon-cards",
@@ -3579,7 +3579,7 @@ export const Content = {
           type: "hero",
           title: "Vibrant and Diverse Culture",
           subtitle: "Celebrating our differences.",
-          imageURL: "/images/experiencing-novelex.jpg",
+          imageURL: "/images/hero/experiencing-novelex.jpg",
         },
         {
           type: "icon-cards",
@@ -3641,7 +3641,7 @@ export const Content = {
           type: "hero",
           title: "Collaboration at Its Best",
           subtitle: "Unleashing the power of teamwork for greater results.",
-          imageURL: "/images/team-and-culture-insights.jpg",
+          imageURL: "/images/hero/team-and-culture-insights.jpg",
         },
         {
           type: "icon-cards",
@@ -3696,7 +3696,7 @@ export const Content = {
           type: "hero",
           title: "Empowering Every Voice",
           subtitle: "Creating a culture of inclusivity.",
-          imageURL: "/images/team-and-culture-insights.jpg",
+          imageURL: "/images/hero/team-and-culture-insights.jpg",
         },
         {
           type: "icon-cards",
@@ -3751,7 +3751,7 @@ export const Content = {
           type: "hero",
           title: "Voices of Our Team",
           subtitle: "Personal stories that inspire and connect.",
-          imageURL: "/images/team-and-culture-insights.jpg",
+          imageURL: "/images/hero/team-and-culture-insights.jpg",
         },
         {
           type: "icon-cards",
@@ -3804,7 +3804,7 @@ export const Content = {
           type: "hero",
           title: "Our Core Values",
           subtitle: "Guiding principles that shape our actions.",
-          imageURL: "/images/team-and-culture-insights.jpg",
+          imageURL: "/images/hero/team-and-culture-insights.jpg",
         },
         {
           type: "icon-cards",
@@ -3867,7 +3867,7 @@ export const Content = {
           type: "hero",
           title: "Comprehensive Health and Wellness Programs",
           subtitle: "Holistic Support for Your Well-Being",
-          imageURL: "/images/wellness-and-benefits.jpg",
+          imageURL: "/images/hero/wellness-and-benefits.jpg",
         },
         {
           type: "icon-cards",
@@ -3923,7 +3923,7 @@ export const Content = {
           type: "hero",
           title: "Customized Benefits Packages",
           subtitle: "Tailored Solutions for Your Needs",
-          imageURL: "/images/wellness-and-benefits.jpg",
+          imageURL: "/images/hero/wellness-and-benefits.jpg",
         },
         {
           type: "icon-cards",
@@ -3979,7 +3979,7 @@ export const Content = {
           type: "hero",
           title: "Professional Development Opportunities",
           subtitle: "Invest in Your Career Growth",
-          imageURL: "/images/wellness-and-benefits.jpg",
+          imageURL: "/images/hero/wellness-and-benefits.jpg",
         },
         {
           type: "icon-cards",
@@ -4035,7 +4035,7 @@ export const Content = {
           type: "hero",
           title: "Work-Life Balance",
           subtitle: "Achieve Harmony in Your Life",
-          imageURL: "/images/wellness-and-benefits.jpg",
+          imageURL: "/images/hero/wellness-and-benefits.jpg",
         },
         {
           type: "icon-cards",
@@ -4227,7 +4227,7 @@ export const Content = {
           type: "hero",
           title: "Contribute to Professional Development Programs",
           subtitle: "Share your expertise and help others grow.",
-          imageURL: "/images/become-a-trainer.jpg",
+          imageURL: "/images/hero/become-a-trainer.jpg",
         },
         {
           type: "icon-cards",
@@ -4284,7 +4284,7 @@ export const Content = {
           title: "Grow Your Career by Empowering Others",
           subtitle:
             "Elevate your professional journey while making a difference.",
-          imageURL: "/images/become-a-trainer.jpg",
+          imageURL: "/images/hero/become-a-trainer.jpg",
         },
         {
           type: "icon-cards",
@@ -4340,7 +4340,7 @@ export const Content = {
           type: "hero",
           title: "Shape the Learning Experience",
           subtitle: "Design impactful training sessions that foster growth.",
-          imageURL: "/images/become-a-trainer.jpg",
+          imageURL: "/images/hero/become-a-trainer.jpg",
         },
         {
           type: "icon-cards",
@@ -4396,7 +4396,7 @@ export const Content = {
           type: "hero",
           title: "Share Your Expertise",
           subtitle: "Be a part of our vibrant learning community.",
-          imageURL: "/images/become-a-trainer.jpg",
+          imageURL: "/images/hero/become-a-trainer.jpg",
         },
         {
           type: "icon-cards",
@@ -4456,7 +4456,7 @@ export const Content = {
           type: "hero",
           title: "Collaborate and Soar",
           subtitle: "Teamwork makes the dream work!",
-          imageURL: "/images/explore-career-opportunities.jpg",
+          imageURL: "/images/hero/explore-career-opportunities.jpg",
         },
         {
           type: "icon-cards",
@@ -4512,7 +4512,7 @@ export const Content = {
           type: "hero",
           title: "Craft Your Career Story",
           subtitle: "Your journey starts here.",
-          imageURL: "/images/explore-career-opportunities.jpg",
+          imageURL: "/images/hero/explore-career-opportunities.jpg",
         },
         {
           type: "icon-cards",
@@ -4566,7 +4566,7 @@ export const Content = {
           type: "hero",
           title: "Discover Your Niche",
           subtitle: "Find where you truly belong.",
-          imageURL: "/images/explore-career-opportunities.jpg",
+          imageURL: "/images/hero/explore-career-opportunities.jpg",
         },
         {
           type: "icon-cards",
@@ -4620,7 +4620,7 @@ export const Content = {
           type: "hero",
           title: "Innovate, Thrive, Succeed",
           subtitle: "Empower your future.",
-          imageURL: "/images/explore-career-opportunities.jpg",
+          imageURL: "/images/hero/explore-career-opportunities.jpg",
         },
         {
           type: "icon-cards",
@@ -4685,7 +4685,7 @@ export const Content = {
           title: "Digital and Tech Jobs",
           subtitle:
             "Embrace the future with dynamic roles in technology and innovation.",
-          imageURL: "/images/find-a-job.jpg",
+          imageURL: "/images/hero/find-a-job.jpg",
         },
         {
           type: "icon-cards",
@@ -4735,7 +4735,7 @@ export const Content = {
           title: "Finance Jobs",
           subtitle:
             "Shape the financial future with strategic insights and analysis.",
-          imageURL: "/images/find-a-job.jpg",
+          imageURL: "/images/hero/find-a-job.jpg",
         },
         {
           type: "icon-cards",
@@ -4785,7 +4785,7 @@ export const Content = {
           title: "Language Jobs",
           subtitle:
             "Utilize your language skills in diverse and rewarding roles.",
-          imageURL: "/images/find-a-job.jpg",
+          imageURL: "/images/hero/find-a-job.jpg",
         },
         {
           type: "icon-cards",
@@ -4834,7 +4834,7 @@ export const Content = {
           title: "Legal Jobs",
           subtitle:
             "Navigate the complexities of law with a fulfilling career.",
-          imageURL: "/images/find-a-job.jpg",
+          imageURL: "/images/hero/find-a-job.jpg",
         },
         {
           type: "icon-cards",
@@ -4884,7 +4884,7 @@ export const Content = {
           type: "hero",
           title: "Trainer Jobs",
           subtitle: "Share your knowledge and skills with others.",
-          imageURL: "/images/find-a-job.jpg",
+          imageURL: "/images/hero/find-a-job.jpg",
         },
         {
           type: "icon-cards",
@@ -4946,7 +4946,7 @@ export const Content = {
           type: "hero",
           title: "Embrace Team Synergy",
           subtitle: "Collaboration is at the heart of our success.",
-          imageURL: "/images/join-our-team.jpg",
+          imageURL: "/images/hero/join-our-team.jpg",
         },
         {
           type: "icon-cards",
@@ -5002,7 +5002,7 @@ export const Content = {
           type: "hero",
           title: "Forge Connections",
           subtitle: "Join a community that supports and inspires you.",
-          imageURL: "/images/join-our-team.jpg",
+          imageURL: "/images/hero/join-our-team.jpg",
         },
         {
           type: "icon-cards",
@@ -5057,7 +5057,7 @@ export const Content = {
           type: "hero",
           title: "Join a Global Team",
           subtitle: "Collaborate with diverse talents from around the world.",
-          imageURL: "/images/join-our-team.jpg",
+          imageURL: "/images/hero/join-our-team.jpg",
         },
         {
           type: "icon-cards",
@@ -5108,7 +5108,7 @@ export const Content = {
           title: "Team Growth is Personal Growth",
           subtitle:
             "Develop your skills while contributing to the team's success.",
-          imageURL: "/images/join-our-team.jpg",
+          imageURL: "/images/hero/join-our-team.jpg",
         },
         {
           type: "icon-cards",
@@ -5172,7 +5172,7 @@ export const Content = {
           type: "hero",
           title: "Empower Your Journey with Coaching",
           subtitle: "One-on-one guidance to help you achieve your goals.",
-          imageURL: "/images/personal-and-professional-development.jpg",
+          imageURL: "/images/hero/personal-and-professional-development.jpg",
         },
         {
           type: "icon-cards",
@@ -5225,7 +5225,7 @@ export const Content = {
           title: "Invest in Your Growth",
           subtitle:
             "Take the initiative for your personal and professional development.",
-          imageURL: "/images/personal-and-professional-development.jpg",
+          imageURL: "/images/hero/personal-and-professional-development.jpg",
         },
         {
           type: "icon-cards",
@@ -5280,7 +5280,7 @@ export const Content = {
           type: "hero",
           title: "Mentoring for Success",
           subtitle: "Learn from experienced professionals.",
-          imageURL: "/images/personal-and-professional-development.jpg",
+          imageURL: "/images/hero/personal-and-professional-development.jpg",
         },
         {
           type: "icon-cards",
@@ -5336,7 +5336,7 @@ export const Content = {
           type: "hero",
           title: "Talent Management Strategies",
           subtitle: "Harnessing talent for organizational success.",
-          imageURL: "/images/personal-and-professional-development.jpg",
+          imageURL: "/images/hero/personal-and-professional-development.jpg",
         },
         {
           type: "icon-cards",
@@ -5402,7 +5402,7 @@ export const Content = {
           title: "Explore Novelex Worldwide",
           subtitle:
             "Discover our locations and job opportunities across the globe.",
-          imageURL: "/images/where-we-hire.jpg",
+          imageURL: "/images/hero/where-we-hire.jpg",
         },
         {
           type: "icon-cards",
@@ -5452,7 +5452,7 @@ export const Content = {
           type: "hero",
           title: "Global Collaboration Center",
           subtitle: "Where teams unite to innovate and create.",
-          imageURL: "/images/where-we-hire.jpg",
+          imageURL: "/images/hero/where-we-hire.jpg",
         },
         {
           type: "icon-cards",
@@ -5503,7 +5503,7 @@ export const Content = {
           type: "hero",
           title: "Global Reach, Local Impact",
           subtitle: "Making a difference in communities around the world.",
-          imageURL: "/images/where-we-hire.jpg",
+          imageURL: "/images/hero/where-we-hire.jpg",
         },
         {
           type: "icon-cards",
@@ -5554,7 +5554,7 @@ export const Content = {
           type: "hero",
           title: "Regional Career Hubs",
           subtitle: "Find your place in our regional offices.",
-          imageURL: "/images/where-we-hire.jpg",
+          imageURL: "/images/hero/where-we-hire.jpg",
         },
         {
           type: "icon-cards",
