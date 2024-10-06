@@ -13,12 +13,12 @@ const {
 } = Content["who-we-are"]["purpose-value-and-strategy"];
 
 const Page = () => (
-  <main>
+  <>
     <HeroSection {...heroSection} />
     <IconCardsSection {...iconCardsSectionPurpose} inverseColors={true} />
     <IconCardsSection {...iconCardsSectionValues} order={2} />
     <IconCardsSection {...iconCardsSectionStrategy} inverseColors={true} />
-  </main>
+  </>
 );
 
 export default Page;
