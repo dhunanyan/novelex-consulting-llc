@@ -1,9 +1,11 @@
 import * as React from "react";
+import { Sections } from "@config";
 import Image from "next/image";
 
 import "./HeroSection.scss";
 
 export type HeroSectionPropsType = {
+  type?: Sections.HERO;
   title: string;
   subtitle: string;
   imageURL: string;

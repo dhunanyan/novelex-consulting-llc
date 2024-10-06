@@ -11,7 +11,7 @@ import { Content } from "@data";
 
 const {
   heroSection,
-  aboutSection,
+  summarySection,
   iconCardsSectionCareers,
   imageCardsSection,
   iconCardsSectionServices,
@@ -21,7 +21,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection {...heroSection} isInverted={true} />
-      <SummarySection {...aboutSection} />
+      <SummarySection {...summarySection} />
       <IconCardsSection {...iconCardsSectionCareers} />
       <ImageCardsSection {...imageCardsSection} />
       <IconCardsSection

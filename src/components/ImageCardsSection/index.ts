@@ -1,1 +1,4 @@
-export { ImageCardsSection } from "./ImageCardsSection";
+export {
+  ImageCardsSection,
+  type ImageCardsSectionPropsType,
+} from "./ImageCardsSection";

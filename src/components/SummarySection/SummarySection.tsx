@@ -1,9 +1,11 @@
 import * as React from "react";
+import { Sections } from "@config";
 import Image from "next/image";
 
 import "./SummarySection.scss";
 
 export type SummarySectionPropsType = {
+  type?: Sections.SUMMARY;
   title: string;
   subtitle: string;
   description: string;

@@ -1,9 +1,11 @@
 import * as React from "react";
+import { Sections } from "@config";
 import { ImageCard } from "./ImageCard";
 
 import "./ImageCardsSection.scss";
 
 export type ImageCardsSectionPropsType = {
+  type?: Sections.IMAGE_CARDS;
   title: string;
   description: string;
   cards: {

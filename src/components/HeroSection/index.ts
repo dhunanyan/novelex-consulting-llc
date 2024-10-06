@@ -1,1 +1,1 @@
-export { HeroSection } from "./HeroSection";
+export { HeroSection, type HeroSectionPropsType } from "./HeroSection";

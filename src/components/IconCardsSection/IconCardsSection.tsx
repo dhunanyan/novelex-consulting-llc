@@ -1,8 +1,10 @@
 import * as React from "react";
+import { Sections } from "@config";
 import { IconCard } from "./IconCard";
 import "./IconCardsSection.scss";
 
 export type IconCardsSectionPropsType = {
+  type?: Sections.ICON_CARDS;
   title: string;
   subtitle: string;
   description: string;

@@ -1,1 +1,1 @@
-export { TilesSection } from "./TilesSection";
+export { TilesSection, type TilesSectionPropsType } from "./TilesSection";

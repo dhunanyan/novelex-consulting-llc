@@ -1,1 +1,1 @@
-export { ImageCard } from "./ImageCard";
+export { ImageCard, type ImageCardPropsType } from "./ImageCard";

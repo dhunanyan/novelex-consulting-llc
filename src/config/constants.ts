@@ -7,3 +7,12 @@ export enum Colors {
   SECONDARY_BLACK_COLOR = "#3f3d48",
   SECONDARY_COLOR = "#4f93f5",
 }
+
+export enum Sections {
+  HERO = "hero",
+  SUMMARY = "summary",
+  IMAGE_CARDS = "image-cards",
+  ICON_CARDS = "icon-cards",
+  TILES = "tiles",
+  BLANK = "blank",
+}

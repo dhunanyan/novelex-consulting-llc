@@ -1,12 +1,12 @@
 export const Content = {
-  index: [
-    {
+  index: {
+    heroSection: {
       type: "hero",
       title: "Novelex Consulting LLC",
       subtitle: "Connecting Worlds",
       imageURL: "/images/hero/home.jpg",
     },
-    {
+    summarySection: {
       type: "summary",
       title: "About company",
       subtitle: "Elevating Communication, Connecting Worlds",
@@ -16,7 +16,7 @@ export const Content = {
       imageURL: "/images/summary/home.png",
       redirectURL: "/who-we-are",
     },
-    {
+    imageCardsSection: {
       type: "image-cards",
       title: "Who we are",
       description: "Opening up a world of opportunities",
@@ -65,7 +65,7 @@ export const Content = {
         },
       ],
     },
-    {
+    iconCardsSectionCareers: {
       type: "icon-cards",
       title: "Build your career at NovelEx",
       subtitle: "Careers",
@@ -108,7 +108,7 @@ export const Content = {
         },
       ],
     },
-    {
+    iconCardsSectionServices: {
       type: "icon-cards",
       title: "Services",
       subtitle: "Your trusted partner",
@@ -151,16 +151,16 @@ export const Content = {
         },
       ],
     },
-  ],
+  },
   "who-we-are": {
-    index: [
-      {
+    index: {
+      heroSection: {
         type: "hero",
         title: "Who we are",
         subtitle: "Bridging Cultures, Uniting Worlds",
         imageURL: "/images/hero/who-we-are.jpg",
       },
-      {
+      blankSectionPurpose: {
         type: "blank",
         title: "Our People",
         description:
@@ -168,7 +168,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/who-we-are/our-people",
       },
-      {
+      tilesSection: {
         type: "tiles",
         title: "Purpose, Value, and Strategy",
         description:
@@ -198,7 +198,7 @@ export const Content = {
           },
         ],
       },
-      {
+      blankSectionDiversity: {
         type: "blank",
         title: "Diversity and Inclusion",
         description:
@@ -206,7 +206,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/who-we-are/diversity-and-inclusion",
       },
-      {
+      iconCardsSection: {
         type: "icon-cards",
         title: "Shaping Tomorrow",
         subtitle: "Our Commitments",
@@ -249,24 +249,24 @@ export const Content = {
           },
         ],
       },
-    ],
+    },
     "purpose-value-and-strategy": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Purpose, Value and Strategy",
           subtitle: "Empowering Progress, Enriching Connections",
           imageURL: "/images/hero/who-we-are.jpg",
         },
-      ],
-      "our-value": [
-        {
+      },
+      "our-value": {
+        heroSection: {
           type: "hero",
           title: "Our Values",
           subtitle: "Elevating Excellence, Fostering Diversity",
           imageURL: "/images/hero/who-we-are.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Values",
           subtitle: "Our Core Principles",
@@ -309,15 +309,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "our-strategy": [
-        {
+      },
+      "our-strategy": {
+        heroSection: {
           type: "hero",
           title: "Our Strategy",
           subtitle: "Shaping the Future with Purposeful Excellence",
           imageURL: "/images/hero/who-we-are.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Strategy",
           subtitle: "Our Roadmap to Success",
@@ -364,15 +364,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "our-purpose": [
-        {
+      },
+      "our-purpose": {
+        heroSection: {
           type: "hero",
           title: "Our Purpose",
           subtitle: "Connecting Worlds, Transforming Lives",
           imageURL: "/images/hero/who-we-are.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Purpose",
           subtitle: "Our Guiding Light",
@@ -415,25 +415,76 @@ export const Content = {
             },
           ],
         },
-      ],
+      },
     },
     "our-people": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Our People",
           subtitle: "Diverse Minds, Unified Vision",
           imageURL: "/images/hero/our-people.jpg",
         },
-      ],
-      "collective-excellence": [
-        {
+      },
+      "collective-excellence": {
+        heroSection: {
+          type: "hero",
+          title: "Collective Excellence",
+          subtitle: "Beyond Limits, Together We Shine",
+          imageURL: "/images/hero/our-people.jpg",
+        },
+        iconCardsSection: {
+          type: "icon-cards",
+          title: "Excellence in Unity",
+          subtitle: "Our Strength is in Our Collaboration",
+          description:
+            "Collective excellence drives our success. By embracing teamwork and collaboration, we surpass individual potential and reach greater heights together. Learn more about how we thrive through unity.",
+          button: "Learn more",
+          redirectURL: "/who-we-are/our-people/collective-excellence",
+          cards: [
+            {
+              title: "Synergized Efforts",
+              description:
+                "Explore how teamwork amplifies our capabilities and drives innovation.",
+              iconURL: "rocket",
+              button: "Learn more",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
+            },
+            {
+              title: "Shared Success",
+              description:
+                "Discover how our collective achievements fuel our growth and resilience.",
+              iconURL: "check-circle",
+              button: "Learn more",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
+            },
+            {
+              title: "Collaborative Culture",
+              description:
+                "Learn how our inclusive environment fosters collaboration across teams.",
+              iconURL: "users",
+              button: "Learn more",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
+            },
+            {
+              title: "Sustainability Together",
+              description:
+                "Discover our joint efforts towards sustainability and environmental responsibility.",
+              iconURL: "cogs",
+              button: "Learn more",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
+            },
+          ],
+        },
+      },
+      "culture-of-inclusivity": {
+        heroSection: {
           type: "hero",
           title: "Culture of Inclusivity",
           subtitle: "Where Every Voice Resonates",
           imageURL: "/images/hero/our-people.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Celebrating Diversity",
           subtitle: "Empowering All Perspectives",
@@ -476,67 +527,16 @@ export const Content = {
             },
           ],
         },
-      ],
-      "culture-of-inclusivity": [
-        {
-          type: "hero",
-          title: "Culture of Inclusivity",
-          subtitle: "Where Every Voice Resonates",
-          imageURL: "/images/hero/our-people.jpg",
-        },
-        {
-          type: "icon-cards",
-          title: "Celebrating Diversity",
-          subtitle: "Empowering All Perspectives",
-          description:
-            "Our culture of inclusivity is the foundation of our success. We believe in the power of diverse perspectives and the strength that comes from embracing each individual. Learn how we foster an inclusive and empowering environment.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
-          cards: [
-            {
-              title: "Embracing All Voices",
-              description:
-                "Learn how every voice contributes to our inclusive environment.",
-              iconURL: "rocket",
-              button: "Learn more",
-              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
-            },
-            {
-              title: "Equality in Action",
-              description:
-                "Explore how we ensure equality and fairness in every aspect of our work.",
-              iconURL: "check-circle",
-              button: "Learn more",
-              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
-            },
-            {
-              title: "Diverse Perspectives",
-              description:
-                "See how we harness diverse perspectives to drive creativity and innovation.",
-              iconURL: "users",
-              button: "Learn more",
-              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
-            },
-            {
-              title: "Inclusive Sustainability",
-              description:
-                "Discover our commitment to creating sustainable solutions for everyone.",
-              iconURL: "cogs",
-              button: "Learn more",
-              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
-            },
-          ],
-        },
-      ],
-      "professional-growth": [
-        {
+      },
+      "professional-growth": {
+        heroSection: {
           type: "hero",
           title: "Professional Growth",
           subtitle:
             "Nurturing Ambitions, Empowering Journeys, Inspiring Heights",
           imageURL: "/images/hero/our-people.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Growth Opportunities",
           subtitle: "Empowering Your Future",
@@ -579,15 +579,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "well-being": [
-        {
+      },
+      "well-being": {
+        heroSection: {
           type: "hero",
           title: "Well-being",
           subtitle: "Balanced Lives, Resilient Spirits",
           imageURL: "/images/hero/our-people.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Wellness at the Core",
           subtitle: "Thriving in Every Aspect of Life",
@@ -630,25 +630,25 @@ export const Content = {
             },
           ],
         },
-      ],
+      },
     },
     "our-partners": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Our Partners",
           subtitle: "Commitment to Dynamic and Supportive Partnerships",
           imageURL: "/images/hero/our-partners.jpg",
         },
-      ],
-      "innovative-solutions": [
-        {
+      },
+      "innovative-solutions": {
+        heroSection: {
           type: "hero",
           title: "Innovative Solutions",
           subtitle: "Empowering Transformation through Innovation",
           imageURL: "/images/our-partners.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Forward-Thinking Solutions",
           subtitle: "Innovating for a Better Tomorrow",
@@ -691,15 +691,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "mutual-growth-endeavors": [
-        {
+      },
+      "mutual-growth-endeavors": {
+        heroSection: {
           type: "hero",
           title: "Mutual Growth Endeavors",
           subtitle: "Growing Together for Lasting Success",
           imageURL: "/images/our-partners.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Collaborative Growth",
           subtitle: "Partnerships that Empower Progress",
@@ -742,15 +742,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "shared-vision-and-values": [
-        {
+      },
+      "shared-vision-and-values": {
+        heroSection: {
           type: "hero",
           title: "Shared Vision and Values",
           subtitle: "Aligned for Purpose-Driven Success",
           imageURL: "/images/our-partners.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Vision and Values",
           subtitle: "A Unified Path to a Better Future",
@@ -793,15 +793,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "strategic-collaborations": [
-        {
+      },
+      "strategic-collaborations": {
+        heroSection: {
           type: "hero",
           title: "Strategic Collaborations",
           subtitle: "Building Strategic Partnerships for Success",
           imageURL: "/images/our-partners.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Collaborative Synergy",
           subtitle: "Together, We Achieve More",
@@ -844,25 +844,25 @@ export const Content = {
             },
           ],
         },
-      ],
+      },
     },
     "global-impact": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Global Impact",
           subtitle: "Beyond Boundaries, Forging Global Footprints",
           imageURL: "/images/hero/global-impact.jpg",
         },
-      ],
-      "environmental-responsibility": [
-        {
+      },
+      "environmental-responsibility": {
+        heroSection: {
           type: "hero",
           title: "Environmental Responsibility",
           subtitle: "Our Commitment to a Sustainable Future",
           imageURL: "/images/hero/global-impact.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Sustainable Practices for a Greener Tomorrow",
           subtitle: "Innovative Approaches to Environmental Challenges",
@@ -909,15 +909,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "global-collaborations": [
-        {
+      },
+      "global-collaborations": {
+        heroSection: {
           type: "hero",
           title: "Global Collaborations",
           subtitle: "Working Together Across Borders",
           imageURL: "/images/hero/global-impact.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Connecting Communities Worldwide",
           subtitle: "Empowering Change Through Partnerships",
@@ -960,15 +960,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "leveraging-diversity": [
-        {
+      },
+      "leveraging-diversity": {
+        heroSection: {
           type: "hero",
           title: "Leveraging Diversity",
           subtitle: "Strength in Our Differences",
           imageURL: "/images/hero/global-impact.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Harnessing Diverse Perspectives",
           subtitle: "Inclusion as a Catalyst for Innovation",
@@ -1011,15 +1011,15 @@ export const Content = {
             },
           ],
         },
-      ],
-      "social-responsibility": [
-        {
+      },
+      "social-responsibility": {
+        heroSection: {
           type: "hero",
           title: "Social Responsibility",
           subtitle: "Making a Difference in Our Communities",
           imageURL: "/images/hero/global-impact.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Commitment to Community Engagement",
           subtitle: "Empowering People and Building Futures",
@@ -1062,25 +1062,25 @@ export const Content = {
             },
           ],
         },
-      ],
+      },
     },
     "diversity-and-inclusion": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Diversity and Inclusion",
           subtitle: "Foundational pillar of our organizational",
           imageURL: "/images/hero/diversity-and-inclusion.jpg",
         },
-      ],
-      "embracing-differences": [
-        {
+      },
+      "embracing-differences": {
+        heroSection: {
           type: "hero",
           title: "Embracing Differences",
           subtitle: "Celebrating diversity to build a more inclusive future",
           imageURL: "/images/diversity-and-inclusion.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Commitment to Diversity",
           subtitle: "Fostering a culture of belonging",
@@ -1094,7 +1094,7 @@ export const Content = {
               title: "Building Inclusive Teams",
               description:
                 "Our focus is on creating diverse teams that reflect our global community.",
-              iconURL: "inclusive-teams",
+              iconURL: "/icons/inclusive-teams.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
@@ -1103,7 +1103,7 @@ export const Content = {
               title: "Valuing Every Perspective",
               description:
                 "We respect and value the unique contributions of every individual.",
-              iconURL: "perspectives",
+              iconURL: "/icons/perspectives.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
@@ -1112,7 +1112,7 @@ export const Content = {
               title: "Supporting Equity",
               description:
                 "We are committed to ensuring equitable opportunities for everyone.",
-              iconURL: "equity",
+              iconURL: "/icons/equity.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
@@ -1121,22 +1121,22 @@ export const Content = {
               title: "Championing Diversity",
               description:
                 "We actively work to increase diversity at all levels of our organization.",
-              iconURL: "diversity",
+              iconURL: "/icons/diversity.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
             },
           ],
         },
-      ],
-      empowerment: [
-        {
+      },
+      empowerment: {
+        heroSection: {
           type: "hero",
           title: "Empowerment",
           subtitle: "Enabling individuals to reach their full potential",
           imageURL: "/images/diversity-and-inclusion.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Empowering Through Opportunity",
           subtitle: "Creating pathways for growth",
@@ -1149,7 +1149,7 @@ export const Content = {
               title: "Leadership Development",
               description:
                 "Offering programs that foster leadership skills at all levels.",
-              iconURL: "leadership",
+              iconURL: "/icons/leadership.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
@@ -1157,7 +1157,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Connecting employees with mentors who guide their personal and professional growth.",
-              iconURL: "mentorship",
+              iconURL: "/icons/mentorship.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
@@ -1165,7 +1165,7 @@ export const Content = {
               title: "Career Growth",
               description:
                 "We provide opportunities for continuous learning and career advancement.",
-              iconURL: "career-growth",
+              iconURL: "/icons/career-growth.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
@@ -1173,21 +1173,21 @@ export const Content = {
               title: "Empowering Communities",
               description:
                 "We extend our empowerment initiatives to the communities we serve.",
-              iconURL: "community",
+              iconURL: "/icons/community.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
           ],
         },
-      ],
-      "equal-opportunities": [
-        {
+      },
+      "equal-opportunities": {
+        heroSection: {
           type: "hero",
           title: "Equal Opportunities",
           subtitle: "Ensuring fairness and equality for all",
           imageURL: "/images/diversity-and-inclusion.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Advancing Equality",
           subtitle: "Promoting fairness at every level",
@@ -1201,7 +1201,7 @@ export const Content = {
               title: "Fair Hiring Practices",
               description:
                 "We ensure that our hiring processes are fair and inclusive.",
-              iconURL: "fair-hiring",
+              iconURL: "/icons/fair-hiring.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
@@ -1210,7 +1210,7 @@ export const Content = {
               title: "Diverse Workforce",
               description:
                 "We focus on building a workforce that reflects the diversity of our global community.",
-              iconURL: "workforce",
+              iconURL: "/icons/workforce.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
@@ -1219,7 +1219,7 @@ export const Content = {
               title: "Inclusive Benefits",
               description:
                 "Offering benefits that meet the diverse needs of our employees.",
-              iconURL: "benefits",
+              iconURL: "/icons/benefits.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
@@ -1228,22 +1228,22 @@ export const Content = {
               title: "Advocating for Equity",
               description:
                 "We are committed to removing barriers and creating equal opportunities for all.",
-              iconURL: "equity-advocacy",
+              iconURL: "/icons/equity-advocacy.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
             },
           ],
         },
-      ],
-      "global-perspective": [
-        {
+      },
+      "global-perspective": {
+        heroSection: {
           type: "hero",
           title: "Global Perspective",
           subtitle: "Incorporating diverse global views",
           imageURL: "/images/diversity-and-inclusion.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "A Worldview on Inclusion",
           subtitle: "Connecting across borders",
@@ -1256,7 +1256,7 @@ export const Content = {
               title: "Cross-Cultural Collaboration",
               description:
                 "We encourage collaboration across different cultures and regions.",
-              iconURL: "collaboration",
+              iconURL: "/icons/collaboration.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
@@ -1265,7 +1265,7 @@ export const Content = {
               title: "Global Leadership",
               description:
                 "We promote leaders who bring a global perspective to their work.",
-              iconURL: "global-leadership",
+              iconURL: "/icons/global-leadership.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
@@ -1274,7 +1274,7 @@ export const Content = {
               title: "Cultural Awareness",
               description:
                 "We offer training programs that increase cultural competence across teams.",
-              iconURL: "cultural-awareness",
+              iconURL: "/icons/cultural-awareness.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
@@ -1283,22 +1283,22 @@ export const Content = {
               title: "Global Impact",
               description:
                 "Our initiatives create lasting global impact by promoting inclusivity worldwide.",
-              iconURL: "global-impact",
+              iconURL: "/icons/global-impact.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
             },
           ],
         },
-      ],
-      "inclusive-culture": [
-        {
+      },
+      "inclusive-culture": {
+        heroSection: {
           type: "hero",
           title: "Inclusive Culture",
           subtitle: "Creating a culture where everyone feels valued",
           imageURL: "/images/diversity-and-inclusion.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Building Inclusivity",
           subtitle: "Ensuring everyone has a voice",
@@ -1311,7 +1311,7 @@ export const Content = {
               title: "Inclusive Leadership",
               description:
                 "Our leaders are committed to creating an inclusive environment for all.",
-              iconURL: "inclusive-leadership",
+              iconURL: "/icons/inclusive-leadership.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
@@ -1320,7 +1320,7 @@ export const Content = {
               title: "Belonging Initiatives",
               description:
                 "We foster a sense of belonging through various initiatives and programs.",
-              iconURL: "belonging",
+              iconURL: "/icons/belonging.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
@@ -1329,7 +1329,7 @@ export const Content = {
               title: "Employee Resource Groups",
               description:
                 "Our employee resource groups provide support and community for underrepresented groups.",
-              iconURL: "resource-groups",
+              iconURL: "/icons/resource-groups.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
@@ -1338,32 +1338,32 @@ export const Content = {
               title: "Inclusive Policies",
               description:
                 "Our policies reflect our commitment to fairness and inclusivity.",
-              iconURL: "key-solid",
+              iconURL: "/icons/inclusive-policies.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
             },
           ],
         },
-      ],
+      },
     },
     "climate-strategy": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Climate Strategy",
           subtitle: "Driving Change for a Sustainable Future",
           imageURL: "/images/hero/climate-strategy.jpg",
         },
-      ],
-      "carbon-footprint-reduction": [
-        {
+      },
+      "carbon-footprint-reduction": {
+        heroSection: {
           type: "hero",
           title: "Carbon Footprint Reduction",
           subtitle: "Taking Action to Minimize Environmental Impact",
           imageURL: "/images/climate-strategy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Commitment to Carbon Reduction",
           subtitle: "Steps Toward a Greener Tomorrow",
@@ -1377,7 +1377,7 @@ export const Content = {
               title: "Renewable Energy",
               description:
                 "Transitioning to renewable energy sources like wind and solar to reduce emissions.",
-              iconURL: "renewable-energy",
+              iconURL: "/icons/renewable-energy.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
@@ -1386,7 +1386,7 @@ export const Content = {
               title: "Energy Efficiency",
               description:
                 "Implementing energy-efficient systems in our facilities to lower consumption.",
-              iconURL: "energy-efficiency",
+              iconURL: "/icons/energy-efficiency.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
@@ -1395,7 +1395,7 @@ export const Content = {
               title: "Sustainable Transportation",
               description:
                 "Encouraging the use of electric vehicles and eco-friendly logistics.",
-              iconURL: "sustainable-transportation",
+              iconURL: "/icons/sustainable-transportation.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
@@ -1404,22 +1404,22 @@ export const Content = {
               title: "Waste Management",
               description:
                 "Reducing waste through recycling programs and responsible disposal.",
-              iconURL: "waste-management",
+              iconURL: "/icons/waste-management.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
             },
           ],
         },
-      ],
-      "contributions-to-sustainability": [
-        {
+      },
+      "contributions-to-sustainability": {
+        heroSection: {
           type: "hero",
           title: "Contributions to Sustainability",
           subtitle: "Innovating for a Sustainable Future",
           imageURL: "/images/climate-strategy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Sustainability Efforts",
           subtitle: "Working Towards Long-Term Environmental Solutions",
@@ -1433,7 +1433,7 @@ export const Content = {
               title: "Water Conservation",
               description:
                 "Promoting water efficiency in operations and reducing consumption.",
-              iconURL: "water-conservation",
+              iconURL: "/icons/water-conservation.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
@@ -1442,7 +1442,7 @@ export const Content = {
               title: "Biodiversity Protection",
               description:
                 "Supporting ecosystems and preserving biodiversity in areas where we operate.",
-              iconURL: "biodiversity",
+              iconURL: "/icons/biodiversity.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
@@ -1451,7 +1451,7 @@ export const Content = {
               title: "Circular Economy",
               description:
                 "Innovating products and processes to reuse materials and minimize waste.",
-              iconURL: "circular-economy",
+              iconURL: "/icons/circular-economy.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
@@ -1460,22 +1460,22 @@ export const Content = {
               title: "Sustainable Packaging",
               description:
                 "Developing packaging solutions that reduce environmental impact.",
-              iconURL: "sustainable-packaging",
+              iconURL: "/icons/sustainable-packaging.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
             },
           ],
         },
-      ],
-      "eco-friendly-practices": [
-        {
+      },
+      "eco-friendly-practices": {
+        heroSection: {
           type: "hero",
           title: "Eco-Friendly Practices",
           subtitle: "Embedding Sustainability Into Our Daily Operations",
           imageURL: "/images/climate-strategy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Sustainable Practices for a Greener Future",
           subtitle: "Innovating for Long-Term Environmental Solutions",
@@ -1488,7 +1488,7 @@ export const Content = {
               title: "Green Buildings",
               description:
                 "Constructing eco-friendly buildings with LEED certifications and energy-saving technologies.",
-              iconURL: "green-buildings",
+              iconURL: "/icons/green-buildings.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
@@ -1497,7 +1497,7 @@ export const Content = {
               title: "Sustainable Sourcing",
               description:
                 "Prioritizing suppliers with sustainable practices and eco-friendly materials.",
-              iconURL: "sustainable-sourcing",
+              iconURL: "/icons/sustainable-sourcing.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
@@ -1506,7 +1506,7 @@ export const Content = {
               title: "Energy Management",
               description:
                 "Utilizing smart energy management systems to reduce power consumption.",
-              iconURL: "energy-management",
+              iconURL: "/icons/energy-management.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
@@ -1515,22 +1515,22 @@ export const Content = {
               title: "Water Management",
               description:
                 "Innovating water-saving techniques to reduce our water footprint.",
-              iconURL: "water-management",
+              iconURL: "/icons/water-management.svg",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
             },
           ],
         },
-      ],
-      "green-initiatives": [
-        {
+      },
+      "green-initiatives": {
+        heroSection: {
           type: "hero",
           title: "Green Initiatives",
           subtitle: "Creating Positive Environmental Change",
           imageURL: "/images/climate-strategy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Leading the Way in Environmental Responsibility",
           subtitle: "Our Green Initiatives Across the Globe",
@@ -1543,7 +1543,7 @@ export const Content = {
               title: "Reforestation Projects",
               description:
                 "Partnering with global organizations to reforest and restore ecosystems.",
-              iconURL: "reforestation",
+              iconURL: "/icons/reforestation.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
@@ -1551,7 +1551,7 @@ export const Content = {
               title: "Clean Energy Investments",
               description:
                 "Investing in clean energy projects to power our operations and communities.",
-              iconURL: "clean-energy",
+              iconURL: "/icons/clean-energy.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
@@ -1559,7 +1559,7 @@ export const Content = {
               title: "Reducing Plastics",
               description:
                 "Minimizing single-use plastics in our operations and promoting alternatives.",
-              iconURL: "reduce-plastics",
+              iconURL: "/icons/reduce-plastics.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
@@ -1567,24 +1567,24 @@ export const Content = {
               title: "Sustainable Agriculture",
               description:
                 "Supporting sustainable farming practices that reduce environmental impact.",
-              iconURL: "sustainable-agriculture",
+              iconURL: "/icons/sustainable-agriculture.svg",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
           ],
         },
-      ],
+      },
     },
   },
   services: {
-    index: [
-      {
+    index: {
+      heroSection: {
         type: "hero",
         title: "Comprehensive Language and Consultancy Services",
         subtitle: "Bridging Cultures, Uniting Worlds",
         imageURL: "/images/hero/services.jpg",
       },
-      {
+      blankSectionTrainingProgramme: {
         type: "blank",
         title: "Training Programme",
         description:
@@ -1592,7 +1592,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/services/training-programme",
       },
-      {
+      tilesSection: {
         type: "tiles",
         title: "Multilingual Solutions",
         description:
@@ -1632,7 +1632,7 @@ export const Content = {
           },
         ],
       },
-      {
+      blankSectionLegalConsultancy: {
         type: "blank",
         title: "Legal Consultancy",
         description:
@@ -1640,7 +1640,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/services/legal-consultancy",
       },
-      {
+      iconCardsSection: {
         type: "icon-cards",
         title: "Final Consultancy Services",
         subtitle: "Expert Guidance for Financial Success",
@@ -1687,7 +1687,7 @@ export const Content = {
           },
         ],
       },
-      {
+      blankSectionDigitalAndTechSolutions: {
         type: "blank",
         title: "Digital and Tech Solutions",
         description:
@@ -1695,25 +1695,25 @@ export const Content = {
         button: "Read more",
         redirectURL: "/services/digital-and-tech-solutions",
       },
-    ],
+    },
     "digital-and-tech-solutions": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Digital & Tech Solutions",
           subtitle: "Innovative technologies shaping the future of businesses.",
           imageURL: "/images/hero/digital-and-tech-solutions.jpg",
         },
-      ],
-      "cybersecurity-solutions": [
-        {
+      },
+      "cybersecurity-solutions": {
+        heroSection: {
           type: "hero",
           title: "Cybersecurity Solutions",
           subtitle:
             "Protect your business with cutting-edge cybersecurity measures.",
           imageURL: "/images/digital-and-tech-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Cybersecurity Services",
           subtitle:
@@ -1728,7 +1728,7 @@ export const Content = {
               title: "Threat Detection",
               description:
                 "Identify and respond to potential cyber threats before they cause harm.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
@@ -1737,7 +1737,7 @@ export const Content = {
               title: "Data Encryption",
               description:
                 "Ensure your sensitive information is secure with advanced encryption methods.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
@@ -1746,7 +1746,7 @@ export const Content = {
               title: "Network Security",
               description:
                 "Protect your network infrastructure from unauthorized access and attacks.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
@@ -1755,23 +1755,23 @@ export const Content = {
               title: "Incident Response",
               description:
                 "React swiftly to cyber incidents with our professional response teams.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
             },
           ],
         },
-      ],
-      "data-analytics-and-business-intelligence": [
-        {
+      },
+      "data-analytics-and-business-intelligence": {
+        heroSection: {
           type: "hero",
           title: "Data Analytics & Business Intelligence",
           subtitle:
             "Leverage data-driven insights to fuel growth and innovation.",
           imageURL: "/images/digital-and-tech-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Transform Data into Actionable Insights",
           subtitle: "Empower your business with cutting-edge analytics tools.",
@@ -1785,7 +1785,7 @@ export const Content = {
               title: "Predictive Analytics",
               description:
                 "Predict future trends and outcomes using advanced algorithms.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
@@ -1794,7 +1794,7 @@ export const Content = {
               title: "Data Visualization",
               description:
                 "Present complex data in clear and actionable visual formats.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
@@ -1803,7 +1803,7 @@ export const Content = {
               title: "Business Intelligence Tools",
               description:
                 "Make informed decisions with real-time business intelligence reports.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
@@ -1812,23 +1812,23 @@ export const Content = {
               title: "Data Integration",
               description:
                 "Consolidate data from multiple sources for seamless analysis.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
             },
           ],
         },
-      ],
-      "emerging-technologies-integration": [
-        {
+      },
+      "emerging-technologies-integration": {
+        heroSection: {
           type: "hero",
           title: "Emerging Technologies Integration",
           subtitle:
             "Stay ahead of the curve with the latest in tech innovation.",
           imageURL: "/images/digital-and-tech-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Integrating Tomorrow's Technologies",
           subtitle:
@@ -1843,7 +1843,7 @@ export const Content = {
               title: "Artificial Intelligence",
               description:
                 "Automate and optimize business processes using AI solutions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
@@ -1852,7 +1852,7 @@ export const Content = {
               title: "Blockchain",
               description:
                 "Implement secure and transparent blockchain-based systems.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
@@ -1861,7 +1861,7 @@ export const Content = {
               title: "IoT Solutions",
               description:
                 "Connect devices and systems with the Internet of Things for enhanced operations.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
@@ -1870,23 +1870,23 @@ export const Content = {
               title: "Machine Learning",
               description:
                 "Empower your business with predictive and adaptive machine learning models.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
             },
           ],
         },
-      ],
-      "software-development": [
-        {
+      },
+      "software-development": {
+        heroSection: {
           type: "hero",
           title: "Software Development",
           subtitle:
             "Customized software solutions to meet your unique business needs.",
           imageURL: "/images/digital-and-tech-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Bespoke Software Solutions",
           subtitle:
@@ -1901,7 +1901,7 @@ export const Content = {
               title: "Custom Applications",
               description:
                 "Develop software applications specifically designed for your business processes.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
@@ -1910,7 +1910,7 @@ export const Content = {
               title: "Mobile App Development",
               description:
                 "Create high-performance mobile apps to engage your customers.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
@@ -1918,7 +1918,7 @@ export const Content = {
             {
               title: "Web Development",
               description: "Design and build responsive and dynamic websites.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
@@ -1927,33 +1927,33 @@ export const Content = {
               title: "API Integration",
               description:
                 "Seamlessly integrate third-party services with your software using custom APIs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
             },
           ],
         },
-      ],
+      },
     },
     "final-consultancy": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Final Consultancy",
           subtitle: "Expert Financial Solutions for Your Business",
           imageURL: "/images/hero/final-consultancy.jpg",
         },
-      ],
-      "comprehensive-financial-advisory-services": [
-        {
+      },
+      "comprehensive-financial-advisory-services": {
+        heroSection: {
           type: "hero",
           title: "Comprehensive Financial Advisory Services",
           subtitle:
             "Tailored strategies to optimize financial health and growth.",
           imageURL: "/images/final-consultancy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Financial Advisory Expertise",
           subtitle: "Expert Guidance for Financial Success",
@@ -1967,7 +1967,7 @@ export const Content = {
               title: "Wealth Management",
               description:
                 "Optimize your assets with our personalized wealth management solutions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -1976,7 +1976,7 @@ export const Content = {
               title: "Investment Strategies",
               description:
                 "Diversify and grow your portfolio with tailored investment strategies.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -1985,7 +1985,7 @@ export const Content = {
               title: "Tax Optimization",
               description:
                 "Minimize your tax liabilities with our strategic planning solutions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -1994,23 +1994,23 @@ export const Content = {
               title: "Estate Planning",
               description:
                 "Ensure your legacy with effective estate planning services.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
             },
           ],
         },
-      ],
-      "financial-planning-and-risk-management": [
-        {
+      },
+      "financial-planning-and-risk-management": {
+        heroSection: {
           type: "hero",
           title: "Financial Planning & Risk Management",
           subtitle:
             "Secure your future with comprehensive risk management solutions.",
           imageURL: "/images/final-consultancy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Plan for Financial Security",
           subtitle: "Protect Your Assets and Minimize Risks",
@@ -2024,7 +2024,7 @@ export const Content = {
               title: "Retirement Planning",
               description:
                 "Plan your retirement with confidence and secure your financial future.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
@@ -2033,7 +2033,7 @@ export const Content = {
               title: "Risk Assessment",
               description:
                 "Evaluate potential risks and develop strategies to mitigate them.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
@@ -2042,7 +2042,7 @@ export const Content = {
               title: "Insurance Solutions",
               description:
                 "Protect your business and personal assets with customized insurance plans.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
@@ -2051,22 +2051,22 @@ export const Content = {
               title: "Contingency Planning",
               description:
                 "Prepare for the unexpected with thorough contingency planning.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
             },
           ],
         },
-      ],
-      "performance-analysis-and-informed-decision-making": [
-        {
+      },
+      "performance-analysis-and-informed-decision-making": {
+        heroSection: {
           type: "hero",
           title: "Performance Analysis & Informed Decision Making",
           subtitle: "Data-driven insights for strategic business decisions.",
           imageURL: "/images/final-consultancy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Make Data-Driven Decisions",
           subtitle: "Enhance Performance with Strategic Insights",
@@ -2080,7 +2080,7 @@ export const Content = {
               title: "Financial Reporting",
               description:
                 "Get detailed financial reports to track your business performance.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -2089,7 +2089,7 @@ export const Content = {
               title: "KPI Tracking",
               description:
                 "Monitor your key performance indicators for continued business growth.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -2098,7 +2098,7 @@ export const Content = {
               title: "Cost-Benefit Analysis",
               description:
                 "Analyze the costs and benefits of projects for better investment decisions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -2107,22 +2107,22 @@ export const Content = {
               title: "Scenario Planning",
               description:
                 "Evaluate different business scenarios to prepare for the future.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
             },
           ],
         },
-      ],
-      "specialised-expertise-in-financial-regulations": [
-        {
+      },
+      "specialised-expertise-in-financial-regulations": {
+        heroSection: {
           type: "hero",
           title: "Specialized Expertise in Financial Regulations",
           subtitle: "Stay compliant with ever-evolving financial regulations.",
           imageURL: "/images/final-consultancy.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Navigate Complex Regulations",
           subtitle: "Compliance Solutions for Financial Success",
@@ -2136,7 +2136,7 @@ export const Content = {
               title: "Compliance Audits",
               description:
                 "Ensure regulatory compliance with comprehensive audits.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -2145,7 +2145,7 @@ export const Content = {
               title: "Regulatory Reporting",
               description:
                 "Stay on top of regulatory requirements with accurate reporting.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -2154,7 +2154,7 @@ export const Content = {
               title: "Risk and Compliance Management",
               description:
                 "Manage regulatory risks with effective compliance strategies.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -2163,32 +2163,32 @@ export const Content = {
               title: "Legal and Regulatory Updates",
               description:
                 "Stay informed with the latest updates in financial regulations.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
             },
           ],
         },
-      ],
+      },
     },
     "legal-consultancy": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Legal Consultancy",
           subtitle: "MISSING_CONTENT",
           imageURL: "/images/hero/multilingual-solutions.jpg",
         },
-      ],
-      "document-translation": [
-        {
+      },
+      "document-translation": {
+        heroSection: {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
@@ -2199,7 +2199,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2207,7 +2207,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2215,7 +2215,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2223,22 +2223,22 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
             },
           ],
         },
-      ],
-      "industry-specific-language-solutions": [
-        {
+      },
+      "industry-specific-language-solutions": {
+        heroSection: {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
@@ -2250,7 +2250,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2258,7 +2258,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2266,7 +2266,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2274,22 +2274,22 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
             },
           ],
         },
-      ],
-      interpretation: [
-        {
+      },
+      interpretation: {
+        heroSection: {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
@@ -2300,42 +2300,42 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
           ],
         },
-      ],
-      "mobile-interpretation": [
-        {
+      },
+      "mobile-interpretation": {
+        heroSection: {
           type: "hero",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "MISSING_CONTENT",
           subtitle: "MISSING_CONTENT",
@@ -2346,7 +2346,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -2354,7 +2354,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -2362,7 +2362,7 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -2370,32 +2370,32 @@ export const Content = {
             {
               title: "MISSING_CONTENT",
               description: "MISSING_CONTENT",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
             },
           ],
         },
-      ],
+      },
     },
     "multilingual-solutions": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Multilingual Solutions",
           subtitle: "Bridging Language Barriers for Global Communication",
           imageURL: "/images/hero/multilingual-solutions.jpg",
         },
-      ],
-      "document-translation": [
-        {
+      },
+      "document-translation": {
+        heroSection: {
           type: "hero",
           title: "Document Translation Services",
           subtitle: "Precision and Accuracy for Your Written Content",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Comprehensive Document Translation",
           subtitle: "Your Trusted Partner in Multilingual Document Solutions",
@@ -2408,7 +2408,7 @@ export const Content = {
               title: "Legal Document Translation",
               description:
                 "Accurate translations for contracts, agreements, and other legal documents.",
-              iconURL: "i_legal",
+              iconURL: "/icons/i_legal.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2417,7 +2417,7 @@ export const Content = {
               title: "Medical Document Translation",
               description:
                 "Expert translation of medical records, patient information, and pharmaceutical documentation.",
-              iconURL: "i_medical",
+              iconURL: "/icons/i_medical.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2426,7 +2426,7 @@ export const Content = {
               title: "Technical Document Translation",
               description:
                 "Precision in translating user manuals, product specifications, and engineering documents.",
-              iconURL: "i_technical",
+              iconURL: "/icons/i_technical.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2435,22 +2435,22 @@ export const Content = {
               title: "Certified Document Translation",
               description:
                 "Official translations for legal and governmental purposes, ensuring compliance with regulations.",
-              iconURL: "i_certified",
+              iconURL: "/icons/i_certified.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
             },
           ],
         },
-      ],
-      "industry-specific-language-solutions": [
-        {
+      },
+      "industry-specific-language-solutions": {
+        heroSection: {
           type: "hero",
           title: "Industry-Specific Language Solutions",
           subtitle: "Tailored Translation and Interpretation for Every Sector",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Specialized Language Services",
           subtitle: "We Speak Your Industry's Language",
@@ -2464,7 +2464,7 @@ export const Content = {
               title: "Legal Translation",
               description:
                 "Expertise in translating legal documents with a focus on accuracy and compliance.",
-              iconURL: "i_legal",
+              iconURL: "/icons/i_legal.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2473,7 +2473,7 @@ export const Content = {
               title: "Medical Translation",
               description:
                 "High-quality translation of medical texts, ensuring patient safety and regulatory compliance.",
-              iconURL: "i_medical",
+              iconURL: "/icons/i_medical.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2482,7 +2482,7 @@ export const Content = {
               title: "Technical Translation",
               description:
                 "In-depth understanding of technical jargon and concepts for accurate translations.",
-              iconURL: "i_technical",
+              iconURL: "/icons/i_technical.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2491,22 +2491,22 @@ export const Content = {
               title: "Financial Translation",
               description:
                 "Precise translation of financial documents, reports, and statements.",
-              iconURL: "i_financial",
+              iconURL: "/icons/i_financial.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
             },
           ],
         },
-      ],
-      interpretation: [
-        {
+      },
+      interpretation: {
+        heroSection: {
           type: "hero",
           title: "Professional Interpretation Services",
           subtitle: "Real-Time Language Solutions for Effective Communication",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Expert Interpretation Solutions",
           subtitle: "Bringing Clarity to Your Conversations",
@@ -2519,7 +2519,7 @@ export const Content = {
               title: "Simultaneous Interpretation",
               description:
                 "Real-time interpretation for large events, ensuring seamless communication.",
-              iconURL: "i_simultaneous",
+              iconURL: "/icons/i_simultaneous.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
@@ -2527,7 +2527,7 @@ export const Content = {
               title: "Consecutive Interpretation",
               description:
                 "Effective interpretation for smaller meetings and discussions.",
-              iconURL: "i_consecutive",
+              iconURL: "/icons/i_consecutive.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
@@ -2535,7 +2535,7 @@ export const Content = {
               title: "Over-the-Phone Interpretation",
               description:
                 "Convenient and immediate interpretation services for urgent situations.",
-              iconURL: "i_phone",
+              iconURL: "/icons/i_phone.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
@@ -2543,21 +2543,21 @@ export const Content = {
               title: "Video Remote Interpretation",
               description:
                 "Visual interpretation services that connect you with interpreters via video calls.",
-              iconURL: "i_video",
+              iconURL: "/icons/i_video.svg",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
           ],
         },
-      ],
-      "mobile-interpretation": [
-        {
+      },
+      "mobile-interpretation": {
+        heroSection: {
           type: "hero",
           title: "Mobile Interpretation Solutions",
           subtitle: "On-Demand Interpretation at Your Fingertips",
           imageURL: "/images/multilingual-solutions.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Convenient Mobile Interpretation",
           subtitle: "Interpretation Services Wherever You Are",
@@ -2570,7 +2570,7 @@ export const Content = {
               title: "Instant Access",
               description:
                 "Get connected with interpreters in real-time through our mobile app.",
-              iconURL: "i_mobile_instant",
+              iconURL: "/icons/i_mobile_instant.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -2579,7 +2579,7 @@ export const Content = {
               title: "Multilingual Support",
               description:
                 "Access a wide range of languages at your convenience.",
-              iconURL: "i_multilingual",
+              iconURL: "/icons/i_multilingual.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -2588,7 +2588,7 @@ export const Content = {
               title: "24/7 Availability",
               description:
                 "Our interpreters are available around the clock for your needs.",
-              iconURL: "i_availability",
+              iconURL: "/icons/i_availability.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -2597,32 +2597,32 @@ export const Content = {
               title: "User-Friendly Interface",
               description:
                 "Seamless navigation and easy access to all features within the app.",
-              iconURL: "i_user_friendly",
+              iconURL: "/icons/i_user_friendly.svg",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
             },
           ],
         },
-      ],
+      },
     },
     "training-programme": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Training Programme",
           subtitle: "Empowering Skills for Success",
           imageURL: "/images/hero/training-programme.jpg",
         },
-      ],
-      "experienced-instructors": [
-        {
+      },
+      "experienced-instructors": {
+        heroSection: {
           type: "hero",
           title: "Learn from the Best",
           subtitle: "Expert Trainers with Real-World Experience",
           imageURL: "/images/training-programme.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Instructors",
           subtitle: "Qualified Professionals",
@@ -2635,7 +2635,7 @@ export const Content = {
               title: "Industry Experts",
               description:
                 "Instructors with hands-on industry experience to provide practical insights.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
@@ -2644,7 +2644,7 @@ export const Content = {
               title: "Certified Trainers",
               description:
                 "All instructors are certified and qualified in their respective fields.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
@@ -2653,7 +2653,7 @@ export const Content = {
               title: "Personalized Approach",
               description:
                 "Tailored training sessions to meet the unique needs of each student.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
@@ -2662,22 +2662,22 @@ export const Content = {
               title: "Ongoing Support",
               description:
                 "Our instructors provide ongoing support even after the training is completed.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
             },
           ],
         },
-      ],
-      "personalized-learning": [
-        {
+      },
+      "personalized-learning": {
+        heroSection: {
           type: "hero",
           title: "Tailored Learning Experiences",
           subtitle: "Customized Training for Everyone",
           imageURL: "/images/training-programme.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Why Choose Personalized Learning?",
           subtitle: "Your Learning, Your Way",
@@ -2689,7 +2689,7 @@ export const Content = {
             {
               title: "Flexible Scheduling",
               description: "Choose the schedule that fits your life.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
@@ -2697,7 +2697,7 @@ export const Content = {
               title: "Customized Content",
               description:
                 "Training materials tailored to your specific needs and goals.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
@@ -2705,7 +2705,7 @@ export const Content = {
               title: "Individual Attention",
               description:
                 "Small class sizes ensure personalized feedback and support.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
@@ -2713,21 +2713,21 @@ export const Content = {
               title: "Goal-Oriented Training",
               description:
                 "Focus on achieving your specific learning objectives.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
           ],
         },
-      ],
-      "stay-ahead-of-the-curve": [
-        {
+      },
+      "stay-ahead-of-the-curve": {
+        heroSection: {
           type: "hero",
           title: "Stay Ahead of Industry Trends",
           subtitle: "Continuous Learning for Future Success",
           imageURL: "/images/training-programme.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Stay Updated",
           subtitle: "Keep Up with the Changing Landscape",
@@ -2740,7 +2740,7 @@ export const Content = {
               title: "Latest Techniques",
               description:
                 "Learn the most current methods and technologies in your field.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
@@ -2749,7 +2749,7 @@ export const Content = {
               title: "Adaptability Training",
               description:
                 "Training to help you adapt to evolving industry standards.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
@@ -2758,7 +2758,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Connect with industry leaders and peers during our programs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
@@ -2767,22 +2767,22 @@ export const Content = {
               title: "Access to Resources",
               description:
                 "Gain access to exclusive training materials and resources.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
             },
           ],
         },
-      ],
-      "wide-ranging-expertise": [
-        {
+      },
+      "wide-ranging-expertise": {
+        heroSection: {
           type: "hero",
           title: "Diverse Training Programs",
           subtitle: "Explore a Variety of Fields",
           imageURL: "/images/training-programme.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Expertise",
           subtitle: "Training in Multiple Disciplines",
@@ -2794,7 +2794,7 @@ export const Content = {
             {
               title: "Technical Skills",
               description: "Courses in programming, IT, and engineering.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
@@ -2803,7 +2803,7 @@ export const Content = {
               title: "Soft Skills",
               description:
                 "Training in communication, leadership, and teamwork.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
@@ -2812,7 +2812,7 @@ export const Content = {
               title: "Business Development",
               description:
                 "Workshops on sales, marketing, and entrepreneurship.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
@@ -2821,25 +2821,25 @@ export const Content = {
               title: "Creative Arts",
               description:
                 "Courses in design, writing, and multimedia production.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
             },
           ],
         },
-      ],
+      },
     },
   },
   "life-at-novelex": {
-    index: [
-      {
+    index: {
+      heroSection: {
         type: "hero",
         title: "A Journey of Vibrant Experiences",
         subtitle: "A Journey of Vibrant Experiences",
         imageURL: "/images/hero/life-at-novelex.jpg",
       },
-      {
+      blankSectionCommunityEngagement: {
         type: "blank",
         title: "Community Engagement",
         description:
@@ -2847,7 +2847,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/life-at-novelex/community-engagement",
       },
-      {
+      tilesSection: {
         type: "tiles",
         title: "Events and Highlights",
         description:
@@ -2888,7 +2888,7 @@ export const Content = {
           },
         ],
       },
-      {
+      blankSectionExperiencingNovelex: {
         type: "blank",
         title: "Experiencing Novelex",
         description:
@@ -2896,7 +2896,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/life-at-novelex/experiencing-novelex",
       },
-      {
+      iconCardsSection: {
         type: "icon-cards",
         title: "Team and Culture Insights",
         subtitle: "Discover Our Unique Workplace Culture",
@@ -2943,7 +2943,7 @@ export const Content = {
           },
         ],
       },
-      {
+      blankSectionWellnessAndBenefits: {
         type: "blank",
         title: "Wellness and Benefits",
         description:
@@ -2951,24 +2951,24 @@ export const Content = {
         button: "Read more",
         redirectURL: "/life-at-novelex/wellness-and-benefits",
       },
-    ],
+    },
     "community-engagement": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Community Engagement",
           subtitle: "Building Stronger Communities Together",
           imageURL: "/images/hero/community-engagement.jpg",
         },
-      ],
-      "educational-initiatives-and-skill-building-programs": [
-        {
+      },
+      "educational-initiatives-and-skill-building-programs": {
+        heroSection: {
           type: "hero",
           title: "Empowering Through Education",
           subtitle: "Developing Skills for a Brighter Future",
           imageURL: "/images/community-engagement.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Educational Programs",
           subtitle: "Nurturing Growth and Development",
@@ -2981,7 +2981,7 @@ export const Content = {
             {
               title: "Workshops and Training",
               description: "Hands-on workshops to enhance professional skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
@@ -2990,7 +2990,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Connecting professionals with those seeking guidance.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
@@ -2998,7 +2998,7 @@ export const Content = {
             {
               title: "Scholarship Opportunities",
               description: "Financial support for deserving students.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
@@ -3007,22 +3007,22 @@ export const Content = {
               title: "Online Learning Resources",
               description:
                 "Access to a variety of online courses and materials.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
             },
           ],
         },
-      ],
-      "employee-volunteerism-and-outreach-programs": [
-        {
+      },
+      "employee-volunteerism-and-outreach-programs": {
+        heroSection: {
           type: "hero",
           title: "Making a Difference Together",
           subtitle: "Engaging Employees in Community Service",
           imageURL: "/images/community-engagement.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Volunteer Programs",
           subtitle: "Join Us in Making an Impact",
@@ -3036,7 +3036,7 @@ export const Content = {
               title: "Community Clean-Up Days",
               description:
                 "Join us for monthly clean-up events in local parks.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
@@ -3045,7 +3045,7 @@ export const Content = {
               title: "Food Drives",
               description:
                 "Help us collect and distribute food to those in need.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
@@ -3053,7 +3053,7 @@ export const Content = {
             {
               title: "Mentorship Programs",
               description: "Engage with youth through mentoring and support.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
@@ -3062,22 +3062,22 @@ export const Content = {
               title: "Charity Runs and Events",
               description:
                 "Participate in runs and events to raise funds for local charities.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
             },
           ],
         },
-      ],
-      "environmental-sustainability-projects": [
-        {
+      },
+      "environmental-sustainability-projects": {
+        heroSection: {
           type: "hero",
           title: "Commitment to the Planet",
           subtitle: "Sustainable Practices for a Greener Future",
           imageURL: "/images/community-engagement.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Sustainability Initiatives",
           subtitle: "Protecting Our Environment",
@@ -3091,7 +3091,7 @@ export const Content = {
               title: "Recycling Programs",
               description:
                 "Implementing effective recycling initiatives in our offices.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
@@ -3100,7 +3100,7 @@ export const Content = {
               title: "Energy Conservation",
               description:
                 "Reducing energy consumption through efficient practices.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
@@ -3108,7 +3108,7 @@ export const Content = {
             {
               title: "Tree Planting Campaigns",
               description: "Join us in planting trees in our local community.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
@@ -3116,22 +3116,22 @@ export const Content = {
             {
               title: "Water Conservation Efforts",
               description: "Initiatives to promote responsible water use.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
             },
           ],
         },
-      ],
-      "strategic-partnerships-for-social-impact": [
-        {
+      },
+      "strategic-partnerships-for-social-impact": {
+        heroSection: {
           type: "hero",
           title: "Collaborating for Change",
           subtitle: "Strategic Partnerships for Greater Impact",
           imageURL: "/images/community-engagement.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Social Impact Partnerships",
           subtitle: "Working Together for Community Growth",
@@ -3145,7 +3145,7 @@ export const Content = {
               title: "Local Nonprofits",
               description:
                 "Partnering with nonprofits to address community needs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
@@ -3154,7 +3154,7 @@ export const Content = {
               title: "Educational Institutions",
               description:
                 "Collaborating with schools for educational initiatives.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
@@ -3163,7 +3163,7 @@ export const Content = {
               title: "Government Agencies",
               description:
                 "Working with local government for community betterment.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
@@ -3172,32 +3172,32 @@ export const Content = {
               title: "Corporate Collaborations",
               description:
                 "Teaming up with other businesses for joint initiatives.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
             },
           ],
         },
-      ],
+      },
     },
     "events-and-highlights": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Events and Highlights",
           subtitle: "Celebrating our milestones and achievements together.",
           imageURL: "/images/hero/events-and-highlights.jpg",
         },
-      ],
-      "celebration-with-our-community": [
-        {
+      },
+      "celebration-with-our-community": {
+        heroSection: {
           type: "hero",
           title: "Celebrating Together",
           subtitle: "Join us as we celebrate our vibrant community.",
           imageURL: "/images/events-and-highlights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Community Events",
           subtitle: "Embracing connections and friendships.",
@@ -3210,7 +3210,7 @@ export const Content = {
             {
               title: "Annual Community Picnic",
               description: "A day of fun, food, and friendship in the park.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
@@ -3218,7 +3218,7 @@ export const Content = {
             {
               title: "Festive Holiday Celebration",
               description: "Join us for our annual holiday festivities!",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
@@ -3226,7 +3226,7 @@ export const Content = {
             {
               title: "Community Volunteer Day",
               description: "Give back to the community with us.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
@@ -3234,22 +3234,22 @@ export const Content = {
             {
               title: "Local Art Showcase",
               description: "Support local artists at our community art fair.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
             },
           ],
         },
-      ],
-      "continuous-strides-and-milestones": [
-        {
+      },
+      "continuous-strides-and-milestones": {
+        heroSection: {
           type: "hero",
           title: "Milestones Achieved",
           subtitle: "Recognizing our growth and achievements.",
           imageURL: "/images/events-and-highlights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Progress",
           subtitle: "Celebrating our journey and accomplishments.",
@@ -3263,7 +3263,7 @@ export const Content = {
               title: "100th Project Completed",
               description:
                 "A celebration of our project management excellence.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
@@ -3271,7 +3271,7 @@ export const Content = {
             {
               title: "5 Years of Community Service",
               description: "A tribute to our commitment to service.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
@@ -3279,7 +3279,7 @@ export const Content = {
             {
               title: "Partnership with Local Schools",
               description: "Fostering education through collaboration.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
@@ -3287,22 +3287,22 @@ export const Content = {
             {
               title: "Sustainability Goals Met",
               description: "Achievements in environmental initiatives.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
             },
           ],
         },
-      ],
-      "insights-into-significant-achievements": [
-        {
+      },
+      "insights-into-significant-achievements": {
+        heroSection: {
           type: "hero",
           title: "Significant Achievements",
           subtitle: "Highlighting our impactful moments.",
           imageURL: "/images/events-and-highlights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Achievements Overview",
           subtitle: "Discover our proudest moments.",
@@ -3314,7 +3314,7 @@ export const Content = {
             {
               title: "Award for Community Impact",
               description: "Recognizing our efforts in community development.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
@@ -3322,7 +3322,7 @@ export const Content = {
             {
               title: "Innovation in Service Delivery",
               description: "How we improved service quality for our clients.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
@@ -3330,7 +3330,7 @@ export const Content = {
             {
               title: "Partnerships that Matter",
               description: "Building relationships for a better future.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
@@ -3338,22 +3338,22 @@ export const Content = {
             {
               title: "Recognition for Sustainability Practices",
               description: "Honoring our commitment to the environment.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
             },
           ],
         },
-      ],
-      "showcasing-innovations-and-developments": [
-        {
+      },
+      "showcasing-innovations-and-developments": {
+        heroSection: {
           type: "hero",
           title: "Innovations and Developments",
           subtitle: "Showcasing our latest advancements.",
           imageURL: "/images/events-and-highlights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Innovations",
           subtitle: "Leading the way with creativity and technology.",
@@ -3366,7 +3366,7 @@ export const Content = {
             {
               title: "Launch of New Services",
               description: "Expanding our offerings for the community.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
@@ -3374,7 +3374,7 @@ export const Content = {
             {
               title: "Technological Upgrades",
               description: "Improving our systems for better efficiency.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
@@ -3383,7 +3383,7 @@ export const Content = {
               title: "New Partnerships for Growth",
               description:
                 "Collaborating with industry leaders for greater impact.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
@@ -3391,33 +3391,33 @@ export const Content = {
             {
               title: "Research and Development Initiatives",
               description: "Investing in future solutions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
             },
           ],
         },
-      ],
+      },
     },
     "experiencing-novelex": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Experiencing Novelex",
           subtitle:
             "Discover the vibrant culture and dynamic environment that makes Novelex a great place to work.",
           imageURL: "/images/hero/experiencing-novelex.jpg",
         },
-      ],
-      "creativity-and-openness": [
-        {
+      },
+      "creativity-and-openness": {
+        heroSection: {
           type: "hero",
           title: "Creativity and Openness",
           subtitle: "Fostering innovation through collaboration.",
           imageURL: "/images/experiencing-novelex.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "A Culture of Innovation",
           subtitle: "Where ideas flourish.",
@@ -3430,7 +3430,7 @@ export const Content = {
             {
               title: "Collaborative Spaces",
               description: "Our open offices are designed for teamwork.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
@@ -3438,7 +3438,7 @@ export const Content = {
             {
               title: "Innovation Labs",
               description: "Spaces dedicated to brainstorming and development.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
@@ -3446,7 +3446,7 @@ export const Content = {
             {
               title: "Idea Showcases",
               description: "Employees present their innovative projects.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
@@ -3455,22 +3455,22 @@ export const Content = {
               title: "Feedback Sessions",
               description:
                 "Regular meetings to discuss ideas and improvements.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
             },
           ],
         },
-      ],
-      "energy-and-enthusiasm-for-success": [
-        {
+      },
+      "energy-and-enthusiasm-for-success": {
+        heroSection: {
           type: "hero",
           title: "Energy and Enthusiasm for Success",
           subtitle: "Driving success through passion.",
           imageURL: "/images/experiencing-novelex.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Empowered Team Members",
           subtitle: "Fueling our success.",
@@ -3484,7 +3484,7 @@ export const Content = {
               title: "Passionate Teams",
               description:
                 "Our employees bring energy and enthusiasm to every project.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
@@ -3492,7 +3492,7 @@ export const Content = {
             {
               title: "Celebrating Wins",
               description: "Recognizing our achievements together.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
@@ -3500,7 +3500,7 @@ export const Content = {
             {
               title: "Dynamic Projects",
               description: "Engaging tasks that inspire creativity.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
@@ -3508,22 +3508,22 @@ export const Content = {
             {
               title: "Team Challenges",
               description: "Friendly competitions that boost morale.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
             },
           ],
         },
-      ],
-      "sense-of-purpose-in-everything-we-do": [
-        {
+      },
+      "sense-of-purpose-in-everything-we-do": {
+        heroSection: {
           type: "hero",
           title: "Sense of Purpose in Everything We Do",
           subtitle: "Making a difference through our work.",
           imageURL: "/images/experiencing-novelex.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Driven by Our Values",
           subtitle: "Creating a positive impact.",
@@ -3536,7 +3536,7 @@ export const Content = {
             {
               title: "Community Engagement",
               description: "Involving ourselves in local initiatives.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
@@ -3544,7 +3544,7 @@ export const Content = {
             {
               title: "Sustainability Practices",
               description: "Striving for eco-friendly operations.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
@@ -3553,7 +3553,7 @@ export const Content = {
               title: "Employee Volunteering",
               description:
                 "Encouraging staff participation in community service.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
@@ -3561,22 +3561,22 @@ export const Content = {
             {
               title: "Social Responsibility",
               description: "Committed to ethical practices.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
             },
           ],
         },
-      ],
-      "vibrant-and-diverse-culture": [
-        {
+      },
+      "vibrant-and-diverse-culture": {
+        heroSection: {
           type: "hero",
           title: "Vibrant and Diverse Culture",
           subtitle: "Celebrating our differences.",
           imageURL: "/images/experiencing-novelex.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Inclusive Environment",
           subtitle: "Valuing diversity.",
@@ -3589,7 +3589,7 @@ export const Content = {
             {
               title: "Cultural Celebrations",
               description: "Recognizing and honoring various cultures.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
@@ -3597,7 +3597,7 @@ export const Content = {
             {
               title: "Diverse Teams",
               description: "Bringing together unique backgrounds.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
@@ -3605,7 +3605,7 @@ export const Content = {
             {
               title: "Inclusive Policies",
               description: "Policies that support all employees.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
@@ -3613,32 +3613,32 @@ export const Content = {
             {
               title: "Community Building",
               description: "Creating a sense of belonging for everyone.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
             },
           ],
         },
-      ],
+      },
     },
     "team-and-culture-insights": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Team and Culture Insights",
           subtitle: "Discover how our values shape a thriving workplace.",
           imageURL: "/images/hero/team-and-culture-insights.jpg",
         },
-      ],
-      "collaborative-spirit-in-action": [
-        {
+      },
+      "collaborative-spirit-in-action": {
+        heroSection: {
           type: "hero",
           title: "Collaboration at Its Best",
           subtitle: "Unleashing the power of teamwork for greater results.",
           imageURL: "/images/team-and-culture-insights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Working Together",
           subtitle: "Fostering collaboration in every project.",
@@ -3652,7 +3652,7 @@ export const Content = {
               title: "Cross-Functional Teams",
               description:
                 "Our diverse teams bring unique perspectives to every project.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -3661,7 +3661,7 @@ export const Content = {
               title: "Innovative Problem Solving",
               description:
                 "Together, we tackle challenges and find creative solutions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -3670,7 +3670,7 @@ export const Content = {
               title: "Open Communication",
               description:
                 "We believe in transparent dialogue to enhance teamwork.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -3678,22 +3678,22 @@ export const Content = {
             {
               title: "Shared Success",
               description: "Celebrating achievements as a unified team.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
             },
           ],
         },
-      ],
-      "culture-of-inclusivity-and-empowerment": [
-        {
+      },
+      "culture-of-inclusivity-and-empowerment": {
+        heroSection: {
           type: "hero",
           title: "Empowering Every Voice",
           subtitle: "Creating a culture of inclusivity.",
           imageURL: "/images/team-and-culture-insights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Embracing Diversity",
           subtitle: "Cultivating an inclusive environment for all.",
@@ -3707,7 +3707,7 @@ export const Content = {
               title: "Inclusive Leadership",
               description:
                 "Leaders who prioritize inclusivity in decision-making.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -3715,7 +3715,7 @@ export const Content = {
             {
               title: "Diverse Perspectives",
               description: "Valuing different backgrounds and experiences.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -3724,7 +3724,7 @@ export const Content = {
               title: "Empowerment Programs",
               description:
                 "Initiatives designed to uplift and support all employees.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -3733,22 +3733,22 @@ export const Content = {
               title: "Community Engagement",
               description:
                 "Connecting with diverse communities outside our organization.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
             },
           ],
         },
-      ],
-      "personal-stories-and-experiences": [
-        {
+      },
+      "personal-stories-and-experiences": {
+        heroSection: {
           type: "hero",
           title: "Voices of Our Team",
           subtitle: "Personal stories that inspire and connect.",
           imageURL: "/images/team-and-culture-insights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Sharing Experiences",
           subtitle: "Every story matters.",
@@ -3761,7 +3761,7 @@ export const Content = {
             {
               title: "Employee Spotlights",
               description: "Highlighting unique stories from our diverse team.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -3770,7 +3770,7 @@ export const Content = {
               title: "Lessons Learned",
               description:
                 "Insights gained from personal and professional experiences.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -3778,7 +3778,7 @@ export const Content = {
             {
               title: "Cultural Celebrations",
               description: "Embracing our diverse traditions and backgrounds.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -3786,22 +3786,22 @@ export const Content = {
             {
               title: "Impactful Initiatives",
               description: "How individual stories lead to collective growth.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
             },
           ],
         },
-      ],
-      "values-and-principles-at-the-core": [
-        {
+      },
+      "values-and-principles-at-the-core": {
+        heroSection: {
           type: "hero",
           title: "Our Core Values",
           subtitle: "Guiding principles that shape our actions.",
           imageURL: "/images/team-and-culture-insights.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Living Our Values",
           subtitle: "Principles that drive us forward.",
@@ -3814,7 +3814,7 @@ export const Content = {
             {
               title: "Integrity",
               description: "Acting with honesty and transparency in all we do.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
@@ -3822,7 +3822,7 @@ export const Content = {
             {
               title: "Respect",
               description: "Valuing every individual and their contributions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
@@ -3831,7 +3831,7 @@ export const Content = {
               title: "Innovation",
               description:
                 "Encouraging creativity and new ideas for continuous improvement.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
@@ -3839,32 +3839,32 @@ export const Content = {
             {
               title: "Collaboration",
               description: "Working together to achieve common goals.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
             },
           ],
         },
-      ],
+      },
     },
     "wellness-and-benefits": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Wellness and Benefits",
           subtitle: "Prioritizing Your Health and Well-Being",
           imageURL: "/images/hero/wellness-and-benefits.jpg",
         },
-      ],
-      "comprehensive-health-and-wellness-programs": [
-        {
+      },
+      "comprehensive-health-and-wellness-programs": {
+        heroSection: {
           type: "hero",
           title: "Comprehensive Health and Wellness Programs",
           subtitle: "Holistic Support for Your Well-Being",
           imageURL: "/images/wellness-and-benefits.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Our Wellness Initiatives",
           subtitle: "Investing in Your Health",
@@ -3878,7 +3878,7 @@ export const Content = {
               title: "Nutrition Counseling",
               description:
                 "Get personalized nutrition plans to meet your health goals.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
@@ -3887,7 +3887,7 @@ export const Content = {
               title: "Fitness Programs",
               description:
                 "Participate in group classes or one-on-one training sessions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
@@ -3896,7 +3896,7 @@ export const Content = {
               title: "Mental Health Support",
               description:
                 "Access counseling and therapy services for mental well-being.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
@@ -3905,22 +3905,22 @@ export const Content = {
               title: "Wellness Workshops",
               description:
                 "Attend workshops on stress management, mindfulness, and more.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
             },
           ],
         },
-      ],
-      "customized-benefits-packages": [
-        {
+      },
+      "customized-benefits-packages": {
+        heroSection: {
           type: "hero",
           title: "Customized Benefits Packages",
           subtitle: "Tailored Solutions for Your Needs",
           imageURL: "/images/wellness-and-benefits.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Personalized Benefits",
           subtitle: "Flexible Options for Every Lifestyle",
@@ -3934,7 +3934,7 @@ export const Content = {
               title: "Health Insurance Plans",
               description:
                 "Explore a range of health insurance options tailored to your needs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
@@ -3943,7 +3943,7 @@ export const Content = {
               title: "Retirement Savings Plans",
               description:
                 "Plan for your future with our comprehensive retirement options.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
@@ -3952,7 +3952,7 @@ export const Content = {
               title: "Paid Time Off",
               description:
                 "Enjoy a generous paid time off policy to recharge and relax.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
@@ -3961,22 +3961,22 @@ export const Content = {
               title: "Employee Discounts",
               description:
                 "Access exclusive discounts on a variety of services and products.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
             },
           ],
         },
-      ],
-      "professional-development-opportunities": [
-        {
+      },
+      "professional-development-opportunities": {
+        heroSection: {
           type: "hero",
           title: "Professional Development Opportunities",
           subtitle: "Invest in Your Career Growth",
           imageURL: "/images/wellness-and-benefits.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Grow with Us",
           subtitle: "Enhance Your Skills and Knowledge",
@@ -3990,7 +3990,7 @@ export const Content = {
               title: "Workshops and Seminars",
               description:
                 "Participate in hands-on workshops to sharpen your skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
@@ -3999,7 +3999,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Receive guidance from experienced professionals in your field.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
@@ -4008,7 +4008,7 @@ export const Content = {
               title: "Online Courses",
               description:
                 "Access a wide range of online courses to learn at your own pace.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
@@ -4017,22 +4017,22 @@ export const Content = {
               title: "Certification Programs",
               description:
                 "Get certified in your area of expertise to advance your career.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
             },
           ],
         },
-      ],
-      "work-life-balance": [
-        {
+      },
+      "work-life-balance": {
+        heroSection: {
           type: "hero",
           title: "Work-Life Balance",
           subtitle: "Achieve Harmony in Your Life",
           imageURL: "/images/wellness-and-benefits.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Balanced Lifestyle",
           subtitle: "Support for Your Well-Being",
@@ -4046,7 +4046,7 @@ export const Content = {
               title: "Flexible Work Hours",
               description:
                 "Enjoy flexible scheduling options that fit your lifestyle.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
@@ -4055,7 +4055,7 @@ export const Content = {
               title: "Remote Work Options",
               description:
                 "Take advantage of our remote work policy for better flexibility.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
@@ -4064,7 +4064,7 @@ export const Content = {
               title: "Family-Friendly Policies",
               description:
                 "Policies that support families and promote a healthy work-life balance.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
@@ -4073,25 +4073,25 @@ export const Content = {
               title: "Wellness Days",
               description:
                 "Take dedicated wellness days to focus on your mental health.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
             },
           ],
         },
-      ],
+      },
     },
   },
   careers: {
-    index: [
-      {
+    index: {
+      heroSection: {
         type: "hero",
         title: "Careers",
         subtitle: "Build Your Career At Novelex",
         imageURL: "/images/hero/careers.jpg",
       },
-      {
+      blankSectionExploreCareerOpportunities: {
         type: "blank",
         title: "Explore Career Opportunities",
         description:
@@ -4099,7 +4099,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/careers/explore-career-opportunities",
       },
-      {
+      tilesSection: {
         type: "tiles",
         title: "Find a Job",
         description:
@@ -4143,7 +4143,7 @@ export const Content = {
           },
         ],
       },
-      {
+      blankSectionLegalJoinOurTeam: {
         type: "blank",
         title: "Join Our Team",
         description:
@@ -4151,7 +4151,7 @@ export const Content = {
         button: "Read more",
         redirectURL: "/careers/join-our-team",
       },
-      {
+      iconCardsSection: {
         type: "icon-cards",
         title: "Personal and Professional Growth",
         subtitle: "Investing in Your Future",
@@ -4198,7 +4198,7 @@ export const Content = {
           },
         ],
       },
-      {
+      blankSectionWhereWeHire: {
         type: "blank",
         title: "Where We Hire",
         description:
@@ -4206,25 +4206,25 @@ export const Content = {
         button: "Read more",
         redirectURL: "/careers/where-we-hire",
       },
-    ],
+    },
     "become-a-trainer": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Become a Trainer",
           subtitle:
             "Join us in empowering others to reach their full potential.",
           imageURL: "/images/hero/become-a-trainer.jpg",
         },
-      ],
-      "contribute-to-professional-development-programs": [
-        {
+      },
+      "contribute-to-professional-development-programs": {
+        heroSection: {
           type: "hero",
           title: "Contribute to Professional Development Programs",
           subtitle: "Share your expertise and help others grow.",
           imageURL: "/images/become-a-trainer.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Engage with Future Leaders",
           subtitle: "Your knowledge can shape careers.",
@@ -4238,7 +4238,7 @@ export const Content = {
               title: "Mentorship Opportunities",
               description:
                 "Provide guidance and support to individuals looking to enhance their skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
@@ -4247,7 +4247,7 @@ export const Content = {
               title: "Workshop Facilitation",
               description:
                 "Lead engaging workshops that empower participants to develop new competencies.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
@@ -4256,7 +4256,7 @@ export const Content = {
               title: "Guest Speaking",
               description:
                 "Share your experiences and insights as a guest speaker at our events.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
@@ -4265,23 +4265,23 @@ export const Content = {
               title: "Curriculum Development",
               description:
                 "Contribute to the creation of training materials and programs tailored to industry needs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
             },
           ],
         },
-      ],
-      "grow-your-career-by-empowering-others": [
-        {
+      },
+      "grow-your-career-by-empowering-others": {
+        heroSection: {
           type: "hero",
           title: "Grow Your Career by Empowering Others",
           subtitle:
             "Elevate your professional journey while making a difference.",
           imageURL: "/images/become-a-trainer.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Empower Through Education",
           subtitle: "Foster growth in others while advancing your career.",
@@ -4295,7 +4295,7 @@ export const Content = {
               title: "Professional Growth",
               description:
                 "Develop your leadership and communication skills as you guide others.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
@@ -4304,7 +4304,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Connect with like-minded professionals and expand your network.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
@@ -4313,7 +4313,7 @@ export const Content = {
               title: "Skill Development",
               description:
                 "Gain new skills and experiences that can enhance your career trajectory.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
@@ -4322,22 +4322,22 @@ export const Content = {
               title: "Recognition and Impact",
               description:
                 "Earn recognition for your contributions while making a lasting impact on others’ careers.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
             },
           ],
         },
-      ],
-      "shape-the-learning-experience": [
-        {
+      },
+      "shape-the-learning-experience": {
+        heroSection: {
           type: "hero",
           title: "Shape the Learning Experience",
           subtitle: "Design impactful training sessions that foster growth.",
           imageURL: "/images/become-a-trainer.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Craft Engaging Content",
           subtitle: "Create memorable learning experiences.",
@@ -4351,7 +4351,7 @@ export const Content = {
               title: "Curriculum Design",
               description:
                 "Design engaging training materials tailored to learner needs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
@@ -4360,7 +4360,7 @@ export const Content = {
               title: "Interactive Learning",
               description:
                 "Utilize innovative teaching methods to engage participants actively.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
@@ -4369,7 +4369,7 @@ export const Content = {
               title: "Feedback and Improvement",
               description:
                 "Gather feedback to continually enhance training effectiveness.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
@@ -4378,22 +4378,22 @@ export const Content = {
               title: "Assessing Learning Outcomes",
               description:
                 "Evaluate and measure the success of training programs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
             },
           ],
         },
-      ],
-      "share-your-expertise": [
-        {
+      },
+      "share-your-expertise": {
+        heroSection: {
           type: "hero",
           title: "Share Your Expertise",
           subtitle: "Be a part of our vibrant learning community.",
           imageURL: "/images/become-a-trainer.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Connect and Inspire",
           subtitle: "Make a lasting impact on learners.",
@@ -4405,7 +4405,7 @@ export const Content = {
             {
               title: "Knowledge Sharing",
               description: "Share insights and best practices with learners.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
@@ -4413,14 +4413,14 @@ export const Content = {
               title: "Community Engagement",
               description:
                 "Join a network of professionals dedicated to continuous learning.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
             {
               title: "Personal Growth",
               description: "Enhance your own understanding by teaching others.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
@@ -4428,32 +4428,32 @@ export const Content = {
               title: "Inspiring Future Generations",
               description:
                 "Help shape the careers of those following in your footsteps.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
           ],
         },
-      ],
+      },
     },
     "explore-career-opportunities": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Explore Career Opportunities",
           subtitle:
             "Discover a world of possibilities and take the next step in your career journey.",
           imageURL: "/images/hero/explore-career-opportunities.jpg",
         },
-      ],
-      "collaborate-and-soar": [
-        {
+      },
+      "collaborate-and-soar": {
+        heroSection: {
           type: "hero",
           title: "Collaborate and Soar",
           subtitle: "Teamwork makes the dream work!",
           imageURL: "/images/explore-career-opportunities.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Join a Team of Innovators",
           subtitle: "Work with passionate people.",
@@ -4467,7 +4467,7 @@ export const Content = {
               title: "Team Projects",
               description:
                 "Engage in collaborative projects that challenge your creativity.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
@@ -4476,7 +4476,7 @@ export const Content = {
               title: "Diverse Teams",
               description:
                 "Work with a diverse group of professionals from various backgrounds.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
@@ -4485,7 +4485,7 @@ export const Content = {
               title: "Skill Sharing",
               description:
                 "Share skills and learn from others in a supportive environment.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
@@ -4494,22 +4494,22 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Expand your professional network through collaboration.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
             },
           ],
         },
-      ],
-      "craft-your-career-story": [
-        {
+      },
+      "craft-your-career-story": {
+        heroSection: {
           type: "hero",
           title: "Craft Your Career Story",
           subtitle: "Your journey starts here.",
           imageURL: "/images/explore-career-opportunities.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Build Your Unique Path",
           subtitle: "Shape your future by following your passion.",
@@ -4522,7 +4522,7 @@ export const Content = {
             {
               title: "Personal Development",
               description: "Focus on your personal and professional growth.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
@@ -4530,7 +4530,7 @@ export const Content = {
             {
               title: "Mentorship Programs",
               description: "Receive guidance from experienced professionals.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
@@ -4539,7 +4539,7 @@ export const Content = {
               title: "Skill Development",
               description:
                 "Enhance your skills through various learning opportunities.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
@@ -4548,22 +4548,22 @@ export const Content = {
               title: "Career Workshops",
               description:
                 "Participate in workshops that equip you for the future.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
             },
           ],
         },
-      ],
-      "discover-your-niche": [
-        {
+      },
+      "discover-your-niche": {
+        heroSection: {
           type: "hero",
           title: "Discover Your Niche",
           subtitle: "Find where you truly belong.",
           imageURL: "/images/explore-career-opportunities.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Uncover Your Passion",
           subtitle: "Explore various career paths.",
@@ -4576,7 +4576,7 @@ export const Content = {
             {
               title: "Career Assessments",
               description: "Utilize assessments to identify your strengths.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
@@ -4585,7 +4585,7 @@ export const Content = {
               title: "Industry Insights",
               description:
                 "Gain insights into various industries to find your fit.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
@@ -4594,7 +4594,7 @@ export const Content = {
               title: "Networking Events",
               description:
                 "Connect with professionals in your area of interest.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
@@ -4602,22 +4602,22 @@ export const Content = {
             {
               title: "Internship Opportunities",
               description: "Explore internships to gain hands-on experience.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
             },
           ],
         },
-      ],
-      "innovate-thrive-succeed": [
-        {
+      },
+      "innovate-thrive-succeed": {
+        heroSection: {
           type: "hero",
           title: "Innovate, Thrive, Succeed",
           subtitle: "Empower your future.",
           imageURL: "/images/explore-career-opportunities.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Drive Change in Your Career",
           subtitle: "Become a leader in innovation.",
@@ -4630,7 +4630,7 @@ export const Content = {
             {
               title: "Creative Solutions",
               description: "Learn how to think outside the box.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
@@ -4638,7 +4638,7 @@ export const Content = {
             {
               title: "Leadership Development",
               description: "Develop your leadership skills with our programs.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
@@ -4646,7 +4646,7 @@ export const Content = {
             {
               title: "Sustainable Practices",
               description: "Explore sustainable practices in your field.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
@@ -4655,34 +4655,34 @@ export const Content = {
               title: "Success Stories",
               description:
                 "Get inspired by success stories from our team members.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
             },
           ],
         },
-      ],
+      },
     },
     "find-a-job": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Find a Job",
           subtitle:
             "Discover exciting career opportunities tailored to your skills and passions.",
           imageURL: "/images/hero/find-a-job.jpg",
         },
-      ],
-      "digital-and-tech-jobs": [
-        {
+      },
+      "digital-and-tech-jobs": {
+        heroSection: {
           type: "hero",
           title: "Digital and Tech Jobs",
           subtitle:
             "Embrace the future with dynamic roles in technology and innovation.",
           imageURL: "/images/find-a-job.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Join the Digital Revolution",
           subtitle: "Explore various roles in the tech industry.",
@@ -4695,14 +4695,14 @@ export const Content = {
               title: "Software Engineer",
               description:
                 "Develop software solutions that drive business success.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
             {
               title: "Data Analyst",
               description: "Transform data into actionable insights.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
@@ -4710,29 +4710,29 @@ export const Content = {
               title: "UX/UI Designer",
               description:
                 "Create user-friendly designs for digital platforms.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
             {
               title: "Cybersecurity Specialist",
               description: "Protect organizations from digital threats.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
           ],
         },
-      ],
-      "finance-jobs": [
-        {
+      },
+      "finance-jobs": {
+        heroSection: {
           type: "hero",
           title: "Finance Jobs",
           subtitle:
             "Shape the financial future with strategic insights and analysis.",
           imageURL: "/images/find-a-job.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Build Your Career in Finance",
           subtitle: "Explore diverse roles in the financial sector.",
@@ -4745,21 +4745,21 @@ export const Content = {
               title: "Financial Analyst",
               description:
                 "Analyze financial data to guide investment decisions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
             {
               title: "Accountant",
               description: "Manage financial records and ensure compliance.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
             {
               title: "Investment Banker",
               description: "Advise clients on capital raising and mergers.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
@@ -4767,22 +4767,22 @@ export const Content = {
               title: "Financial Planner",
               description:
                 "Help clients plan their financial futures effectively.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
           ],
         },
-      ],
-      "language-jobs": [
-        {
+      },
+      "language-jobs": {
+        heroSection: {
           type: "hero",
           title: "Language Jobs",
           subtitle:
             "Utilize your language skills in diverse and rewarding roles.",
           imageURL: "/images/find-a-job.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Unlock Opportunities with Language Proficiency",
           subtitle: "Explore roles that value your language skills.",
@@ -4795,43 +4795,43 @@ export const Content = {
               title: "Translator",
               description:
                 "Convert written material from one language to another.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
             {
               title: "Language Teacher",
               description: "Teach language skills to students of all ages.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
             {
               title: "Interpreter",
               description: "Provide real-time translation services.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
             {
               title: "Localization Specialist",
               description: "Adapt content for specific cultures and regions.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
           ],
         },
-      ],
-      "legal-jobs": [
-        {
+      },
+      "legal-jobs": {
+        heroSection: {
           type: "hero",
           title: "Legal Jobs",
           subtitle:
             "Navigate the complexities of law with a fulfilling career.",
           imageURL: "/images/find-a-job.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Pursue a Career in Law",
           subtitle: "Explore diverse roles in the legal field.",
@@ -4844,7 +4844,7 @@ export const Content = {
               title: "Attorney",
               description:
                 "Represent clients in legal matters and advocate for their rights.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
@@ -4852,14 +4852,14 @@ export const Content = {
               title: "Paralegal",
               description:
                 "Assist lawyers in preparing cases and legal documentation.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
             {
               title: "Legal Consultant",
               description: "Provide expert advice on legal matters.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
@@ -4867,21 +4867,21 @@ export const Content = {
               title: "Compliance Officer",
               description:
                 "Ensure organizational adherence to laws and regulations.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
           ],
         },
-      ],
-      "trainer-jobs": [
-        {
+      },
+      "trainer-jobs": {
+        heroSection: {
           type: "hero",
           title: "Trainer Jobs",
           subtitle: "Share your knowledge and skills with others.",
           imageURL: "/images/find-a-job.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Become a Trainer",
           subtitle: "Explore various roles in training and development.",
@@ -4894,7 +4894,7 @@ export const Content = {
               title: "Corporate Trainer",
               description:
                 "Design and deliver training programs for employees.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
@@ -4902,7 +4902,7 @@ export const Content = {
               title: "Fitness Trainer",
               description:
                 "Guide individuals towards their health and fitness goals.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
@@ -4910,7 +4910,7 @@ export const Content = {
               title: "Academic Trainer",
               description:
                 "Provide educational support and training to students.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
@@ -4918,32 +4918,32 @@ export const Content = {
               title: "Technical Trainer",
               description:
                 "Teach technical skills and knowledge to professionals.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
           ],
         },
-      ],
+      },
     },
     "join-our-team": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Join Our Team",
           subtitle:
             "Be part of a community where your skills make a difference.",
           imageURL: "/images/hero/join-our-team.jpg",
         },
-      ],
-      "embrace-team-synergy-and-collaboration": [
-        {
+      },
+      "embrace-team-synergy-and-collaboration": {
+        heroSection: {
           type: "hero",
           title: "Embrace Team Synergy",
           subtitle: "Collaboration is at the heart of our success.",
           imageURL: "/images/join-our-team.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Together We Achieve More",
           subtitle: "Foster a culture of teamwork and innovation.",
@@ -4957,7 +4957,7 @@ export const Content = {
               title: "Team Workshops",
               description:
                 "Engage in workshops that enhance collaboration skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
@@ -4966,7 +4966,7 @@ export const Content = {
               title: "Cross-Functional Projects",
               description:
                 "Work on diverse projects across different departments.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
@@ -4975,7 +4975,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Benefit from mentorship opportunities to grow your skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
@@ -4984,22 +4984,22 @@ export const Content = {
               title: "Celebrating Success",
               description:
                 "Join us in celebrating team achievements and milestones.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
             },
           ],
         },
-      ],
-      "forge-connections-in-a-supportive-work-community": [
-        {
+      },
+      "forge-connections-in-a-supportive-work-community": {
+        heroSection: {
           type: "hero",
           title: "Forge Connections",
           subtitle: "Join a community that supports and inspires you.",
           imageURL: "/images/join-our-team.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Build Lasting Relationships",
           subtitle: "Connect with colleagues who share your passion.",
@@ -5013,7 +5013,7 @@ export const Content = {
               title: "Social Events",
               description:
                 "Participate in team-building and networking events.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
@@ -5022,7 +5022,7 @@ export const Content = {
               title: "Support Groups",
               description:
                 "Join support groups for shared experiences and growth.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
@@ -5030,7 +5030,7 @@ export const Content = {
             {
               title: "Volunteer Opportunities",
               description: "Engage in community service with your colleagues.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
@@ -5039,22 +5039,22 @@ export const Content = {
               title: "Feedback Sessions",
               description:
                 "Contribute to a culture of open communication and feedback.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
             },
           ],
         },
-      ],
-      "join-a-global-team": [
-        {
+      },
+      "join-a-global-team": {
+        heroSection: {
           type: "hero",
           title: "Join a Global Team",
           subtitle: "Collaborate with diverse talents from around the world.",
           imageURL: "/images/join-our-team.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Embrace Diversity",
           subtitle: "Work in an inclusive and multicultural environment.",
@@ -5067,7 +5067,7 @@ export const Content = {
               title: "International Collaboration",
               description:
                 "Work on projects with teams across different countries.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
@@ -5075,14 +5075,14 @@ export const Content = {
               title: "Cultural Exchange Programs",
               description:
                 "Experience different cultures through exchange initiatives.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
             {
               title: "Global Networking",
               description: "Build a global network of professional contacts.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
@@ -5090,22 +5090,22 @@ export const Content = {
               title: "Remote Work Flexibility",
               description:
                 "Enjoy flexible working arrangements from anywhere in the world.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
           ],
         },
-      ],
-      "team-growth-is-personal-growth": [
-        {
+      },
+      "team-growth-is-personal-growth": {
+        heroSection: {
           type: "hero",
           title: "Team Growth is Personal Growth",
           subtitle:
             "Develop your skills while contributing to the team's success.",
           imageURL: "/images/join-our-team.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Invest in Your Future",
           subtitle: "Grow both personally and professionally within our team.",
@@ -5117,7 +5117,7 @@ export const Content = {
             {
               title: "Professional Development Workshops",
               description: "Attend workshops designed to enhance your skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
@@ -5126,7 +5126,7 @@ export const Content = {
               title: "Career Advancement Opportunities",
               description:
                 "Take advantage of programs aimed at promoting internal talent.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
@@ -5134,7 +5134,7 @@ export const Content = {
             {
               title: "Skill Development Resources",
               description: "Access resources to help you develop new skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
@@ -5143,33 +5143,33 @@ export const Content = {
               title: "Regular Performance Reviews",
               description:
                 "Receive constructive feedback to support your growth.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
             },
           ],
         },
-      ],
+      },
     },
     "personal-and-professional-growth": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Personal and Professional Development",
           subtitle:
             "Unlock your potential through continuous learning and growth.",
           imageURL: "/images/hero/personal-and-professional-development.jpg",
         },
-      ],
-      coaching: [
-        {
+      },
+      coaching: {
+        heroSection: {
           type: "hero",
           title: "Empower Your Journey with Coaching",
           subtitle: "One-on-one guidance to help you achieve your goals.",
           imageURL: "/images/personal-and-professional-development.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Personalized Coaching Sessions",
           subtitle: "Tailored approaches for individual growth.",
@@ -5182,7 +5182,7 @@ export const Content = {
             {
               title: "Goal Setting",
               description: "Learn how to set realistic and achievable goals.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
@@ -5190,7 +5190,7 @@ export const Content = {
             {
               title: "Skill Development",
               description: "Enhance your skills with targeted coaching.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
@@ -5198,7 +5198,7 @@ export const Content = {
             {
               title: "Feedback and Growth",
               description: "Receive constructive feedback to foster growth.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
@@ -5206,23 +5206,23 @@ export const Content = {
             {
               title: "Career Advancement",
               description: "Strategies to help you advance in your career.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
             },
           ],
         },
-      ],
-      "investing-in-your-growth": [
-        {
+      },
+      "investing-in-your-growth": {
+        heroSection: {
           type: "hero",
           title: "Invest in Your Growth",
           subtitle:
             "Take the initiative for your personal and professional development.",
           imageURL: "/images/personal-and-professional-development.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Commit to Lifelong Learning",
           subtitle: "Empower yourself with knowledge and skills.",
@@ -5236,7 +5236,7 @@ export const Content = {
               title: "Workshops",
               description:
                 "Participate in hands-on workshops to build new skills.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -5245,7 +5245,7 @@ export const Content = {
               title: "Online Courses",
               description:
                 "Access a wide range of online courses to learn at your own pace.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -5253,7 +5253,7 @@ export const Content = {
             {
               title: "Seminars",
               description: "Join expert-led seminars on various topics.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -5262,22 +5262,22 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Engage in mentorship programs for personal development.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
             },
           ],
         },
-      ],
-      mentoring: [
-        {
+      },
+      mentoring: {
+        heroSection: {
           type: "hero",
           title: "Mentoring for Success",
           subtitle: "Learn from experienced professionals.",
           imageURL: "/images/personal-and-professional-development.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Guidance from Experienced Mentors",
           subtitle: "Connect with mentors who can guide your career.",
@@ -5291,7 +5291,7 @@ export const Content = {
               title: "Pairing with Mentors",
               description:
                 "Get matched with mentors in your field of interest.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
@@ -5300,7 +5300,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Expand your professional network through mentorship.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
@@ -5309,7 +5309,7 @@ export const Content = {
               title: "Skill Enhancement",
               description:
                 "Learn new skills and gain valuable insights from your mentor.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
@@ -5318,22 +5318,22 @@ export const Content = {
               title: "Career Guidance",
               description:
                 "Receive guidance on career advancement and opportunities.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
             },
           ],
         },
-      ],
-      "talent-management": [
-        {
+      },
+      "talent-management": {
+        heroSection: {
           type: "hero",
           title: "Talent Management Strategies",
           subtitle: "Harnessing talent for organizational success.",
           imageURL: "/images/personal-and-professional-development.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Maximizing Employee Potential",
           subtitle: "Strategies to engage and retain talent.",
@@ -5346,7 +5346,7 @@ export const Content = {
             {
               title: "Performance Evaluations",
               description: "Regular assessments to guide employee development.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
@@ -5355,7 +5355,7 @@ export const Content = {
               title: "Succession Planning",
               description:
                 "Prepare for the future by identifying and nurturing future leaders.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
@@ -5363,7 +5363,7 @@ export const Content = {
             {
               title: "Career Pathing",
               description: "Assist employees in mapping their career paths.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
@@ -5372,34 +5372,34 @@ export const Content = {
               title: "Engagement Strategies",
               description:
                 "Implement strategies to enhance employee engagement and satisfaction.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
             },
           ],
         },
-      ],
+      },
     },
     "where-we-hire": {
-      index: [
-        {
+      index: {
+        heroSection: {
           type: "hero",
           title: "Where We Hire",
           subtitle:
             "Explore our global presence and find opportunities near you.",
           imageURL: "/images/hero/where-we-hire.jpg",
         },
-      ],
-      "explore-novelex-worldwide": [
-        {
+      },
+      "explore-novelex-worldwide": {
+        heroSection: {
           type: "hero",
           title: "Explore Novelex Worldwide",
           subtitle:
             "Discover our locations and job opportunities across the globe.",
           imageURL: "/images/where-we-hire.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Global Opportunities Await",
           subtitle: "Join us in various countries around the world.",
@@ -5412,14 +5412,14 @@ export const Content = {
               title: "North America",
               description:
                 "Find opportunities in major cities across the USA and Canada.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
             {
               title: "Europe",
               description: "Explore careers in our vibrant European offices.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
@@ -5427,7 +5427,7 @@ export const Content = {
               title: "Asia",
               description:
                 "Join our teams in fast-growing markets across Asia.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
@@ -5435,21 +5435,21 @@ export const Content = {
               title: "Latin America",
               description:
                 "Be part of our expanding presence in Latin America.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
           ],
         },
-      ],
-      "global-collaboration-center": [
-        {
+      },
+      "global-collaboration-center": {
+        heroSection: {
           type: "hero",
           title: "Global Collaboration Center",
           subtitle: "Where teams unite to innovate and create.",
           imageURL: "/images/where-we-hire.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Join Our Collaborative Culture",
           subtitle: "Work together across borders and time zones.",
@@ -5462,7 +5462,7 @@ export const Content = {
               title: "Team Projects",
               description:
                 "Collaborate on exciting projects with teams worldwide.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
@@ -5470,7 +5470,7 @@ export const Content = {
               title: "Cultural Exchange",
               description:
                 "Experience a rich cultural environment through collaboration.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
@@ -5478,7 +5478,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Expand your professional network on a global scale.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
@@ -5486,21 +5486,21 @@ export const Content = {
               title: "Innovation Hubs",
               description:
                 "Join us in creating the next big thing in technology.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
           ],
         },
-      ],
-      "global-reach-local-impact": [
-        {
+      },
+      "global-reach-local-impact": {
+        heroSection: {
           type: "hero",
           title: "Global Reach, Local Impact",
           subtitle: "Making a difference in communities around the world.",
           imageURL: "/images/where-we-hire.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Empowering Communities",
           subtitle: "Our commitment to local development and support.",
@@ -5513,7 +5513,7 @@ export const Content = {
               title: "Community Engagement",
               description:
                 "Get involved in initiatives that support local communities.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
@@ -5521,7 +5521,7 @@ export const Content = {
               title: "Sustainability Efforts",
               description:
                 "Join us in our commitment to sustainability and environmental responsibility.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
@@ -5529,7 +5529,7 @@ export const Content = {
               title: "Corporate Social Responsibility",
               description:
                 "Be part of a company that values giving back to society.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
@@ -5537,21 +5537,21 @@ export const Content = {
               title: "Local Partnerships",
               description:
                 "Collaborate with local organizations to drive change.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
           ],
         },
-      ],
-      "regional-career-hubs": [
-        {
+      },
+      "regional-career-hubs": {
+        heroSection: {
           type: "hero",
           title: "Regional Career Hubs",
           subtitle: "Find your place in our regional offices.",
           imageURL: "/images/where-we-hire.jpg",
         },
-        {
+        iconCardsSection: {
           type: "icon-cards",
           title: "Connecting Talent with Opportunity",
           subtitle: "Explore our regional hubs for career growth.",
@@ -5563,14 +5563,14 @@ export const Content = {
             {
               title: "North America Hub",
               description: "Join our vibrant North American team.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
             {
               title: "European Hub",
               description: "Find opportunities in our European offices.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
@@ -5578,20 +5578,20 @@ export const Content = {
               title: "Asian Hub",
               description:
                 "Explore job openings in our Asian regional centers.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
             {
               title: "Latin American Hub",
               description: "Join our growing team in Latin America.",
-              iconURL: "i_logo",
+              iconURL: "/icons/i_logo.svg",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
           ],
         },
-      ],
+      },
     },
   },
 };

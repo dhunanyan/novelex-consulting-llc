@@ -1,10 +1,12 @@
 import * as React from "react";
+import { Sections } from "@config";
 import Image from "next/image";
 import { Tile } from "./Tile";
 
 import "./TilesSection.scss";
 
-export type TileSectionPropsType = {
+export type TilesSectionPropsType = {
+  type?: Sections.TILES;
   title: string;
   description: string;
   imageURL: string;
@@ -21,7 +23,7 @@ export const TilesSection = ({
   description,
   tiles,
   imageURL,
-}: TileSectionPropsType) => (
+}: TilesSectionPropsType) => (
   <section className="tiles">
     <div className="tiles__container">
       <div className="tiles__content">

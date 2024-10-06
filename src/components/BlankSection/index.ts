@@ -1,1 +1,1 @@
-export { BlankSection } from "./BlankSection";
+export { BlankSection, type BlankSectionPropsType } from "./BlankSection";

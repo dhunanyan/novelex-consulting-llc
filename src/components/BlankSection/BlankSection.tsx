@@ -1,7 +1,9 @@
 import * as React from "react";
+import { Sections } from "@config";
 import "./BlankSection.scss";
 
 export type BlankSectionPropsType = {
+  type?: Sections.BLANK;
   title: string;
   description: string;
   button: string;
