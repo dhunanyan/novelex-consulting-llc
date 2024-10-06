@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Icons } from "@config";
 import "./IconCard.scss";
 
 export type IconCardPropsType = {
@@ -29,14 +30,14 @@ export const IconCard = ({
       {(forceHideButton || !button) && iconURL && (
         <div
           className={"icon-card__icon"}
-          dangerouslySetInnerHTML={{ __html: iconURL }}
+          dangerouslySetInnerHTML={{ __html: Icons[iconURL] }}
         />
       )}
       {!forceHideButton && button && iconURL && (
         <button className={"icon-card__button"}>
           <div
             className={"icon-card__icon"}
-            dangerouslySetInnerHTML={{ __html: iconURL }}
+            dangerouslySetInnerHTML={{ __html: Icons[iconURL] }}
           />
           <p
             className={

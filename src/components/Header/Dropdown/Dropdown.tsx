@@ -37,7 +37,7 @@ export const Dropdown = ({
       <div className="dropdown__content">
         <h2 className="dropdown__title">{title}</h2>
         <p className="dropdown__description">{description}</p>
-        <a className="dropdown__link" href={"/" + viewId}>
+        <a className="dropdown__go-to-link" href={"/" + viewId}>
           <span>{goToLink}</span>
           <Arrow />
         </a>

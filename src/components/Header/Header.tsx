@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { useRouter } from "next/router";
+import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 
 import { Dropdown } from "./Dropdown";
@@ -16,6 +16,7 @@ export const Header = () => {
   const [currentView, setCurrentView] = React.useState<string>("");
   const [currentSubView, setCurrentSubView] = React.useState<string>("");
   const router = useRouter();
+  const pathname = usePathname();
 
   const onItemClick = (
     e: React.MouseEvent<HTMLLIElement | HTMLAnchorElement, MouseEvent>,
@@ -67,11 +68,14 @@ export const Header = () => {
 
   return (
     <>
-      <div className={"header" + (isScrolled ? " header--scrolled" : "")}>
+      <div className={"header" + (isScrolled ? " header--is-scrolled" : "")}>
         <div>
           <div className="header__container">
             <a
-              className="header__logo"
+              className={
+                "header__logo" +
+                (isScrolled ? " header__logo--is-scrolled" : "")
+              }
               href="/"
               onClick={(e) => onItemClick(e, "home")}
             >
@@ -99,7 +103,7 @@ export const Header = () => {
                         (currentView === item.id
                           ? " header__link--view-active"
                           : "") +
-                        (router.pathname === "/" + item.id
+                        (pathname === "/" + item.id
                           ? " header__link--route-active"
                           : "")
                       }
@@ -137,7 +141,7 @@ export const Header = () => {
         </div>
       </div>
       <div className="header-layout" />
-      <Navigator />
+      {pathname.substring(1).split("/").length > 1 && <Navigator />}
     </>
   );
 };

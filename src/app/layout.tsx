@@ -1,7 +1,6 @@
 import * as React from "react";
 import { HtmlData } from "@data";
-import { Footer } from "@components";
-// import { Header, Footer, HeaderFallback } from "@components";
+import { Header, Footer, HeaderFallback } from "@components";
 
 import "./globals.scss";
 
@@ -26,9 +25,9 @@ export default function RootLayout({ children }: RootLayoutPropsType) {
       </head>
       <body>
         <header>
-          {/* <React.Suspense fallback={<HeaderFallback />}>
+          <React.Suspense fallback={<HeaderFallback />}>
             <Header />
-          </React.Suspense> */}
+          </React.Suspense>
         </header>
         <main>{children}</main>
         <footer>

@@ -1,5 +1,6 @@
 import * as React from "react";
 import Image from "next/image";
+import { Icons } from "@config";
 
 import "./ImageCard.scss";
 
@@ -19,7 +20,7 @@ export const ImageCard = ({ title, iconURL, imageURL }: ImageCardPropsType) => (
       {iconURL && (
         <div
           className="image-card__icon"
-          dangerouslySetInnerHTML={{ __html: iconURL }}
+          dangerouslySetInnerHTML={{ __html: Icons[iconURL] }}
         />
       )}
     </a>

@@ -19,7 +19,8 @@
     ],
     "paths": {
       "@*": ["./src/*"]
-    }
+    },
+    "typeRoots": ["@types/**/*.d.ts"]
   },
   "include": [
     "next-env.d.ts",

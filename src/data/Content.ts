@@ -20,32 +20,32 @@ export const Content = {
         {
           title: "Purpose",
           imageURL: "/images/imageCards/keyboard.jpg",
-          iconURL: "/icons/i_target.svg",
+          iconURL: "target",
         },
         {
           title: "Values",
           imageURL: "/images/imageCards/handshake.jpg",
-          iconURL: "/icons/i_handshake.svg",
+          iconURL: "handshake",
         },
         {
           title: "Mission",
           imageURL: "/images/imageCards/coins.jpg",
-          iconURL: "/icons/i_coins.svg",
+          iconURL: "coins",
         },
         {
           title: "Marketing",
           imageURL: "/images/imageCards/calculator.jpg",
-          iconURL: "/icons/i_paper.svg",
+          iconURL: "paper",
         },
         {
           title: "Strategy",
           imageURL: "/images/imageCards/laptop.jpg",
-          iconURL: "/icons/i_horse.svg",
+          iconURL: "horse",
         },
         {
           title: "Anti-crisis",
           imageURL: "/images/imageCards/paper.jpg",
-          iconURL: "/icons/t_trending-down.svg",
+          iconURL: "trending-down",
         },
       ],
     },
@@ -61,28 +61,28 @@ export const Content = {
           description:
             "Transform your love for language into a profession at Novelex. Shape conversations, build bridges, and connect cultures. Join us as an interpreter, translator, or language consultant. Make language your career catalyst.",
           button: "Learn more",
-          iconURL: "/icons/i_languages.svg",
+          iconURL: "languages",
         },
         {
           title: "Digital & Tech Career",
           description:
             "Blend technology and communication with Novelex. Drive language innovation through AI tools and user interfaces. Join the team reshaping global communication. Choose a digital and tech career that transcends borders.",
           button: "Learn more",
-          iconURL: "/icons/i_monitor.svg",
+          iconURL: "monitor",
         },
         {
           title: "Where We Hire",
           description:
             "Novelex welcomes talent globally. From headquarters to remote corners, join us in redefining communication. Embrace diverse perspectives, bridge cultures, and connect the world through language. Your location doesn't limit your impact.",
           button: "Learn more",
-          iconURL: "/icons/i_rocket.svg",
+          iconURL: "rocket",
         },
         {
           title: "Customer Experience",
           description:
             "Elevate your journey with Novelex. Our commitment to exceptional customer experiences goes beyond words. Discover how we prioritize your satisfaction and ensure seamless interactions at every step of your language journey.",
           button: "Learn more",
-          iconURL: "/icons/i_users.svg",
+          iconURL: "users",
         },
       ],
     },
@@ -98,28 +98,28 @@ export const Content = {
           description:
             "With a global network of linguists, we offer translation and interpretation services in a multitude of languages, ensuring that our clients can confidently communicate across borders.",
           button: "Learn more",
-          iconURL: "/icons/i_languages.svg",
+          iconURL: "languages",
         },
         {
           title: "Digital",
           description:
             "Our digital solutions encompass AI-powered language tools, facilitating instant translation and enhancing multilingual customer experiences in the digital realm.",
           button: "Learn more",
-          iconURL: "/icons/i_monitor.svg",
+          iconURL: "monitor",
         },
         {
           title: "Training Programme",
           description:
             "Novelex's training program equips aspiring linguists and language enthusiasts with the skills and knowledge needed to excel in the field of translation and interpretation.",
           button: "Learn more",
-          iconURL: "/icons/i_book.svg",
+          iconURL: "book",
         },
         {
           title: "Client Testimonials",
           description:
             "Don't just take our word for it - hear what our satisfied clients have to say about the impact of Novelex's language solutions on their businesses and communication strategies.",
           button: "Learn more",
-          iconURL: "/icons/i_people.svg",
+          iconURL: "people",
         },
       ],
     },
@@ -181,28 +181,28 @@ export const Content = {
             description:
               "Unlock the world's potential, explore global stories. Our language solutions connect cultures, break barriers, and foster worldwide connections. Discover narratives illustrating our commitment to an interconnected planet.",
             button: "Learn more",
-            iconURL: "/icons/i_globe-americas.svg",
+            iconURL: "globe-americas",
           },
           {
             title: "Climate Strategy",
             description:
               "Our commitment to the world goes beyond language. Learn about our climate strategy, where we take steps to minimize our environmental footprint and contribute to a sustainable future.",
             button: "Learn more",
-            iconURL: "/icons/i_leaf.svg",
+            iconURL: "leaf",
           },
           {
             title: "Our Partners",
             description:
               "Collaboration is key to our success. We're proud to partner with organizations that share our values and vision. Explore our network of partners who help us reach new heights.",
             button: "Learn more",
-            iconURL: "/icons/i_handshake.svg",
+            iconURL: "handshake",
           },
           {
             title: "About",
             description:
               "Discover the essence of Novelex Consulting LLC. Our story is one of innovation, guided by a commitment to reshape global communication. Dive into our journey, values, and vision. Learn what drives us to break down language barriers and connect the world.",
             button: "Learn more",
-            iconURL: "/icons/i_info.svg",
+            iconURL: "info",
           },
         ],
       },
@@ -233,28 +233,28 @@ export const Content = {
               description:
                 "Learn how innovation is at the heart of everything we do.",
               button: "Learn more",
-              iconURL: "/icons/i_rocket.svg",
+              iconURL: "rocket",
             },
             {
               title: "Quality Assurance",
               description:
                 "Explore our unwavering commitment to quality and accuracy.",
               button: "Learn more",
-              iconURL: "/icons/i_check-circle.svg",
+              iconURL: "check-circle",
             },
             {
               title: "Embracing Diversity",
               description:
                 "Dive into our inclusive workplace and the strength of diverse perspectives.",
               button: "Learn more",
-              iconURL: "/icons/i_users.svg",
+              iconURL: "users",
             },
             {
               title: "Environmental Responsibility",
               description:
                 "Discover our sustainability initiatives and commitment to the environment.",
               button: "Learn more",
-              iconURL: "/icons/i_cogs.svg",
+              iconURL: "cogs",
             },
           ],
         },
@@ -277,28 +277,28 @@ export const Content = {
               description:
                 "Explore our innovative strategies for staying ahead in the industry.",
               button: "Learn more",
-              iconURL: "/icons/i_leaf.svg",
+              iconURL: "leaf",
             },
             {
               title: "Adaptive Solutions",
               description:
                 "Discover how we adapt to meet the unique needs of our clients.",
               button: "Learn more",
-              iconURL: "/icons/i_sliders-h.svg",
+              iconURL: "sliders-h",
             },
             {
               title: "Global Expansion",
               description:
                 "Learn about our plans for expanding our reach and impact.",
               button: "Learn more",
-              iconURL: "/icons/i_globe-americas.svg",
+              iconURL: "globe-americas",
             },
             {
               title: "Technology Integration",
               description:
                 "Dive into how we integrate cutting-edge technology into our language solutions.",
               button: "Learn more",
-              iconURL: "/icons/i_laptop.svg",
+              iconURL: "laptop",
             },
           ],
         },
@@ -321,28 +321,28 @@ export const Content = {
               description:
                 "Learn how we empower individuals and businesses to communicate across languages.",
               button: "Learn more",
-              iconURL: "/icons/i_dots.svg",
+              iconURL: "dots",
             },
             {
               title: "Connecting Cultures",
               description:
                 "Explore how we bridge cultures and foster global connections.",
               button: "Learn more",
-              iconURL: "/icons/i_globe.svg",
+              iconURL: "globe",
             },
             {
               title: "Innovating Seamlessness",
               description:
                 "Dive into our innovative solutions that make communication seamless.",
               button: "Learn more",
-              iconURL: "/icons/i_light-bulb.svg",
+              iconURL: "light-bulb",
             },
             {
               title: "Driving Change",
               description:
                 "Discover how our purpose is driving positive change in the world.",
               button: "Learn more",
-              iconURL: "/icons/i_exchange-alt.svg",
+              iconURL: "exchange-alt",
             },
           ],
         },
@@ -374,28 +374,28 @@ export const Content = {
               description:
                 "Explore how teamwork amplifies our capabilities and drives innovation.",
               button: "Learn more",
-              iconURL: "/icons/i_rocket.svg",
+              iconURL: "rocket",
             },
             {
               title: "Shared Success",
               description:
                 "Discover how our collective achievements fuel our growth and resilience.",
               button: "Learn more",
-              iconURL: "/icons/i_check-circle.svg",
+              iconURL: "check-circle",
             },
             {
               title: "Collaborative Culture",
               description:
                 "Learn how our inclusive environment fosters collaboration across teams.",
               button: "Learn more",
-              iconURL: "/icons/i_users.svg",
+              iconURL: "users",
             },
             {
               title: "Sustainability Together",
               description:
                 "Discover our joint efforts towards sustainability and environmental responsibility.",
               button: "Learn more",
-              iconURL: "/icons/i_cogs.svg",
+              iconURL: "cogs",
             },
           ],
         },
@@ -418,28 +418,28 @@ export const Content = {
               description:
                 "Learn how every voice contributes to our inclusive environment.",
               button: "Learn more",
-              iconURL: "/icons/i_rocket.svg",
+              iconURL: "rocket",
             },
             {
               title: "Equality in Action",
               description:
                 "Explore how we ensure equality and fairness in every aspect of our work.",
               button: "Learn more",
-              iconURL: "/icons/i_check-circle.svg",
+              iconURL: "check-circle",
             },
             {
               title: "Diverse Perspectives",
               description:
                 "See how we harness diverse perspectives to drive creativity and innovation.",
               button: "Learn more",
-              iconURL: "/icons/i_users.svg",
+              iconURL: "users",
             },
             {
               title: "Inclusive Sustainability",
               description:
                 "Discover our commitment to creating sustainable solutions for everyone.",
               button: "Learn more",
-              iconURL: "/icons/i_cogs.svg",
+              iconURL: "cogs",
             },
           ],
         },
@@ -463,28 +463,28 @@ export const Content = {
               description:
                 "Discover how we foster a culture of learning and development.",
               button: "Learn more",
-              iconURL: "/icons/i_rocket.svg",
+              iconURL: "rocket",
             },
             {
               title: "Career Pathways",
               description:
                 "Explore the numerous opportunities for career advancement.",
               button: "Learn more",
-              iconURL: "/icons/i_check-circle.svg",
+              iconURL: "check-circle",
             },
             {
               title: "Mentorship Programs",
               description:
                 "Learn how our mentorship programs help guide your professional growth.",
               button: "Learn more",
-              iconURL: "/icons/i_users.svg",
+              iconURL: "users",
             },
             {
               title: "Sustainable Growth",
               description:
                 "See how our commitment to sustainability extends to long-term career growth.",
               button: "Learn more",
-              iconURL: "/icons/i_cogs.svg",
+              iconURL: "cogs",
             },
           ],
         },
@@ -507,28 +507,28 @@ export const Content = {
               description:
                 "Learn how we promote mental, emotional, and physical health for our team.",
               button: "Learn more",
-              iconURL: "/icons/i_rocket.svg",
+              iconURL: "rocket",
             },
             {
               title: "Work-Life Balance",
               description:
                 "Explore our initiatives to help employees maintain a healthy work-life balance.",
               button: "Learn more",
-              iconURL: "/icons/i_check-circle.svg",
+              iconURL: "check-circle",
             },
             {
               title: "Supportive Community",
               description:
                 "Discover how we foster a supportive and compassionate work environment.",
               button: "Learn more",
-              iconURL: "/icons/i_users.svg",
+              iconURL: "users",
             },
             {
               title: "Sustainable Wellness",
               description:
                 "See how sustainability is integrated into our approach to employee well-being.",
               button: "Learn more",
-              iconURL: "/icons/i_cogs.svg",
+              iconURL: "cogs",
             },
           ],
         },
@@ -560,28 +560,28 @@ export const Content = {
               description:
                 "Explore how artificial intelligence and automation shape our cutting-edge solutions.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Data-Driven Insights",
               description:
                 "Discover how we leverage big data to create actionable business insights.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Sustainability Initiatives",
               description:
                 "Learn about our sustainable innovations for a greener future.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Customer-Centric Design",
               description:
                 "See how we build solutions focused on enhancing customer experience.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
@@ -604,28 +604,28 @@ export const Content = {
               description:
                 "Collaborating with partners to co-create groundbreaking solutions.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Joint Ventures",
               description:
                 "Explore how we form strategic joint ventures to expand our impact.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Shared Investment Strategies",
               description:
                 "Learn about our investment approach focused on shared success.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Global Expansion Initiatives",
               description:
                 "See how we work with partners to expand into new markets.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
@@ -648,28 +648,28 @@ export const Content = {
               description:
                 "Discover our commitment to creating meaningful, purpose-driven outcomes.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Ethical Leadership",
               description:
                 "Explore our leadership principles based on integrity and ethics.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Sustainability Commitment",
               description:
                 "Learn how our values guide us towards sustainable, long-term success.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Community Impact",
               description:
                 "See how our shared vision drives positive change in our communities.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
@@ -692,28 +692,28 @@ export const Content = {
               description:
                 "Explore our strategic partnerships with leading industry players.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Innovative Joint Efforts",
               description:
                 "Learn how joint efforts lead to breakthrough innovations.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Global Collaborations",
               description:
                 "See how our global collaborations drive success in multiple markets.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Long-Term Alliances",
               description:
                 "Discover the power of long-term alliances in creating lasting impact.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
@@ -745,28 +745,28 @@ export const Content = {
               description:
                 "Investing in solar, wind, and other renewable energy sources to reduce our carbon footprint.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Waste Reduction Strategies",
               description:
                 "Implementing waste management programs to minimize landfill contributions and promote recycling.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Sustainable Sourcing",
               description:
                 "Working with suppliers who prioritize sustainability and ethical practices in their operations.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Conservation Efforts",
               description:
                 "Supporting initiatives aimed at protecting wildlife and preserving natural habitats.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
@@ -789,28 +789,28 @@ export const Content = {
               description:
                 "Building relationships with organizations around the world to share knowledge and expertise.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Cross-Cultural Initiatives",
               description:
                 "Promoting cultural exchange programs that enhance understanding and cooperation among nations.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Global Health Initiatives",
               description:
                 "Collaborating with international agencies to improve health outcomes in underserved communities.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Disaster Relief Efforts",
               description:
                 "Partnering with global organizations to provide timely support in times of crisis.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
@@ -833,28 +833,28 @@ export const Content = {
               description:
                 "Offering training to promote awareness and understanding of diverse backgrounds and experiences.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Inclusive Hiring Practices",
               description:
                 "Implementing strategies to ensure equitable hiring and retention of diverse talent.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Cultural Celebrations",
               description:
                 "Hosting events that celebrate cultural diversity within our organization.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Mentorship Programs",
               description:
                 "Providing mentorship opportunities to empower underrepresented groups in the workforce.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
@@ -877,28 +877,28 @@ export const Content = {
               description:
                 "Supporting initiatives that uplift and empower local communities.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Volunteer Programs",
               description:
                 "Encouraging our employees to engage in volunteer opportunities that make a positive impact.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Educational Outreach",
               description:
                 "Providing resources and support for education initiatives in underserved areas.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
             {
               title: "Advocacy for Social Issues",
               description:
                 "Championing causes that promote social justice and equity.",
               button: "Learn more",
-              iconURL: "/icons/i_logo.svg",
+              iconURL: "logo",
             },
           ],
         },
