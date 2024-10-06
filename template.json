@@ -1,158 +1,93 @@
 {
-  "environmental-responsibility": {
-    "heroSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "imageURL": "/images/our-partners.jpg"
-    },
-    "iconCardsSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "description": "MISSING_CONTENT",
-      "button": "Learn more",
-      "cards": [
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        }
-      ]
-    }
+  "heroSection": {
+    "title": "A Journey of Vibrant Experiences",
+    "subtitle": "A Journey of Vibrant Experiences",
+    "imageURL": "/images/hero/life-at-novelex.jpg"
   },
-  "global-collaborations": {
-    "heroSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "imageURL": "/images/our-partners.jpg"
-    },
-    "iconCardsSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "description": "MISSING_CONTENT",
-      "button": "Learn more",
-      "cards": [
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        }
-      ]
-    }
+  "blankSectionCommunityEngagement": {
+    "title": "Community Engagement",
+    "description": "At Novelex, we believe in giving back to the community. Our community engagement initiatives focus on meaningful interactions and partnerships that create a positive impact.",
+    "button": "Read more",
+    "redirectURL": "/life-at-novelex/community-engagement"
   },
-  "leveraging-diversity": {
-    "heroSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "imageURL": "/images/our-partners.jpg"
-    },
-    "iconCardsSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "description": "MISSING_CONTENT",
-      "button": "Learn more",
-      "cards": [
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        }
-      ]
-    }
+  "tilesSection": {
+    "title": "Events and Highlights",
+    "description": "Explore the vibrant events and highlights that shape our culture at Novelex. From celebrations to significant milestones, discover how we come together as a community.",
+    "imageURL": "/images/tiles/events-and-highlights.jpg",
+    "tiles": [
+      {
+        "title": "Celebration With Our Community",
+        "description": "Join us in our celebrations that honor our achievements and the people who make it possible.",
+        "button": "Read more",
+        "redirectURL": "/life-at-novelex/events-and-highlights/celebration-with-our-community"
+      },
+      {
+        "title": "Continuous Strides and Milestones",
+        "description": "Learn about the continuous strides we make towards our goals and the milestones we celebrate as a team.",
+        "button": "Read more",
+        "redirectURL": "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones"
+      },
+      {
+        "title": "Insights- Into Significant Achievements",
+        "description": "Gain insights into our significant achievements and the innovative projects that drive our success.",
+        "button": "Read more",
+        "redirectURL": "/life-at-novelex/events-and-highlights/insights-into-significant-achievements"
+      },
+      {
+        "title": "Showcasing Innovations and Developments",
+        "description": "Discover how we showcase our innovations and developments that set us apart in the industry.",
+        "button": "Read more",
+        "redirectURL": "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments"
+      }
+    ]
   },
-  "social-responsibility": {
-    "heroSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "imageURL": "/images/our-partners.jpg"
-    },
-    "iconCardsSection": {
-      "title": "MISSING_CONTENT",
-      "subtitle": "MISSING_CONTENT",
-      "description": "MISSING_CONTENT",
-      "button": "Learn more",
-      "cards": [
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        },
-        {
-          "title": "MISSING_CONTENT",
-          "description": "MISSING_CONTENT",
-          "button": "Learn more",
-          "iconURL": "/icons/i_logo.svg"
-        }
-      ]
-    }
+  "blankSectionExperiencingNovelex": {
+    "title": "Experiencing Novelex",
+    "description": "Experience the vibrant culture and dynamic work environment at Novelex. Discover what makes our workplace unique and how we foster growth and collaboration.",
+    "button": "Read more",
+    "redirectURL": "/life-at-novelex/experiencing-novelex"
+  },
+  "iconCardsSection": {
+    "title": "Team and Culture Insights",
+    "subtitle": "Discover Our Unique Workplace Culture",
+    "description": "Explore the values, stories, and collaborative spirit that define our team at Novelex.",
+    "button": "Learn more",
+    "redirectURL": "/life-at-novelex/team-and-culture-insights",
+    "cards": [
+      {
+        "title": "Collaborative Spirit in Action",
+        "description": "Witness our collaborative spirit in action, where teamwork and creativity come together to achieve remarkable results.",
+        "button": "Learn more",
+        "iconURL": "globe-americas",
+        "redirectURL": "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action"
+      },
+      {
+        "title": "Culture of Inclusivity and Empowerment",
+        "description": "At Novelex, we foster a culture of inclusivity and empowerment, ensuring that every voice is heard and valued.",
+        "button": "Learn more",
+        "iconURL": "leaf",
+        "redirectURL": "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment"
+      },
+      {
+        "title": "Personal Stories and Experiences",
+        "description": "Explore personal stories and experiences from our team members that highlight our shared values and commitment to growth.",
+        "button": "Learn more",
+        "iconURL": "handshake",
+        "redirectURL": "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences"
+      },
+      {
+        "title": "Values and Principles at The Core",
+        "description": "Discover the values and principles that lie at the core of Novelex, guiding our actions and decisions every day.",
+        "button": "Learn more",
+        "iconURL": "info",
+        "redirectURL": "/team-and-culture-insights/values-and-principles-at-the-core"
+      }
+    ]
+  },
+  "blankSectionWellnessAndBenefits": {
+    "title": "Wellness and Benefits",
+    "description": "Our commitment to employee wellness includes a range of benefits and programs designed to support your physical and mental health.",
+    "button": "Read more",
+    "redirectURL": "/life-at-novelex/wellness-and-benefits"
   }
 }
