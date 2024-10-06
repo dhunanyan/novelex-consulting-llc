@@ -37,7 +37,6 @@ export const renderSection = ({
 
   switch (section.type) {
     case Sections.HERO:
-      console.log(section.imageURL);
       return <HeroSection {...(section as HeroSectionPropsType)} key={index} />;
     case Sections.SUMMARY:
       return (

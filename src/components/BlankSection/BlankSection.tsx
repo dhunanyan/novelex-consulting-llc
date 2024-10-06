@@ -7,18 +7,24 @@ export type BlankSectionPropsType = {
   title: string;
   description: string;
   button: string;
+  redirectURL: string;
 };
 
 export const BlankSection = ({
   title,
   description,
   button,
+  redirectURL,
 }: BlankSectionPropsType) => (
   <section className="blank">
     <div className="blank__container">
       <h2 className="blank__title">{title}</h2>
       <p className="blank__description">{description}</p>
-      <button className="blank__button">{button}</button>
+      {button && redirectURL && (
+        <a href={redirectURL} className="blank__button">
+          {button}
+        </a>
+      )}
     </div>
   </section>
 );

@@ -4,8 +4,9 @@ import { renderSection, SectionPropsType } from "@utils";
 
 const PAGE_ID = "who-we-are";
 const SUB_PAGE_ID = "climate-strategy";
+const CURRENT_PAGE_ID = "index";
 
-export const metadata = HtmlData[PAGE_ID][SUB_PAGE_ID]["index"];
+export const metadata = HtmlData[PAGE_ID][SUB_PAGE_ID][CURRENT_PAGE_ID];
 
 const sections = Content[PAGE_ID][SUB_PAGE_ID] as unknown as {
   [key: string]: SectionPropsType[];
@@ -13,7 +14,7 @@ const sections = Content[PAGE_ID][SUB_PAGE_ID] as unknown as {
 
 const sectionsToRender = [
   // HeroSection
-  ...(Content[PAGE_ID][SUB_PAGE_ID].index as SectionPropsType[]),
+  ...(Content[PAGE_ID][SUB_PAGE_ID][CURRENT_PAGE_ID] as SectionPropsType[]),
   // Icon Cards Sub pages
   ...Object.keys(sections).map((key) =>
     sections[key].find((s) => s.type === Sections.ICON_CARDS)

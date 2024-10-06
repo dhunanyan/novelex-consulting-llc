@@ -1,0 +1,74 @@
+\[
+        \{
+          type: "hero",
+          title:( ".*"|
+            ".*"),
+          subtitle:( ".*"|
+            ".*"),
+          imageURL:( ".*"|
+            ".*"),
+        \},
+        \{
+          type: "icon-cards",
+          title:( ".*"|
+            ".*"),
+          subtitle:( ".*"|
+            ".*"),
+          description:( ".*"|
+            ".*"),
+          button:( ".*"|
+            ".*"),
+          redirectURL:( ".*"|
+            ".*"),
+          cards: \[
+            \{
+              title:( ".*"|
+                ".*"),
+              description:( ".*"|
+                ".*"),
+              iconURL:( ".*"|
+                ".*"),
+              button:( ".*"|
+                ".*"),
+              redirectURL:( ".*"|
+                ".*"),
+            \},
+            \{
+              title:( ".*"|
+                ".*"),
+              description:( ".*"|
+                ".*"),
+              iconURL:( ".*"|
+                ".*"),
+              button:( ".*"|
+                ".*"),
+              redirectURL:( ".*"|
+                ".*"),
+            \},
+            \{
+              title:( ".*"|
+                ".*"),
+              description:( ".*"|
+                ".*"),
+              iconURL:( ".*"|
+                ".*"),
+              button:( ".*"|
+                ".*"),
+              redirectURL:( ".*"|
+                ".*"),
+            \},
+            \{
+              title:( ".*"|
+                ".*"),
+              description:( ".*"|
+                ".*"),
+              iconURL:( ".*"|
+                ".*"),
+              button:( ".*"|
+                ".*"),
+              redirectURL:( ".*"|
+                ".*"),
+            \},
+          \],
+        \},
+      \]

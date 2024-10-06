@@ -1,0 +1,51 @@
+[
+        {
+          type: "hero",
+          title:$1,
+          subtitle:$2,
+          imageURL:$3,
+        },
+        {
+          type: "blank",
+          title: "",
+          description: "",
+        },
+        {
+          type: "icon-cards",
+          title:$4,
+          subtitle:$5,
+          description:$6,
+          button:$7,
+          redirectURL:$8,
+          cards: [
+            {
+              title:$9,
+              description:$10,
+              iconURL:$11,
+              button:$12,
+              redirectURL:$13,
+            },
+            {
+              title:$14,
+              description:$15,
+              iconURL:$16,
+              button:$17,
+              redirectURL:$18,
+            },
+            {
+              title:$19,
+              description:$20,
+              iconURL:$21,
+              button:$22,
+              redirectURL:$23,
+            },
+            {
+              title:$24,
+              description:$25,
+              iconURL:$26,
+              button:$27,
+              redirectURL:$28,
+            },
+          ],
+        },
+      ]

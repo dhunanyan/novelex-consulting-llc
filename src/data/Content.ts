@@ -1588,6 +1588,7 @@ export const Content = {
         title: "Comprehensive Language and Consultancy Services",
         subtitle: "Bridging Cultures, Uniting Worlds",
         imageURL: "/images/hero/services.jpg",
+        isInverted: true,
       },
       {
         type: "blank",
@@ -3193,6 +3194,7 @@ export const Content = {
           title: "Events and Highlights",
           subtitle: "Celebrating our milestones and achievements together.",
           imageURL: "/images/hero/events-and-highlights.jpg",
+          isInverted: true,
         },
       ],
       "celebration-with-our-community": [

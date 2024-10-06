@@ -1,9 +1,11 @@
-import { Content } from "@data";
+import { Content, HtmlData } from "@data";
 import { renderSection, SectionPropsType } from "@utils";
 
 const PAGE_ID = "who-we-are";
 const SUB_PAGE_ID = "climate-strategy";
 const CURRENT_PAGE_ID = "green-initiatives";
+
+export const metadata = HtmlData[PAGE_ID][SUB_PAGE_ID][CURRENT_PAGE_ID];
 
 const sections = (
   Content[PAGE_ID] as unknown as {
