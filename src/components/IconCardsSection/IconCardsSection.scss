@@ -43,10 +43,10 @@
   }
 
   &__button {
-    @include primary-button-white;
+    @include primary-button-black;
 
     &--inverse {
-      @include primary-button-black;
+      @include primary-button-white;
     }
   }
 
