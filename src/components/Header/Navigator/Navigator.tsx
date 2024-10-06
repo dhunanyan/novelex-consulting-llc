@@ -2,20 +2,13 @@
 import * as React from "react";
 import { usePathname } from "next/navigation";
 
-import {
-  NavigatorContainer,
-  NavigatorIcon,
-  NavigatorItem,
-  NavigatorLink,
-  NavigatorList,
-  NavigatorText,
-  NavigatorWrapper,
-} from "./Navigator.styles";
 import { MdOutlineKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
 import { NavigatorData } from "@data";
 import { getHref } from "@utils";
 import { NavigatorID } from "@types";
+
+import "./Navigator.scss";
 
 export const Navigator = () => {
   const pathname = usePathname();
@@ -32,34 +25,37 @@ export const Navigator = () => {
   }
 
   return (
-    <NavigatorWrapper>
-      <NavigatorContainer>
-        <NavigatorList>
-          {filteredList.map((item, index) =>
-            index !== list.length - 1 ? (
-              <NavigatorItem key={index}>
-                <NavigatorLink href={getHref(filteredList, index)}>
+    <nav className="navigator">
+      <div className="navigator__container">
+        <ul className="navigator__list">
+          {filteredList.map((item, index) => (
+            <li className="navigator__item" key={index}>
+              {index !== list.length - 1 ? (
+                <>
+                  <a
+                    className="navigator__link"
+                    href={getHref(filteredList, index)}
+                  >
+                    {NavigatorData[item as NavigatorID]}
+                  </a>
+                  <div className="navigator__icon">
+                    <Arrow />
+                  </div>
+                </>
+              ) : (
+                <p className="navigator__text">
                   {NavigatorData[item as NavigatorID]}
-                </NavigatorLink>
-                <NavigatorIcon>
-                  <Arrow />
-                </NavigatorIcon>
-              </NavigatorItem>
-            ) : (
-              <NavigatorItem key={index}>
-                <NavigatorText>
-                  {NavigatorData[item as NavigatorID]}
-                </NavigatorText>
-              </NavigatorItem>
-            )
-          )}
+                </p>
+              )}
+            </li>
+          ))}
           {isWrongRoute && (
-            <NavigatorItem key={filteredList.length}>
-              <NavigatorText>Error</NavigatorText>
-            </NavigatorItem>
+            <li className="navigator__item" key={filteredList.length}>
+              <p className="navigator__text">Error</p>
+            </li>
           )}
-        </NavigatorList>
-      </NavigatorContainer>
-    </NavigatorWrapper>
+        </ul>
+      </div>
+    </nav>
   );
 };

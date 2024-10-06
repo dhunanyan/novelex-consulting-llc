@@ -1,0 +1,27 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.blank {
+  background-color: $main-white-color;
+  color: $primary-black-color;
+
+  &__container {
+    @include container;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    @include title;
+  }
+
+  &__description {
+    margin: 30px 0;
+    line-height: 24px;
+  }
+
+  &__button {
+    @include primary-button-white;
+    margin: 0 0 0 auto;
+  }
+}

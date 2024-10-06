@@ -15,4 +15,4 @@ const ICONS = {
   facebook: <AiFillFacebook />,
 };
 
-export const getIcon = (id: SocialIconsType): React.JSX.Element => ICONS[id];
+export const renderIcon = (id: SocialIconsType): React.JSX.Element => ICONS[id];

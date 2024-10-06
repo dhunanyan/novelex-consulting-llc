@@ -1,15 +1,6 @@
 import * as React from "react";
-import {
-  IconCardsButton,
-  IconCardsCards,
-  IconCardsContainer,
-  IconCardsContent,
-  IconCardsDescription,
-  IconCardsSubtitle,
-  IconCardsTitle,
-  IconCardsWrapper,
-} from "./IconCardsSection.styles";
 import { IconCard } from "./IconCard";
+import "./IconCardsSection.scss";
 
 export type IconCardsSectionPropsType = {
   title: string;
@@ -39,21 +30,39 @@ export const IconCardsSection = ({
   inverseColors = false,
   forceHideButton = false,
 }: IconCardsSectionPropsType) => (
-  <IconCardsWrapper inverseColors={inverseColors}>
-    <IconCardsContainer>
-      <IconCardsContent order={order} backgroundColor={contentBackgroundColor}>
-        <IconCardsSubtitle>{subtitle}</IconCardsSubtitle>
-        <IconCardsTitle>{title}</IconCardsTitle>
-        <IconCardsDescription>{description}</IconCardsDescription>
-        <IconCardsButton inverseColors={inverseColors}>
+  <section
+    className={"icon-cards" + (inverseColors ? "icon-cards--inverse" : "")}
+  >
+    <div className="icon-cards__container">
+      <div
+        className={
+          "icon-cards__content" +
+          (order !== 0 ? "icons-cards__content--switched-order" : "")
+        }
+        style={{ backgroundColor: contentBackgroundColor, order: order }}
+      >
+        <h3 className="icon-cards__subtitle">{subtitle}</h3>
+        <h2 className="icon-cards__title">{title}</h2>
+        <p className="icon-cards__description">{description}</p>
+        <button
+          className={
+            "icon-cards__button" +
+            (inverseColors ? "icon-cards__button--inverse" : "")
+          }
+        >
           {button}
-        </IconCardsButton>
-      </IconCardsContent>
-      <IconCardsCards order={order}>
+        </button>
+      </div>
+      <ul className="icon-cards__list">
         {cards
           .slice(0, cards.length / 2)
           .map(({ title, description, button, iconURL }, i) => (
-            <div key={i}>
+            <div
+              key={i}
+              style={{
+                margin: order === 0 ? "0 0 0 20px" : "0 20px 0 0",
+              }}
+            >
               {cards.slice(cards.length / 2).map(() => (
                 <IconCard
                   key={i + cards.length / 2}
@@ -67,7 +76,7 @@ export const IconCardsSection = ({
               ))}
             </div>
           ))}
-      </IconCardsCards>
-    </IconCardsContainer>
-  </IconCardsWrapper>
+      </ul>
+    </div>
+  </section>
 );

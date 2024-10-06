@@ -1,20 +1,18 @@
 import * as React from "react";
-import {
-  FooterLinksItem,
-  FooterLinksLink,
-  FooterLinksList,
-  FooterLinksWrapper,
-} from "./FooterLinks.styles";
 import { FooterData } from "@data";
 
+import "./FooterLinks.scss";
+
 export const FooterLinks = () => (
-  <FooterLinksWrapper>
-    <FooterLinksList>
+  <div className="footer-links">
+    <ul className="footer-links__list">
       {FooterData.map((item) => (
-        <FooterLinksItem key={item.id}>
-          <FooterLinksLink href={item.id}>{item.text}</FooterLinksLink>
-        </FooterLinksItem>
+        <li className="footer-links__item" key={item.id}>
+          <a className="footer-links__link" href={item.id}>
+            {item.text}
+          </a>
+        </li>
       ))}
-    </FooterLinksList>
-  </FooterLinksWrapper>
+    </ul>
+  </div>
 );

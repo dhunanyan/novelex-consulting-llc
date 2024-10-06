@@ -1,0 +1,40 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.image-cards {
+  background-color: $main-white-color;
+
+  &__container {
+    @include container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 20px 0;
+    width: 700px;
+  }
+
+  &__title {
+    @include big-title;
+    margin: 0 0 20px 0;
+    color: $main-color;
+  }
+
+  &__description {
+    @include subtitle;
+    font-weight: 100;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: space-between;
+  }
+}

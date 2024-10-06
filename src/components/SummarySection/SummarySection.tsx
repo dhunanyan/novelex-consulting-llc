@@ -1,17 +1,6 @@
 import * as React from "react";
 import Image from "next/image";
 
-import {
-  SummaryButton,
-  SummaryContainer,
-  SummaryContent,
-  SummaryDescription,
-  SummarySubtitle,
-  SummaryTitle,
-  SummaryWrapper,
-  SummaryIcon,
-} from "./SummarySection.styles";
-
 export type SummarySectionPropsType = {
   title: string;
   subtitle: string;
@@ -29,17 +18,17 @@ export const SummarySection = ({
   imageURL,
   isInverted = false,
 }: SummarySectionPropsType) => (
-  <SummaryWrapper imageURL={imageURL} isInverted={isInverted}>
-    <SummaryContainer>
-      <SummaryIcon>
+  <section className={"summary" + isInverted ? "summary--inverted" : ""}>
+    <div className="summary__container">
+      <div className="summary__icon">
         <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
-      </SummaryIcon>
-      <SummaryContent>
-        <SummarySubtitle>{subtitle}</SummarySubtitle>
-        <SummaryTitle>{title}</SummaryTitle>
-        <SummaryDescription>{description}</SummaryDescription>
-        <SummaryButton>{button}</SummaryButton>
-      </SummaryContent>
-    </SummaryContainer>
-  </SummaryWrapper>
+      </div>
+      <div className="summary__content">
+        <h3 className="summary__subtitle">{subtitle}</h3>
+        <h1 className="summary__title">{title}</h1>
+        <p className="summary__description">{description}</p>
+        <button className="summary__button">{button}</button>
+      </div>
+    </div>
+  </section>
 );

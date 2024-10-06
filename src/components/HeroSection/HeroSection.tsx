@@ -1,13 +1,7 @@
 import * as React from "react";
 import Image from "next/image";
 
-import {
-  HeroContainer,
-  HeroContent,
-  HeroSubtitle,
-  HeroTitle,
-  HeroWrapper,
-} from "./HeroSection.styles";
+import "./HeroSection.scss";
 
 export type HeroSectionPropsType = {
   title: string;
@@ -22,13 +16,17 @@ export const HeroSection = ({
   imageURL,
   isInverted = false,
 }: HeroSectionPropsType) => (
-  <HeroWrapper isInverted={isInverted}>
+  <section className={"hero" + (isInverted ? " hero--inverted" : "")}>
     <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
-    <HeroContainer>
-      <HeroContent>
-        <HeroSubtitle>{subtitle}</HeroSubtitle>
-        <HeroTitle>{title}</HeroTitle>
-      </HeroContent>
-    </HeroContainer>
-  </HeroWrapper>
+    <div className="hero__container">
+      <div
+        className={
+          "hero__content" + (isInverted ? " hero__content--inverted" : "")
+        }
+      >
+        <h3 className="hero__subtitle">{subtitle}</h3>
+        <h1 className="hero__title">{title}</h1>
+      </div>
+    </div>
+  </section>
 );

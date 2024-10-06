@@ -1,10 +1,5 @@
 import * as React from "react";
-import {
-  TileButton,
-  TileContainer,
-  TileDescription,
-  TileTitle,
-} from "./Tile.styles";
+import "./Tile.scss";
 
 export type TilePropsType = {
   title: string;
@@ -13,9 +8,9 @@ export type TilePropsType = {
 };
 
 export const Tile = ({ title, description, button }: TilePropsType) => (
-  <TileContainer>
-    <TileTitle>{title}</TileTitle>
-    <TileDescription>{description}</TileDescription>
-    <TileButton>{button}</TileButton>
-  </TileContainer>
+  <li className="tile">
+    <h3 className="tile__title">{title}</h3>
+    <p className="tile__description">{description}</p>
+    <button className="tile__button">{button}</button>
+  </li>
 );

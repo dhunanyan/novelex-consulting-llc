@@ -1,2 +1,2 @@
 export { getHref } from "./getHref";
-export { getIcon } from "./getIcon";
+export { renderIcon } from "./renderIcon";

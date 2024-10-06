@@ -1,36 +1,30 @@
 import * as React from "react";
-import {
-  FooterNavWrapper,
-  FooterNavContainer,
-  FooterNavItem,
-  FooterNavLink,
-  FooterNavList,
-  FooterNavSocialList,
-  FooterNavSocialItem,
-  FooterNavSocialLink,
-} from "./FooterNav.styles";
 import { NavigationData, SocialMediasData } from "@data";
-import { getIcon } from "@utils";
+import { renderIcon } from "@utils";
+
+import "./FooterNav.scss";
 
 export const FooterNav = () => (
-  <FooterNavWrapper>
-    <FooterNavContainer>
-      <FooterNavList>
+  <div className="footer-nav">
+    <div className="footer-nav__container">
+      <ul className="footer-nav__list">
         {NavigationData.map((item) => (
-          <FooterNavItem key={item.id}>
-            <FooterNavLink href={"/" + item.id}>{item.text}</FooterNavLink>
-          </FooterNavItem>
+          <li className="footer-nav__item" key={item.id}>
+            <a className="footer-nav__link" href={"/" + item.id}>
+              {item.text}
+            </a>
+          </li>
         ))}
-      </FooterNavList>
-      <FooterNavSocialList>
+      </ul>
+      <ul className="footer-nav__social-list">
         {SocialMediasData.map(({ url, id }) => (
-          <FooterNavSocialItem key={id}>
-            <FooterNavSocialLink href={url} target="_blank">
-              <span>{getIcon(id)}</span>
-            </FooterNavSocialLink>
-          </FooterNavSocialItem>
+          <li className="footer-nav__social-item" key={id}>
+            <a className="footer-nav__social-link" href={url} target="_blank">
+              <span>{renderIcon(id)}</span>
+            </a>
+          </li>
         ))}
-      </FooterNavSocialList>
-    </FooterNavContainer>
-  </FooterNavWrapper>
+      </ul>
+    </div>
+  </div>
 );

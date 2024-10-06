@@ -1,10 +1,5 @@
 import * as React from "react";
-import {
-  ImageCardContainer,
-  ImageCardContent,
-  ImageCardIcon,
-  ImageCardTitle,
-} from "./ImageCard.styles";
+import "./ImageCard.scss";
 
 export type ImageCardPropsType = {
   title: string;
@@ -13,12 +8,20 @@ export type ImageCardPropsType = {
 };
 
 export const ImageCard = ({ title, iconURL, imageURL }: ImageCardPropsType) => (
-  <ImageCardContainer imageURL={imageURL} href="#">
-    <ImageCardContent>
-      <ImageCardTitle>{title}</ImageCardTitle>
+  <li
+    className="image-card"
+    style={{
+      backgroundImage: imageURL,
+    }}
+  >
+    <a className="image-card__content" href="#">
+      <h3 className="image-card__title">{title}</h3>
       {iconURL && (
-        <ImageCardIcon dangerouslySetInnerHTML={{ __html: iconURL }} />
+        <div
+          className="image-card__icon"
+          dangerouslySetInnerHTML={{ __html: iconURL }}
+        />
       )}
-    </ImageCardContent>
-  </ImageCardContainer>
+    </a>
+  </li>
 );

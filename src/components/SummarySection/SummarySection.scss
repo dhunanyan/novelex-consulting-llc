@@ -1,0 +1,98 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.summary {
+  position: relative;
+  background-color: $main-white-color;
+  overflow: hidden;
+
+  &--inverted {
+    background-image: url(${imageURL});
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: $secondary-black-color;
+
+    .summary {
+      &__container {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      &__content, &__icon /*delete &__icon if fails */ {
+        position: relative;
+        max-width: 100%;
+
+        &::before {
+          top: -15px;
+          left: -15px;
+          content: "";
+          position: absolute;
+          height: 100%;
+          width: 100vw;
+          background-color: $main-white-color;
+          opacity: 0.8;
+          z-index: 0;
+          padding: 15px;
+        }
+      }
+
+      &__subtitle {
+        font-weight: 200;
+      }
+
+      &__title {
+        margin: 0;
+      }
+    }
+  }
+
+  &__container {
+    @include container-title;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    opacity: 0.2;
+  }
+
+  &__content {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    z-index: 1;
+  }
+
+  &__subtitle {
+    @include subtitle;
+    margin: 0 0 10px 0;
+    z-index: 1;
+  }
+
+  &__title {
+    @include big-title;
+    margin: 0 0 20px 0;
+    z-index: 1;
+  }
+
+  &__description {
+    line-height: 22px;
+  }
+
+  &__button {
+    @include primary-button-white;
+  }
+}

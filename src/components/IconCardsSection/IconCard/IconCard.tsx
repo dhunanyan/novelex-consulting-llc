@@ -1,12 +1,5 @@
 import * as React from "react";
-import {
-  IconCardButton,
-  IconCardContainer,
-  IconCardDescription,
-  IconCardIcon,
-  IconCardTitle,
-  IconCardWrapper,
-} from "./IconCard.styles";
+import "./IconCard.scss";
 
 export type IconCardPropsType = {
   title: string;
@@ -25,31 +18,47 @@ export const IconCard = ({
   inverseColors,
   forceHideButton,
 }: IconCardPropsType) => (
-  <IconCardWrapper
-    inverseColors={inverseColors}
-    cursor={forceHideButton || !button ? "auto" : "pointer"}
+  <li
+    className={
+      "icon-card" +
+      (inverseColors ? " icon-card--inverse" : "") +
+      (forceHideButton || !button ? " icon-card--pointer" : "")
+    }
   >
-    <IconCardContainer>
+    <div className={"icon-card__container"}>
       {(forceHideButton || !button) && iconURL && (
-        <IconCardIcon dangerouslySetInnerHTML={{ __html: iconURL }} />
+        <div
+          className={"icon-card__icon"}
+          dangerouslySetInnerHTML={{ __html: iconURL }}
+        />
       )}
       {!forceHideButton && button && iconURL && (
-        <IconCardButton
-          inverseColors={inverseColors}
-          className="primary-card-button"
-        >
-          <IconCardIcon dangerouslySetInnerHTML={{ __html: iconURL }} />
-          <p>
-            <span>{button}</span>
+        <button className={"icon-card__button"}>
+          <div
+            className={"icon-card__icon"}
+            dangerouslySetInnerHTML={{ __html: iconURL }}
+          />
+          <p
+            className={
+              "icon-card__button-text" +
+              (inverseColors ? " icon-card__button-text--inverse" : "")
+            }
+          >
+            <span className={"icon-card__button-span"}>{button}</span>
           </p>
-        </IconCardButton>
+        </button>
       )}
-      {title && <IconCardTitle>{title}</IconCardTitle>}
+      {title && <h2 className="icon-card__title">{title}</h2>}
       {description && (
-        <IconCardDescription inverseColors={inverseColors}>
+        <p
+          className={
+            "icon-card__description" +
+            (inverseColors ? " icon-card__description--inverse" : "")
+          }
+        >
           {description}
-        </IconCardDescription>
+        </p>
       )}
-    </IconCardContainer>
-  </IconCardWrapper>
+    </div>
+  </li>
 );

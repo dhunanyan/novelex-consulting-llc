@@ -1,13 +1,7 @@
 import * as React from "react";
-import {
-  ImageCardsCards,
-  ImageCardsContainer,
-  ImageCardsContent,
-  ImageCardsSubtitle,
-  ImageCardsTitle,
-  ImageCardsWrapper,
-} from "./ImageCardsSection.styles";
 import { ImageCard } from "./ImageCard";
+
+import "./ImageCardsSection.scss";
 
 export type ImageCardsSectionPropsType = {
   title: string;
@@ -24,14 +18,14 @@ export const ImageCardsSection = ({
   description,
   cards,
 }: ImageCardsSectionPropsType) => (
-  <ImageCardsWrapper>
-    <ImageCardsContainer>
-      <ImageCardsContent>
-        <ImageCardsTitle>{title}</ImageCardsTitle>
-        <ImageCardsSubtitle>{description}</ImageCardsSubtitle>
-      </ImageCardsContent>
+  <section className="image-cards">
+    <div className="image-cards__container">
+      <div className="image-cards__content">
+        <h1 className="image-cards__title">{title}</h1>
+        <p className="image-cards__description">{description}</p>
+      </div>
 
-      <ImageCardsCards>
+      <ul className="image-cards__list">
         {cards.map(({ title, imageURL, iconURL }, i) => (
           <ImageCard
             key={i}
@@ -40,7 +34,7 @@ export const ImageCardsSection = ({
             iconURL={iconURL}
           />
         ))}
-      </ImageCardsCards>
-    </ImageCardsContainer>
-  </ImageCardsWrapper>
+      </ul>
+    </div>
+  </section>
 );

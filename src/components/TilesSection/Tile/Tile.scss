@@ -1,0 +1,53 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/variables.scss";
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: $main-black-color;
+  backdrop-filter: blur(20px);
+  color: $main-white-color;
+  margin: 0 0 20px 0;
+  padding: 20px;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.47);
+  transition: all 150ms ease-out;
+
+  &:last-of-type {
+    margin: 0;
+  }
+
+  &:hover {
+    transform: translate(50px, 0);
+    opacity: 1 !important;
+    background-color: $main-black-color-opacity;
+  }
+
+  &__title {
+    font-size: 24px;
+    letter-spacing: -1.5px;
+    font-weight: 200;
+    margin: 0 0 20px 0;
+  }
+
+  &__description {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: $main-white-color;
+    line-height: 16px;
+    text-align: left;
+    opacity: 0.7;
+    line-height: 18px;
+  }
+
+  &__button {
+    @include primary-button-black;
+    margin: 20px 0 0 auto;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}

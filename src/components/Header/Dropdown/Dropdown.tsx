@@ -1,31 +1,17 @@
 import * as React from "react";
 import Image from "next/image";
-import {
-  DropdownCloseButton,
-  DropdownContainer,
-  DropdownContent,
-  DropdownDescription,
-  DropdownExtraContent,
-  DropdownExtraContentImage,
-  DropdownExtraContentMotto,
-  DropdownExtraContentSubtitle,
-  DropdownGoToLink,
-  DropdownItem,
-  DropdownLink,
-  DropdownList,
-  DropdownNav,
-  DropdownTitle,
-} from "./Dropdown.styles";
 
 import { FaTimes as CloseIcon } from "react-icons/fa";
 import { MdKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
 import { DropdownData, SubDropdownData } from "@data";
 
+import "./Dropdown.scss";
+
 export type DropdownPropsType = {
-  closeDropDown: () => void;
   viewId: string;
   subViewId: string;
+  closeDropDown: () => void;
   onItemClick: (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
     navItemId: string,
@@ -34,67 +20,68 @@ export type DropdownPropsType = {
 };
 
 export const Dropdown = ({
-  closeDropDown,
   viewId,
   subViewId,
+  closeDropDown,
   onItemClick,
 }: DropdownPropsType) => {
   const { title, description, goToLink, navList, extraContent } =
     DropdownData[viewId];
 
   return (
-    <DropdownContainer>
-      <DropdownCloseButton onClick={closeDropDown}>
+    <div className="dropdown">
+      <div className="dropdown__close-button" onClick={closeDropDown}>
         <CloseIcon />
-      </DropdownCloseButton>
+      </div>
 
-      <DropdownContent>
-        <DropdownTitle>{title}</DropdownTitle>
-        <DropdownDescription>{description}</DropdownDescription>
-        <DropdownGoToLink href={"/" + viewId}>
+      <div className="dropdown__content">
+        <h2 className="dropdown__title">{title}</h2>
+        <p className="dropdown__description">{description}</p>
+        <a className="dropdown__link" href={"/" + viewId}>
           <span>{goToLink}</span>
           <Arrow />
-        </DropdownGoToLink>
-      </DropdownContent>
+        </a>
+      </div>
 
-      <DropdownNav>
-        <DropdownList>
+      <nav className="dropdown__nav--sub">
+        <ul className="dropdown__list">
           {navList.map((navItem) => (
-            <DropdownItem key={navItem.id}>
-              <DropdownLink
+            <li className="dropdown__item" key={navItem.id}>
+              <a
+                className="dropdown__link"
                 onClick={(e) => onItemClick(e, navItem.id, navItem.href)}
                 href={navItem.href}
               >
                 {navItem.text}
-              </DropdownLink>
-            </DropdownItem>
+              </a>
+            </li>
           ))}
-        </DropdownList>
-      </DropdownNav>
+        </ul>
+      </nav>
 
       {!subViewId ? (
-        <DropdownExtraContent>
-          <DropdownExtraContentImage>
+        <div className="dropdown__extra-content">
+          <div className="dropdown__extra-content-image">
             <Image
               layout="fill"
               objectFit="cover"
               src={extraContent.imagePath}
               alt={extraContent.imageAlt}
             />
-          </DropdownExtraContentImage>
+          </div>
 
-          <DropdownExtraContentSubtitle>
+          <h3 className="dropdown__extra-content-subtitle">
             {extraContent.subtitle}
-          </DropdownExtraContentSubtitle>
+          </h3>
 
-          <DropdownExtraContentMotto>
+          <h2 className="dropdown__extra-content-motto">
             {extraContent.motto}
-          </DropdownExtraContentMotto>
-        </DropdownExtraContent>
+          </h2>
+        </div>
       ) : (
-        <DropdownExtraContent>
-          <DropdownNav justifyContent="flex-start">
-            <DropdownList>
+        <div className="dropdown__extra-content">
+          <nav className="dropdown__nav--sub dropdown__nav--sub-view">
+            <ul className="dropdown__list">
               {(
                 SubDropdownData[viewId] as {
                   [key: string]: {
@@ -104,16 +91,16 @@ export const Dropdown = ({
                   }[];
                 }
               )[subViewId].map((navItem) => (
-                <DropdownItem key={navItem.id}>
-                  <DropdownLink href={navItem.href}>
+                <li className="dropdown__item" key={navItem.id}>
+                  <a className="dropdown__link" href={navItem.href}>
                     {navItem.text}
-                  </DropdownLink>
-                </DropdownItem>
+                  </a>
+                </li>
               ))}
-            </DropdownList>
-          </DropdownNav>
-        </DropdownExtraContent>
+            </ul>
+          </nav>
+        </div>
       )}
-    </DropdownContainer>
+    </div>
   );
 };

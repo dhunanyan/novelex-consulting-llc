@@ -2,16 +2,7 @@ import * as React from "react";
 import Image from "next/image";
 import { Tile } from "./Tile";
 
-import {
-  TilesSectionCollection,
-  TilesSectionPreview,
-  TilesSelectionImage,
-  TilesSectionContainer,
-  TilesSectionContent,
-  TilesSectionDescription,
-  TilesSectionTitle,
-  TilesSectionWrapper,
-} from "./TilesSection.styles";
+import "./TilesSection.scss";
 
 export type TileSectionPropsType = {
   title: string;
@@ -30,15 +21,15 @@ export const TilesSection = ({
   tiles,
   imageURL,
 }: TileSectionPropsType) => (
-  <TilesSectionWrapper>
-    <TilesSectionContainer>
-      <TilesSectionContent>
-        <TilesSectionTitle>{title}</TilesSectionTitle>
-        <TilesSectionDescription>{description}</TilesSectionDescription>
-      </TilesSectionContent>
+  <section className="tiles">
+    <div className="tiles__container">
+      <div className="tiles__content">
+        <h1 className="tiles__title">{title}</h1>
+        <p className="tiles__description">{description}</p>
+      </div>
 
-      <TilesSectionPreview>
-        <TilesSectionCollection>
+      <div className="tiles__preview">
+        <ul className="tiles__list">
           {tiles.map(({ title, description, button }, i) => (
             <Tile
               key={i}
@@ -47,12 +38,12 @@ export const TilesSection = ({
               button={button}
             />
           ))}
-        </TilesSectionCollection>
+        </ul>
 
-        <TilesSelectionImage>
+        <div className="tiles__image">
           <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
-        </TilesSelectionImage>
-      </TilesSectionPreview>
-    </TilesSectionContainer>
-  </TilesSectionWrapper>
+        </div>
+      </div>
+    </div>
+  </section>
 );
