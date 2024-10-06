@@ -62,6 +62,7 @@ export const Content = {
       description:
         "Discover dynamic career opportunities at Novelex. Join us in redefining global communication through roles that blend language proficiency, technology innovation, and cross-cultural connections. Shape your career while contributing to a mission that transcends language barriers. Explore diverse pathways, from language careers to digital and tech roles, and become a part of a team that's changing how the world communicates.",
       button: "Learn more",
+      redirectURL: "/careers",
       cards: [
         {
           title: "Language Career",
@@ -77,7 +78,7 @@ export const Content = {
             "Blend technology and communication with Novelex. Drive language innovation through AI tools and user interfaces. Join the team reshaping global communication. Choose a digital and tech career that transcends borders.",
           button: "Learn more",
           iconURL: "monitor",
-          redirectURL: "/services/digital-and-tech-solutions",
+          redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
         },
         {
           title: "Where We Hire",
@@ -103,20 +104,23 @@ export const Content = {
       description:
         "With a global network of linguists, we offer translation and interpretation services in a multitude of languages, ensuring that our clients can confidently communicate across borders.",
       button: "Learn more",
+      redirectURL: "/services",
       cards: [
         {
-          title: "Languages",
+          title: "Multilingual Solutions",
           description:
             "With a global network of linguists, we offer translation and interpretation services in a multitude of languages, ensuring that our clients can confidently communicate across borders.",
           button: "Learn more",
           iconURL: "languages",
+          redirectURL: "/services/multilingual-solutions",
         },
         {
-          title: "Digital",
+          title: "Digital & Tech Solutions",
           description:
             "Our digital solutions encompass AI-powered language tools, facilitating instant translation and enhancing multilingual customer experiences in the digital realm.",
           button: "Learn more",
           iconURL: "monitor",
+          redirectURL: "/services/digital-and-tech-solutions",
         },
         {
           title: "Training Programme",
@@ -124,13 +128,15 @@ export const Content = {
             "Novelex's training program equips aspiring linguists and language enthusiasts with the skills and knowledge needed to excel in the field of translation and interpretation.",
           button: "Learn more",
           iconURL: "book",
+          redirectURL: "/services/training-programme",
         },
         {
-          title: "Client Testimonials",
+          title: "Final Consultancy",
           description:
-            "Don't just take our word for it - hear what our satisfied clients have to say about the impact of Novelex's language solutions on their businesses and communication strategies.",
+            "Novelex offers tailored language solutions that transcend borders, ensuring effective cross-cultural communication.",
           button: "Learn more",
           iconURL: "people",
+          redirectURL: "/services/final-consultancy",
         },
       ],
     },
@@ -160,18 +166,21 @@ export const Content = {
             description:
               "Discover our driving force. Our purpose is to break down language barriers and bring the world closer together. Explore how we're making communication seamless and inclusive.",
             button: "Read more",
+            redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
           },
           {
             title: "Our Value",
             description:
               "Our values shape every decision we make. Dive into our commitment to innovation, quality, diversity, and sustainability. Learn how these values drive our mission.",
             button: "Read more",
+            redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
           },
           {
             title: "Our Strategy",
             description:
               "Explore the roadmap behind our success. Our strategy is a blend of innovation and adaptability. Uncover how we navigate the ever-evolving landscape of global communication.",
             button: "Read more",
+            redirectURL: "/who-we-are/purpose-value-and-strategy/our-strategy",
           },
         ],
       },
@@ -180,6 +189,7 @@ export const Content = {
         description:
           "Diversity is not a mere buzzword; it's a foundational pillar of our organizational ethos. At the heart of our culture lies a genuine celebration of differences. We go beyond mere rhetoric, actively promoting inclusivity and leveraging the kaleidoscope of perspectives within our diverse team.\n\nOur commitment to diversity isn't just about ticking boxes; it's a strategic imperative. We believe that by embracing a variety of backgrounds, experiences, and viewpoints, we can spark innovation that drives our company's success.",
         button: "Read more",
+        redirectURL: "/who-we-are/diversity-and-inclusion",
       },
       iconCardsSection: {
         title: "Shaping Tomorrow",
@@ -187,6 +197,7 @@ export const Content = {
         description:
           "Unlock the world's potential with Novelex. Explore our commitments, where diversity fuels innovation, sustainability drives progress, partnerships empower growth, and innovation reshapes global communication",
         button: "Learn more",
+        redirectURL: "/services",
         cards: [
           {
             title: "Global Impact",
@@ -194,6 +205,7 @@ export const Content = {
               "Unlock the world's potential, explore global stories. Our language solutions connect cultures, break barriers, and foster worldwide connections. Discover narratives illustrating our commitment to an interconnected planet.",
             button: "Learn more",
             iconURL: "globe-americas",
+            redirectURL: "/who-we-are/global-impact",
           },
           {
             title: "Climate Strategy",
@@ -201,6 +213,7 @@ export const Content = {
               "Our commitment to the world goes beyond language. Learn about our climate strategy, where we take steps to minimize our environmental footprint and contribute to a sustainable future.",
             button: "Learn more",
             iconURL: "leaf",
+            redirectURL: "/who-we-are/climate-strategy",
           },
           {
             title: "Our Partners",
@@ -208,13 +221,15 @@ export const Content = {
               "Collaboration is key to our success. We're proud to partner with organizations that share our values and vision. Explore our network of partners who help us reach new heights.",
             button: "Learn more",
             iconURL: "handshake",
+            redirectURL: "/who-we-are/our-partners",
           },
           {
-            title: "About",
+            title: "Life at Novelex",
             description:
               "Discover the essence of Novelex Consulting LLC. Our story is one of innovation, guided by a commitment to reshape global communication. Dive into our journey, values, and vision. Learn what drives us to break down language barriers and connect the world.",
             button: "Learn more",
             iconURL: "info",
+            redirectURL: "/life-at-novelex",
           },
         ],
       },
@@ -239,34 +254,35 @@ export const Content = {
           description:
             "Our values are the pillars of our organization. They drive our decisions and actions every day. Explore our commitment to innovation, quality, diversity, and sustainability.",
           button: "Learn more",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
           cards: [
             {
               title: "Innovation Excellence",
               description:
                 "Learn how innovation is at the heart of everything we do.",
-              button: "Learn more",
               iconURL: "rocket",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
             },
             {
               title: "Quality Assurance",
               description:
                 "Explore our unwavering commitment to quality and accuracy.",
-              button: "Learn more",
               iconURL: "check-circle",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
             },
             {
               title: "Embracing Diversity",
               description:
                 "Dive into our inclusive workplace and the strength of diverse perspectives.",
-              button: "Learn more",
               iconURL: "users",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
             },
             {
               title: "Environmental Responsibility",
               description:
                 "Discover our sustainability initiatives and commitment to the environment.",
-              button: "Learn more",
               iconURL: "cogs",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
             },
           ],
         },
@@ -283,34 +299,39 @@ export const Content = {
           description:
             "Our strategy is a blend of innovation and adaptability. We navigate the ever-evolving landscape of global communication to bring you the best solutions.",
           button: "Learn more",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-strategy",
           cards: [
             {
               title: "Innovative Approach",
               description:
                 "Explore our innovative strategies for staying ahead in the industry.",
-              button: "Learn more",
               iconURL: "leaf",
+              redirectURL:
+                "/who-we-are/purpose-value-and-strategy/our-strategy",
             },
             {
               title: "Adaptive Solutions",
               description:
                 "Discover how we adapt to meet the unique needs of our clients.",
-              button: "Learn more",
               iconURL: "sliders-h",
+              redirectURL:
+                "/who-we-are/purpose-value-and-strategy/our-strategy",
             },
             {
               title: "Global Expansion",
               description:
                 "Learn about our plans for expanding our reach and impact.",
-              button: "Learn more",
               iconURL: "globe-americas",
+              redirectURL:
+                "/who-we-are/purpose-value-and-strategy/our-strategy",
             },
             {
               title: "Technology Integration",
               description:
                 "Dive into how we integrate cutting-edge technology into our language solutions.",
-              button: "Learn more",
               iconURL: "laptop",
+              redirectURL:
+                "/who-we-are/purpose-value-and-strategy/our-strategy",
             },
           ],
         },
@@ -327,34 +348,35 @@ export const Content = {
           description:
             "At Novelex Consulting LLC, our purpose is clear: To break down language barriers and foster global understanding. Discover how this guiding principle shapes our mission and defines our identity.",
           button: "Learn more",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
           cards: [
             {
               title: "Empowering Communication",
               description:
                 "Learn how we empower individuals and businesses to communicate across languages.",
-              button: "Learn more",
               iconURL: "dots",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
             {
               title: "Connecting Cultures",
               description:
                 "Explore how we bridge cultures and foster global connections.",
-              button: "Learn more",
               iconURL: "globe",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
             {
               title: "Innovating Seamlessness",
               description:
                 "Dive into our innovative solutions that make communication seamless.",
-              button: "Learn more",
               iconURL: "light-bulb",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
             {
               title: "Driving Change",
               description:
                 "Discover how our purpose is driving positive change in the world.",
-              button: "Learn more",
               iconURL: "exchange-alt",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
           ],
         },
@@ -380,34 +402,35 @@ export const Content = {
           description:
             "Collective excellence drives our success. By embracing teamwork and collaboration, we surpass individual potential and reach greater heights together. Learn more about how we thrive through unity.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-people/collective-excellence",
           cards: [
             {
               title: "Synergized Efforts",
               description:
                 "Explore how teamwork amplifies our capabilities and drives innovation.",
-              button: "Learn more",
               iconURL: "rocket",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
             },
             {
               title: "Shared Success",
               description:
                 "Discover how our collective achievements fuel our growth and resilience.",
-              button: "Learn more",
               iconURL: "check-circle",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
             },
             {
               title: "Collaborative Culture",
               description:
                 "Learn how our inclusive environment fosters collaboration across teams.",
-              button: "Learn more",
               iconURL: "users",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
             },
             {
               title: "Sustainability Together",
               description:
                 "Discover our joint efforts towards sustainability and environmental responsibility.",
-              button: "Learn more",
               iconURL: "cogs",
+              redirectURL: "/who-we-are/our-people/collective-excellence",
             },
           ],
         },
@@ -424,34 +447,35 @@ export const Content = {
           description:
             "Our culture of inclusivity is the foundation of our success. We believe in the power of diverse perspectives and the strength that comes from embracing each individual. Learn how we foster an inclusive and empowering environment.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
           cards: [
             {
               title: "Embracing All Voices",
               description:
                 "Learn how every voice contributes to our inclusive environment.",
-              button: "Learn more",
               iconURL: "rocket",
+              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
             {
               title: "Equality in Action",
               description:
                 "Explore how we ensure equality and fairness in every aspect of our work.",
-              button: "Learn more",
               iconURL: "check-circle",
+              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
             {
               title: "Diverse Perspectives",
               description:
                 "See how we harness diverse perspectives to drive creativity and innovation.",
-              button: "Learn more",
               iconURL: "users",
+              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
             {
               title: "Inclusive Sustainability",
               description:
                 "Discover our commitment to creating sustainable solutions for everyone.",
-              button: "Learn more",
               iconURL: "cogs",
+              redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
           ],
         },
@@ -469,34 +493,35 @@ export const Content = {
           description:
             "Professional growth is at the heart of our mission. We are dedicated to nurturing your skills, supporting your career journey, and inspiring you to reach new heights. Learn more about how we cultivate personal and professional development.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-people/professional-growth",
           cards: [
             {
               title: "Continuous Learning",
               description:
                 "Discover how we foster a culture of learning and development.",
-              button: "Learn more",
               iconURL: "rocket",
+              redirectURL: "/who-we-are/our-people/professional-growth",
             },
             {
               title: "Career Pathways",
               description:
                 "Explore the numerous opportunities for career advancement.",
-              button: "Learn more",
               iconURL: "check-circle",
+              redirectURL: "/who-we-are/our-people/professional-growth",
             },
             {
               title: "Mentorship Programs",
               description:
                 "Learn how our mentorship programs help guide your professional growth.",
-              button: "Learn more",
               iconURL: "users",
+              redirectURL: "/who-we-are/our-people/professional-growth",
             },
             {
               title: "Sustainable Growth",
               description:
                 "See how our commitment to sustainability extends to long-term career growth.",
-              button: "Learn more",
               iconURL: "cogs",
+              redirectURL: "/who-we-are/our-people/professional-growth",
             },
           ],
         },
@@ -513,34 +538,35 @@ export const Content = {
           description:
             "We believe in nurturing the well-being of our people—both in and out of the workplace. Learn how we support physical, mental, and emotional wellness, empowering our team to lead balanced and fulfilling lives.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-people/well-being",
           cards: [
             {
               title: "Holistic Health",
               description:
                 "Learn how we promote mental, emotional, and physical health for our team.",
-              button: "Learn more",
               iconURL: "rocket",
+              redirectURL: "/who-we-are/our-people/well-being",
             },
             {
               title: "Work-Life Balance",
               description:
                 "Explore our initiatives to help employees maintain a healthy work-life balance.",
-              button: "Learn more",
               iconURL: "check-circle",
+              redirectURL: "/who-we-are/our-people/well-being",
             },
             {
               title: "Supportive Community",
               description:
                 "Discover how we foster a supportive and compassionate work environment.",
-              button: "Learn more",
               iconURL: "users",
+              redirectURL: "/who-we-are/our-people/well-being",
             },
             {
               title: "Sustainable Wellness",
               description:
                 "See how sustainability is integrated into our approach to employee well-being.",
-              button: "Learn more",
               iconURL: "cogs",
+              redirectURL: "/who-we-are/our-people/well-being",
             },
           ],
         },
@@ -566,34 +592,35 @@ export const Content = {
           description:
             "We push boundaries and think outside the box to develop solutions that redefine industries. Our innovative strategies drive growth, efficiency, and lasting impact.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-partners/innovative-solutions",
           cards: [
             {
               title: "AI and Automation",
               description:
                 "Explore how artificial intelligence and automation shape our cutting-edge solutions.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
             {
               title: "Data-Driven Insights",
               description:
                 "Discover how we leverage big data to create actionable business insights.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
             {
               title: "Sustainability Initiatives",
               description:
                 "Learn about our sustainable innovations for a greener future.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
             {
               title: "Customer-Centric Design",
               description:
                 "See how we build solutions focused on enhancing customer experience.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
           ],
         },
@@ -610,34 +637,35 @@ export const Content = {
           description:
             "We believe that true success is achieved when we grow together. Our mutual growth endeavors foster relationships that drive innovation, success, and shared achievements.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
           cards: [
             {
               title: "Co-Innovation Partnerships",
               description:
                 "Collaborating with partners to co-create groundbreaking solutions.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
             {
               title: "Joint Ventures",
               description:
                 "Explore how we form strategic joint ventures to expand our impact.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
             {
               title: "Shared Investment Strategies",
               description:
                 "Learn about our investment approach focused on shared success.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
             {
               title: "Global Expansion Initiatives",
               description:
                 "See how we work with partners to expand into new markets.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
           ],
         },
@@ -654,34 +682,35 @@ export const Content = {
           description:
             "Our shared vision and values are at the core of everything we do. Together, we strive to create a future where success is measured not just by profits but by the positive impact we have on the world.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
           cards: [
             {
               title: "Purpose-Driven Goals",
               description:
                 "Discover our commitment to creating meaningful, purpose-driven outcomes.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
             {
               title: "Ethical Leadership",
               description:
                 "Explore our leadership principles based on integrity and ethics.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
             {
               title: "Sustainability Commitment",
               description:
                 "Learn how our values guide us towards sustainable, long-term success.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
             {
               title: "Community Impact",
               description:
                 "See how our shared vision drives positive change in our communities.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
           ],
         },
@@ -698,34 +727,35 @@ export const Content = {
           description:
             "Strategic collaborations are key to unlocking new opportunities. By working together, we leverage our combined strengths to innovate, grow, and lead in our industries.",
           button: "Learn more",
+          redirectURL: "/who-we-are/our-partners/strategic-collaborations",
           cards: [
             {
               title: "Industry Partnerships",
               description:
                 "Explore our strategic partnerships with leading industry players.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
             {
               title: "Innovative Joint Efforts",
               description:
                 "Learn how joint efforts lead to breakthrough innovations.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
             {
               title: "Global Collaborations",
               description:
                 "See how our global collaborations drive success in multiple markets.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
             {
               title: "Long-Term Alliances",
               description:
                 "Discover the power of long-term alliances in creating lasting impact.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
           ],
         },
@@ -751,34 +781,39 @@ export const Content = {
           description:
             "We believe in fostering sustainable practices that benefit both the planet and society. Through responsible resource management and innovative solutions, we strive to make a positive impact.",
           button: "Learn more",
+          redirectURL: "/who-we-are/global-impact/environmental-responsibility",
           cards: [
             {
               title: "Renewable Energy Initiatives",
               description:
                 "Investing in solar, wind, and other renewable energy sources to reduce our carbon footprint.",
-              button: "Learn more",
               iconURL: "light-bulb",
+              redirectURL:
+                "/who-we-are/global-impact/environmental-responsibility",
             },
             {
               title: "Waste Reduction Strategies",
               description:
                 "Implementing waste management programs to minimize landfill contributions and promote recycling.",
-              button: "Learn more",
               iconURL: "bullseye-solid",
+              redirectURL:
+                "/who-we-are/global-impact/environmental-responsibility",
             },
             {
               title: "Sustainable Sourcing",
               description:
                 "Working with suppliers who prioritize sustainability and ethical practices in their operations.",
-              button: "Learn more",
               iconURL: "key-solid",
+              redirectURL:
+                "/who-we-are/global-impact/environmental-responsibility",
             },
             {
               title: "Conservation Efforts",
               description:
                 "Supporting initiatives aimed at protecting wildlife and preserving natural habitats.",
-              button: "Learn more",
               iconURL: "comment",
+              redirectURL:
+                "/who-we-are/global-impact/environmental-responsibility",
             },
           ],
         },
@@ -795,34 +830,35 @@ export const Content = {
           description:
             "Our global collaborations focus on uniting diverse talents and resources to tackle pressing challenges. Together, we aim to create innovative solutions that have a lasting impact.",
           button: "Learn more",
+          redirectURL: "/who-we-are/global-impact/global-collaborations",
           cards: [
             {
               title: "International Partnerships",
               description:
                 "Building relationships with organizations around the world to share knowledge and expertise.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
             {
               title: "Cross-Cultural Initiatives",
               description:
                 "Promoting cultural exchange programs that enhance understanding and cooperation among nations.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
             {
               title: "Global Health Initiatives",
               description:
                 "Collaborating with international agencies to improve health outcomes in underserved communities.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
             {
               title: "Disaster Relief Efforts",
               description:
                 "Partnering with global organizations to provide timely support in times of crisis.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
           ],
         },
@@ -839,34 +875,35 @@ export const Content = {
           description:
             "We recognize that diversity fuels creativity and innovation. By embracing varied perspectives, we cultivate an inclusive environment where everyone can thrive.",
           button: "Learn more",
+          redirectURL: "/who-we-are/global-impact/leveraging-diversity",
           cards: [
             {
               title: "Diversity Training Programs",
               description:
                 "Offering training to promote awareness and understanding of diverse backgrounds and experiences.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
             {
               title: "Inclusive Hiring Practices",
               description:
                 "Implementing strategies to ensure equitable hiring and retention of diverse talent.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
             {
               title: "Cultural Celebrations",
               description:
                 "Hosting events that celebrate cultural diversity within our organization.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
             {
               title: "Mentorship Programs",
               description:
                 "Providing mentorship opportunities to empower underrepresented groups in the workforce.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
           ],
         },
@@ -883,34 +920,35 @@ export const Content = {
           description:
             "We believe in the power of social responsibility. By investing in our communities and fostering positive change, we strive to create a better tomorrow for all.",
           button: "Learn more",
+          redirectURL: "/who-we-are/global-impact/social-responsibility",
           cards: [
             {
               title: "Community Development Projects",
               description:
                 "Supporting initiatives that uplift and empower local communities.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
             {
               title: "Volunteer Programs",
               description:
                 "Encouraging our employees to engage in volunteer opportunities that make a positive impact.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
             {
               title: "Educational Outreach",
               description:
                 "Providing resources and support for education initiatives in underserved areas.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
             {
               title: "Advocacy for Social Issues",
               description:
                 "Championing causes that promote social justice and equity.",
-              button: "Learn more",
               iconURL: "logo",
+              redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
           ],
         },

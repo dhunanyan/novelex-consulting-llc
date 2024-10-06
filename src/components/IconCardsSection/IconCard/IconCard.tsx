@@ -6,6 +6,7 @@ export type IconCardPropsType = {
   title: string;
   description: string;
   button: string;
+  redirectURL: string;
   iconURL: string;
   inverseColors: boolean;
   forceHideButton: boolean;
@@ -15,6 +16,7 @@ export const IconCard = ({
   title,
   description,
   button,
+  redirectURL,
   iconURL,
   inverseColors,
   forceHideButton,
@@ -34,7 +36,7 @@ export const IconCard = ({
         />
       )}
       {!forceHideButton && button && iconURL && (
-        <button className={"icon-card__button"}>
+        <a href={redirectURL} className={"icon-card__button"}>
           <div
             className={"icon-card__icon"}
             dangerouslySetInnerHTML={{ __html: Icons[iconURL] }}
@@ -47,7 +49,7 @@ export const IconCard = ({
           >
             <span className={"icon-card__button-span"}>{button}</span>
           </p>
-        </button>
+        </a>
       )}
       {title && <h2 className="icon-card__title">{title}</h2>}
       {description && (

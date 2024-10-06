@@ -7,10 +7,12 @@ export type IconCardsSectionPropsType = {
   subtitle: string;
   description: string;
   button: string;
+  redirectURL: string;
   cards: {
     title: string;
     description: string;
     button: string;
+    redirectURL: string;
     iconURL: string;
   }[];
   order?: number;
@@ -24,6 +26,7 @@ export const IconCardsSection = ({
   subtitle,
   description,
   button,
+  redirectURL,
   cards,
   order = 0,
   contentBackgroundColor = "transparent",
@@ -44,14 +47,15 @@ export const IconCardsSection = ({
         <h3 className="icon-cards__subtitle">{subtitle}</h3>
         <h2 className="icon-cards__title">{title}</h2>
         <p className="icon-cards__description">{description}</p>
-        <button
+        <a
+          href={redirectURL}
           className={
             "icon-cards__button" +
             (inverseColors ? " icon-cards__button--inverse" : "")
           }
         >
           {button}
-        </button>
+        </a>
       </div>
       <ul className="icon-cards__list">
         <div
@@ -61,12 +65,13 @@ export const IconCardsSection = ({
         >
           {cards
             .slice(0, cards.length / 2)
-            .map(({ title, description, button, iconURL }, i) => (
+            .map(({ title, description, button, iconURL, redirectURL }, i) => (
               <IconCard
                 key={i + cards.length / 2}
                 title={title}
                 description={description}
                 button={button}
+                redirectURL={redirectURL}
                 iconURL={iconURL}
                 forceHideButton={forceHideButton}
                 inverseColors={inverseColors}
@@ -80,12 +85,13 @@ export const IconCardsSection = ({
         >
           {cards
             .slice(cards.length / 2)
-            .map(({ title, description, button, iconURL }, i) => (
+            .map(({ title, description, button, iconURL, redirectURL }, i) => (
               <IconCard
                 key={i + cards.length / 2}
                 title={title}
                 description={description}
                 button={button}
+                redirectURL={redirectURL}
                 iconURL={iconURL}
                 forceHideButton={forceHideButton}
                 inverseColors={inverseColors}
