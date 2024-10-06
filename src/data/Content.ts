@@ -12,6 +12,7 @@ export const Content = {
         "At Novelex, we're on a mission to empower connections. Our innovative solutions redefine global communication, fostering unity and understanding. Explore our story, values, and vision.",
       button: "Read more",
       imageURL: "/images/summary/home.png",
+      redirectURL: "/who-we-are",
     },
     imageCardsSection: {
       title: "Who we are",
@@ -21,31 +22,37 @@ export const Content = {
           title: "Purpose",
           imageURL: "/images/imageCards/keyboard.jpg",
           iconURL: "target",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
+        },
+        {
+          title: "Our partners",
+          imageURL: "/images/imageCards/handshake.jpg",
+          iconURL: "handshake",
+          redirectURL: "/who-we-are/our-partners",
         },
         {
           title: "Values",
-          imageURL: "/images/imageCards/handshake.jpg",
-          iconURL: "handshake",
-        },
-        {
-          title: "Mission",
           imageURL: "/images/imageCards/coins.jpg",
           iconURL: "coins",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
         },
         {
-          title: "Marketing",
+          title: "Climate strategy",
           imageURL: "/images/imageCards/calculator.jpg",
           iconURL: "paper",
+          redirectURL: "/who-we-are/climate-strategy",
         },
         {
           title: "Strategy",
           imageURL: "/images/imageCards/laptop.jpg",
           iconURL: "horse",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-strategy",
         },
         {
-          title: "Anti-crisis",
+          title: "Global impact",
           imageURL: "/images/imageCards/paper.jpg",
           iconURL: "trending-down",
+          redirectURL: "/who-we-are/global-impact",
         },
       ],
     },
@@ -62,13 +69,15 @@ export const Content = {
             "Transform your love for language into a profession at Novelex. Shape conversations, build bridges, and connect cultures. Join us as an interpreter, translator, or language consultant. Make language your career catalyst.",
           button: "Learn more",
           iconURL: "languages",
+          redirectURL: "/careers/language-jobs",
         },
         {
-          title: "Digital & Tech Career",
+          title: "Digital & Tech Solutions",
           description:
             "Blend technology and communication with Novelex. Drive language innovation through AI tools and user interfaces. Join the team reshaping global communication. Choose a digital and tech career that transcends borders.",
           button: "Learn more",
           iconURL: "monitor",
+          redirectURL: "/services/digital-and-tech-solutions",
         },
         {
           title: "Where We Hire",
@@ -76,6 +85,7 @@ export const Content = {
             "Novelex welcomes talent globally. From headquarters to remote corners, join us in redefining communication. Embrace diverse perspectives, bridge cultures, and connect the world through language. Your location doesn't limit your impact.",
           button: "Learn more",
           iconURL: "rocket",
+          redirectURL: "/careers/where-we-hire",
         },
         {
           title: "Customer Experience",
@@ -83,6 +93,7 @@ export const Content = {
             "Elevate your journey with Novelex. Our commitment to exceptional customer experiences goes beyond words. Discover how we prioritize your satisfaction and ensure seamless interactions at every step of your language journey.",
           button: "Learn more",
           iconURL: "users",
+          redirectURL: "/careers/personal-and-professional-development",
         },
       ],
     },
@@ -136,6 +147,7 @@ export const Content = {
         description:
           "At Novelex, our strength lies in our diverse and passionate team. We believe that true innovation blossoms when people from various backgrounds and perspectives collaborate. Meet our talented team members, each contributing a unique viewpoint to our journey. Our team members come from all corners of the globe, representing a rich tapestry of cultures and expertise. They drive our success with unwavering commitment and enthusiasm. Explore their stories, experiences, and how they shape our vision. We're more than just colleagues; we're a close-knit community fostering a culture of collaboration and continuous learning. Get to know the dynamic individuals who power Novelex",
         button: "Read more",
+        redirectURL: "/who-we-are/our-people",
       },
       tilesSection: {
         title: "Purpose, Value, and Strategy",
@@ -745,28 +757,28 @@ export const Content = {
               description:
                 "Investing in solar, wind, and other renewable energy sources to reduce our carbon footprint.",
               button: "Learn more",
-              iconURL: "logo",
+              iconURL: "light-bulb",
             },
             {
               title: "Waste Reduction Strategies",
               description:
                 "Implementing waste management programs to minimize landfill contributions and promote recycling.",
               button: "Learn more",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
             },
             {
               title: "Sustainable Sourcing",
               description:
                 "Working with suppliers who prioritize sustainability and ethical practices in their operations.",
               button: "Learn more",
-              iconURL: "logo",
+              iconURL: "key-solid",
             },
             {
               title: "Conservation Efforts",
               description:
                 "Supporting initiatives aimed at protecting wildlife and preserving natural habitats.",
               button: "Learn more",
-              iconURL: "logo",
+              iconURL: "comment",
             },
           ],
         },

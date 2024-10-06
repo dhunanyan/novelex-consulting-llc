@@ -54,28 +54,44 @@ export const IconCardsSection = ({
         </button>
       </div>
       <ul className="icon-cards__list">
-        {cards
-          .slice(0, cards.length / 2)
-          .map(({ title, description, button, iconURL }, i) => (
-            <div
-              key={i}
-              style={{
-                margin: order === 0 ? "0 0 0 20px" : "0 20px 0 0",
-              }}
-            >
-              {cards.slice(cards.length / 2).map(() => (
-                <IconCard
-                  key={i + cards.length / 2}
-                  title={title}
-                  description={description}
-                  button={button}
-                  iconURL={iconURL}
-                  forceHideButton={forceHideButton}
-                  inverseColors={inverseColors}
-                />
-              ))}
-            </div>
-          ))}
+        <div
+          style={{
+            margin: order === 0 ? "0 0 0 20px" : "0 20px 0 0",
+          }}
+        >
+          {cards
+            .slice(0, cards.length / 2)
+            .map(({ title, description, button, iconURL }, i) => (
+              <IconCard
+                key={i + cards.length / 2}
+                title={title}
+                description={description}
+                button={button}
+                iconURL={iconURL}
+                forceHideButton={forceHideButton}
+                inverseColors={inverseColors}
+              />
+            ))}
+        </div>
+        <div
+          style={{
+            margin: order === 0 ? "0 0 0 20px" : "0 20px 0 0",
+          }}
+        >
+          {cards
+            .slice(cards.length / 2)
+            .map(({ title, description, button, iconURL }, i) => (
+              <IconCard
+                key={i + cards.length / 2}
+                title={title}
+                description={description}
+                button={button}
+                iconURL={iconURL}
+                forceHideButton={forceHideButton}
+                inverseColors={inverseColors}
+              />
+            ))}
+        </div>
       </ul>
     </div>
   </section>

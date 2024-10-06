@@ -10,6 +10,7 @@ export type ImageCardsSectionPropsType = {
     title: string;
     imageURL: string;
     iconURL: string;
+    redirectURL: string;
   }[];
 };
 
@@ -26,12 +27,13 @@ export const ImageCardsSection = ({
       </div>
 
       <ul className="image-cards__list">
-        {cards.map(({ title, imageURL, iconURL }, i) => (
+        {cards.map(({ title, imageURL, iconURL, redirectURL }, i) => (
           <ImageCard
             key={i}
             title={title}
             imageURL={imageURL}
             iconURL={iconURL}
+            redirectURL={redirectURL}
           />
         ))}
       </ul>
