@@ -1,6 +1,7 @@
 import * as React from "react";
 import { HtmlData } from "@data";
-import { Header, Footer, HeaderFallback } from "@components";
+import { Footer } from "@components";
+// import { Header, Footer, HeaderFallback } from "@components";
 
 import "./globals.scss";
 
