@@ -9,21 +9,21 @@ export type HeroSectionPropsType = {
   title: string;
   subtitle: string;
   imageURL: string;
-  isInverted?: boolean;
+  isInversed?: boolean;
 };
 
 export const HeroSection = ({
   title,
   subtitle,
   imageURL,
-  isInverted = false,
+  isInversed = false,
 }: HeroSectionPropsType) => (
-  <section className={"hero" + (isInverted ? " hero--inverted" : "")}>
+  <section className={"hero" + (isInversed ? " hero--inverted" : "")}>
     <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
     <div className="hero__container">
       <div
         className={
-          "hero__content" + (isInverted ? " hero__content--inverted" : "")
+          "hero__content" + (isInversed ? " hero__content--inverted" : "")
         }
       >
         <h3 className="hero__subtitle">{subtitle}</h3>

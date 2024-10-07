@@ -114,7 +114,7 @@ export const SubDropdownData: {
       },
       {
         id: "carbon-footprint-reduction",
-        text: "Contributions to Sustainability",
+        text: "Carbon Footprint Reduction",
         href: "/who-we-are/climate-strategy/carbon-footprint-reduction",
       },
     ],

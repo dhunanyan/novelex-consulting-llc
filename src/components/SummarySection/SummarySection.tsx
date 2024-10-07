@@ -12,7 +12,7 @@ export type SummarySectionPropsType = {
   button: string;
   redirectURL: string;
   imageURL: string;
-  isInverted?: boolean;
+  isInversed?: boolean;
 };
 
 export const SummarySection = ({
@@ -22,9 +22,9 @@ export const SummarySection = ({
   button,
   redirectURL,
   imageURL,
-  isInverted = false,
+  isInversed = false,
 }: SummarySectionPropsType) => (
-  <section className={"summary" + (isInverted ? " summary--inverted" : "")}>
+  <section className={"summary" + (isInversed ? " summary--inverted" : "")}>
     <div className="summary__container">
       <div className="summary__image">
         <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />

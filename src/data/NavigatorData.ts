@@ -33,7 +33,7 @@ export const NavigatorData = {
   "eco-friendly-practices": "Eco-Friendly Practices",
   "contributions-to-sustainability": "Contributions to Sustainability",
   "green-initiatives": "Green Initiatives",
-  "carbon-footprint-reduction": "Contributions to Sustainability",
+  "carbon-footprint-reduction": "Carbon Footprint Reduction",
 
   "our-partners": "Our Partners",
   "strategic-collaborations": "Strategic Collaborations",

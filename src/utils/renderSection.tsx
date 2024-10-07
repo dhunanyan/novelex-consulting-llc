@@ -31,7 +31,7 @@ export const renderSection = ({
   index: number;
   styleEvenIconCards?: boolean;
 }) => {
-  if (!section) {
+  if (!section || !section.type) {
     return null;
   }
 
