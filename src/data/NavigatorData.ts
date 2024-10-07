@@ -7,7 +7,7 @@ export const NavigatorData = {
   // WHO-WE-ARE
   "purpose-value-and-strategy": "Purpose, Value and Strategy",
   "our-purpose": "Our Purpose",
-  "our-values": "Our Values",
+  "our-value": "Our Values",
   "our-strategy": "Our Strategy",
 
   "our-people": "Our People",

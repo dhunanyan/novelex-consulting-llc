@@ -86,7 +86,7 @@ export const Content = {
           imageURL: "/images/imageCards/coins.jpg",
           iconURL: "logo",
           button: "Learn more",
-          redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
         },
         {
           title: "Climate strategy",
@@ -286,7 +286,7 @@ export const Content = {
           description:
             "Our values are the pillars of our organization. They drive our decisions and actions every day. Explore our commitment to innovation, quality, diversity, and sustainability.",
           button: "Learn more",
-          redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
+          redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -296,7 +296,7 @@ export const Content = {
                 "Learn how innovation is at the heart of everything we do.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
             {
               title: "Quality Assurance",
@@ -304,7 +304,7 @@ export const Content = {
                 "Explore our unwavering commitment to quality and accuracy.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
             {
               title: "Embracing Diversity",
@@ -312,7 +312,7 @@ export const Content = {
                 "Dive into our inclusive workplace and the strength of diverse perspectives.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
             {
               title: "Environmental Responsibility",
@@ -320,7 +320,7 @@ export const Content = {
                 "Discover our sustainability initiatives and commitment to the environment.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
+              redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
           ],
         },
@@ -2531,7 +2531,7 @@ export const Content = {
           button: "Back to Services",
           redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Corporate Legal Services",
@@ -2592,7 +2592,7 @@ export const Content = {
           button: "Back to Services",
           redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Commercial Litigation",
@@ -2653,7 +2653,7 @@ export const Content = {
           button: "Back to Services",
           redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Regulatory Audits",
@@ -2714,7 +2714,7 @@ export const Content = {
           button: "Back to Services",
           redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Cross-Border Compliance",
@@ -3089,6 +3089,68 @@ export const Content = {
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
+            },
+          ],
+        },
+      ],
+      "professional-development": [
+        {
+          type: "hero",
+          title: "Empowering Professional Growth",
+          subtitle:
+            "Customized Training Solutions for Every Professional Journey",
+          imageURL: "/images/hero/become-a-trainer.jpg",
+        },
+        {
+          type: "blank",
+          title: "Professional Development",
+          description:
+            "We understand that each individual and organisation has unique learning requirements. That's why our training programs are highly customisable, allowing you to tailor your learning journey to align with your specific goals and aspirations.",
+          button: "Back to Services",
+          redirectURL: "/services",
+        },
+        {
+          type: "icon-cards",
+          title: "Our Training Programs",
+          subtitle: "Diverse Learning Solutions for Professionals",
+          description:
+            "Explore a range of training options designed to enhance skills, foster growth, and drive success in the workplace.",
+          button: "Back to Services",
+          redirectURL: "/services",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
+          cards: [
+            {
+              title: "Leadership Development",
+              description:
+                "Empower yourself with essential leadership skills to drive team success and inspire innovation within your organisation.",
+              iconURL: "logo",
+              button: "Learn more",
+              redirectURL: "",
+            },
+            {
+              title: "Technical Skills Enhancement",
+              description:
+                "Upgrade your technical expertise with industry-leading training, tailored to meet the evolving demands of your profession.",
+              iconURL: "logo",
+              button: "Learn more",
+              redirectURL: "",
+            },
+            {
+              title: "Communication & Soft Skills",
+              description:
+                "Sharpen your communication and interpersonal skills, essential for fostering collaboration and improving workplace dynamics.",
+              iconURL: "logo",
+              button: "Learn more",
+              redirectURL: "",
+            },
+            {
+              title: "Project Management Training",
+              description:
+                "Master the art of managing projects effectively, with tools and techniques that ensure timely and successful outcomes.",
+              iconURL: "logo",
+              button: "Learn more",
+              redirectURL: "",
             },
           ],
         },

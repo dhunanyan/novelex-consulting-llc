@@ -5,7 +5,7 @@ export type NavigatorID =
   | "life-at-novelex"
   | "purpose-value-and-strategy"
   | "our-purpose"
-  | "our-values"
+  | "our-value"
   | "our-strategy"
   | "our-people"
   | "collective-excellence"

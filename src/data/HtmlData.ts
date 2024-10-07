@@ -792,7 +792,7 @@ export const HtmlData = {
           "Our Strategy: Our strategic vision is a roadmap that guides us towards our goals. We envision a future where our clients can confidently navigate the complexities of a globalised world. We achieve this by offering comprehensive language, digital, and tech solutions, always striving to exceed expectations and set industry standards.",
         keywords: "our strategy, Novelex Consulting",
       },
-      "our-values": {
+      "our-value": {
         title: "Our values | Novelex Consulting",
         description:
           "Our Values: Integrity, Innovation, Collaboration—these aren't just words on a wall; they are the very essence of Novelex. We hold ourselves to the highest ethical standards, constantly seek fresh ideas and innovative solutions, and foster an environment where collaboration is not just encouraged but cherished.",

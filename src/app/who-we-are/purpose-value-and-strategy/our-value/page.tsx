@@ -3,7 +3,7 @@ import { renderSection, SectionPropsType } from "@utils";
 
 const PAGE_ID = "who-we-are";
 const SUB_PAGE_ID = "purpose-value-and-strategy";
-const CURRENT_PAGE_ID = "our-values";
+const CURRENT_PAGE_ID = "our-value";
 
 export const metadata = HtmlData[PAGE_ID][SUB_PAGE_ID][CURRENT_PAGE_ID];
 

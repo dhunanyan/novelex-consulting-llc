@@ -15,9 +15,9 @@ export const SubDropdownData: {
         href: "/who-we-are/purpose-value-and-strategy/our-purpose",
       },
       {
-        id: "our-values",
+        id: "our-value",
         text: "Our Values",
-        href: "/who-we-are/purpose-value-and-strategy/our-values",
+        href: "/who-we-are/purpose-value-and-strategy/our-value",
       },
       {
         id: "our-strategy",
