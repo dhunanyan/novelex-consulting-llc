@@ -44,7 +44,12 @@ export const IconCardsSection = ({
           "icon-cards__content" +
           (order !== 0 ? " icon-cards__content--switched-order" : "")
         }
-        style={{ backgroundColor: contentBackgroundColor, order: order }}
+        style={{
+          ...(!inverseColors
+            ? { backgroundColor: contentBackgroundColor }
+            : {}),
+          order: order,
+        }}
       >
         <h3 className="icon-cards__subtitle">{subtitle}</h3>
         <h2 className="icon-cards__title">{title}</h2>

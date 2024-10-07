@@ -276,7 +276,7 @@ export const Content = {
           title: "Our Values",
           description:
             "Our Values: Integrity, Innovation, Collaboration - these aren't just words on a wall - they are the very essence of Novelex. We hold ourselves to the highest ethical standards, constantly seek fresh ideas and innovative solutions, and foster an environment where collaboration is not just encouraged but cherished.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -287,6 +287,8 @@ export const Content = {
             "Our values are the pillars of our organization. They drive our decisions and actions every day. Explore our commitment to innovation, quality, diversity, and sustainability.",
           button: "Learn more",
           redirectURL: "/who-we-are/purpose-value-and-strategy/our-values",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Innovation Excellence",
@@ -335,7 +337,7 @@ export const Content = {
           title: "Our Strategy",
           description:
             "Our Strategy: Our strategic vision is a roadmap that guides us towards our goals. We envision a future where our clients can confidently navigate the complexities of a globalised world. We achieve this by offering comprehensive language, digital, and tech solutions, always striving to exceed expectations and set industry standards.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -346,6 +348,8 @@ export const Content = {
             "Our strategy is a blend of innovation and adaptability. We navigate the ever-evolving landscape of global communication to bring you the best solutions.",
           button: "Learn more",
           redirectURL: "/who-we-are/purpose-value-and-strategy/our-strategy",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Innovative Approach",
@@ -398,7 +402,7 @@ export const Content = {
           title: "Our Purpose",
           description:
             "Our Purpose: At the heart of Novelex lies a clear and compelling purpose - to bridge communication gaps. In an era where global collaboration is paramount, our mission is to facilitate effective communication across linguistic and technological divides. We believe that when communication flows seamlessly, opportunities flourish, and businesses thrive.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -409,6 +413,8 @@ export const Content = {
             "At Novelex Consulting LLC, our purpose is clear: To break down language barriers and foster global understanding. Discover how this guiding principle shapes our mission and defines our identity.",
           button: "Learn more",
           redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Empowering Communication",
@@ -467,7 +473,7 @@ export const Content = {
           title: "Culture of Inclusivity and Empowerment",
           description:
             "Novelex is more than just a workplace - it's a culture that values diversity and empowers individuals to thrive. You will find a detailed exploration of how inclusivity and empowerment are woven into the fabric of our organisation. Learn about the initiatives, policies, and practices that contribute to creating an environment where every team member feels valued, heard, and empowered to contribute their best.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -478,6 +484,8 @@ export const Content = {
             "Our culture of inclusivity is the foundation of our success. We believe in the power of diverse perspectives and the strength that comes from embracing each individual. Learn how we foster an inclusive and empowering environment.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Embracing All Voices",
@@ -526,7 +534,7 @@ export const Content = {
           title: "Culture of Inclusivity and Empowerment",
           description:
             "Novelex is more than just a workplace - it's a culture that values diversity and empowers individuals to thrive. You will find a detailed exploration of how inclusivity and empowerment are woven into the fabric of our organisation. Learn about the initiatives, policies, and practices that contribute to creating an environment where every team member feels valued, heard, and empowered to contribute their best.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -537,6 +545,8 @@ export const Content = {
             "Our culture of inclusivity is the foundation of our success. We believe in the power of diverse perspectives and the strength that comes from embracing each individual. Learn how we foster an inclusive and empowering environment.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Embracing All Voices",
@@ -586,7 +596,7 @@ export const Content = {
           title: "Professional Growth",
           description:
             "Our commitment to our people extends to their professional growth and development. We provide a platform for continuous learning, offering opportunities for skill enhancement and career advancement. From mentorship programs to personalised development plans, we invest in our team members, ensuring they stay at the forefront of industry trends and are equipped for long-term success.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -597,6 +607,8 @@ export const Content = {
             "Professional growth is at the heart of our mission. We are dedicated to nurturing your skills, supporting your career journey, and inspiring you to reach new heights. Learn more about how we cultivate personal and professional development.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-people/professional-growth",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Continuous Learning",
@@ -645,7 +657,7 @@ export const Content = {
           title: "Well-being",
           description:
             "Beyond professional growth, we prioritise the well-being of our people. A healthy and happy team is at the core of our success. We offer comprehensive wellness programs, recognising the importance of work-life balance, mental health, and physical well-being. Our commitment to caring for the holistic needs of our team members extends to benefits packages that support a healthy and fulfilling lifestyle.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -656,6 +668,8 @@ export const Content = {
             "We believe in nurturing the well-being of our people—both in and out of the workplace. Learn how we support physical, mental, and emotional wellness, empowering our team to lead balanced and fulfilling lives.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-people/well-being",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Holistic Health",
@@ -714,7 +728,7 @@ export const Content = {
           title: "Innovative Solutions",
           description:
             "Collaboration with our partners is not just about combining resources but also about generating innovative solutions. By fostering an environment of open communication and idea exchange, we tap into the collective intelligence of our network. This collaborative approach enables us to address complex challenges creatively, deliver high-quality services, and stay adaptable in a dynamic business landscape.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -725,6 +739,8 @@ export const Content = {
             "We push boundaries and think outside the box to develop solutions that redefine industries. Our innovative strategies drive growth, efficiency, and lasting impact.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-partners/innovative-solutions",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "AI and Automation",
@@ -773,7 +789,7 @@ export const Content = {
           title: "Mutual Growth Endeavors",
           description:
             "Our partnerships go beyond transactional relationships - they are opportunities for mutual growth. We actively seek partners who are invested in fostering long-term success and innovation. Whether it's joint ventures, research collaborations, or shared projects, we believe that by growing together, we can create lasting impact and stay at the forefront of industry advancements.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -784,6 +800,8 @@ export const Content = {
             "We believe that true success is achieved when we grow together. Our mutual growth endeavors foster relationships that drive innovation, success, and shared achievements.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Co-Innovation Partnerships",
@@ -832,7 +850,7 @@ export const Content = {
           title: "Shared Vision and Values",
           description:
             "Central to our partnerships is a shared vision and a set of core values. We seek partners whose vision aligns with ours, ensuring a cohesive approach to problem-solving and goal achievement. Shared values, such as integrity, collaboration, and a commitment to excellence, form the foundation of our partnerships, fostering trust and synergy in our collaborative endeavors.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -843,6 +861,8 @@ export const Content = {
             "Our shared vision and values are at the core of everything we do. Together, we strive to create a future where success is measured not just by profits but by the positive impact we have on the world.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Purpose-Driven Goals",
@@ -891,7 +911,7 @@ export const Content = {
           title: "Strategic Collaborations",
           description:
             "Novelex Consulting values strategic collaborations with partners who share our commitment to excellence and integrity. These partnerships are carefully chosen to align with our business objectives and enhance the value we deliver to our clients. Through strategic collaborations, we leverage the collective expertise of our partners to achieve mutual success and amplify our impact in the industry.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -902,6 +922,8 @@ export const Content = {
             "Strategic collaborations are key to unlocking new opportunities. By working together, we leverage our combined strengths to innovate, grow, and lead in our industries.",
           button: "Learn more",
           redirectURL: "/who-we-are/our-partners/strategic-collaborations",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Industry Partnerships",
@@ -960,7 +982,7 @@ export const Content = {
           title: "Environmental Sustainability Projects",
           description:
             "Explore Novelex's role in environmental sustainability projects as part of our community engagement strategy. This includes initiatives to promote environmental awareness, conservation, and sustainable practices. Learn about our efforts to contribute to a healthier planet by participating in tree-planting campaigns, waste reduction projects, and other environmentally conscious activities. This section demonstrates our commitment to creating a positive impact not only in social spheres but also in environmental sustainability.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -971,6 +993,8 @@ export const Content = {
             "We believe in fostering sustainable practices that benefit both the planet and society. Through responsible resource management and innovative solutions, we strive to make a positive impact.",
           button: "Learn more",
           redirectURL: "/who-we-are/global-impact/environmental-responsibility",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Renewable Energy Initiatives",
@@ -1023,7 +1047,7 @@ export const Content = {
           title: "Global Perspective",
           description:
             "In a globalised world, embracing diversity is not just a moral imperative - it's a strategic advantage. Our diverse team helps us better understand and serve a wide range of clients from diverse backgrounds and regions.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1034,6 +1058,8 @@ export const Content = {
             "Our global collaborations focus on uniting diverse talents and resources to tackle pressing challenges. Together, we aim to create innovative solutions that have a lasting impact.",
           button: "Learn more",
           redirectURL: "/who-we-are/global-impact/global-collaborations",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "International Partnerships",
@@ -1082,7 +1108,7 @@ export const Content = {
           title: "Leveraging Diversity",
           description:
             "Our diverse workforce is a strategic asset that fuels our global impact. We believe in harnessing the power of different perspectives, cultures, and experiences. By fostering a multicultural environment, we bring unique insights to every project, ensuring solutions that are not only effective but culturally sensitive.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1093,6 +1119,8 @@ export const Content = {
             "We recognize that diversity fuels creativity and innovation. By embracing varied perspectives, we cultivate an inclusive environment where everyone can thrive.",
           button: "Learn more",
           redirectURL: "/who-we-are/global-impact/leveraging-diversity",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Diversity Training Programs",
@@ -1141,7 +1169,7 @@ export const Content = {
           title: "Social Responsibility",
           description:
             "Novelex Consulting is deeply committed to social responsibility. We actively engage in initiatives that address pressing global challenges, ranging from education and healthcare to poverty alleviation. Our goal is to contribute meaningfully to the communities where we operate, creating a positive and lasting impact.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1152,6 +1180,8 @@ export const Content = {
             "We believe in the power of social responsibility. By investing in our communities and fostering positive change, we strive to create a better tomorrow for all.",
           button: "Learn more",
           redirectURL: "/who-we-are/global-impact/social-responsibility",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Community Development Projects",
@@ -1210,7 +1240,7 @@ export const Content = {
           title: "Emerging Technologies Integration",
           description:
             "Uncover Novelex's proficiency in integrating emerging technologies. This section emphasises our capability to stay at the forefront of technological advancements, including artificial intelligence, machine learning, blockchain, and more. Our team actively explores and incorporates innovative technologies to enhance the digital capabilities of our clients. Whether it's automating processes, improving efficiency, or exploring new frontiers, we integrate emerging technologies strategically to drive digital transformation and stay ahead in the digital landscape.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1222,6 +1252,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/who-we-are/diversity-and-inclusion/embracing-differences",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Building Inclusive Teams",
@@ -1274,7 +1306,7 @@ export const Content = {
           title: "Energy and Enthusiasm for Success",
           description:
             "From the moment you join Novelex, you'll feel the energy and enthusiasm that fuel our drive for success. It's not just a job - it's an opportunity to be part of something bigger. The energy is contagious, stemming from the collective passion and dedication of our team members. This enthusiasm transforms the workplace into a dynamic hub where success is not just a goal but a shared journey. It's an environment that transcends boundaries, bringing people together through the powerful forces of language, technology, and human connection.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1285,6 +1317,8 @@ export const Content = {
             "We believe in empowering our employees by providing them with the tools, resources, and opportunities they need to succeed.",
           button: "Learn more",
           redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Leadership Development",
@@ -1333,7 +1367,7 @@ export const Content = {
           title: "Experienced Instructors",
           description:
             "Our instructors are seasoned experts in their respective fields, bringing real-world knowledge and insights to the training room. You'll learn from the best, gaining practical skills that can be applied immediately in your professional life.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1345,6 +1379,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/who-we-are/diversity-and-inclusion/equal-opportunities",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Fair Hiring Practices",
@@ -1397,7 +1433,7 @@ export const Content = {
           title: "Global Reach, Local Impact",
           description:
             "Novelex ensures a seamless journey for those pursuing global careers, offering opportunities that await your expertise. This section provides insights into our global presence and the localised impact you can make. Whether you're interested in regional hubs or global projects, our process ensures a smooth entry, connecting you to the diverse opportunities that contribute to our global success story.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1408,6 +1444,8 @@ export const Content = {
             "Our global perspective on diversity helps us foster inclusion in every region we operate.",
           button: "Learn more",
           redirectURL: "/who-we-are/diversity-and-inclusion/global-perspective",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Cross-Cultural Collaboration",
@@ -1460,7 +1498,7 @@ export const Content = {
           title: "Inclusive Sustainability",
           description:
             "Recognising that every team member plays a role in environmental stewardship, we encourage individual contributions to sustainability. This involves promoting awareness about eco-friendly practices, such as reducing paper usage, minimising energy consumption, and adopting sustainable commuting options. By fostering a culture of environmental consciousness, we empower each person to make a positive impact.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1471,6 +1509,8 @@ export const Content = {
             "We strive to create an inclusive culture where every individual is heard and appreciated for their unique contributions.",
           button: "Learn more",
           redirectURL: "/who-we-are/diversity-and-inclusion/inclusive-culture",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Inclusive Leadership",
@@ -1533,7 +1573,7 @@ export const Content = {
           title: "Lower Carbon Footprint",
           description:
             "Understanding the importance of addressing climate change, we implement strategies to reduce our carbon footprint. This includes the use of renewable energy sources, energy-efficient technologies, and regular assessments to identify areas for improvement. By adopting carbon footprint reduction strategies, we strive to be a leader in sustainable business practices and contribute to a low-carbon future.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1545,6 +1585,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/who-we-are/climate-strategy/carbon-footprint-reduction",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Renewable Energy",
@@ -1597,7 +1639,7 @@ export const Content = {
           title: "Craft Your Career Story",
           description:
             "At Novelex, your career isn't just a job - it's a personalised story of growth and achievement. This section highlights our commitment to crafting personalised growth paths for each team member. Explore opportunities for professional development, skill enhancement, and career progression tailored to your unique strengths and goals. Craft your career story at Novelex with personalised growth paths that reflect your individual journey.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1609,6 +1651,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/who-we-are/climate-strategy/contributions-to-sustainability",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Water Conservation",
@@ -1661,7 +1705,7 @@ export const Content = {
           title: "Educational Initiatives and Skill-Building Programs",
           description:
             "Dive into Novelex's commitment to education and skill-building through community engagement. This section outlines our initiatives to support educational programs, scholarships, and skill-building workshops. By investing in education, we aim to empower individuals and communities, providing them with the tools and resources needed for long-term success. Learn about our collaborative efforts to enhance educational opportunities and foster a culture of continuous learning.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1672,6 +1716,8 @@ export const Content = {
             "We integrate eco-friendly practices into all aspects of our operations, from green building initiatives to sustainable sourcing and procurement.",
           button: "Learn more",
           redirectURL: "/who-we-are/climate-strategy/eco-friendly-practices",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Green Buildings",
@@ -1724,7 +1770,7 @@ export const Content = {
           title: "Grow Your Career by Empowering Others",
           description:
             "Novelex recognises the dual benefit of becoming a trainer - not only do you contribute to the development of others, but you also grow in your own career. This section showcases trainer development pathways, where you can enhance your skills as an effective educator and mentor. Explore opportunities to grow as a leader within the training domain, contributing to the success of both your peers and your own career journey. Becoming a trainer at Novelex is a pathway to mutual growth and success.",
-          button: "Go to Who we are",
+          button: "Back to Who we are",
           redirectURL: "/who-we-are",
         },
         {
@@ -1735,6 +1781,8 @@ export const Content = {
             "We are committed to leading positive environmental change through innovative green initiatives, such as reforestation, renewable energy projects, and reducing our environmental footprint.",
           button: "Learn more",
           redirectURL: "/who-we-are/climate-strategy/green-initiatives",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Reforestation Projects",
@@ -1916,7 +1964,7 @@ export const Content = {
           title: "Data Analytics and Business Intelligence",
           description:
             "Explore Novelex's capabilities in data analytics and business intelligence. This section highlights how we leverage advanced analytics tools and technologies to derive meaningful insights from data. Our data experts work to transform raw data into actionable information, empowering businesses to make informed decisions. Whether it's predictive analytics, data visualisation, or business intelligence dashboards, our solutions are designed to enhance data-driven decision-making and drive business success.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -1929,6 +1977,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/digital-and-tech-solutions/cybersecurity-solutions",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Threat Detection",
@@ -1982,7 +2032,7 @@ export const Content = {
           title: "Digital and Tech Jobs",
           description:
             "Digital and Tech Jobs at Novelex: Pioneering Innovation, Shaping the Future. In the realm of Digital and Tech Jobs at Novelex, we invite individuals to be part of a dynamic and innovative landscape where technology is not just a tool but a catalyst for transformation. Here, your expertise is the driving force behind groundbreaking solutions that shape the future of our interconnected world. At Novelex, your expertise contributes to a culture of continuous innovation and progress. It's a space where technology is not just a tool but a canvas for creativity and problem-solving. Join us in shaping the future through digital excellence, where your skills become the driving force behind Novelex's technological evolution.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -1994,6 +2044,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Predictive Analytics",
@@ -2047,7 +2099,7 @@ export const Content = {
           title: "Employee Volunteerism and Outreach Programs",
           description:
             "Discover the ways in which Novelex encourages and supports employee volunteerism and outreach programs. Our team members actively participate in initiatives that contribute to the well-being of communities. From volunteering time and skills to organising community events, this section showcases the hands-on involvement of our employees in making a meaningful impact at the grassroots level. It's a testament to our belief in giving back to the communities that support us.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2060,6 +2112,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/digital-and-tech-solutions/emerging-technologies-integration",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Artificial Intelligence",
@@ -2113,7 +2167,7 @@ export const Content = {
           title: "Software Development",
           description:
             "Dive into Novelex's expertise in customised software development. This section showcases our proficiency in crafting tailored digital solutions to meet the unique needs of our clients. Our team of skilled developers works collaboratively to understand client requirements and deliver software solutions that are not only technologically advanced but also aligned with the specific goals and challenges of the business. From user-friendly interfaces to robust backend systems, our customised software development ensures a seamless digital experience.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2126,6 +2180,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/digital-and-tech-solutions/software-development",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Custom Applications",
@@ -2188,7 +2244,7 @@ export const Content = {
           title: "Comprehensive Financial Advisory Services",
           description:
             "Novelex's Financial Consultancy offers a comprehensive suite of financial advisory services, ensuring a holistic approach to managing your business's financial health. Our seasoned financial consultants bring extensive expertise in financial planning, risk management, and investment strategies. This includes specialised services such as accounting, where we provide meticulous bookkeeping, financial statement analysis, and compliance assessments, ensuring your financial records are accurate and aligned with industry standards. Additionally, our tax advisory services go beyond routine compliance, offering strategic tax planning, optimisation of tax efficiency, and proactive guidance to navigate the complexities of ever-changing tax regulations. This comprehensive approach ensures that our clients receive tailored financial guidance across various facets of their financial landscape.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2200,6 +2256,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/final-consultancy/comprehensive-financial-advisory-services",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Wealth Management",
@@ -2253,7 +2311,7 @@ export const Content = {
           title: "Forge Connections in a Supportive Work Community",
           description:
             "Joining Novelex is not just about a job - it's about becoming part of a supportive work community. In this section, we emphasise the importance of forging connections with colleagues who are not just coworkers but collaborators. Experience a workplace where mutual support, encouragement, and camaraderie are integral to our collective success. Build lasting professional relationships that go beyond the ordinary.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2265,6 +2323,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/final-consultancy/financial-planning-and-risk-management",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Retirement Planning",
@@ -2317,7 +2377,7 @@ export const Content = {
           title: "Performance Analysis and Informed Decision-Making",
           description:
             "Our Financial Consultancy is dedicated to empowering clients with the insights needed for informed decision-making. This includes thorough performance analysis, development of financial models, and identification of key metrics for success. By staying ahead of financial trends and leveraging our expertise, we empower our clients with the financial insights required to drive their business forward confidently and strategically.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2329,6 +2389,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/final-consultancy/performance-analysis-and-informed-decision-making",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Financial Reporting",
@@ -2381,7 +2443,7 @@ export const Content = {
           title: "Specialised Expertise in Financial Regulations",
           description:
             "What sets our Financial Consultancy apart is our specialised expertise in navigating the dynamic landscape of financial regulations. Our consultants are well-versed in interpreting complex financial regulations, staying abreast of industry standards, and providing insights that reflect the ever-evolving financial landscape. This ensures that our clients receive accurate advice aligned with the latest regulatory requirements, contributing to the sound financial governance of their business.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2393,6 +2455,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/final-consultancy/specialised-expertise-in-financial-regulations",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Compliance Audits",
@@ -2455,7 +2519,7 @@ export const Content = {
           title: "Eco-Friendly Practices",
           description:
             "Novelex Consulting is committed to minimising its environmental footprint through the implementation of eco-friendly office practices. This includes energy-efficient lighting, recycling programs, and reduction of single-use plastics. By adopting sustainable office practices, we aim to create a workspace that aligns with our values of environmental responsibility.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2465,6 +2529,8 @@ export const Content = {
           description: "MISSING_CONTENT",
           button: "Learn more",
           redirectURL: "/services/multilingual-solutions/document-translation",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "MISSING_CONTENT",
@@ -2513,7 +2579,7 @@ export const Content = {
           title: "Industry-Specific Language Solutions",
           description:
             "Discover Novelex's tailored language solutions designed for specific industries. This section emphasises our ability to provide industry-specific linguistic support, ensuring that translations and interpretations align with the specialised terminology and nuances of particular sectors. Whether it's healthcare, legal, technical, or any other industry, our language experts are equipped with the knowledge and expertise to deliver accurate and contextually relevant solutions.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2524,6 +2590,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/multilingual-solutions/industry-specific-language-solutions",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "MISSING_CONTENT",
@@ -2572,7 +2640,7 @@ export const Content = {
           title: "Interpretation",
           description:
             "Real-time language support for effective communication. Seize the moment with Novelex Interpretation services. In the fast-paced world of global business, real-time communication is paramount. Our interpreters bridge language gaps, ensuring that your meetings, negotiations, and conferences run smoothly. With exceptional linguistic skills and cultural awareness, our interpreters enable you to communicate effectively, no matter the language spoken.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2582,6 +2650,8 @@ export const Content = {
           description: "MISSING_CONTENT",
           button: "Learn more",
           redirectURL: "/services/multilingual-solutions/interpretation",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "MISSING_CONTENT",
@@ -2626,7 +2696,7 @@ export const Content = {
           title: "Mobile Interpretation",
           description:
             "Seamless interpretation services at your fingertips. In today's mobile world, access to interpretation services should be as simple as tapping a screen. Novelex's Mobile Interpretation brings real-time language support to your smartphone or tablet. Our user-friendly app connects you with professional interpreters instantly, allowing you to engage in multilingual conversations, no matter where you are. Seamlessly break language barriers and communicate with confidence, all from the palm of your hand.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2636,6 +2706,8 @@ export const Content = {
           description: "MISSING_CONTENT",
           button: "Learn more",
           redirectURL: "/services/multilingual-solutions/mobile-interpretation",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "MISSING_CONTENT",
@@ -2694,7 +2766,7 @@ export const Content = {
           title: "Eco-Friendly Practices",
           description:
             "Novelex Consulting is committed to minimising its environmental footprint through the implementation of eco-friendly office practices. This includes energy-efficient lighting, recycling programs, and reduction of single-use plastics. By adopting sustainable office practices, we aim to create a workspace that aligns with our values of environmental responsibility.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2705,6 +2777,8 @@ export const Content = {
             "Our document translation services ensure your message is conveyed accurately across different languages and cultures. We specialize in various fields, including legal, medical, and technical documents.",
           button: "Learn more",
           redirectURL: "/services/multilingual-solutions/document-translation",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Legal Document Translation",
@@ -2757,7 +2831,7 @@ export const Content = {
           title: "Industry-Specific Language Solutions",
           description:
             "Discover Novelex's tailored language solutions designed for specific industries. This section emphasises our ability to provide industry-specific linguistic support, ensuring that translations and interpretations align with the specialised terminology and nuances of particular sectors. Whether it's healthcare, legal, technical, or any other industry, our language experts are equipped with the knowledge and expertise to deliver accurate and contextually relevant solutions.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2769,6 +2843,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/services/multilingual-solutions/industry-specific-language-solutions",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Legal Translation",
@@ -2821,7 +2897,7 @@ export const Content = {
           title: "Interpretation",
           description:
             "Real-time language support for effective communication. Seize the moment with Novelex Interpretation services. In the fast-paced world of global business, real-time communication is paramount. Our interpreters bridge language gaps, ensuring that your meetings, negotiations, and conferences run smoothly. With exceptional linguistic skills and cultural awareness, our interpreters enable you to communicate effectively, no matter the language spoken.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2832,6 +2908,8 @@ export const Content = {
             "We offer professional interpretation services to help you communicate effectively in real-time during meetings, conferences, and events.",
           button: "Learn more",
           redirectURL: "/services/multilingual-solutions/interpretation",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Simultaneous Interpretation",
@@ -2880,7 +2958,7 @@ export const Content = {
           title: "Mobile Interpretation",
           description:
             "Seamless interpretation services at your fingertips. In today's mobile world, access to interpretation services should be as simple as tapping a screen. Novelex's Mobile Interpretation brings real-time language support to your smartphone or tablet. Our user-friendly app connects you with professional interpreters instantly, allowing you to engage in multilingual conversations, no matter where you are. Seamlessly break language barriers and communicate with confidence, all from the palm of your hand.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2891,6 +2969,8 @@ export const Content = {
             "Our mobile interpretation services ensure you have access to professional interpreters anytime, anywhere, through our app.",
           button: "Learn more",
           redirectURL: "/services/multilingual-solutions/mobile-interpretation",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Instant Access",
@@ -2953,7 +3033,7 @@ export const Content = {
           title: "Explore Novelex Worldwide",
           description:
             "Open the door to global opportunities with Novelex, where diverse locations shape your career journey. This section showcases our global footprint, urging you to explore an array of possibilities beyond borders. Whether your career vision involves contributing to global projects or focusing on specific regional hubs, Novelex provides a rich tapestry of opportunities where success is shared across the globe.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -2964,6 +3044,8 @@ export const Content = {
             "Our instructors bring a wealth of knowledge and experience to the classroom.",
           button: "Learn more",
           redirectURL: "/services/training-programme/experienced-instructors",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Industry Experts",
@@ -3016,7 +3098,7 @@ export const Content = {
           title: "Personalized Learning",
           description:
             "We understand that each individual and organisation has unique learning requirements. That's why our training programs are highly customisable, allowing you to tailor your learning journey to align with your specific goals and aspirations.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -3027,6 +3109,8 @@ export const Content = {
             "Our programs are designed to cater to individual learning styles and paces.",
           button: "Learn more",
           redirectURL: "/services/training-programme/personalized-learning",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Flexible Scheduling",
@@ -3074,7 +3158,7 @@ export const Content = {
           title: "Stay Ahead of the Curve",
           description:
             "In today's fast-paced world, staying ahead of the curve is essential. Our training programs provide you with the tools and knowledge needed to adapt to changing trends and emerging technologies.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -3085,6 +3169,8 @@ export const Content = {
             "Our training programs focus on the latest trends and skills in the industry.",
           button: "Learn more",
           redirectURL: "/services/training-programme/stay-ahead-of-the-curve",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Latest Techniques",
@@ -3137,7 +3223,7 @@ export const Content = {
           title: "Wide-Ranging Expertise",
           description:
             "Our training programs encompass a diverse range of topics tailored to meet the diverse needs of modern professionals. Whether you're looking to enhance your project management capabilities, hone your soft skills, or acquire new expertise, we have you covered.",
-          button: "Go to services",
+          button: "Back to Services",
           redirectURL: "/services",
         },
         {
@@ -3148,6 +3234,8 @@ export const Content = {
             "We offer a wide range of training programs to suit diverse needs.",
           button: "Learn more",
           redirectURL: "/services/training-programme/wide-ranging-expertise",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Technical Skills",
@@ -3331,7 +3419,7 @@ export const Content = {
           title: "Embrace Team Synergy and Collaboration",
           description:
             "At Novelex, we believe in the power of teamwork. Joining our team means embracing a culture of synergy and collaboration. This section highlights our commitment to creating an environment where every team member's contribution is valued, fostering a sense of unity that enhances creativity and productivity. Discover the strength that comes from working together towards shared goals.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3343,6 +3431,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Workshops and Training",
@@ -3393,7 +3483,7 @@ export const Content = {
           title: "Empowerment",
           description:
             "We actively seek out and amplify voices that may have been historically underrepresented. We believe that diversity is not just about numbers - it's about empowering all voices to contribute to our collective success.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3405,6 +3495,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Community Clean-Up Days",
@@ -3456,7 +3548,7 @@ export const Content = {
           title: "Equal Opportunities",
           description:
             "We take deliberate steps to ensure that diversity and inclusion are not just words on paper but principles in action. Our commitment extends to fair hiring practices, equal opportunities for growth, and ongoing education and awareness programs.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3468,6 +3560,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/community-engagement/environmental-sustainability-projects",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Recycling Programs",
@@ -3518,7 +3612,7 @@ export const Content = {
           title: "Strategic Partnerships for Social Impact",
           description:
             "Novelex's commitment to community engagement extends through strategic partnerships for social impact. In this section, explore how we collaborate with non-profit organisations, community groups, and local initiatives to address societal challenges. These partnerships go beyond financial contributions - they involve active participation and the application of our expertise to make a tangible and positive difference in the communities where we operate.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3530,6 +3624,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Local Nonprofits",
@@ -3593,7 +3689,7 @@ export const Content = {
           title: "Celebration with Our Community",
           description:
             "Beyond being a record of our achievements, this section is an invitation to join us in celebration. It's not just about us - it's about sharing our journey with you - our valued partners, clients, and supporters. As you explore this section, you become part of the collective celebration of our continuous progress. It's a testament to the collaborative spirit that defines Novelex, where success is shared, and achievements are celebrated together. Join us in recognising the positive impact we're making in the world.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3605,6 +3701,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/events-and-highlights/celebration-with-our-community",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Annual Community Picnic",
@@ -3653,7 +3751,7 @@ export const Content = {
           title: "Key Steps And Milestones",
           description:
             "Novelex is a dynamic entity that is always in motion, making continuous strides and achieving noteworthy milestones. The Events and Highlights section serves as a chronicle of our journey of success. It's a space where you can witness the ongoing progress, celebrate achievements, and stay informed about the significant milestones we consistently attain. From groundbreaking projects to setting new standards, this section keeps you abreast of our continuous pursuit of excellence.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3665,6 +3763,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "100th Project Completed",
@@ -3714,7 +3814,7 @@ export const Content = {
           title: "Insights into Achievements",
           description:
             "This section provides a curated insight into our significant achievements, offering a closer look at the moments that define our success story. Whether it's the launch of a groundbreaking project, industry recognition, or notable contributions to the community, we invite you to celebrate these achievements with us. By delving into the details, you'll gain a comprehensive understanding of the impact Novelex is making across various domains.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3725,6 +3825,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Award for Community Impact",
@@ -3773,7 +3875,7 @@ export const Content = {
           title: "Showcasing Solutions",
           description:
             "Stay informed about our latest developments and innovations through the Events and Highlights section. We understand the importance of staying at the forefront of industry trends and technological advancements. This section not only highlights our past achievements but also showcases the innovative solutions and developments that characterise Novelex. It's a window into our commitment to pushing boundaries and staying ahead in a rapidly evolving landscape.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3785,6 +3887,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Launch of New Services",
@@ -3845,7 +3949,7 @@ export const Content = {
           title: "Culture of Inclusivity",
           description:
             "Inclusivity is not just a buzzword - it's embedded in the fabric of our organisational culture. We celebrate the richness of our diverse team, recognising that each individual brings something valuable to the table. This commitment goes beyond rhetoric to create a workplace where everyone feels heard, valued, and empowered to contribute. We believe that a culture of inclusivity fuels creativity and fosters a sense of belonging among our team.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3857,6 +3961,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/experiencing-novelex/creativity-and-openness",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Collaborative Spaces",
@@ -3906,7 +4012,7 @@ export const Content = {
           title: "Environmental Responsibility",
           description:
             "Recognising the importance of environmental sustainability, we integrate eco-friendly practices into our operations. From minimising our carbon footprint to implementing green office initiatives, we strive to be stewards of the environment. Our commitment extends to promoting sustainability practices among our partners and clients.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3918,6 +4024,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Passionate Teams",
@@ -3967,7 +4075,7 @@ export const Content = {
           title: "Sense of Purpose in All We Do",
           description:
             "Within the Novelex experience, there's a pervasive sense of purpose that guides everything we do. This purpose is rooted in our commitment to connect, communicate, and make a lasting impact on the world. Beyond just performing tasks, there is a collective dedication among our team members to contribute to something meaningful. It's an environment where individuals find purpose in their work, creating a collective sense of mission that transcends the ordinary.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -3979,6 +4087,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Community Engagement",
@@ -4028,7 +4138,7 @@ export const Content = {
           title: "Vibrant and Diverse Culture",
           description:
             "Stepping into the world of Novelex means immersing yourself in a vibrant and diverse culture. Our workplace is not merely a destination - it's an experience characterised by the unique blend of languages, innovation, and collaboration. This vibrant culture is a direct reflection of the diversity within our team, with members hailing from various walks of life, bringing their distinct perspectives and talents to create an environment that is dynamic and rich in cultural nuances.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4040,6 +4150,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Cultural Celebrations",
@@ -4098,7 +4210,7 @@ export const Content = {
           title: "Collaborative Spirit in Action",
           description:
             "Uncover the collaborative spirit that defines Novelex's unique culture. It goes beyond words to showcase the collaborative spirit in action. Through anecdotes, projects, and collaborative initiatives, you'll see how our culture fosters an environment where ideas flourish and teamwork thrives. This collaborative ethos is a key component of what sets Novelex apart, contributing to our collective success and the positive impact we make.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4110,6 +4222,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Cross-Functional Teams",
@@ -4161,7 +4275,7 @@ export const Content = {
           title: "Customized Benefits Packages",
           description:
             "Learn about the customised benefits packages designed to support the diverse needs of our team members. This section outlines the range of benefits offered, including health insurance, retirement plans, flexible work arrangements, and more. Our goal is to create a supportive work environment where employees feel valued and cared for, allowing them to focus on their roles with peace of mind regarding their overall well-being.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4173,6 +4287,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Inclusive Leadership",
@@ -4224,7 +4340,7 @@ export const Content = {
           title: "Personal Stories and Experiences",
           description:
             "Gain a unique perspective by exploring the personal stories and experiences of our team members. Here you will find a treasure trove of narratives that offer a firsthand look at the driving force behind Novelex's success - our exceptional people. Through these stories, you'll witness the diverse backgrounds, skills, and journeys that contribute to the richness of our culture. It's an opportunity to connect with the human side of our organisation and understand the individual experiences that collectively shape Novelex.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4236,6 +4352,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Employee Spotlights",
@@ -4285,7 +4403,7 @@ export const Content = {
           title: "Values and Principles at the Core",
           description:
             "Delve into the heart of Novelex by exploring our team and culture insights, where you'll encounter the foundational values and principles that drive every decision and action within our organisation. It will provide an in-depth understanding of the bedrock upon which Novelex's success is built. Our commitment to fostering a culture of inclusivity, collaboration, and respect is highlighted, showcasing the core values that guide our daily operations and interactions.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4297,6 +4415,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Integrity",
@@ -4356,7 +4476,7 @@ export const Content = {
           title: "Comprehensive Health and Wellness Programs",
           description:
             "Explore Novelex's commitment to employee well-being through comprehensive health and wellness programs. In this section, discover the range of initiatives aimed at promoting physical, mental, and emotional well-being among our team members. From fitness programs and health screenings to mental health resources and wellness workshops, we prioritise a holistic approach to ensure our employees thrive in both their personal and professional lives.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4368,6 +4488,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Nutrition Counseling",
@@ -4420,7 +4542,7 @@ export const Content = {
           title: "Cybersecurity Solutions",
           description:
             "Learn about Novelex's commitment to cybersecurity solutions. This section outlines how we address the evolving challenges of digital security. Our cybersecurity experts employ cutting-edge technologies and best practices to safeguard digital assets, sensitive information, and critical systems. From threat detection and prevention to risk management, our solutions are tailored to fortify the digital infrastructure of our clients, ensuring a secure and resilient digital presence.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4432,6 +4554,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Health Insurance Plans",
@@ -4484,7 +4608,7 @@ export const Content = {
           title: "Professional Development Opportunities",
           description:
             "Uncover how Novelex goes beyond traditional benefits by providing professional development and training opportunities. We believe that investing in the growth and skill enhancement of our employees is integral to their overall well-being. This section highlights initiatives such as ongoing training programs, skill-building workshops, and opportunities for career advancement, ensuring that our team members stay ahead in their professional journey.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4496,6 +4620,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Workshops and Seminars",
@@ -4548,7 +4674,7 @@ export const Content = {
           title: "Work-Life Balance",
           description:
             "Delve into the work-life balance initiatives implemented at Novelex to support the overall well-being of our employees. This includes flexible work arrangements, family-friendly policies, and initiatives that promote a healthy integration of work and personal life. By fostering a positive work-life balance, we aim to enhance job satisfaction, reduce stress, and contribute to the overall happiness and fulfillment of our team members.",
-          button: "Go to Life at Novelex",
+          button: "Back to Life at Novelex",
           redirectURL: "/life-at-novelex",
         },
         {
@@ -4560,6 +4686,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/life-at-novelex/wellness-and-benefits/work-life-balance",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Flexible Work Hours",
@@ -4748,7 +4876,7 @@ export const Content = {
           title: "Contribute to Professional Development Programs",
           description:
             "Joining Novelex as a trainer means contributing to professional development programs. This section emphasises the role of trainers in shaping the skills and competencies of fellow team members. Explore the opportunity to design and deliver training programs that foster continuous learning, skill enhancement, and career growth. Contribute to the development of a dynamic and skilled workforce within the Novelex community.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -4760,6 +4888,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/become-a-trainer/contribute-to-professional-development-programs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Mentorship Opportunities",
@@ -4813,7 +4943,7 @@ export const Content = {
           title: "Inclusive Culture",
           description:
             "Inclusion is more than a buzzword for us - it's a daily practice. We actively foster an inclusive culture where every team member feels valued, heard, and empowered to contribute their best. We understand that true inclusivity goes beyond numbers - it's about creating a sense of belonging.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -4825,6 +4955,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/become-a-trainer/grow-your-career-by-empowering-others",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Professional Growth",
@@ -4877,7 +5009,7 @@ export const Content = {
           title: "Shape the Learning Experience",
           description:
             "Becoming a trainer at Novelex means shaping the learning experience for your peers. This section highlights the importance of trainers in tailoring training approaches to meet the diverse needs of the team. Whether it's designing language courses, tech workshops, legal training, or financial education, trainers play a pivotal role in creating engaging and impactful learning experiences that contribute to the professional growth of the entire team.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -4889,6 +5021,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/become-a-trainer/shape-the-learning-experience",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Curriculum Design",
@@ -4941,7 +5075,7 @@ export const Content = {
           title: "Share Your Expertise",
           description:
             "As a Novelex trainer, you have the opportunity to share your expertise in your domain of excellence. This section encourages individuals who are experts in languages, technology, legal matters, or finance to step into the role of a trainer. Whether you excel in linguistic nuances, tech innovations, legal complexities, or financial strategies, becoming a trainer allows you to impart your knowledge and experience to the next generation of professionals.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -4952,6 +5086,8 @@ export const Content = {
             "Share your knowledge and experiences with others in our community.",
           button: "Learn more",
           redirectURL: "/careers/become-a-trainer/share-your-expertise",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Knowledge Sharing",
@@ -5009,7 +5145,7 @@ export const Content = {
           title: "Collaborate and Soar",
           description:
             "Join Novelex's collaborative and inclusive team culture, where your contributions matter. This section focuses on career opportunities within our vibrant and inclusive team. Explore roles that align with your skills and thrive in a culture that values diversity and teamwork. Your career at Novelex is a collaborative journey where every team member plays a crucial role, contributing to our shared success.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5021,6 +5157,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/explore-career-opportunities/collaborate-and-soar",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Team Projects",
@@ -5073,7 +5211,7 @@ export const Content = {
           title: "Creativity and Openness",
           description:
             "At Novelex, you'll encounter an atmosphere of creativity and openness that sets us apart. We foster an environment where ideas flow freely, encouraging every team member to contribute their unique insights. The culture we cultivate values open communication, allowing every voice to be heard. This commitment to creativity and openness is a catalyst for innovation, ensuring that our workplace is not ordinary but a space where new ideas are embraced and thrive.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5085,6 +5223,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/explore-career-opportunities/craft-your-career-story",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Personal Development",
@@ -5135,7 +5275,7 @@ export const Content = {
           title: "Dispute Resolution and Litigation Support",
           description:
             "Learn about Novelex's capabilities in dispute resolution and litigation support. This section outlines how our legal consultancy extends to managing legal conflicts effectively. From alternative dispute resolution mechanisms to providing support in litigation processes, our legal experts work to protect the interests of our clients. We aim to find practical and efficient solutions, mitigating legal risks and ensuring that our clients are well-prepared in legal disputes.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5147,6 +5287,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/explore-career-opportunities/discover-your-niche",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Career Assessments",
@@ -5197,7 +5339,7 @@ export const Content = {
           title: "Innovate, Thrive, Succeed",
           description:
             "Ignite your career in a dynamic and innovative environment at Novelex. This section emphasises our commitment to providing opportunities that challenge and inspire. Explore roles that blend innovation and dynamism, pushing you to excel and contribute to cutting-edge projects. Your journey at Novelex isn't just a job - it's a dynamic career that embraces innovation and encourages continuous growth.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5209,6 +5351,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/explore-career-opportunities/innovate-thrive-succeed",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Creative Solutions",
@@ -5270,7 +5414,7 @@ export const Content = {
           title: "Discover Your Niche",
           description:
             "Explore a world of exciting possibilities at Novelex with diverse career roles spanning languages, technology, law, and finance. Whether you're passionate about languages, technology innovations, legal complexities, or financial strategies, Novelex offers a spectrum of roles tailored to your expertise and interests. Discover your niche and thrive in a career that aligns with your aspirations.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5281,6 +5425,8 @@ export const Content = {
             "From software development to data analysis, find the right job that matches your tech skills and aspirations.",
           button: "Learn more",
           redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Software Engineer",
@@ -5328,7 +5474,7 @@ export const Content = {
           title: "Financial Planning and Risk Management",
           description:
             "Beyond routine financial management, Novelex's Financial Consultancy emphasises proactive financial planning and risk management. Our experts work closely with clients to develop strategies for optimal resource allocation, identify opportunities for growth, and address specific financial concerns. This proactive approach ensures that businesses are well-prepared to navigate uncertainties, optimise financial processes, and foster long-term financial sustainability.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5339,6 +5485,8 @@ export const Content = {
             "Whether you’re interested in investment banking, accounting, or financial planning, find your path in finance.",
           button: "Learn more",
           redirectURL: "/careers/find-a-job/finance-jobs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Financial Analyst",
@@ -5386,7 +5534,7 @@ export const Content = {
           title: "Language Jobs",
           description:
             "Language Jobs at Novelex: Bridging Worlds through Expertise. In the vibrant landscape of Language Jobs at Novelex, we extend an invitation to individuals who appreciate the transformative power of language. Here, language is not merely a tool - it's the bridge that connects cultures, facilitates understanding, and shapes impactful communication.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5397,6 +5545,8 @@ export const Content = {
             "From translation to teaching, discover a variety of careers that leverage your multilingual abilities.",
           button: "Learn more",
           redirectURL: "/careers/find-a-job/language-jobs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Translator",
@@ -5443,7 +5593,7 @@ export const Content = {
           title: "Legal Jobs",
           description:
             "Legal Jobs at Novelex: Navigating the Intersection of Law and Innovation. Embark on a dynamic journey within the Legal Jobs at Novelex, where the traditional realm of law meets the innovation and global perspective of a consulting powerhouse. Here, legal professionals play a crucial role in shaping the legal landscape of an organisation that thrives on diversity, technology, and a commitment to excellence. at Novelex, legal professionals are not just practitioners - they are integral contributors to the company's commitment to excellence, innovation, and global impact. Join us in navigating the intersection of law and innovation, where legal expertise becomes a catalyst for the success and ethical operation of a consulting company that operates on a global stage.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5454,6 +5604,8 @@ export const Content = {
             "Whether you’re looking to become a lawyer, paralegal, or legal advisor, find your niche in the legal profession.",
           button: "Learn more",
           redirectURL: "/careers/find-a-job/legal-jobs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Attorney",
@@ -5501,7 +5653,7 @@ export const Content = {
           title: "Trainer Jobs",
           description:
             "Trainer Jobs at Novelex: Inspiring Growth, Empowering Expertise. In the realm of Trainer Jobs at Novelex, we extend an invitation to individuals who are not just experts in their domains but passionate about sharing their knowledge. Here, the role of a trainer goes beyond imparting information. it's about inspiring growth, fostering collaboration, and empowering expertise within a dynamic and diverse community. At Novelex, your role is not just about sharing knowledge - it's about fostering a culture of continuous learning, collaboration, and empowerment. Join us in inspiring growth and shaping the learning landscape within a community that values the exchange of expertise and the collective pursuit of excellence.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5512,6 +5664,8 @@ export const Content = {
             "Whether you’re focused on corporate training, fitness, or education, find a rewarding role that helps others grow.",
           button: "Learn more",
           redirectURL: "/careers/find-a-job/trainer-jobs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Corporate Trainer",
@@ -5571,7 +5725,7 @@ export const Content = {
           title: "Embracing Differences",
           description:
             "We believe that diversity is a wellspring of creativity and innovation. By embracing differences in ethnicity, gender, age, abilities, and experiences, we create an environment where fresh ideas flourish, and varied viewpoints enrich our solutions.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5583,6 +5737,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/join-our-team/embrace-team-synergy-and-collaboration",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Team Workshops",
@@ -5635,7 +5791,7 @@ export const Content = {
           title: "Global Collaboration Center",
           description:
             "Immerse yourself in the global dialogue at Novelex, where collaboration transcends borders. This section underscores our commitment to cross-continental collaboration, inviting individuals to contribute to projects that span continents. Whether your base is in North America, Europe, Asia, or elsewhere, Novelex provides a platform for professionals to engage in a global dialogue and make a significant impact on international projects.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5647,6 +5803,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Social Events",
@@ -5698,7 +5856,7 @@ export const Content = {
           title: "Join a Global Team",
           description:
             "Novelex is a global team, bringing together diverse perspectives and talents. This section provides insights into our global presence, emphasising the strength that comes from a team with varied experiences and backgrounds. Join us in embracing the richness of diversity as we work together towards shared goals. Learn, collaborate, and contribute to a team that transcends boundaries and thrives on the collective strength of its members.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5709,6 +5867,8 @@ export const Content = {
             "Join us to work alongside professionals from various backgrounds and cultures.",
           button: "Learn more",
           redirectURL: "/careers/join-our-team/join-a-global-team",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "International Collaboration",
@@ -5757,7 +5917,7 @@ export const Content = {
           title: "Team Growth is Personal Growth",
           description:
             "Our belief in team growth extends to personal growth. Explore opportunities for professional development in a collaborative setting. This section underscores our commitment to investing in the growth journey of each team member. Whether through mentorship programs, skill-building initiatives, or career advancement pathways, discover how your individual growth contributes to the collective success of the team.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5768,6 +5928,8 @@ export const Content = {
             "Join us to access opportunities for continuous learning and development.",
           button: "Learn more",
           redirectURL: "/careers/join-our-team/team-growth-is-personal-growth",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Professional Development Workshops",
@@ -5829,7 +5991,7 @@ export const Content = {
           title: "Coaching",
           description:
             "Coaching at Novelex: Nurturing Excellence, Unleashing Potential. At Novelex, our coaching program is a dynamic and personalised initiative designed to foster individual and collective excellence. Rooted in the belief that every team member possesses untapped potential, our coaching approach provides guidance, support, and strategic insights for both personal and professional development.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5841,6 +6003,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/personal-and-professional-development/coaching",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Goal Setting",
@@ -5890,7 +6054,7 @@ export const Content = {
           title: "Investing in Your Growth",
           description:
             "Invest in Your Growth - Novelex Supports Your Journey Toward Excellence. Your growth is our priority. At Novelex, we offer a range of professional development programs designed to nurture your skills and capabilities. Whether you're looking to enhance your expertise in languages, technology, leadership, or other areas, our programs are tailored to support your journey toward excellence. We believe that investing in your development not only benefits you but also strengthens our collective success. Join us on the path to continuous growth and achievement.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5902,6 +6066,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/personal-and-professional-development/investing-in-your-growth",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Workshops",
@@ -5953,7 +6119,7 @@ export const Content = {
           title: "Mentoring",
           description:
             "Mentoring at Novelex: Guiding Journeys, Cultivating Excellence. Mentoring at Novelex is a robust and collaborative initiative designed to guide individuals on their professional journeys, cultivate excellence, and foster a culture of knowledge transfer and continuous learning. Rooted in the belief that the collective wisdom of experienced individuals can elevate the entire team, our mentoring program is a testament to our commitment to the growth and success of each team member.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -5965,6 +6131,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/personal-and-professional-development/mentoring",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Pairing with Mentors",
@@ -6017,7 +6185,7 @@ export const Content = {
           title: "Talent Management",
           description:
             "Talent Management at Novelex: Nurturing Potential, Driving Excellence. Talent Management at Novelex is a comprehensive and strategic approach to identifying, developing, and maximising the potential of our diverse workforce. Rooted in the belief that our greatest asset is our people, the Talent Management program is designed to align individual talents with organisational goals, fostering a culture of continuous growth, innovation, and excellence.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -6029,6 +6197,8 @@ export const Content = {
           button: "Learn more",
           redirectURL:
             "/careers/personal-and-professional-development/talent-management",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Performance Evaluations",
@@ -6091,7 +6261,7 @@ export const Content = {
           title: "Finance Jobs",
           description:
             "Finance Jobs at Novelex: Shaping Financial Excellence in a Global Context. Step into the realm of Finance Jobs at Novelex, where financial professionals are not just number crunchers but strategic architects shaping the fiscal success of a global consulting company. Here, finance is more than transactions - it's about orchestrating financial strategies that drive growth, innovation, and sustained success. at Novelex, finance professionals play a vital role in steering the financial trajectory of a global consulting company. Join us in the dynamic intersection of finance and consulting, where your financial expertise becomes a catalyst for the sustained success and strategic growth of Novelex on the global stage.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -6102,6 +6272,8 @@ export const Content = {
             "Novelex has a wide range of locations offering diverse career opportunities. Explore our offices and see where you could fit in.",
           button: "Learn more",
           redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "North America",
@@ -6149,7 +6321,7 @@ export const Content = {
           title: "Global Collaborations",
           description:
             "Novelex Consulting believes in the power of collaboration. We actively seek and foster partnerships with organisations, nonprofits, and businesses that share our commitment to positive global impact. Through collaborative efforts, we aim to amplify our reach, share expertise, and collectively contribute to a better world.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -6160,6 +6332,8 @@ export const Content = {
             "Our Global Collaboration Center fosters teamwork and innovation. Work with talented individuals from diverse backgrounds and cultures.",
           button: "Learn more",
           redirectURL: "/careers/where-we-hire/global-collaboration-center",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Team Projects",
@@ -6208,7 +6382,7 @@ export const Content = {
           title: "Green Initiatives",
           description:
             "Novelex Consulting is actively engaged in advocating for and supporting green initiatives. This involves participating in local and global environmental campaigns, supporting tree-planting projects, and collaborating with organisations committed to sustainability. By advocating for green initiatives, we extend our commitment beyond internal practices to contribute to broader environmental causes.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -6219,6 +6393,8 @@ export const Content = {
             "Novelex is dedicated to making a positive impact in the communities we serve, fostering sustainable growth and development.",
           button: "Learn more",
           redirectURL: "/careers/where-we-hire/global-reach-local-impact",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "Community Engagement",
@@ -6267,7 +6443,7 @@ export const Content = {
           title: "Regional Career Hubs",
           description:
             "Navigate your career within Novelex's regional hubs, each presenting a unique landscape for growth. This section offers insights into the distinctive opportunities and challenges within each hub. Delve into how your skills can make a meaningful impact in these specific regions, shaping your career in alignment with regional dynamics and global aspirations.",
-          button: "Go to careers",
+          button: "Back to Careers",
           redirectURL: "/careers",
         },
         {
@@ -6278,6 +6454,8 @@ export const Content = {
             "Our regional career hubs are designed to connect talented individuals with exciting job opportunities in their area.",
           button: "Learn more",
           redirectURL: "/careers/where-we-hire/regional-career-hubs",
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
             {
               title: "North America Hub",
