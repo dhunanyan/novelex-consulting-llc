@@ -1,0 +1,18 @@
+// TODO: create an object for each of the subpages (not sub-subpages) which is a tiles section or even the image cards section and add it to each sub-subpage of that subpage
+// Example: careers has 6 folders so this has to be an array of 6 objects with links titles descriptions image etc... - once this is done add that section to each of the careers/[folder]/page.tsx (as a 4th section - currently only hero, blank, iconCardsSection)
+
+// TODO: change all the icons of the whole app (which are currently logos) to actual ones.
+
+// TODO: Handle the load time of the images. They take too much time to load - probably should be compressed (as input - not in the runtime).
+// PS: Should have a bash compressor installed already.
+
+// TODO: Implement Contact button click - which should open a Modal containing contact info with social media links and Email etc.
+
+// TODO: Create find your job list with a search bar and items inside of them - with a possibility to apply using form, which contains following fields: Name, Surname, Mail, PDF Document, Rich Text Box. This should be a Modal.
+
+// TODO: investigate if can change the folder/page.tsx to [id].tsx dynamic route path - since there are lot's of code duplications.
+// Investigate if this requires a client side render.
+
+// TODO: investigate if there should be content changed somewhere
+
+// TODO: create T&C etc... page
