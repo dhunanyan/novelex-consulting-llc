@@ -9,6 +9,17 @@
             ".*"),
         \},
         \{
+          type: "blank",
+          title:( ".*"|
+            ".*"),
+          description:( ".*"|
+            ".*"),
+          button:( ".*"|
+            ".*"),
+          redirectURL:( ".*"|
+            ".*"),
+        \},
+        \{
           type: "icon-cards",
           title:( ".*"|
             ".*"),
