@@ -6492,3 +6492,41 @@ export const Content = {
     },
   },
 };
+
+export const GeneralContent = {
+  type: "tiles",
+  title: "Elevating Communication, Connecting Worlds",
+  description:
+    "The purpose is rooted in our commitment to connect, communicate, and make a lasting impact on the world",
+  imageURL: "/images/tiles/general.jpg",
+  tiles: [
+    {
+      title: "Who we are",
+      description:
+        "Together, we transcend boundaries and create a future of limitless communication and growth.",
+      button: "Read more",
+      redirectURL: "/who-we-are",
+    },
+    {
+      title: "Life at Novelex",
+      description:
+        "Vibrant tapestry woven from innovation, collaboration, and a shared dedication to bridging boundaries.",
+      button: "Read more",
+      redirectURL: "/life-at-novelex",
+    },
+    {
+      title: "Careers",
+      description:
+        "Elevating Solutions, Empowering Success. Dive into the heart of Novelex's Services, where our commitment is not just to deliver solutions but to elevate the way businesses, individuals, and organizations connect, communicate, and thrive.",
+      button: "Read more",
+      redirectURL: "/careers",
+    },
+    {
+      title: "Services",
+      description:
+        "Your Gateway to a Dynamic and Inclusive Professional JourneyEmbark on a transformative professional journey with Careers at Novelex,",
+      button: "Read more",
+      redirectURL: "/services",
+    },
+  ],
+};

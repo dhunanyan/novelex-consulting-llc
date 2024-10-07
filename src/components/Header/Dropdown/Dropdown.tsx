@@ -25,7 +25,7 @@ export const Dropdown = ({
   closeDropDown,
   onItemClick,
 }: DropdownPropsType) => {
-  const { title, description, goToLink, navList, extraContent } =
+  const { title, description, goToLink, navList, GeneralContent } =
     DropdownData[viewId];
 
   return (
@@ -65,17 +65,17 @@ export const Dropdown = ({
             <Image
               layout="fill"
               objectFit="cover"
-              src={extraContent.imagePath}
-              alt={extraContent.imageAlt}
+              src={GeneralContent.imagePath}
+              alt={GeneralContent.imageAlt}
             />
           </div>
 
           <h3 className="dropdown__extra-content-subtitle">
-            {extraContent.subtitle}
+            {GeneralContent.subtitle}
           </h3>
 
           <h2 className="dropdown__extra-content-motto">
-            {extraContent.motto}
+            {GeneralContent.motto}
           </h2>
         </div>
       ) : (

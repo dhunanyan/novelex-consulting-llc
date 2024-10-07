@@ -4,7 +4,7 @@ export const DropdownData: {
     description: string;
     goToLink: string;
     navList: { id: string; text: string; href: string }[];
-    extraContent: {
+    GeneralContent: {
       imagePath: string;
       imageAlt: string;
       subtitle: string;
@@ -49,7 +49,7 @@ export const DropdownData: {
         href: "/who-we-are/our-partners",
       },
     ],
-    extraContent: {
+    GeneralContent: {
       imagePath: "/images/header/who-we-are.jpg",
       imageAlt: "Who we are",
       subtitle: "Crafting Connections Beyond Words",
@@ -88,7 +88,7 @@ export const DropdownData: {
         href: "/life-at-novelex/wellness-and-benefits",
       },
     ],
-    extraContent: {
+    GeneralContent: {
       imagePath: "/images/header/life-at-novelex.jpg",
       imageAlt: "Life at Novelex",
       subtitle: "Thriving in a Culture of Diversity",
@@ -127,7 +127,7 @@ export const DropdownData: {
         href: "/services/training-programme",
       },
     ],
-    extraContent: {
+    GeneralContent: {
       imagePath: "/images/header/services.jpg",
       imageAlt: "Services",
       subtitle: "Enabling Multilingual Excellence",
@@ -171,7 +171,7 @@ export const DropdownData: {
         href: "/careers/personal-and-professional-development",
       },
     ],
-    extraContent: {
+    GeneralContent: {
       imagePath: "/images/header/careers.jpg",
       imageAlt: "Careers",
       subtitle: "Join Our Global Team of Innovators",

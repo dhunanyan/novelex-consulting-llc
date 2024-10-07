@@ -1,4 +1,4 @@
-import { HtmlData, Content } from "@data";
+import { HtmlData, Content, GeneralContent } from "@data";
 import { Sections } from "@config";
 import { renderSection, SectionPropsType } from "@utils";
 
@@ -12,13 +12,20 @@ const sections = Content[PAGE_ID][SUB_PAGE_ID] as unknown as {
   [key: string]: SectionPropsType[];
 };
 
+const firstChunk = Object.keys(sections).map((key) =>
+  sections[key].find((s) => s.type === Sections.ICON_CARDS)
+);
+const secondChunk = firstChunk.splice(0, 3);
+
 const sectionsToRender = [
   // HeroSection
   ...(Content[PAGE_ID][SUB_PAGE_ID][CURRENT_PAGE_ID] as SectionPropsType[]),
-  // Icon Cards Sub pages
-  ...Object.keys(sections).map((key) =>
-    sections[key].find((s) => s.type === Sections.ICON_CARDS)
-  ),
+  // Some of the Icon Cards from Sub pages
+  ...firstChunk,
+  // Set of Tiles of main pages
+  GeneralContent as SectionPropsType,
+  // The rest of the Icon Cards from Sub pages
+  ...secondChunk,
 ];
 
 const Page = () => (
