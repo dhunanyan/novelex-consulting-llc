@@ -2502,244 +2502,251 @@ export const Content = {
       index: [
         {
           type: "hero",
-          title: "Legal Consultancy",
-          subtitle: "MISSING_CONTENT",
-          imageURL: "/images/hero/multilingual-solutions.jpg",
+          title: "Expert Legal Consultancy",
+          subtitle: "Comprehensive Solutions Tailored to Your Legal Needs",
+          imageURL: "/images/hero/legal-consultancy.jpg",
         },
       ],
-      "document-translation": [
+      "comprehensive-legal-advisory": [
         {
           type: "hero",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          imageURL: "/images/hero/multilingual-solutions.jpg",
+          title: "Comprehensive Legal Advisory",
+          subtitle: "Providing Expertise Across a Range of Legal Domains",
+          imageURL: "/images/hero/legal-consultancy.jpg",
         },
         {
           type: "blank",
-          title: "Eco-Friendly Practices",
+          title: "Expert Legal Guidance",
           description:
-            "Novelex Consulting is committed to minimising its environmental footprint through the implementation of eco-friendly office practices. This includes energy-efficient lighting, recycling programs, and reduction of single-use plastics. By adopting sustainable office practices, we aim to create a workspace that aligns with our values of environmental responsibility.",
+            "We offer comprehensive legal advisory services, ensuring that your business is equipped with the best solutions to navigate complex legal landscapes.",
           button: "Back to Services",
           redirectURL: "/services",
         },
         {
           type: "icon-cards",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          description: "MISSING_CONTENT",
-          button: "Learn more",
-          redirectURL: "/services/multilingual-solutions/document-translation",
+          title: "Our Legal Expertise",
+          subtitle: "Tailored Legal Support for Every Challenge",
+          description:
+            "Explore our broad range of legal services, designed to meet the needs of businesses in diverse industries.",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
+          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
           cards: [
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Corporate Legal Services",
+              description:
+                "Navigate the complexities of corporate law with our expert advisory on transactions, governance, and compliance.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/document-translation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Contract Drafting & Negotiation",
+              description:
+                "Ensure your contracts are legally sound and aligned with your business goals with our drafting and negotiation services.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/document-translation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Intellectual Property Law",
+              description:
+                "Safeguard your innovations with our specialized intellectual property advisory and protection strategies.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/document-translation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Regulatory Compliance",
+              description:
+                "Stay ahead of evolving regulations with our tailored compliance strategies for your industry.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/document-translation",
+              redirectURL: "",
             },
           ],
         },
       ],
-      "industry-specific-language-solutions": [
+      "dispute-resolution-and-litigation-support": [
         {
           type: "hero",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          imageURL: "/images/hero/multilingual-solutions.jpg",
+          title: "Dispute Resolution & Litigation Support",
+          subtitle: "Resolving Conflicts Efficiently and Effectively",
+          imageURL: "/images/hero/legal-consultancy.jpg",
         },
         {
           type: "blank",
-          title: "Industry-Specific Language Solutions",
+          title: "Conflict Management",
           description:
-            "Discover Novelex's tailored language solutions designed for specific industries. This section emphasises our ability to provide industry-specific linguistic support, ensuring that translations and interpretations align with the specialised terminology and nuances of particular sectors. Whether it's healthcare, legal, technical, or any other industry, our language experts are equipped with the knowledge and expertise to deliver accurate and contextually relevant solutions.",
+            "Our dispute resolution and litigation services help you resolve conflicts quickly, ensuring minimal disruption to your business operations.",
           button: "Back to Services",
           redirectURL: "/services",
         },
         {
           type: "icon-cards",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          description: "MISSING_CONTENT",
-          button: "Learn more",
-          redirectURL:
-            "/services/multilingual-solutions/industry-specific-language-solutions",
+          title: "Litigation and Resolution Expertise",
+          subtitle: "Experienced Representation in All Dispute Matters",
+          description:
+            "We provide legal support for resolving disputes both in and out of court, ensuring your interests are protected.",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
+          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
           cards: [
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Commercial Litigation",
+              description:
+                "Expert representation in commercial disputes, helping you secure the best possible outcome.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/industry-specific-language-solutions",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Mediation & Arbitration",
+              description:
+                "Cost-effective alternative dispute resolution strategies, including mediation and arbitration services.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/industry-specific-language-solutions",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Employment Disputes",
+              description:
+                "Comprehensive legal support for resolving employee-related conflicts and workplace disputes.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/industry-specific-language-solutions",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Debt Recovery",
+              description:
+                "Efficient and effective legal strategies to recover outstanding debts, ensuring minimal business disruption.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/industry-specific-language-solutions",
+              redirectURL: "",
             },
           ],
         },
       ],
-      interpretation: [
+      "proactive-compliance-strategies": [
         {
           type: "hero",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          imageURL: "/images/hero/multilingual-solutions.jpg",
+          title: "Proactive Compliance Strategies",
+          subtitle: "Staying Ahead of Regulatory Changes",
+          imageURL: "/images/hero/legal-consultancy.jpg",
         },
         {
           type: "blank",
-          title: "Interpretation",
+          title: "Preventative Legal Strategies",
           description:
-            "Real-time language support for effective communication. Seize the moment with Novelex Interpretation services. In the fast-paced world of global business, real-time communication is paramount. Our interpreters bridge language gaps, ensuring that your meetings, negotiations, and conferences run smoothly. With exceptional linguistic skills and cultural awareness, our interpreters enable you to communicate effectively, no matter the language spoken.",
+            "Our proactive compliance strategies ensure that your business is always in line with the latest regulations, minimizing risks and avoiding potential legal challenges.",
           button: "Back to Services",
           redirectURL: "/services",
         },
         {
           type: "icon-cards",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          description: "MISSING_CONTENT",
-          button: "Learn more",
-          redirectURL: "/services/multilingual-solutions/interpretation",
+          title: "Compliance Services",
+          subtitle: "Custom Solutions for Your Business",
+          description:
+            "We offer a range of compliance services, ensuring that your operations meet the necessary legal and regulatory standards.",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
+          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
           cards: [
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Regulatory Audits",
+              description:
+                "Our team conducts in-depth audits to ensure your business complies with current regulations.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/services/multilingual-solutions/interpretation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Risk Management",
+              description:
+                "Identify potential risks and develop effective strategies to mitigate them.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/services/multilingual-solutions/interpretation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Policy Development",
+              description:
+                "Develop internal policies that align with industry regulations and legal frameworks.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/services/multilingual-solutions/interpretation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Ongoing Compliance Support",
+              description:
+                "Receive continuous support to ensure long-term compliance as regulations evolve.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "/services/multilingual-solutions/interpretation",
+              redirectURL: "",
             },
           ],
         },
       ],
-      "mobile-interpretation": [
+      "specialised-expertise-in-multinational-regulations": [
         {
           type: "hero",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          imageURL: "/images/hero/multilingual-solutions.jpg",
+          title: "Specialised Expertise in Multinational Regulations",
+          subtitle: "Navigating Global Legal Landscapes",
+          imageURL: "/images/hero/legal-consultancy.jpg",
         },
         {
           type: "blank",
-          title: "Mobile Interpretation",
+          title: "Global Legal Expertise",
           description:
-            "Seamless interpretation services at your fingertips. In today's mobile world, access to interpretation services should be as simple as tapping a screen. Novelex's Mobile Interpretation brings real-time language support to your smartphone or tablet. Our user-friendly app connects you with professional interpreters instantly, allowing you to engage in multilingual conversations, no matter where you are. Seamlessly break language barriers and communicate with confidence, all from the palm of your hand.",
+            "Our specialized expertise in multinational regulations ensures that your business can confidently navigate the complexities of global legal frameworks.",
           button: "Back to Services",
           redirectURL: "/services",
         },
         {
           type: "icon-cards",
-          title: "MISSING_CONTENT",
-          subtitle: "MISSING_CONTENT",
-          description: "MISSING_CONTENT",
-          button: "Learn more",
-          redirectURL: "/services/multilingual-solutions/mobile-interpretation",
+          title: "Multinational Compliance Services",
+          subtitle: "Global Legal Solutions Tailored to Your Business",
+          description:
+            "We offer a suite of legal services to help businesses comply with regulations across borders.",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
-          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
+          contentBackgroundColor: "Colors.PRIMARY_BLACK_COLOR",
           cards: [
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Cross-Border Compliance",
+              description:
+                "Ensure compliance with international laws and regulations, avoiding costly legal challenges.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/mobile-interpretation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "International Trade Law",
+              description:
+                "Expert guidance on international trade regulations, tariffs, and export controls.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/mobile-interpretation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Data Protection Regulations",
+              description:
+                "Ensure your business complies with international data protection laws such as GDPR.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/mobile-interpretation",
+              redirectURL: "",
             },
             {
-              title: "MISSING_CONTENT",
-              description: "MISSING_CONTENT",
+              title: "Customs & Tariff Management",
+              description:
+                "Navigate the complexities of customs and tariffs in multinational operations.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL:
-                "/services/multilingual-solutions/mobile-interpretation",
+              redirectURL: "",
             },
           ],
         },
