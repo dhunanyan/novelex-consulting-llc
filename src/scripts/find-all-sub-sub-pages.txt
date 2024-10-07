@@ -1,24 +1,3 @@
-\[
-        \{
-          type: "hero",
-          title:( ".*"|
-            ".*"),
-          subtitle:( ".*"|
-            ".*"),
-          imageURL:( ".*"|
-            ".*"),
-        \},
-        \{
-          type: "blank",
-          title:( ".*"|
-            ".*"),
-          description:( ".*"|
-            ".*"),
-          button:( ".*"|
-            ".*"),
-          redirectURL:( ".*"|
-            ".*"),
-        \},
         \{
           type: "icon-cards",
           title:( ".*"|
@@ -31,6 +10,8 @@
             ".*"),
           redirectURL:( ".*"|
             ".*"),
+          forceHideButton: true,
+          contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: \[
             \{
               title:( ".*"|
@@ -41,8 +22,7 @@
                 ".*"),
               button:( ".*"|
                 ".*"),
-              redirectURL:( ".*"|
-                ".*"),
+              redirectURL: "/(([a-z]|-)*)/.*",
             \},
             \{
               title:( ".*"|
@@ -53,8 +33,7 @@
                 ".*"),
               button:( ".*"|
                 ".*"),
-              redirectURL:( ".*"|
-                ".*"),
+              redirectURL: "/(([a-z]|-)*)/.*",
             \},
             \{
               title:( ".*"|
@@ -65,8 +44,7 @@
                 ".*"),
               button:( ".*"|
                 ".*"),
-              redirectURL:( ".*"|
-                ".*"),
+              redirectURL: "/(([a-z]|-)*)/.*",
             \},
             \{
               title:( ".*"|
@@ -77,9 +55,7 @@
                 ".*"),
               button:( ".*"|
                 ".*"),
-              redirectURL:( ".*"|
-                ".*"),
+              redirectURL: "/(([a-z]|-)*)/.*",
             \},
           \],
         \},
-      \]

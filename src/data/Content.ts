@@ -285,8 +285,8 @@ export const Content = {
           subtitle: "Our Core Principles",
           description:
             "Our values are the pillars of our organization. They drive our decisions and actions every day. Explore our commitment to innovation, quality, diversity, and sustainability.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -346,8 +346,8 @@ export const Content = {
           subtitle: "Our Roadmap to Success",
           description:
             "Our strategy is a blend of innovation and adaptability. We navigate the ever-evolving landscape of global communication to bring you the best solutions.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/purpose-value-and-strategy/our-strategy",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -411,8 +411,8 @@ export const Content = {
           subtitle: "Our Guiding Light",
           description:
             "At Novelex Consulting LLC, our purpose is clear: To break down language barriers and foster global understanding. Discover how this guiding principle shapes our mission and defines our identity.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -482,8 +482,8 @@ export const Content = {
           subtitle: "Empowering All Perspectives",
           description:
             "Our culture of inclusivity is the foundation of our success. We believe in the power of diverse perspectives and the strength that comes from embracing each individual. Learn how we foster an inclusive and empowering environment.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -543,8 +543,8 @@ export const Content = {
           subtitle: "Empowering All Perspectives",
           description:
             "Our culture of inclusivity is the foundation of our success. We believe in the power of diverse perspectives and the strength that comes from embracing each individual. Learn how we foster an inclusive and empowering environment.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -605,8 +605,8 @@ export const Content = {
           subtitle: "Empowering Your Future",
           description:
             "Professional growth is at the heart of our mission. We are dedicated to nurturing your skills, supporting your career journey, and inspiring you to reach new heights. Learn more about how we cultivate personal and professional development.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-people/professional-growth",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -666,8 +666,8 @@ export const Content = {
           subtitle: "Thriving in Every Aspect of Life",
           description:
             "We believe in nurturing the well-being of our people—both in and out of the workplace. Learn how we support physical, mental, and emotional wellness, empowering our team to lead balanced and fulfilling lives.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-people/well-being",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -737,8 +737,8 @@ export const Content = {
           subtitle: "Innovating for a Better Tomorrow",
           description:
             "We push boundaries and think outside the box to develop solutions that redefine industries. Our innovative strategies drive growth, efficiency, and lasting impact.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-partners/innovative-solutions",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -798,8 +798,8 @@ export const Content = {
           subtitle: "Partnerships that Empower Progress",
           description:
             "We believe that true success is achieved when we grow together. Our mutual growth endeavors foster relationships that drive innovation, success, and shared achievements.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -859,8 +859,8 @@ export const Content = {
           subtitle: "A Unified Path to a Better Future",
           description:
             "Our shared vision and values are at the core of everything we do. Together, we strive to create a future where success is measured not just by profits but by the positive impact we have on the world.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -920,8 +920,8 @@ export const Content = {
           subtitle: "Together, We Achieve More",
           description:
             "Strategic collaborations are key to unlocking new opportunities. By working together, we leverage our combined strengths to innovate, grow, and lead in our industries.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/our-partners/strategic-collaborations",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -991,8 +991,8 @@ export const Content = {
           subtitle: "Innovative Approaches to Environmental Challenges",
           description:
             "We believe in fostering sustainable practices that benefit both the planet and society. Through responsible resource management and innovative solutions, we strive to make a positive impact.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/global-impact/environmental-responsibility",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1056,8 +1056,8 @@ export const Content = {
           subtitle: "Empowering Change Through Partnerships",
           description:
             "Our global collaborations focus on uniting diverse talents and resources to tackle pressing challenges. Together, we aim to create innovative solutions that have a lasting impact.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/global-impact/global-collaborations",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1117,8 +1117,8 @@ export const Content = {
           subtitle: "Inclusion as a Catalyst for Innovation",
           description:
             "We recognize that diversity fuels creativity and innovation. By embracing varied perspectives, we cultivate an inclusive environment where everyone can thrive.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/global-impact/leveraging-diversity",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1178,8 +1178,8 @@ export const Content = {
           subtitle: "Empowering People and Building Futures",
           description:
             "We believe in the power of social responsibility. By investing in our communities and fostering positive change, we strive to create a better tomorrow for all.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/global-impact/social-responsibility",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1249,9 +1249,8 @@ export const Content = {
           subtitle: "Fostering a culture of belonging",
           description:
             "We believe that by embracing our differences, we become stronger together. Our diversity initiatives create an environment where everyone is valued.",
-          button: "Learn more",
-          redirectURL:
-            "/who-we-are/diversity-and-inclusion/embracing-differences",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1315,8 +1314,8 @@ export const Content = {
           subtitle: "Creating pathways for growth",
           description:
             "We believe in empowering our employees by providing them with the tools, resources, and opportunities they need to succeed.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1376,9 +1375,8 @@ export const Content = {
           subtitle: "Promoting fairness at every level",
           description:
             "Our commitment to equal opportunities means creating an environment where everyone has a chance to thrive, regardless of background.",
-          button: "Learn more",
-          redirectURL:
-            "/who-we-are/diversity-and-inclusion/equal-opportunities",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1442,8 +1440,8 @@ export const Content = {
           subtitle: "Connecting across borders",
           description:
             "Our global perspective on diversity helps us foster inclusion in every region we operate.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/diversity-and-inclusion/global-perspective",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1507,8 +1505,8 @@ export const Content = {
           subtitle: "Ensuring everyone has a voice",
           description:
             "We strive to create an inclusive culture where every individual is heard and appreciated for their unique contributions.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/diversity-and-inclusion/inclusive-culture",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1582,9 +1580,8 @@ export const Content = {
           subtitle: "Steps Toward a Greener Tomorrow",
           description:
             "We are focused on reducing our carbon footprint by investing in renewable energy, improving energy efficiency, and promoting sustainable practices across all operations.",
-          button: "Learn more",
-          redirectURL:
-            "/who-we-are/climate-strategy/carbon-footprint-reduction",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1648,9 +1645,8 @@ export const Content = {
           subtitle: "Working Towards Long-Term Environmental Solutions",
           description:
             "From conservation initiatives to circular economy models, we contribute to global sustainability efforts that protect our planet and future generations.",
-          button: "Learn more",
-          redirectURL:
-            "/who-we-are/climate-strategy/contributions-to-sustainability",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1714,8 +1710,8 @@ export const Content = {
           subtitle: "Innovating for Long-Term Environmental Solutions",
           description:
             "We integrate eco-friendly practices into all aspects of our operations, from green building initiatives to sustainable sourcing and procurement.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/climate-strategy/eco-friendly-practices",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1779,8 +1775,8 @@ export const Content = {
           subtitle: "Our Green Initiatives Across the Globe",
           description:
             "We are committed to leading positive environmental change through innovative green initiatives, such as reforestation, renewable energy projects, and reducing our environmental footprint.",
-          button: "Learn more",
-          redirectURL: "/who-we-are/climate-strategy/green-initiatives",
+          button: "Back to Who we are",
+          redirectURL: "/who-we-are",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -1974,9 +1970,8 @@ export const Content = {
             "Safeguard your digital assets with comprehensive protection.",
           description:
             "We provide tailored cybersecurity solutions to defend against threats and ensure your business stays secure in an increasingly digital world.",
-          button: "Learn more",
-          redirectURL:
-            "/services/digital-and-tech-solutions/cybersecurity-solutions",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2041,9 +2036,8 @@ export const Content = {
           subtitle: "Empower your business with cutting-edge analytics tools.",
           description:
             "Our data analytics solutions help you turn raw data into valuable business intelligence for strategic decision-making.",
-          button: "Learn more",
-          redirectURL:
-            "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2109,9 +2103,8 @@ export const Content = {
             "Harness the power of cutting-edge technology for your business.",
           description:
             "From AI to blockchain, we help businesses integrate the latest technologies to stay competitive in a rapidly evolving landscape.",
-          button: "Learn more",
-          redirectURL:
-            "/services/digital-and-tech-solutions/emerging-technologies-integration",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2177,9 +2170,8 @@ export const Content = {
             "Build powerful, scalable, and efficient software applications.",
           description:
             "Our software development services focus on creating tailored solutions that solve your business challenges and drive growth.",
-          button: "Learn more",
-          redirectURL:
-            "/services/digital-and-tech-solutions/software-development",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2253,9 +2245,8 @@ export const Content = {
           subtitle: "Expert Guidance for Financial Success",
           description:
             "Our advisory services provide comprehensive financial insights and strategies to help you make informed decisions and drive sustainable growth.",
-          button: "Learn more",
-          redirectURL:
-            "/services/final-consultancy/comprehensive-financial-advisory-services",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2320,9 +2311,8 @@ export const Content = {
           subtitle: "Protect Your Assets and Minimize Risks",
           description:
             "Our financial planning services provide you with a roadmap for future success, while risk management ensures that your assets are safeguarded.",
-          button: "Learn more",
-          redirectURL:
-            "/services/final-consultancy/financial-planning-and-risk-management",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2386,9 +2376,8 @@ export const Content = {
           subtitle: "Enhance Performance with Strategic Insights",
           description:
             "We help businesses leverage financial data for performance analysis, ensuring that you can make informed decisions to drive long-term success.",
-          button: "Learn more",
-          redirectURL:
-            "/services/final-consultancy/performance-analysis-and-informed-decision-making",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2452,9 +2441,8 @@ export const Content = {
           subtitle: "Compliance Solutions for Financial Success",
           description:
             "Our regulatory expertise ensures your business stays compliant with the latest financial laws and regulations, avoiding costly penalties and ensuring smooth operations.",
-          button: "Learn more",
-          redirectURL:
-            "/services/final-consultancy/specialised-expertise-in-financial-regulations",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2539,7 +2527,8 @@ export const Content = {
                 "Navigate the complexities of corporate law with our expert advisory on transactions, governance, and compliance.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/comprehensive-legal-advisory",
             },
             {
               title: "Contract Drafting & Negotiation",
@@ -2547,7 +2536,8 @@ export const Content = {
                 "Ensure your contracts are legally sound and aligned with your business goals with our drafting and negotiation services.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/comprehensive-legal-advisory",
             },
             {
               title: "Intellectual Property Law",
@@ -2555,7 +2545,8 @@ export const Content = {
                 "Safeguard your innovations with our specialized intellectual property advisory and protection strategies.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/comprehensive-legal-advisory",
             },
             {
               title: "Regulatory Compliance",
@@ -2563,7 +2554,8 @@ export const Content = {
                 "Stay ahead of evolving regulations with our tailored compliance strategies for your industry.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/comprehensive-legal-advisory",
             },
           ],
         },
@@ -2600,7 +2592,8 @@ export const Content = {
                 "Expert representation in commercial disputes, helping you secure the best possible outcome.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/dispute-resolution-and-litigation-support",
             },
             {
               title: "Mediation & Arbitration",
@@ -2608,7 +2601,8 @@ export const Content = {
                 "Cost-effective alternative dispute resolution strategies, including mediation and arbitration services.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/dispute-resolution-and-litigation-support",
             },
             {
               title: "Employment Disputes",
@@ -2616,7 +2610,8 @@ export const Content = {
                 "Comprehensive legal support for resolving employee-related conflicts and workplace disputes.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/dispute-resolution-and-litigation-support",
             },
             {
               title: "Debt Recovery",
@@ -2624,7 +2619,8 @@ export const Content = {
                 "Efficient and effective legal strategies to recover outstanding debts, ensuring minimal business disruption.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/dispute-resolution-and-litigation-support",
             },
           ],
         },
@@ -2661,7 +2657,8 @@ export const Content = {
                 "Our team conducts in-depth audits to ensure your business complies with current regulations.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/proactive-compliance-strategies",
             },
             {
               title: "Risk Management",
@@ -2669,7 +2666,8 @@ export const Content = {
                 "Identify potential risks and develop effective strategies to mitigate them.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/proactive-compliance-strategies",
             },
             {
               title: "Policy Development",
@@ -2677,7 +2675,8 @@ export const Content = {
                 "Develop internal policies that align with industry regulations and legal frameworks.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/proactive-compliance-strategies",
             },
             {
               title: "Ongoing Compliance Support",
@@ -2685,7 +2684,8 @@ export const Content = {
                 "Receive continuous support to ensure long-term compliance as regulations evolve.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/proactive-compliance-strategies",
             },
           ],
         },
@@ -2722,7 +2722,8 @@ export const Content = {
                 "Ensure compliance with international laws and regulations, avoiding costly legal challenges.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
             },
             {
               title: "International Trade Law",
@@ -2730,7 +2731,8 @@ export const Content = {
                 "Expert guidance on international trade regulations, tariffs, and export controls.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
             },
             {
               title: "Data Protection Regulations",
@@ -2738,7 +2740,8 @@ export const Content = {
                 "Ensure your business complies with international data protection laws such as GDPR.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
             },
             {
               title: "Customs & Tariff Management",
@@ -2746,7 +2749,8 @@ export const Content = {
                 "Navigate the complexities of customs and tariffs in multinational operations.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
             },
           ],
         },
@@ -2782,8 +2786,8 @@ export const Content = {
           subtitle: "Your Trusted Partner in Multilingual Document Solutions",
           description:
             "Our document translation services ensure your message is conveyed accurately across different languages and cultures. We specialize in various fields, including legal, medical, and technical documents.",
-          button: "Learn more",
-          redirectURL: "/services/multilingual-solutions/document-translation",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2847,9 +2851,8 @@ export const Content = {
           subtitle: "We Speak Your Industry's Language",
           description:
             "Our team understands the nuances and terminologies of various industries, providing tailored solutions for effective communication.",
-          button: "Learn more",
-          redirectURL:
-            "/services/multilingual-solutions/industry-specific-language-solutions",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2913,8 +2916,8 @@ export const Content = {
           subtitle: "Bringing Clarity to Your Conversations",
           description:
             "We offer professional interpretation services to help you communicate effectively in real-time during meetings, conferences, and events.",
-          button: "Learn more",
-          redirectURL: "/services/multilingual-solutions/interpretation",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -2974,8 +2977,8 @@ export const Content = {
           subtitle: "Interpretation Services Wherever You Are",
           description:
             "Our mobile interpretation services ensure you have access to professional interpreters anytime, anywhere, through our app.",
-          button: "Learn more",
-          redirectURL: "/services/multilingual-solutions/mobile-interpretation",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3049,8 +3052,8 @@ export const Content = {
           subtitle: "Qualified Professionals",
           description:
             "Our instructors bring a wealth of knowledge and experience to the classroom.",
-          button: "Learn more",
-          redirectURL: "/services/training-programme/experienced-instructors",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3126,7 +3129,8 @@ export const Content = {
                 "Empower yourself with essential leadership skills to drive team success and inspire innovation within your organisation.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/professional-development",
             },
             {
               title: "Technical Skills Enhancement",
@@ -3134,7 +3138,8 @@ export const Content = {
                 "Upgrade your technical expertise with industry-leading training, tailored to meet the evolving demands of your profession.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/professional-development",
             },
             {
               title: "Communication & Soft Skills",
@@ -3142,7 +3147,8 @@ export const Content = {
                 "Sharpen your communication and interpersonal skills, essential for fostering collaboration and improving workplace dynamics.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/professional-development",
             },
             {
               title: "Project Management Training",
@@ -3150,7 +3156,8 @@ export const Content = {
                 "Master the art of managing projects effectively, with tools and techniques that ensure timely and successful outcomes.",
               iconURL: "logo",
               button: "Learn more",
-              redirectURL: "",
+              redirectURL:
+                "/services/legal-consultancy/professional-development",
             },
           ],
         },
@@ -3176,8 +3183,8 @@ export const Content = {
           subtitle: "Your Learning, Your Way",
           description:
             "Our programs are designed to cater to individual learning styles and paces.",
-          button: "Learn more",
-          redirectURL: "/services/training-programme/personalized-learning",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3236,8 +3243,8 @@ export const Content = {
           subtitle: "Keep Up with the Changing Landscape",
           description:
             "Our training programs focus on the latest trends and skills in the industry.",
-          button: "Learn more",
-          redirectURL: "/services/training-programme/stay-ahead-of-the-curve",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3301,8 +3308,8 @@ export const Content = {
           subtitle: "Training in Multiple Disciplines",
           description:
             "We offer a wide range of training programs to suit diverse needs.",
-          button: "Learn more",
-          redirectURL: "/services/training-programme/wide-ranging-expertise",
+          button: "Back to Services",
+          redirectURL: "/services",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3497,9 +3504,8 @@ export const Content = {
           subtitle: "Nurturing Growth and Development",
           description:
             "Our educational initiatives focus on equipping individuals with the skills they need to thrive in today's world.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3561,9 +3567,8 @@ export const Content = {
           subtitle: "Join Us in Making an Impact",
           description:
             "Our volunteer programs encourage employees to engage with the community and contribute to meaningful projects.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3626,9 +3631,8 @@ export const Content = {
           subtitle: "Protecting Our Environment",
           description:
             "Our sustainability projects focus on minimizing our ecological footprint and promoting environmental stewardship.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/community-engagement/environmental-sustainability-projects",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3690,9 +3694,8 @@ export const Content = {
           subtitle: "Working Together for Community Growth",
           description:
             "We collaborate with local organizations to enhance our community impact through strategic partnerships.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3767,9 +3770,8 @@ export const Content = {
           subtitle: "Embracing connections and friendships.",
           description:
             "Our community events bring everyone together for fun and connection.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/events-and-highlights/celebration-with-our-community",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3829,9 +3831,8 @@ export const Content = {
           subtitle: "Celebrating our journey and accomplishments.",
           description:
             "We have reached significant milestones that showcase our dedication.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3891,9 +3892,8 @@ export const Content = {
           title: "Achievements Overview",
           subtitle: "Discover our proudest moments.",
           description: "We celebrate the milestones that shape our story.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -3953,9 +3953,8 @@ export const Content = {
           subtitle: "Leading the way with creativity and technology.",
           description:
             "Discover how we're pushing the boundaries of innovation.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4027,9 +4026,8 @@ export const Content = {
           subtitle: "Where ideas flourish.",
           description:
             "At Novelex, we encourage our employees to share their ideas and be part of the creative process. Our open environment fosters collaboration and innovation.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/experiencing-novelex/creativity-and-openness",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4090,9 +4088,8 @@ export const Content = {
           subtitle: "Fueling our success.",
           description:
             "Our team is driven by a shared enthusiasm for success. We believe in empowering our employees to achieve their goals.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4153,9 +4150,8 @@ export const Content = {
           subtitle: "Creating a positive impact.",
           description:
             "At Novelex, our work is guided by a sense of purpose that inspires us to make a difference. We are committed to our community and the environment.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4216,9 +4212,8 @@ export const Content = {
           subtitle: "Valuing diversity.",
           description:
             "Our culture embraces diversity and inclusion, recognizing that different perspectives enhance creativity and innovation.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4288,9 +4283,8 @@ export const Content = {
           subtitle: "Fostering collaboration in every project.",
           description:
             "Our collaborative spirit drives innovation and success. Discover how our teams work together to achieve extraordinary outcomes.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4353,9 +4347,8 @@ export const Content = {
           subtitle: "Cultivating an inclusive environment for all.",
           description:
             "We champion diversity and inclusivity, empowering every individual to contribute their best.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4418,9 +4411,8 @@ export const Content = {
           subtitle: "Every story matters.",
           description:
             "Learn from the personal experiences of our team members and how their journeys shape our culture.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4481,9 +4473,8 @@ export const Content = {
           subtitle: "Principles that drive us forward.",
           description:
             "Our values are the foundation of everything we do. Explore how they inform our decisions and interactions.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4554,9 +4545,8 @@ export const Content = {
           subtitle: "Investing in Your Health",
           description:
             "Explore a range of health and wellness programs designed to support your overall well-being.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4620,9 +4610,8 @@ export const Content = {
           subtitle: "Flexible Options for Every Lifestyle",
           description:
             "Choose from a variety of benefits packages designed to fit your personal and professional lifestyle.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4686,9 +4675,8 @@ export const Content = {
           subtitle: "Enhance Your Skills and Knowledge",
           description:
             "Our commitment to your professional growth is reflected in the training and development programs we offer.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4752,9 +4740,8 @@ export const Content = {
           subtitle: "Support for Your Well-Being",
           description:
             "We prioritize work-life balance to ensure you can thrive both personally and professionally.",
-          button: "Learn more",
-          redirectURL:
-            "/life-at-novelex/wellness-and-benefits/work-life-balance",
+          button: "Back to Life at Novelex",
+          redirectURL: "/life-at-novelex",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -4954,9 +4941,8 @@ export const Content = {
           subtitle: "Your knowledge can shape careers.",
           description:
             "By contributing to our professional development programs, you can play a vital role in mentoring and developing the next generation of professionals.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/become-a-trainer/contribute-to-professional-development-programs",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5021,9 +5007,8 @@ export const Content = {
           subtitle: "Foster growth in others while advancing your career.",
           description:
             "As a trainer, you will not only enhance your own skills but also create impactful learning experiences for others.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/become-a-trainer/grow-your-career-by-empowering-others",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5087,9 +5072,8 @@ export const Content = {
           subtitle: "Create memorable learning experiences.",
           description:
             "As a trainer, you will have the opportunity to develop and deliver training programs that resonate with learners.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/become-a-trainer/shape-the-learning-experience",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5153,8 +5137,8 @@ export const Content = {
           subtitle: "Make a lasting impact on learners.",
           description:
             "Share your knowledge and experiences with others in our community.",
-          button: "Learn more",
-          redirectURL: "/careers/become-a-trainer/share-your-expertise",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5223,9 +5207,8 @@ export const Content = {
           subtitle: "Work with passionate people.",
           description:
             "Join our dynamic team where collaboration and innovation are at the heart of everything we do. Together, we can achieve great things!",
-          button: "Learn more",
-          redirectURL:
-            "/careers/explore-career-opportunities/collaborate-and-soar",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5289,9 +5272,8 @@ export const Content = {
           subtitle: "Shape your future by following your passion.",
           description:
             "Every career is a story waiting to be written. With us, you can shape your narrative and achieve your professional goals.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/explore-career-opportunities/craft-your-career-story",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5353,9 +5335,8 @@ export const Content = {
           subtitle: "Explore various career paths.",
           description:
             "The right niche can lead to a fulfilling career. Let us help you discover where your interests meet your skills.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/explore-career-opportunities/discover-your-niche",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5417,9 +5398,8 @@ export const Content = {
           subtitle: "Become a leader in innovation.",
           description:
             "Harness your creativity and skills to innovate and thrive in your career. Our supportive environment fosters success.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/explore-career-opportunities/innovate-thrive-succeed",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5492,8 +5472,8 @@ export const Content = {
           subtitle: "Explore various roles in the tech industry.",
           description:
             "From software development to data analysis, find the right job that matches your tech skills and aspirations.",
-          button: "Learn more",
-          redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5552,8 +5532,8 @@ export const Content = {
           subtitle: "Explore diverse roles in the financial sector.",
           description:
             "Whether you’re interested in investment banking, accounting, or financial planning, find your path in finance.",
-          button: "Learn more",
-          redirectURL: "/careers/find-a-job/finance-jobs",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5612,8 +5592,8 @@ export const Content = {
           subtitle: "Explore roles that value your language skills.",
           description:
             "From translation to teaching, discover a variety of careers that leverage your multilingual abilities.",
-          button: "Learn more",
-          redirectURL: "/careers/find-a-job/language-jobs",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5671,8 +5651,8 @@ export const Content = {
           subtitle: "Explore diverse roles in the legal field.",
           description:
             "Whether you’re looking to become a lawyer, paralegal, or legal advisor, find your niche in the legal profession.",
-          button: "Learn more",
-          redirectURL: "/careers/find-a-job/legal-jobs",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5731,8 +5711,8 @@ export const Content = {
           subtitle: "Explore various roles in training and development.",
           description:
             "Whether you’re focused on corporate training, fitness, or education, find a rewarding role that helps others grow.",
-          button: "Learn more",
-          redirectURL: "/careers/find-a-job/trainer-jobs",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5803,9 +5783,8 @@ export const Content = {
           subtitle: "Foster a culture of teamwork and innovation.",
           description:
             "Join us in creating an environment where collaboration leads to remarkable outcomes.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/join-our-team/embrace-team-synergy-and-collaboration",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5869,9 +5848,8 @@ export const Content = {
           subtitle: "Connect with colleagues who share your passion.",
           description:
             "Become part of a work environment that values connections and support.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5934,8 +5912,8 @@ export const Content = {
           subtitle: "Work in an inclusive and multicultural environment.",
           description:
             "Join us to work alongside professionals from various backgrounds and cultures.",
-          button: "Learn more",
-          redirectURL: "/careers/join-our-team/join-a-global-team",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -5995,8 +5973,8 @@ export const Content = {
           subtitle: "Grow both personally and professionally within our team.",
           description:
             "Join us to access opportunities for continuous learning and development.",
-          button: "Learn more",
-          redirectURL: "/careers/join-our-team/team-growth-is-personal-growth",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6069,9 +6047,8 @@ export const Content = {
           subtitle: "Tailored approaches for individual growth.",
           description:
             "Our coaching services are designed to help you identify your strengths and areas for improvement. Work with experienced coaches to set actionable goals and develop the skills you need to succeed.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/personal-and-professional-development/coaching",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6132,9 +6109,8 @@ export const Content = {
           subtitle: "Empower yourself with knowledge and skills.",
           description:
             "We believe in investing in our team members through various learning opportunities, including workshops, courses, and seminars.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/personal-and-professional-development/investing-in-your-growth",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6197,9 +6173,8 @@ export const Content = {
           subtitle: "Connect with mentors who can guide your career.",
           description:
             "Our mentoring program pairs you with seasoned professionals to help you navigate your career path and develop essential skills.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/personal-and-professional-development/mentoring",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6263,9 +6238,8 @@ export const Content = {
           subtitle: "Strategies to engage and retain talent.",
           description:
             "Our talent management program focuses on identifying high-potential employees and providing them with the resources they need to thrive.",
-          button: "Learn more",
-          redirectURL:
-            "/careers/personal-and-professional-development/talent-management",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6339,8 +6313,8 @@ export const Content = {
           subtitle: "Join us in various countries around the world.",
           description:
             "Novelex has a wide range of locations offering diverse career opportunities. Explore our offices and see where you could fit in.",
-          button: "Learn more",
-          redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6399,8 +6373,8 @@ export const Content = {
           subtitle: "Work together across borders and time zones.",
           description:
             "Our Global Collaboration Center fosters teamwork and innovation. Work with talented individuals from diverse backgrounds and cultures.",
-          button: "Learn more",
-          redirectURL: "/careers/where-we-hire/global-collaboration-center",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6460,8 +6434,8 @@ export const Content = {
           subtitle: "Our commitment to local development and support.",
           description:
             "Novelex is dedicated to making a positive impact in the communities we serve, fostering sustainable growth and development.",
-          button: "Learn more",
-          redirectURL: "/careers/where-we-hire/global-reach-local-impact",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [
@@ -6521,8 +6495,8 @@ export const Content = {
           subtitle: "Explore our regional hubs for career growth.",
           description:
             "Our regional career hubs are designed to connect talented individuals with exciting job opportunities in their area.",
-          button: "Learn more",
-          redirectURL: "/careers/where-we-hire/regional-career-hubs",
+          button: "Back to Careers",
+          redirectURL: "/careers",
           forceHideButton: true,
           contentBackgroundColor: Colors.PRIMARY_BLACK_COLOR,
           cards: [

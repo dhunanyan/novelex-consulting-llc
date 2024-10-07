@@ -12,20 +12,21 @@ const sections = Content[PAGE_ID][SUB_PAGE_ID] as unknown as {
   [key: string]: SectionPropsType[];
 };
 
-const firstChunk = Object.keys(sections).map((key) =>
-  sections[key].find((s) => s.type === Sections.ICON_CARDS)
-);
+const firstChunk = Object.keys(sections).map((key) => ({
+  ...sections[key].find((s) => s.type === Sections.ICON_CARDS),
+  forceHideButton: false,
+}));
 const secondChunk = firstChunk.splice(0, 3);
 
 const sectionsToRender = [
   // HeroSection
   ...(Content[PAGE_ID][SUB_PAGE_ID][CURRENT_PAGE_ID] as SectionPropsType[]),
   // Some of the Icon Cards from Sub pages
-  ...firstChunk,
+  ...(firstChunk as SectionPropsType[]),
   // Set of Tiles of main pages
   GeneralContent as SectionPropsType,
   // The rest of the Icon Cards from Sub pages
-  ...secondChunk,
+  ...(secondChunk as SectionPropsType[]),
 ];
 
 const Page = () => (
