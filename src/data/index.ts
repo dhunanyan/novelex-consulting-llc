@@ -1,4 +1,4 @@
-export { Content, GeneralContent } from "./Content";
+export { Content, GeneralContent, ComplianceData } from "./Content";
 export { HtmlData } from "./HtmlData";
 export { NavigationData } from "./NavigationData";
 export { DropdownData } from "./DropdownData";

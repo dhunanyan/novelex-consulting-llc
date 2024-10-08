@@ -800,4 +800,48 @@ export const HtmlData = {
       },
     },
   },
+  "compliance-pages": {
+    "terms-and-conditions": {
+      title: "Terms and Conditions - Novelex Consulting",
+      description:
+        "Review the Terms and Conditions governing the use of Novelex Consulting's website and services. Ensure compliance with our guidelines and legal terms.",
+      keywords:
+        "Terms and Conditions, Website Terms, Legal Terms, Use of Service, User Agreement, Novelex Consulting",
+    },
+    "privacy-notice": {
+      title: "Privacy Notice - Novelex Consulting",
+      description:
+        "Learn how Novelex Consulting collects, uses, and protects your personal data in accordance with privacy laws and regulations.",
+      keywords:
+        "Privacy Policy, Data Protection, Personal Information, Data Collection, Novelex Consulting, Privacy Notice",
+    },
+    "cookie-notice": {
+      title: "Cookie Notice - Novelex Consulting",
+      description:
+        "Understand how Novelex Consulting uses cookies to improve your browsing experience. Learn about cookie settings and manage your preferences.",
+      keywords:
+        "Cookie Notice, Cookie Policy, Browser Cookies, Data Tracking, Novelex Consulting, Cookie Preferences",
+    },
+    "accessibility-notice": {
+      title: "Accessibility Notice - Novelex Consulting",
+      description:
+        "Novelex Consulting is committed to providing a fully accessible website for all users. Learn about our efforts to ensure digital inclusivity.",
+      keywords:
+        "Accessibility Notice, Website Accessibility, Inclusive Design, Digital Accessibility, Novelex Consulting, Accessible Web",
+    },
+    "online-security-notice": {
+      title: "Online Security - Novelex Consulting",
+      description:
+        "Learn about Novelex Consulting's online security measures, ensuring the safety of your personal data and secure browsing on our site.",
+      keywords:
+        "Online Security, Data Protection, Cybersecurity, Secure Browsing, Novelex Consulting, Data Privacy",
+    },
+    sitemap: {
+      title: "Sitemap - Novelex Consulting",
+      description:
+        "Navigate Novelex Consulting's website easily with our comprehensive sitemap. Find all pages and sections quickly.",
+      keywords:
+        "Sitemap, Website Navigation, Novelex Consulting, Page Directory, Website Structure",
+    },
+  },
 };
