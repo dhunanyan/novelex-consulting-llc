@@ -32,7 +32,7 @@ export const Content = {
           title: "Language Career",
           description:
             "Transform your love for language into a profession at Novelex. Shape conversations, build bridges, and connect cultures. Join us as an interpreter, translator, or language consultant. Make language your career catalyst.",
-          iconURL: "logo",
+          iconURL: "info",
           button: "Learn more",
           redirectURL: "/careers/find-a-job/language-jobs",
         },
@@ -40,7 +40,7 @@ export const Content = {
           title: "Digital & Tech Solutions",
           description:
             "Blend technology and communication with Novelex. Drive language innovation through AI tools and user interfaces. Join the team reshaping global communication. Choose a digital and tech career that transcends borders.",
-          iconURL: "logo",
+          iconURL: "leaf",
           button: "Learn more",
           redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
         },
@@ -48,7 +48,7 @@ export const Content = {
           title: "Where We Hire",
           description:
             "Novelex welcomes talent globally. From headquarters to remote corners, join us in redefining communication. Embrace diverse perspectives, bridge cultures, and connect the world through language. Your location doesn't limit your impact.",
-          iconURL: "logo",
+          iconURL: "coins",
           button: "Learn more",
           redirectURL: "/careers/where-we-hire",
         },
@@ -56,7 +56,7 @@ export const Content = {
           title: "Customer Experience",
           description:
             "Elevate your journey with Novelex. Our commitment to exceptional customer experiences goes beyond words. Discover how we prioritize your satisfaction and ensure seamless interactions at every step of your language journey.",
-          iconURL: "logo",
+          iconURL: "coins",
           button: "Learn more",
           redirectURL: "/careers/personal-and-professional-development",
         },
@@ -70,42 +70,42 @@ export const Content = {
         {
           title: "Purpose",
           imageURL: "/images/imageCards/keyboard.jpg",
-          iconURL: "logo",
+          iconURL: "horse",
           button: "Learn more",
           redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
         },
         {
           title: "Our partners",
           imageURL: "/images/imageCards/handshake.jpg",
-          iconURL: "logo",
+          iconURL: "target",
           button: "Learn more",
           redirectURL: "/who-we-are/our-partners",
         },
         {
           title: "Values",
           imageURL: "/images/imageCards/coins.jpg",
-          iconURL: "logo",
+          iconURL: "book",
           button: "Learn more",
           redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
         },
         {
           title: "Climate strategy",
           imageURL: "/images/imageCards/calculator.jpg",
-          iconURL: "logo",
+          iconURL: "globe",
           button: "Learn more",
           redirectURL: "/who-we-are/climate-strategy",
         },
         {
           title: "Strategy",
           imageURL: "/images/imageCards/laptop.jpg",
-          iconURL: "logo",
+          iconURL: "cogs",
           button: "Learn more",
           redirectURL: "/who-we-are/purpose-value-and-strategy/our-strategy",
         },
         {
           title: "Global impact",
           imageURL: "/images/imageCards/paper.jpg",
-          iconURL: "logo",
+          iconURL: "comment",
           button: "Learn more",
           redirectURL: "/who-we-are/global-impact",
         },
@@ -126,7 +126,7 @@ export const Content = {
           title: "Multilingual Solutions",
           description:
             "With a global network of linguists, we offer translation and interpretation services in a multitude of languages, ensuring that our clients can confidently communicate across borders.",
-          iconURL: "logo",
+          iconURL: "globe",
           button: "Learn more",
           redirectURL: "/services/multilingual-solutions",
         },
@@ -134,7 +134,7 @@ export const Content = {
           title: "Digital & Tech Solutions",
           description:
             "Our digital solutions encompass AI-powered language tools, facilitating instant translation and enhancing multilingual customer experiences in the digital realm.",
-          iconURL: "logo",
+          iconURL: "leaf",
           button: "Learn more",
           redirectURL: "/services/digital-and-tech-solutions",
         },
@@ -142,7 +142,7 @@ export const Content = {
           title: "Training Programme",
           description:
             "Novelex's training program equips aspiring linguists and language enthusiasts with the skills and knowledge needed to excel in the field of translation and interpretation.",
-          iconURL: "logo",
+          iconURL: "rocket",
           button: "Learn more",
           redirectURL: "/services/training-programme",
         },
@@ -150,7 +150,7 @@ export const Content = {
           title: "Final Consultancy",
           description:
             "Novelex offers tailored language solutions that transcend borders, ensuring effective cross-cultural communication.",
-          iconURL: "logo",
+          iconURL: "laptop",
           button: "Learn more",
           redirectURL: "/services/final-consultancy",
         },
@@ -224,7 +224,7 @@ export const Content = {
             title: "Global Impact",
             description:
               "Unlock the world's potential, explore global stories. Our language solutions connect cultures, break barriers, and foster worldwide connections. Discover narratives illustrating our commitment to an interconnected planet.",
-            iconURL: "logo",
+            iconURL: "cogs",
             button: "Learn more",
             redirectURL: "/who-we-are/global-impact",
           },
@@ -232,7 +232,7 @@ export const Content = {
             title: "Climate Strategy",
             description:
               "Our commitment to the world goes beyond language. Learn about our climate strategy, where we take steps to minimize our environmental footprint and contribute to a sustainable future.",
-            iconURL: "logo",
+            iconURL: "languages",
             button: "Learn more",
             redirectURL: "/who-we-are/climate-strategy",
           },
@@ -240,7 +240,7 @@ export const Content = {
             title: "Our Partners",
             description:
               "Collaboration is key to our success. We're proud to partner with organizations that share our values and vision. Explore our network of partners who help us reach new heights.",
-            iconURL: "logo",
+            iconURL: "trending-down",
             button: "Learn more",
             redirectURL: "/who-we-are/our-partners",
           },
@@ -248,7 +248,7 @@ export const Content = {
             title: "Life at Novelex",
             description:
               "Discover the essence of Novelex Consulting LLC. Our story is one of innovation, guided by a commitment to reshape global communication. Dive into our journey, values, and vision. Learn what drives us to break down language barriers and connect the world.",
-            iconURL: "logo",
+            iconURL: "info",
             button: "Learn more",
             redirectURL: "/life-at-novelex",
           },
@@ -294,7 +294,7 @@ export const Content = {
               title: "Innovation Excellence",
               description:
                 "Learn how innovation is at the heart of everything we do.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
@@ -302,7 +302,7 @@ export const Content = {
               title: "Quality Assurance",
               description:
                 "Explore our unwavering commitment to quality and accuracy.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
@@ -310,7 +310,7 @@ export const Content = {
               title: "Embracing Diversity",
               description:
                 "Dive into our inclusive workplace and the strength of diverse perspectives.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
@@ -318,7 +318,7 @@ export const Content = {
               title: "Environmental Responsibility",
               description:
                 "Discover our sustainability initiatives and commitment to the environment.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-value",
             },
@@ -356,7 +356,7 @@ export const Content = {
               title: "Innovative Approach",
               description:
                 "Explore our innovative strategies for staying ahead in the industry.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/purpose-value-and-strategy/our-strategy",
@@ -365,7 +365,7 @@ export const Content = {
               title: "Adaptive Solutions",
               description:
                 "Discover how we adapt to meet the unique needs of our clients.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/purpose-value-and-strategy/our-strategy",
@@ -374,7 +374,7 @@ export const Content = {
               title: "Global Expansion",
               description:
                 "Learn about our plans for expanding our reach and impact.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/purpose-value-and-strategy/our-strategy",
@@ -383,7 +383,7 @@ export const Content = {
               title: "Technology Integration",
               description:
                 "Dive into how we integrate cutting-edge technology into our language solutions.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/purpose-value-and-strategy/our-strategy",
@@ -421,7 +421,7 @@ export const Content = {
               title: "Empowering Communication",
               description:
                 "Learn how we empower individuals and businesses to communicate across languages.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
@@ -429,7 +429,7 @@ export const Content = {
               title: "Connecting Cultures",
               description:
                 "Explore how we bridge cultures and foster global connections.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
@@ -437,7 +437,7 @@ export const Content = {
               title: "Innovating Seamlessness",
               description:
                 "Dive into our innovative solutions that make communication seamless.",
-              iconURL: "logo",
+              iconURL: "globe",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
@@ -445,7 +445,7 @@ export const Content = {
               title: "Driving Change",
               description:
                 "Discover how our purpose is driving positive change in the world.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL: "/who-we-are/purpose-value-and-strategy/our-purpose",
             },
@@ -493,7 +493,7 @@ export const Content = {
               title: "Unified by Purpose",
               description:
                 "Learn how our shared goals and values unite us as one team.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/collective-excellence",
             },
@@ -501,7 +501,7 @@ export const Content = {
               title: "Collective Innovation",
               description:
                 "Discover how collaboration fuels innovation across all areas of our organisation.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/collective-excellence",
             },
@@ -509,7 +509,7 @@ export const Content = {
               title: "Inclusive Collaboration",
               description:
                 "See how inclusivity in collaboration leads to sustainable solutions for all.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/collective-excellence",
             },
@@ -517,7 +517,7 @@ export const Content = {
               title: "Inclusive Sustainability",
               description:
                 "Discover our commitment to creating sustainable solutions for everyone.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/collective-excellence",
             },
@@ -555,7 +555,7 @@ export const Content = {
               title: "Embracing All Voices",
               description:
                 "Learn how every voice contributes to our inclusive environment.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
@@ -563,7 +563,7 @@ export const Content = {
               title: "Equality in Action",
               description:
                 "Explore how we ensure equality and fairness in every aspect of our work.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
@@ -571,7 +571,7 @@ export const Content = {
               title: "Diverse Perspectives",
               description:
                 "See how we harness diverse perspectives to drive creativity and innovation.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
@@ -579,7 +579,7 @@ export const Content = {
               title: "Inclusive Sustainability",
               description:
                 "Discover our commitment to creating sustainable solutions for everyone.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/culture-of-inclusivity",
             },
@@ -617,7 +617,7 @@ export const Content = {
               title: "Continuous Learning",
               description:
                 "Discover how we foster a culture of learning and development.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/professional-growth",
             },
@@ -625,7 +625,7 @@ export const Content = {
               title: "Career Pathways",
               description:
                 "Explore the numerous opportunities for career advancement.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/professional-growth",
             },
@@ -633,7 +633,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Learn how our mentorship programs help guide your professional growth.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/professional-growth",
             },
@@ -641,7 +641,7 @@ export const Content = {
               title: "Sustainable Growth",
               description:
                 "See how our commitment to sustainability extends to long-term career growth.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/professional-growth",
             },
@@ -679,7 +679,7 @@ export const Content = {
               title: "Holistic Health",
               description:
                 "Learn how we promote mental, emotional, and physical health for our team.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/well-being",
             },
@@ -687,7 +687,7 @@ export const Content = {
               title: "Work-Life Balance",
               description:
                 "Explore our initiatives to help employees maintain a healthy work-life balance.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/well-being",
             },
@@ -695,7 +695,7 @@ export const Content = {
               title: "Supportive Community",
               description:
                 "Discover how we foster a supportive and compassionate work environment.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/well-being",
             },
@@ -703,7 +703,7 @@ export const Content = {
               title: "Sustainable Wellness",
               description:
                 "See how sustainability is integrated into our approach to employee well-being.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL: "/who-we-are/our-people/well-being",
             },
@@ -751,7 +751,7 @@ export const Content = {
               title: "AI and Automation",
               description:
                 "Explore how artificial intelligence and automation shape our cutting-edge solutions.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
@@ -759,7 +759,7 @@ export const Content = {
               title: "Data-Driven Insights",
               description:
                 "Discover how we leverage big data to create actionable business insights.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
@@ -767,7 +767,7 @@ export const Content = {
               title: "Sustainability Initiatives",
               description:
                 "Learn about our sustainable innovations for a greener future.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
@@ -775,7 +775,7 @@ export const Content = {
               title: "Customer-Centric Design",
               description:
                 "See how we build solutions focused on enhancing customer experience.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/innovative-solutions",
             },
@@ -812,7 +812,7 @@ export const Content = {
               title: "Co-Innovation Partnerships",
               description:
                 "Collaborating with partners to co-create groundbreaking solutions.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
@@ -820,7 +820,7 @@ export const Content = {
               title: "Joint Ventures",
               description:
                 "Explore how we form strategic joint ventures to expand our impact.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
@@ -828,7 +828,7 @@ export const Content = {
               title: "Shared Investment Strategies",
               description:
                 "Learn about our investment approach focused on shared success.",
-              iconURL: "logo",
+              iconURL: "globe",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
@@ -836,7 +836,7 @@ export const Content = {
               title: "Global Expansion Initiatives",
               description:
                 "See how we work with partners to expand into new markets.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/mutual-growth-endeavors",
             },
@@ -873,7 +873,7 @@ export const Content = {
               title: "Purpose-Driven Goals",
               description:
                 "Discover our commitment to creating meaningful, purpose-driven outcomes.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
@@ -881,7 +881,7 @@ export const Content = {
               title: "Ethical Leadership",
               description:
                 "Explore our leadership principles based on integrity and ethics.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
@@ -889,7 +889,7 @@ export const Content = {
               title: "Sustainability Commitment",
               description:
                 "Learn how our values guide us towards sustainable, long-term success.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
@@ -897,7 +897,7 @@ export const Content = {
               title: "Community Impact",
               description:
                 "See how our shared vision drives positive change in our communities.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/shared-vision-and-values",
             },
@@ -935,7 +935,7 @@ export const Content = {
               title: "Industry Partnerships",
               description:
                 "Explore our strategic partnerships with leading industry players.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
@@ -943,7 +943,7 @@ export const Content = {
               title: "Innovative Joint Efforts",
               description:
                 "Learn how joint efforts lead to breakthrough innovations.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
@@ -951,7 +951,7 @@ export const Content = {
               title: "Global Collaborations",
               description:
                 "See how our global collaborations drive success in multiple markets.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
@@ -959,7 +959,7 @@ export const Content = {
               title: "Long-Term Alliances",
               description:
                 "Discover the power of long-term alliances in creating lasting impact.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL: "/who-we-are/our-partners/strategic-collaborations",
             },
@@ -1007,7 +1007,7 @@ export const Content = {
               title: "Renewable Energy Initiatives",
               description:
                 "Investing in solar, wind, and other renewable energy sources to reduce our carbon footprint.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/global-impact/environmental-responsibility",
@@ -1016,7 +1016,7 @@ export const Content = {
               title: "Waste Reduction Strategies",
               description:
                 "Implementing waste management programs to minimize landfill contributions and promote recycling.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/global-impact/environmental-responsibility",
@@ -1025,7 +1025,7 @@ export const Content = {
               title: "Sustainable Sourcing",
               description:
                 "Working with suppliers who prioritize sustainability and ethical practices in their operations.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/global-impact/environmental-responsibility",
@@ -1034,7 +1034,7 @@ export const Content = {
               title: "Conservation Efforts",
               description:
                 "Supporting initiatives aimed at protecting wildlife and preserving natural habitats.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/global-impact/environmental-responsibility",
@@ -1073,7 +1073,7 @@ export const Content = {
               title: "International Partnerships",
               description:
                 "Building relationships with organizations around the world to share knowledge and expertise.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
@@ -1081,7 +1081,7 @@ export const Content = {
               title: "Cross-Cultural Initiatives",
               description:
                 "Promoting cultural exchange programs that enhance understanding and cooperation among nations.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
@@ -1089,7 +1089,7 @@ export const Content = {
               title: "Global Health Initiatives",
               description:
                 "Collaborating with international agencies to improve health outcomes in underserved communities.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
@@ -1097,7 +1097,7 @@ export const Content = {
               title: "Disaster Relief Efforts",
               description:
                 "Partnering with global organizations to provide timely support in times of crisis.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/global-collaborations",
             },
@@ -1135,7 +1135,7 @@ export const Content = {
               title: "Diversity Training Programs",
               description:
                 "Offering training to promote awareness and understanding of diverse backgrounds and experiences.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
@@ -1143,7 +1143,7 @@ export const Content = {
               title: "Inclusive Hiring Practices",
               description:
                 "Implementing strategies to ensure equitable hiring and retention of diverse talent.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
@@ -1151,7 +1151,7 @@ export const Content = {
               title: "Cultural Celebrations",
               description:
                 "Hosting events that celebrate cultural diversity within our organization.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
@@ -1159,7 +1159,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Providing mentorship opportunities to empower underrepresented groups in the workforce.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/leveraging-diversity",
             },
@@ -1196,7 +1196,7 @@ export const Content = {
               title: "Community Development Projects",
               description:
                 "Supporting initiatives that uplift and empower local communities.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
@@ -1204,7 +1204,7 @@ export const Content = {
               title: "Volunteer Programs",
               description:
                 "Encouraging our employees to engage in volunteer opportunities that make a positive impact.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
@@ -1212,7 +1212,7 @@ export const Content = {
               title: "Educational Outreach",
               description:
                 "Providing resources and support for education initiatives in underserved areas.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
@@ -1220,7 +1220,7 @@ export const Content = {
               title: "Advocacy for Social Issues",
               description:
                 "Championing causes that promote social justice and equity.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL: "/who-we-are/global-impact/social-responsibility",
             },
@@ -1268,7 +1268,7 @@ export const Content = {
               title: "Building Inclusive Teams",
               description:
                 "Our focus is on creating diverse teams that reflect our global community.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
@@ -1277,7 +1277,7 @@ export const Content = {
               title: "Valuing Every Perspective",
               description:
                 "We respect and value the unique contributions of every individual.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
@@ -1286,7 +1286,7 @@ export const Content = {
               title: "Supporting Equity",
               description:
                 "We are committed to ensuring equitable opportunities for everyone.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
@@ -1295,7 +1295,7 @@ export const Content = {
               title: "Championing Diversity",
               description:
                 "We actively work to increase diversity at all levels of our organization.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/embracing-differences",
@@ -1334,7 +1334,7 @@ export const Content = {
               title: "Leadership Development",
               description:
                 "Offering programs that foster leadership skills at all levels.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
@@ -1342,7 +1342,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Connecting employees with mentors who guide their personal and professional growth.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
@@ -1350,7 +1350,7 @@ export const Content = {
               title: "Career Growth",
               description:
                 "We provide opportunities for continuous learning and career advancement.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
@@ -1358,7 +1358,7 @@ export const Content = {
               title: "Empowering Communities",
               description:
                 "We extend our empowerment initiatives to the communities we serve.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL: "/who-we-are/diversity-and-inclusion/empowerment",
             },
@@ -1396,7 +1396,7 @@ export const Content = {
               title: "Fair Hiring Practices",
               description:
                 "We ensure that our hiring processes are fair and inclusive.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
@@ -1405,7 +1405,7 @@ export const Content = {
               title: "Diverse Workforce",
               description:
                 "We focus on building a workforce that reflects the diversity of our global community.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
@@ -1414,7 +1414,7 @@ export const Content = {
               title: "Inclusive Benefits",
               description:
                 "Offering benefits that meet the diverse needs of our employees.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
@@ -1423,7 +1423,7 @@ export const Content = {
               title: "Advocating for Equity",
               description:
                 "We are committed to removing barriers and creating equal opportunities for all.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/equal-opportunities",
@@ -1462,7 +1462,7 @@ export const Content = {
               title: "Cross-Cultural Collaboration",
               description:
                 "We encourage collaboration across different cultures and regions.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
@@ -1471,7 +1471,7 @@ export const Content = {
               title: "Global Leadership",
               description:
                 "We promote leaders who bring a global perspective to their work.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
@@ -1480,7 +1480,7 @@ export const Content = {
               title: "Cultural Awareness",
               description:
                 "We offer training programs that increase cultural competence across teams.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
@@ -1489,7 +1489,7 @@ export const Content = {
               title: "Global Impact",
               description:
                 "Our initiatives create lasting global impact by promoting inclusivity worldwide.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/global-perspective",
@@ -1528,7 +1528,7 @@ export const Content = {
               title: "Inclusive Leadership",
               description:
                 "Our leaders are committed to creating an inclusive environment for all.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
@@ -1537,7 +1537,7 @@ export const Content = {
               title: "Belonging Initiatives",
               description:
                 "We foster a sense of belonging through various initiatives and programs.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
@@ -1546,7 +1546,7 @@ export const Content = {
               title: "Employee Resource Groups",
               description:
                 "Our employee resource groups provide support and community for underrepresented groups.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
@@ -1555,7 +1555,7 @@ export const Content = {
               title: "Inclusive Policies",
               description:
                 "Our policies reflect our commitment to fairness and inclusivity.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/diversity-and-inclusion/inclusive-culture",
@@ -1603,7 +1603,7 @@ export const Content = {
               title: "Renewable Energy",
               description:
                 "Transitioning to renewable energy sources like wind and solar to reduce emissions.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
@@ -1612,7 +1612,7 @@ export const Content = {
               title: "Energy Efficiency",
               description:
                 "Implementing energy-efficient systems in our facilities to lower consumption.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
@@ -1621,7 +1621,7 @@ export const Content = {
               title: "Sustainable Transportation",
               description:
                 "Encouraging the use of electric vehicles and eco-friendly logistics.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
@@ -1630,7 +1630,7 @@ export const Content = {
               title: "Waste Management",
               description:
                 "Reducing waste through recycling programs and responsible disposal.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/carbon-footprint-reduction",
@@ -1669,7 +1669,7 @@ export const Content = {
               title: "Water Conservation",
               description:
                 "Promoting water efficiency in operations and reducing consumption.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
@@ -1678,7 +1678,7 @@ export const Content = {
               title: "Biodiversity Protection",
               description:
                 "Supporting ecosystems and preserving biodiversity in areas where we operate.",
-              iconURL: "logo",
+              iconURL: "globe",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
@@ -1687,7 +1687,7 @@ export const Content = {
               title: "Circular Economy",
               description:
                 "Innovating products and processes to reuse materials and minimize waste.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
@@ -1696,7 +1696,7 @@ export const Content = {
               title: "Sustainable Packaging",
               description:
                 "Developing packaging solutions that reduce environmental impact.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/contributions-to-sustainability",
@@ -1735,7 +1735,7 @@ export const Content = {
               title: "Green Buildings",
               description:
                 "Constructing eco-friendly buildings with LEED certifications and energy-saving technologies.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
@@ -1744,7 +1744,7 @@ export const Content = {
               title: "Sustainable Sourcing",
               description:
                 "Prioritizing suppliers with sustainable practices and eco-friendly materials.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
@@ -1753,7 +1753,7 @@ export const Content = {
               title: "Energy Management",
               description:
                 "Utilizing smart energy management systems to reduce power consumption.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
@@ -1762,7 +1762,7 @@ export const Content = {
               title: "Water Management",
               description:
                 "Innovating water-saving techniques to reduce our water footprint.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/who-we-are/climate-strategy/eco-friendly-practices",
@@ -1801,7 +1801,7 @@ export const Content = {
               title: "Reforestation Projects",
               description:
                 "Partnering with global organizations to reforest and restore ecosystems.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
@@ -1809,7 +1809,7 @@ export const Content = {
               title: "Clean Energy Investments",
               description:
                 "Investing in clean energy projects to power our operations and communities.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
@@ -1817,7 +1817,7 @@ export const Content = {
               title: "Reducing Plastics",
               description:
                 "Minimizing single-use plastics in our operations and promoting alternatives.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
@@ -1825,7 +1825,7 @@ export const Content = {
               title: "Sustainable Agriculture",
               description:
                 "Supporting sustainable farming practices that reduce environmental impact.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL: "/who-we-are/climate-strategy/green-initiatives",
             },
@@ -1912,7 +1912,7 @@ export const Content = {
             title: "Comprehensive Financial Advisory Services",
             description:
               "We offer expert financial advisory services that help you make informed decisions and optimize your financial strategies.",
-            iconURL: "logo",
+            iconURL: "rocket",
             button: "Learn more",
             redirectURL:
               "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -1921,7 +1921,7 @@ export const Content = {
             title: "Financial Planning and Risk Management",
             description:
               "Our services include financial planning and risk management strategies designed to protect your assets and grow your wealth.",
-            iconURL: "logo",
+            iconURL: "users",
             button: "Learn more",
             redirectURL:
               "/services/final-consultancy/financial-planning-and-risk-management",
@@ -1930,7 +1930,7 @@ export const Content = {
             title: "Performance Analysis and Informed Decision Making",
             description:
               "We conduct thorough performance analysis to guide your decision-making processes, ensuring sustainable growth and success.",
-            iconURL: "logo",
+            iconURL: "languages",
             button: "Learn more",
             redirectURL:
               "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -1939,7 +1939,7 @@ export const Content = {
             title: "Specialised Expertise in Financial Regulations",
             description:
               "Leverage our specialized expertise to navigate complex financial regulations and ensure compliance in all your operations.",
-            iconURL: "logo",
+            iconURL: "laptop",
             button: "Learn more",
             redirectURL:
               "/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -1997,7 +1997,7 @@ export const Content = {
               title: "Threat Detection",
               description:
                 "Identify and respond to potential cyber threats before they cause harm.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
@@ -2006,7 +2006,7 @@ export const Content = {
               title: "Data Encryption",
               description:
                 "Ensure your sensitive information is secure with advanced encryption methods.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
@@ -2015,7 +2015,7 @@ export const Content = {
               title: "Network Security",
               description:
                 "Protect your network infrastructure from unauthorized access and attacks.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
@@ -2024,7 +2024,7 @@ export const Content = {
               title: "Incident Response",
               description:
                 "React swiftly to cyber incidents with our professional response teams.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/cybersecurity-solutions",
@@ -2063,7 +2063,7 @@ export const Content = {
               title: "Predictive Analytics",
               description:
                 "Predict future trends and outcomes using advanced algorithms.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
@@ -2072,7 +2072,7 @@ export const Content = {
               title: "Data Visualization",
               description:
                 "Present complex data in clear and actionable visual formats.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
@@ -2081,7 +2081,7 @@ export const Content = {
               title: "Business Intelligence Tools",
               description:
                 "Make informed decisions with real-time business intelligence reports.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
@@ -2090,7 +2090,7 @@ export const Content = {
               title: "Data Integration",
               description:
                 "Consolidate data from multiple sources for seamless analysis.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/data-analytics-and-business-intelligence",
@@ -2130,7 +2130,7 @@ export const Content = {
               title: "Artificial Intelligence",
               description:
                 "Automate and optimize business processes using AI solutions.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
@@ -2139,7 +2139,7 @@ export const Content = {
               title: "Blockchain",
               description:
                 "Implement secure and transparent blockchain-based systems.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
@@ -2148,7 +2148,7 @@ export const Content = {
               title: "IoT Solutions",
               description:
                 "Connect devices and systems with the Internet of Things for enhanced operations.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
@@ -2157,7 +2157,7 @@ export const Content = {
               title: "Machine Learning",
               description:
                 "Empower your business with predictive and adaptive machine learning models.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/emerging-technologies-integration",
@@ -2198,7 +2198,7 @@ export const Content = {
               title: "Custom Applications",
               description:
                 "Develop software applications specifically designed for your business processes.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
@@ -2207,7 +2207,7 @@ export const Content = {
               title: "Mobile App Development",
               description:
                 "Create high-performance mobile apps to engage your customers.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
@@ -2215,7 +2215,7 @@ export const Content = {
             {
               title: "Web Development",
               description: "Design and build responsive and dynamic websites.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
@@ -2224,7 +2224,7 @@ export const Content = {
               title: "API Integration",
               description:
                 "Seamlessly integrate third-party services with your software using custom APIs.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/services/digital-and-tech-solutions/software-development",
@@ -2275,7 +2275,7 @@ export const Content = {
               title: "Wealth Management",
               description:
                 "Optimize your assets with our personalized wealth management solutions.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -2284,7 +2284,7 @@ export const Content = {
               title: "Investment Strategies",
               description:
                 "Diversify and grow your portfolio with tailored investment strategies.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -2293,7 +2293,7 @@ export const Content = {
               title: "Tax Optimization",
               description:
                 "Minimize your tax liabilities with our strategic planning solutions.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -2302,7 +2302,7 @@ export const Content = {
               title: "Estate Planning",
               description:
                 "Ensure your legacy with effective estate planning services.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/comprehensive-financial-advisory-services",
@@ -2341,7 +2341,7 @@ export const Content = {
               title: "Retirement Planning",
               description:
                 "Plan your retirement with confidence and secure your financial future.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
@@ -2350,7 +2350,7 @@ export const Content = {
               title: "Risk Assessment",
               description:
                 "Evaluate potential risks and develop strategies to mitigate them.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
@@ -2359,7 +2359,7 @@ export const Content = {
               title: "Insurance Solutions",
               description:
                 "Protect your business and personal assets with customized insurance plans.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
@@ -2368,7 +2368,7 @@ export const Content = {
               title: "Contingency Planning",
               description:
                 "Prepare for the unexpected with thorough contingency planning.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/financial-planning-and-risk-management",
@@ -2407,7 +2407,7 @@ export const Content = {
               title: "Financial Reporting",
               description:
                 "Get detailed financial reports to track your business performance.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -2416,7 +2416,7 @@ export const Content = {
               title: "KPI Tracking",
               description:
                 "Monitor your key performance indicators for continued business growth.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -2425,7 +2425,7 @@ export const Content = {
               title: "Cost-Benefit Analysis",
               description:
                 "Analyze the costs and benefits of projects for better investment decisions.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -2434,7 +2434,7 @@ export const Content = {
               title: "Scenario Planning",
               description:
                 "Evaluate different business scenarios to prepare for the future.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/performance-analysis-and-informed-decision-making",
@@ -2473,7 +2473,7 @@ export const Content = {
               title: "Compliance Audits",
               description:
                 "Ensure regulatory compliance with comprehensive audits.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -2482,7 +2482,7 @@ export const Content = {
               title: "Regulatory Reporting",
               description:
                 "Stay on top of regulatory requirements with accurate reporting.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -2491,7 +2491,7 @@ export const Content = {
               title: "Risk and Compliance Management",
               description:
                 "Manage regulatory risks with effective compliance strategies.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -2500,7 +2500,7 @@ export const Content = {
               title: "Legal and Regulatory Updates",
               description:
                 "Stay informed with the latest updates in financial regulations.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/services/final-consultancy/specialised-expertise-in-financial-regulations",
@@ -2549,7 +2549,7 @@ export const Content = {
               title: "Corporate Legal Services",
               description:
                 "Navigate the complexities of corporate law with our expert advisory on transactions, governance, and compliance.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/comprehensive-legal-advisory",
@@ -2558,7 +2558,7 @@ export const Content = {
               title: "Contract Drafting & Negotiation",
               description:
                 "Ensure your contracts are legally sound and aligned with your business goals with our drafting and negotiation services.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/comprehensive-legal-advisory",
@@ -2567,7 +2567,7 @@ export const Content = {
               title: "Intellectual Property Law",
               description:
                 "Safeguard your innovations with our specialized intellectual property advisory and protection strategies.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/comprehensive-legal-advisory",
@@ -2576,7 +2576,7 @@ export const Content = {
               title: "Regulatory Compliance",
               description:
                 "Stay ahead of evolving regulations with our tailored compliance strategies for your industry.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/comprehensive-legal-advisory",
@@ -2616,7 +2616,7 @@ export const Content = {
               title: "Commercial Litigation",
               description:
                 "Expert representation in commercial disputes, helping you secure the best possible outcome.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/dispute-resolution-and-litigation-support",
@@ -2625,7 +2625,7 @@ export const Content = {
               title: "Mediation & Arbitration",
               description:
                 "Cost-effective alternative dispute resolution strategies, including mediation and arbitration services.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/dispute-resolution-and-litigation-support",
@@ -2634,7 +2634,7 @@ export const Content = {
               title: "Employment Disputes",
               description:
                 "Comprehensive legal support for resolving employee-related conflicts and workplace disputes.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/dispute-resolution-and-litigation-support",
@@ -2643,7 +2643,7 @@ export const Content = {
               title: "Debt Recovery",
               description:
                 "Efficient and effective legal strategies to recover outstanding debts, ensuring minimal business disruption.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/dispute-resolution-and-litigation-support",
@@ -2681,7 +2681,7 @@ export const Content = {
               title: "Regulatory Audits",
               description:
                 "Our team conducts in-depth audits to ensure your business complies with current regulations.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/proactive-compliance-strategies",
@@ -2690,7 +2690,7 @@ export const Content = {
               title: "Risk Management",
               description:
                 "Identify potential risks and develop effective strategies to mitigate them.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/proactive-compliance-strategies",
@@ -2699,7 +2699,7 @@ export const Content = {
               title: "Policy Development",
               description:
                 "Develop internal policies that align with industry regulations and legal frameworks.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/proactive-compliance-strategies",
@@ -2708,7 +2708,7 @@ export const Content = {
               title: "Ongoing Compliance Support",
               description:
                 "Receive continuous support to ensure long-term compliance as regulations evolve.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/proactive-compliance-strategies",
@@ -2748,7 +2748,7 @@ export const Content = {
               title: "Cross-Border Compliance",
               description:
                 "Ensure compliance with international laws and regulations, avoiding costly legal challenges.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
@@ -2757,7 +2757,7 @@ export const Content = {
               title: "International Trade Law",
               description:
                 "Expert guidance on international trade regulations, tariffs, and export controls.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
@@ -2766,7 +2766,7 @@ export const Content = {
               title: "Data Protection Regulations",
               description:
                 "Ensure your business complies with international data protection laws such as GDPR.",
-              iconURL: "logo",
+              iconURL: "globe",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
@@ -2775,7 +2775,7 @@ export const Content = {
               title: "Customs & Tariff Management",
               description:
                 "Navigate the complexities of customs and tariffs in multinational operations.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/specialised-expertise-in-multinational-regulations",
@@ -2823,7 +2823,7 @@ export const Content = {
               title: "Legal Document Translation",
               description:
                 "Accurate translations for contracts, agreements, and other legal documents.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2832,7 +2832,7 @@ export const Content = {
               title: "Medical Document Translation",
               description:
                 "Expert translation of medical records, patient information, and pharmaceutical documentation.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2841,7 +2841,7 @@ export const Content = {
               title: "Technical Document Translation",
               description:
                 "Precision in translating user manuals, product specifications, and engineering documents.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2850,7 +2850,7 @@ export const Content = {
               title: "Certified Document Translation",
               description:
                 "Official translations for legal and governmental purposes, ensuring compliance with regulations.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/document-translation",
@@ -2888,7 +2888,7 @@ export const Content = {
               title: "Legal Translation",
               description:
                 "Expertise in translating legal documents with a focus on accuracy and compliance.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2897,7 +2897,7 @@ export const Content = {
               title: "Medical Translation",
               description:
                 "High-quality translation of medical texts, ensuring patient safety and regulatory compliance.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2906,7 +2906,7 @@ export const Content = {
               title: "Technical Translation",
               description:
                 "In-depth understanding of technical jargon and concepts for accurate translations.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2915,7 +2915,7 @@ export const Content = {
               title: "Financial Translation",
               description:
                 "Precise translation of financial documents, reports, and statements.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/industry-specific-language-solutions",
@@ -2954,7 +2954,7 @@ export const Content = {
               title: "Simultaneous Interpretation",
               description:
                 "Real-time interpretation for large events, ensuring seamless communication.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
@@ -2962,7 +2962,7 @@ export const Content = {
               title: "Consecutive Interpretation",
               description:
                 "Effective interpretation for smaller meetings and discussions.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
@@ -2970,7 +2970,7 @@ export const Content = {
               title: "Over-the-Phone Interpretation",
               description:
                 "Convenient and immediate interpretation services for urgent situations.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
@@ -2978,7 +2978,7 @@ export const Content = {
               title: "Video Remote Interpretation",
               description:
                 "Visual interpretation services that connect you with interpreters via video calls.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/services/multilingual-solutions/interpretation",
             },
@@ -3015,7 +3015,7 @@ export const Content = {
               title: "Instant Access",
               description:
                 "Get connected with interpreters in real-time through our mobile app.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -3024,7 +3024,7 @@ export const Content = {
               title: "Multilingual Support",
               description:
                 "Access a wide range of languages at your convenience.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -3033,7 +3033,7 @@ export const Content = {
               title: "24/7 Availability",
               description:
                 "Our interpreters are available around the clock for your needs.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -3042,7 +3042,7 @@ export const Content = {
               title: "User-Friendly Interface",
               description:
                 "Seamless navigation and easy access to all features within the app.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/services/multilingual-solutions/mobile-interpretation",
@@ -3090,7 +3090,7 @@ export const Content = {
               title: "Industry Experts",
               description:
                 "Instructors with hands-on industry experience to provide practical insights.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
@@ -3099,7 +3099,7 @@ export const Content = {
               title: "Certified Trainers",
               description:
                 "All instructors are certified and qualified in their respective fields.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
@@ -3108,7 +3108,7 @@ export const Content = {
               title: "Personalized Approach",
               description:
                 "Tailored training sessions to meet the unique needs of each student.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
@@ -3117,7 +3117,7 @@ export const Content = {
               title: "Ongoing Support",
               description:
                 "Our instructors provide ongoing support even after the training is completed.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/experienced-instructors",
@@ -3156,7 +3156,7 @@ export const Content = {
               title: "Leadership Development",
               description:
                 "Empower yourself with essential leadership skills to drive team success and inspire innovation within your organisation.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/professional-development",
@@ -3165,7 +3165,7 @@ export const Content = {
               title: "Technical Skills Enhancement",
               description:
                 "Upgrade your technical expertise with industry-leading training, tailored to meet the evolving demands of your profession.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/professional-development",
@@ -3174,7 +3174,7 @@ export const Content = {
               title: "Communication & Soft Skills",
               description:
                 "Sharpen your communication and interpersonal skills, essential for fostering collaboration and improving workplace dynamics.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/professional-development",
@@ -3183,7 +3183,7 @@ export const Content = {
               title: "Project Management Training",
               description:
                 "Master the art of managing projects effectively, with tools and techniques that ensure timely and successful outcomes.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/services/legal-consultancy/professional-development",
@@ -3221,7 +3221,7 @@ export const Content = {
             {
               title: "Flexible Scheduling",
               description: "Choose the schedule that fits your life.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
@@ -3229,7 +3229,7 @@ export const Content = {
               title: "Customized Content",
               description:
                 "Training materials tailored to your specific needs and goals.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
@@ -3237,7 +3237,7 @@ export const Content = {
               title: "Individual Attention",
               description:
                 "Small class sizes ensure personalized feedback and support.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
@@ -3245,7 +3245,7 @@ export const Content = {
               title: "Goal-Oriented Training",
               description:
                 "Focus on achieving your specific learning objectives.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/services/training-programme/personalized-learning",
             },
@@ -3282,7 +3282,7 @@ export const Content = {
               title: "Latest Techniques",
               description:
                 "Learn the most current methods and technologies in your field.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
@@ -3291,7 +3291,7 @@ export const Content = {
               title: "Adaptability Training",
               description:
                 "Training to help you adapt to evolving industry standards.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
@@ -3300,7 +3300,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Connect with industry leaders and peers during our programs.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
@@ -3309,7 +3309,7 @@ export const Content = {
               title: "Access to Resources",
               description:
                 "Gain access to exclusive training materials and resources.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/stay-ahead-of-the-curve",
@@ -3347,7 +3347,7 @@ export const Content = {
             {
               title: "Technical Skills",
               description: "Courses in programming, IT, and engineering.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
@@ -3356,7 +3356,7 @@ export const Content = {
               title: "Soft Skills",
               description:
                 "Training in communication, leadership, and teamwork.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
@@ -3365,7 +3365,7 @@ export const Content = {
               title: "Business Development",
               description:
                 "Workshops on sales, marketing, and entrepreneurship.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
@@ -3374,7 +3374,7 @@ export const Content = {
               title: "Creative Arts",
               description:
                 "Courses in design, writing, and multimedia production.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/services/training-programme/wide-ranging-expertise",
@@ -3462,7 +3462,7 @@ export const Content = {
             title: "Collaborative Spirit in Action",
             description:
               "Witness our collaborative spirit in action, where teamwork and creativity come together to achieve remarkable results.",
-            iconURL: "logo",
+            iconURL: "target",
             button: "Learn more",
             redirectURL:
               "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -3471,7 +3471,7 @@ export const Content = {
             title: "Culture of Inclusivity and Empowerment",
             description:
               "At Novelex, we foster a culture of inclusivity and empowerment, ensuring that every voice is heard and valued.",
-            iconURL: "logo",
+            iconURL: "users",
             button: "Learn more",
             redirectURL:
               "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -3480,7 +3480,7 @@ export const Content = {
             title: "Personal Stories and Experiences",
             description:
               "Explore personal stories and experiences from our team members that highlight our shared values and commitment to growth.",
-            iconURL: "logo",
+            iconURL: "exchange-alt",
             button: "Learn more",
             redirectURL:
               "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -3489,7 +3489,7 @@ export const Content = {
             title: "Values and Principles at The Core",
             description:
               "Discover the values and principles that lie at the core of Novelex, guiding our actions and decisions every day.",
-            iconURL: "logo",
+            iconURL: "globe",
             button: "Learn more",
             redirectURL:
               "/team-and-culture-insights/values-and-principles-at-the-core",
@@ -3545,7 +3545,7 @@ export const Content = {
             {
               title: "Workshops and Training",
               description: "Hands-on workshops to enhance professional skills.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
@@ -3554,7 +3554,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Connecting professionals with those seeking guidance.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
@@ -3562,7 +3562,7 @@ export const Content = {
             {
               title: "Scholarship Opportunities",
               description: "Financial support for deserving students.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
@@ -3571,7 +3571,7 @@ export const Content = {
               title: "Online Learning Resources",
               description:
                 "Access to a variety of online courses and materials.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/educational-initiatives-and-skill-building-programs",
@@ -3611,7 +3611,7 @@ export const Content = {
               title: "Community Clean-Up Days",
               description:
                 "Join us for monthly clean-up events in local parks.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
@@ -3620,7 +3620,7 @@ export const Content = {
               title: "Food Drives",
               description:
                 "Help us collect and distribute food to those in need.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
@@ -3628,7 +3628,7 @@ export const Content = {
             {
               title: "Mentorship Programs",
               description: "Engage with youth through mentoring and support.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
@@ -3637,7 +3637,7 @@ export const Content = {
               title: "Charity Runs and Events",
               description:
                 "Participate in runs and events to raise funds for local charities.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/employee-volunteerism-and-outreach-programs",
@@ -3676,7 +3676,7 @@ export const Content = {
               title: "Recycling Programs",
               description:
                 "Implementing effective recycling initiatives in our offices.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
@@ -3685,7 +3685,7 @@ export const Content = {
               title: "Energy Conservation",
               description:
                 "Reducing energy consumption through efficient practices.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
@@ -3693,7 +3693,7 @@ export const Content = {
             {
               title: "Tree Planting Campaigns",
               description: "Join us in planting trees in our local community.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
@@ -3701,7 +3701,7 @@ export const Content = {
             {
               title: "Water Conservation Efforts",
               description: "Initiatives to promote responsible water use.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/environmental-sustainability-projects",
@@ -3740,7 +3740,7 @@ export const Content = {
               title: "Local Nonprofits",
               description:
                 "Partnering with nonprofits to address community needs.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
@@ -3749,7 +3749,7 @@ export const Content = {
               title: "Educational Institutions",
               description:
                 "Collaborating with schools for educational initiatives.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
@@ -3758,7 +3758,7 @@ export const Content = {
               title: "Government Agencies",
               description:
                 "Working with local government for community betterment.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
@@ -3767,7 +3767,7 @@ export const Content = {
               title: "Corporate Collaborations",
               description:
                 "Teaming up with other businesses for joint initiatives.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/community-engagement/strategic-partnerships-for-social-impact",
@@ -3815,7 +3815,7 @@ export const Content = {
             {
               title: "Annual Community Picnic",
               description: "A day of fun, food, and friendship in the park.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
@@ -3823,7 +3823,7 @@ export const Content = {
             {
               title: "Festive Holiday Celebration",
               description: "Join us for our annual holiday festivities!",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
@@ -3831,7 +3831,7 @@ export const Content = {
             {
               title: "Community Volunteer Day",
               description: "Give back to the community with us.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
@@ -3839,7 +3839,7 @@ export const Content = {
             {
               title: "Local Art Showcase",
               description: "Support local artists at our community art fair.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/celebration-with-our-community",
@@ -3878,7 +3878,7 @@ export const Content = {
               title: "100th Project Completed",
               description:
                 "A celebration of our project management excellence.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
@@ -3886,7 +3886,7 @@ export const Content = {
             {
               title: "5 Years of Community Service",
               description: "A tribute to our commitment to service.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
@@ -3894,7 +3894,7 @@ export const Content = {
             {
               title: "Partnership with Local Schools",
               description: "Fostering education through collaboration.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
@@ -3902,7 +3902,7 @@ export const Content = {
             {
               title: "Sustainability Goals Met",
               description: "Achievements in environmental initiatives.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/continuous-strides-and-milestones",
@@ -3938,7 +3938,7 @@ export const Content = {
             {
               title: "Award for Community Impact",
               description: "Recognizing our efforts in community development.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
@@ -3946,7 +3946,7 @@ export const Content = {
             {
               title: "Innovation in Service Delivery",
               description: "How we improved service quality for our clients.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
@@ -3954,7 +3954,7 @@ export const Content = {
             {
               title: "Partnerships that Matter",
               description: "Building relationships for a better future.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
@@ -3962,7 +3962,7 @@ export const Content = {
             {
               title: "Recognition for Sustainability Practices",
               description: "Honoring our commitment to the environment.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/insights-into-significant-achievements",
@@ -4000,7 +4000,7 @@ export const Content = {
             {
               title: "Launch of New Services",
               description: "Expanding our offerings for the community.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
@@ -4008,7 +4008,7 @@ export const Content = {
             {
               title: "Technological Upgrades",
               description: "Improving our systems for better efficiency.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
@@ -4017,7 +4017,7 @@ export const Content = {
               title: "New Partnerships for Growth",
               description:
                 "Collaborating with industry leaders for greater impact.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
@@ -4025,7 +4025,7 @@ export const Content = {
             {
               title: "Research and Development Initiatives",
               description: "Investing in future solutions.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/events-and-highlights/showcasing-innovations-and-developments",
@@ -4073,7 +4073,7 @@ export const Content = {
             {
               title: "Collaborative Spaces",
               description: "Our open offices are designed for teamwork.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
@@ -4081,7 +4081,7 @@ export const Content = {
             {
               title: "Innovation Labs",
               description: "Spaces dedicated to brainstorming and development.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
@@ -4089,7 +4089,7 @@ export const Content = {
             {
               title: "Idea Showcases",
               description: "Employees present their innovative projects.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
@@ -4098,7 +4098,7 @@ export const Content = {
               title: "Feedback Sessions",
               description:
                 "Regular meetings to discuss ideas and improvements.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/creativity-and-openness",
@@ -4136,7 +4136,7 @@ export const Content = {
               title: "Passionate Teams",
               description:
                 "Our employees bring energy and enthusiasm to every project.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
@@ -4144,7 +4144,7 @@ export const Content = {
             {
               title: "Celebrating Wins",
               description: "Recognizing our achievements together.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
@@ -4152,7 +4152,7 @@ export const Content = {
             {
               title: "Dynamic Projects",
               description: "Engaging tasks that inspire creativity.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
@@ -4160,7 +4160,7 @@ export const Content = {
             {
               title: "Team Challenges",
               description: "Friendly competitions that boost morale.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/energy-and-enthusiasm-for-success",
@@ -4198,7 +4198,7 @@ export const Content = {
             {
               title: "Community Engagement",
               description: "Involving ourselves in local initiatives.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
@@ -4206,7 +4206,7 @@ export const Content = {
             {
               title: "Sustainability Practices",
               description: "Striving for eco-friendly operations.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
@@ -4215,7 +4215,7 @@ export const Content = {
               title: "Employee Volunteering",
               description:
                 "Encouraging staff participation in community service.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
@@ -4223,7 +4223,7 @@ export const Content = {
             {
               title: "Social Responsibility",
               description: "Committed to ethical practices.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/sense-of-purpose-in-everything-we-do",
@@ -4260,7 +4260,7 @@ export const Content = {
             {
               title: "Cultural Celebrations",
               description: "Recognizing and honoring various cultures.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
@@ -4268,7 +4268,7 @@ export const Content = {
             {
               title: "Diverse Teams",
               description: "Bringing together unique backgrounds.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
@@ -4276,7 +4276,7 @@ export const Content = {
             {
               title: "Inclusive Policies",
               description: "Policies that support all employees.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
@@ -4284,7 +4284,7 @@ export const Content = {
             {
               title: "Community Building",
               description: "Creating a sense of belonging for everyone.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/experiencing-novelex/vibrant-and-diverse-culture",
@@ -4333,7 +4333,7 @@ export const Content = {
               title: "Cross-Functional Teams",
               description:
                 "Our diverse teams bring unique perspectives to every project.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -4342,7 +4342,7 @@ export const Content = {
               title: "Innovative Problem Solving",
               description:
                 "Together, we tackle challenges and find creative solutions.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -4351,7 +4351,7 @@ export const Content = {
               title: "Open Communication",
               description:
                 "We believe in transparent dialogue to enhance teamwork.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -4359,7 +4359,7 @@ export const Content = {
             {
               title: "Shared Success",
               description: "Celebrating achievements as a unified team.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/collaborative-spirit-in-action",
@@ -4397,7 +4397,7 @@ export const Content = {
               title: "Inclusive Leadership",
               description:
                 "Leaders who prioritize inclusivity in decision-making.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -4405,7 +4405,7 @@ export const Content = {
             {
               title: "Diverse Perspectives",
               description: "Valuing different backgrounds and experiences.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -4414,7 +4414,7 @@ export const Content = {
               title: "Empowerment Programs",
               description:
                 "Initiatives designed to uplift and support all employees.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -4423,7 +4423,7 @@ export const Content = {
               title: "Community Engagement",
               description:
                 "Connecting with diverse communities outside our organization.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/culture-of-inclusivity-and-empowerment",
@@ -4461,7 +4461,7 @@ export const Content = {
             {
               title: "Employee Spotlights",
               description: "Highlighting unique stories from our diverse team.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -4470,7 +4470,7 @@ export const Content = {
               title: "Lessons Learned",
               description:
                 "Insights gained from personal and professional experiences.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -4478,7 +4478,7 @@ export const Content = {
             {
               title: "Cultural Celebrations",
               description: "Embracing our diverse traditions and backgrounds.",
-              iconURL: "logo",
+              iconURL: "globe",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -4486,7 +4486,7 @@ export const Content = {
             {
               title: "Impactful Initiatives",
               description: "How individual stories lead to collective growth.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/personal-stories-and-experiences",
@@ -4524,7 +4524,7 @@ export const Content = {
             {
               title: "Integrity",
               description: "Acting with honesty and transparency in all we do.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
@@ -4532,7 +4532,7 @@ export const Content = {
             {
               title: "Respect",
               description: "Valuing every individual and their contributions.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
@@ -4541,7 +4541,7 @@ export const Content = {
               title: "Innovation",
               description:
                 "Encouraging creativity and new ideas for continuous improvement.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
@@ -4549,7 +4549,7 @@ export const Content = {
             {
               title: "Collaboration",
               description: "Working together to achieve common goals.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/team-and-culture-insights/values-and-principles-at-the-core",
@@ -4599,7 +4599,7 @@ export const Content = {
               title: "Nutrition Counseling",
               description:
                 "Get personalized nutrition plans to meet your health goals.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
@@ -4608,7 +4608,7 @@ export const Content = {
               title: "Fitness Programs",
               description:
                 "Participate in group classes or one-on-one training sessions.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
@@ -4617,7 +4617,7 @@ export const Content = {
               title: "Mental Health Support",
               description:
                 "Access counseling and therapy services for mental well-being.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
@@ -4626,7 +4626,7 @@ export const Content = {
               title: "Wellness Workshops",
               description:
                 "Attend workshops on stress management, mindfulness, and more.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/comprehensive-health-and-wellness-programs",
@@ -4665,7 +4665,7 @@ export const Content = {
               title: "Health Insurance Plans",
               description:
                 "Explore a range of health insurance options tailored to your needs.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
@@ -4674,7 +4674,7 @@ export const Content = {
               title: "Retirement Savings Plans",
               description:
                 "Plan for your future with our comprehensive retirement options.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
@@ -4683,7 +4683,7 @@ export const Content = {
               title: "Paid Time Off",
               description:
                 "Enjoy a generous paid time off policy to recharge and relax.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
@@ -4692,7 +4692,7 @@ export const Content = {
               title: "Employee Discounts",
               description:
                 "Access exclusive discounts on a variety of services and products.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/customized-benefits-packages",
@@ -4731,7 +4731,7 @@ export const Content = {
               title: "Workshops and Seminars",
               description:
                 "Participate in hands-on workshops to sharpen your skills.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
@@ -4740,7 +4740,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Receive guidance from experienced professionals in your field.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
@@ -4749,7 +4749,7 @@ export const Content = {
               title: "Online Courses",
               description:
                 "Access a wide range of online courses to learn at your own pace.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
@@ -4758,7 +4758,7 @@ export const Content = {
               title: "Certification Programs",
               description:
                 "Get certified in your area of expertise to advance your career.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/professional-development-opportunities",
@@ -4796,7 +4796,7 @@ export const Content = {
               title: "Flexible Work Hours",
               description:
                 "Enjoy flexible scheduling options that fit your lifestyle.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
@@ -4805,7 +4805,7 @@ export const Content = {
               title: "Remote Work Options",
               description:
                 "Take advantage of our remote work policy for better flexibility.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
@@ -4814,7 +4814,7 @@ export const Content = {
               title: "Family-Friendly Policies",
               description:
                 "Policies that support families and promote a healthy work-life balance.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
@@ -4823,7 +4823,7 @@ export const Content = {
               title: "Wellness Days",
               description:
                 "Take dedicated wellness days to focus on your mental health.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/life-at-novelex/wellness-and-benefits/work-life-balance",
@@ -4914,7 +4914,7 @@ export const Content = {
             title: "Coaching",
             description:
               "Our coaching programs are designed to help you identify your goals and develop strategies to achieve them.",
-            iconURL: "logo",
+            iconURL: "cogs",
             button: "Learn more",
             redirectURL:
               "/careers/personal-and-professional-development/coaching",
@@ -4923,7 +4923,7 @@ export const Content = {
             title: "Investing in Your Growth",
             description:
               "We are committed to investing in your professional growth through training, workshops, and resources.",
-            iconURL: "logo",
+            iconURL: "people",
             button: "Learn more",
             redirectURL:
               "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -4932,7 +4932,7 @@ export const Content = {
             title: "Mentoring",
             description:
               "Our mentoring programs connect you with experienced professionals who can guide you on your career journey.",
-            iconURL: "logo",
+            iconURL: "book",
             button: "Learn more",
             redirectURL:
               "/careers/personal-and-professional-development/mentoring",
@@ -4941,7 +4941,7 @@ export const Content = {
             title: "Talent Management",
             description:
               "We focus on recognizing and nurturing talent within our organization to build a strong future.",
-            iconURL: "logo",
+            iconURL: "trending-down",
             button: "Learn more",
             redirectURL:
               "/personal-and-professional-development/talent-management",
@@ -4999,7 +4999,7 @@ export const Content = {
               title: "Mentorship Opportunities",
               description:
                 "Provide guidance and support to individuals looking to enhance their skills.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
@@ -5008,7 +5008,7 @@ export const Content = {
               title: "Workshop Facilitation",
               description:
                 "Lead engaging workshops that empower participants to develop new competencies.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
@@ -5017,7 +5017,7 @@ export const Content = {
               title: "Guest Speaking",
               description:
                 "Share your experiences and insights as a guest speaker at our events.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
@@ -5026,7 +5026,7 @@ export const Content = {
               title: "Curriculum Development",
               description:
                 "Contribute to the creation of training materials and programs tailored to industry needs.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/contribute-to-professional-development-programs",
@@ -5065,7 +5065,7 @@ export const Content = {
               title: "Professional Growth",
               description:
                 "Develop your leadership and communication skills as you guide others.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
@@ -5074,7 +5074,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Connect with like-minded professionals and expand your network.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
@@ -5083,7 +5083,7 @@ export const Content = {
               title: "Skill Development",
               description:
                 "Gain new skills and experiences that can enhance your career trajectory.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
@@ -5092,7 +5092,7 @@ export const Content = {
               title: "Recognition and Impact",
               description:
                 "Earn recognition for your contributions while making a lasting impact on others’ careers.",
-              iconURL: "logo",
+              iconURL: "globe",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/grow-your-career-by-empowering-others",
@@ -5130,7 +5130,7 @@ export const Content = {
               title: "Curriculum Design",
               description:
                 "Design engaging training materials tailored to learner needs.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
@@ -5139,7 +5139,7 @@ export const Content = {
               title: "Interactive Learning",
               description:
                 "Utilize innovative teaching methods to engage participants actively.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
@@ -5148,7 +5148,7 @@ export const Content = {
               title: "Feedback and Improvement",
               description:
                 "Gather feedback to continually enhance training effectiveness.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
@@ -5157,7 +5157,7 @@ export const Content = {
               title: "Assessing Learning Outcomes",
               description:
                 "Evaluate and measure the success of training programs.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/careers/become-a-trainer/shape-the-learning-experience",
@@ -5194,7 +5194,7 @@ export const Content = {
             {
               title: "Knowledge Sharing",
               description: "Share insights and best practices with learners.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
@@ -5202,14 +5202,14 @@ export const Content = {
               title: "Community Engagement",
               description:
                 "Join a network of professionals dedicated to continuous learning.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
             {
               title: "Personal Growth",
               description: "Enhance your own understanding by teaching others.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
@@ -5217,7 +5217,7 @@ export const Content = {
               title: "Inspiring Future Generations",
               description:
                 "Help shape the careers of those following in your footsteps.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL: "/careers/become-a-trainer/share-your-expertise",
             },
@@ -5266,7 +5266,7 @@ export const Content = {
               title: "Team Projects",
               description:
                 "Engage in collaborative projects that challenge your creativity.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
@@ -5275,7 +5275,7 @@ export const Content = {
               title: "Diverse Teams",
               description:
                 "Work with a diverse group of professionals from various backgrounds.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
@@ -5284,7 +5284,7 @@ export const Content = {
               title: "Skill Sharing",
               description:
                 "Share skills and learn from others in a supportive environment.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
@@ -5293,7 +5293,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Expand your professional network through collaboration.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/collaborate-and-soar",
@@ -5330,7 +5330,7 @@ export const Content = {
             {
               title: "Personal Development",
               description: "Focus on your personal and professional growth.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
@@ -5338,7 +5338,7 @@ export const Content = {
             {
               title: "Mentorship Programs",
               description: "Receive guidance from experienced professionals.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
@@ -5347,7 +5347,7 @@ export const Content = {
               title: "Skill Development",
               description:
                 "Enhance your skills through various learning opportunities.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
@@ -5356,7 +5356,7 @@ export const Content = {
               title: "Career Workshops",
               description:
                 "Participate in workshops that equip you for the future.",
-              iconURL: "logo",
+              iconURL: "leaf",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/craft-your-career-story",
@@ -5393,7 +5393,7 @@ export const Content = {
             {
               title: "Career Assessments",
               description: "Utilize assessments to identify your strengths.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
@@ -5402,7 +5402,7 @@ export const Content = {
               title: "Industry Insights",
               description:
                 "Gain insights into various industries to find your fit.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
@@ -5411,7 +5411,7 @@ export const Content = {
               title: "Networking Events",
               description:
                 "Connect with professionals in your area of interest.",
-              iconURL: "logo",
+              iconURL: "sliders-h",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
@@ -5419,7 +5419,7 @@ export const Content = {
             {
               title: "Internship Opportunities",
               description: "Explore internships to gain hands-on experience.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/discover-your-niche",
@@ -5457,7 +5457,7 @@ export const Content = {
             {
               title: "Creative Solutions",
               description: "Learn how to think outside the box.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
@@ -5465,7 +5465,7 @@ export const Content = {
             {
               title: "Leadership Development",
               description: "Develop your leadership skills with our programs.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
@@ -5473,7 +5473,7 @@ export const Content = {
             {
               title: "Sustainable Practices",
               description: "Explore sustainable practices in your field.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
@@ -5482,7 +5482,7 @@ export const Content = {
               title: "Success Stories",
               description:
                 "Get inspired by success stories from our team members.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL:
                 "/careers/explore-career-opportunities/innovate-thrive-succeed",
@@ -5532,14 +5532,14 @@ export const Content = {
               title: "Software Engineer",
               description:
                 "Develop software solutions that drive business success.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
             {
               title: "Data Analyst",
               description: "Transform data into actionable insights.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
@@ -5547,14 +5547,14 @@ export const Content = {
               title: "UX/UI Designer",
               description:
                 "Create user-friendly designs for digital platforms.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
             {
               title: "Cybersecurity Specialist",
               description: "Protect organizations from digital threats.",
-              iconURL: "logo",
+              iconURL: "exchange-alt",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/digital-and-tech-jobs",
             },
@@ -5593,21 +5593,21 @@ export const Content = {
               title: "Financial Analyst",
               description:
                 "Analyze financial data to guide investment decisions.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
             {
               title: "Accountant",
               description: "Manage financial records and ensure compliance.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
             {
               title: "Investment Banker",
               description: "Advise clients on capital raising and mergers.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
@@ -5615,7 +5615,7 @@ export const Content = {
               title: "Financial Planner",
               description:
                 "Help clients plan their financial futures effectively.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/finance-jobs",
             },
@@ -5654,28 +5654,28 @@ export const Content = {
               title: "Translator",
               description:
                 "Convert written material from one language to another.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
             {
               title: "Language Teacher",
               description: "Teach language skills to students of all ages.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
             {
               title: "Interpreter",
               description: "Provide real-time translation services.",
-              iconURL: "logo",
+              iconURL: "globe-americas",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
             {
               title: "Localization Specialist",
               description: "Adapt content for specific cultures and regions.",
-              iconURL: "logo",
+              iconURL: "laptop",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/language-jobs",
             },
@@ -5714,7 +5714,7 @@ export const Content = {
               title: "Attorney",
               description:
                 "Represent clients in legal matters and advocate for their rights.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
@@ -5722,14 +5722,14 @@ export const Content = {
               title: "Paralegal",
               description:
                 "Assist lawyers in preparing cases and legal documentation.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
             {
               title: "Legal Consultant",
               description: "Provide expert advice on legal matters.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
@@ -5737,7 +5737,7 @@ export const Content = {
               title: "Compliance Officer",
               description:
                 "Ensure organizational adherence to laws and regulations.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/legal-jobs",
             },
@@ -5774,7 +5774,7 @@ export const Content = {
               title: "Corporate Trainer",
               description:
                 "Design and deliver training programs for employees.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
@@ -5782,7 +5782,7 @@ export const Content = {
               title: "Fitness Trainer",
               description:
                 "Guide individuals towards their health and fitness goals.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
@@ -5790,7 +5790,7 @@ export const Content = {
               title: "Academic Trainer",
               description:
                 "Provide educational support and training to students.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
@@ -5798,7 +5798,7 @@ export const Content = {
               title: "Technical Trainer",
               description:
                 "Teach technical skills and knowledge to professionals.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL: "/careers/find-a-job/trainer-jobs",
             },
@@ -5846,7 +5846,7 @@ export const Content = {
               title: "Team Workshops",
               description:
                 "Engage in workshops that enhance collaboration skills.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
@@ -5855,7 +5855,7 @@ export const Content = {
               title: "Cross-Functional Projects",
               description:
                 "Work on diverse projects across different departments.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
@@ -5864,7 +5864,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Benefit from mentorship opportunities to grow your skills.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
@@ -5873,7 +5873,7 @@ export const Content = {
               title: "Celebrating Success",
               description:
                 "Join us in celebrating team achievements and milestones.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/embrace-team-synergy-and-collaboration",
@@ -5912,7 +5912,7 @@ export const Content = {
               title: "Social Events",
               description:
                 "Participate in team-building and networking events.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
@@ -5921,7 +5921,7 @@ export const Content = {
               title: "Support Groups",
               description:
                 "Join support groups for shared experiences and growth.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
@@ -5929,7 +5929,7 @@ export const Content = {
             {
               title: "Volunteer Opportunities",
               description: "Engage in community service with your colleagues.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
@@ -5938,7 +5938,7 @@ export const Content = {
               title: "Feedback Sessions",
               description:
                 "Contribute to a culture of open communication and feedback.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/forge-connections-in-a-supportive-work-community",
@@ -5976,7 +5976,7 @@ export const Content = {
               title: "International Collaboration",
               description:
                 "Work on projects with teams across different countries.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
@@ -5984,14 +5984,14 @@ export const Content = {
               title: "Cultural Exchange Programs",
               description:
                 "Experience different cultures through exchange initiatives.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
             {
               title: "Global Networking",
               description: "Build a global network of professional contacts.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
@@ -5999,7 +5999,7 @@ export const Content = {
               title: "Remote Work Flexibility",
               description:
                 "Enjoy flexible working arrangements from anywhere in the world.",
-              iconURL: "logo",
+              iconURL: "info",
               button: "Learn more",
               redirectURL: "/careers/join-our-team/join-a-global-team",
             },
@@ -6037,7 +6037,7 @@ export const Content = {
             {
               title: "Professional Development Workshops",
               description: "Attend workshops designed to enhance your skills.",
-              iconURL: "logo",
+              iconURL: "dots",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
@@ -6046,7 +6046,7 @@ export const Content = {
               title: "Career Advancement Opportunities",
               description:
                 "Take advantage of programs aimed at promoting internal talent.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
@@ -6054,7 +6054,7 @@ export const Content = {
             {
               title: "Skill Development Resources",
               description: "Access resources to help you develop new skills.",
-              iconURL: "logo",
+              iconURL: "languages",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
@@ -6063,7 +6063,7 @@ export const Content = {
               title: "Regular Performance Reviews",
               description:
                 "Receive constructive feedback to support your growth.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/careers/join-our-team/team-growth-is-personal-growth",
@@ -6111,7 +6111,7 @@ export const Content = {
             {
               title: "Goal Setting",
               description: "Learn how to set realistic and achievable goals.",
-              iconURL: "logo",
+              iconURL: "check-circle",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
@@ -6119,7 +6119,7 @@ export const Content = {
             {
               title: "Skill Development",
               description: "Enhance your skills with targeted coaching.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
@@ -6127,7 +6127,7 @@ export const Content = {
             {
               title: "Feedback and Growth",
               description: "Receive constructive feedback to foster growth.",
-              iconURL: "logo",
+              iconURL: "people",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
@@ -6135,7 +6135,7 @@ export const Content = {
             {
               title: "Career Advancement",
               description: "Strategies to help you advance in your career.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/coaching",
@@ -6175,7 +6175,7 @@ export const Content = {
               title: "Workshops",
               description:
                 "Participate in hands-on workshops to build new skills.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -6184,7 +6184,7 @@ export const Content = {
               title: "Online Courses",
               description:
                 "Access a wide range of online courses to learn at your own pace.",
-              iconURL: "logo",
+              iconURL: "coins",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -6192,7 +6192,7 @@ export const Content = {
             {
               title: "Seminars",
               description: "Join expert-led seminars on various topics.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -6201,7 +6201,7 @@ export const Content = {
               title: "Mentorship Programs",
               description:
                 "Engage in mentorship programs for personal development.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/investing-in-your-growth",
@@ -6239,7 +6239,7 @@ export const Content = {
               title: "Pairing with Mentors",
               description:
                 "Get matched with mentors in your field of interest.",
-              iconURL: "logo",
+              iconURL: "target",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
@@ -6248,7 +6248,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Expand your professional network through mentorship.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
@@ -6257,7 +6257,7 @@ export const Content = {
               title: "Skill Enhancement",
               description:
                 "Learn new skills and gain valuable insights from your mentor.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
@@ -6266,7 +6266,7 @@ export const Content = {
               title: "Career Guidance",
               description:
                 "Receive guidance on career advancement and opportunities.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/mentoring",
@@ -6304,7 +6304,7 @@ export const Content = {
             {
               title: "Performance Evaluations",
               description: "Regular assessments to guide employee development.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
@@ -6313,7 +6313,7 @@ export const Content = {
               title: "Succession Planning",
               description:
                 "Prepare for the future by identifying and nurturing future leaders.",
-              iconURL: "logo",
+              iconURL: "cogs",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
@@ -6321,7 +6321,7 @@ export const Content = {
             {
               title: "Career Pathing",
               description: "Assist employees in mapping their career paths.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
@@ -6330,7 +6330,7 @@ export const Content = {
               title: "Engagement Strategies",
               description:
                 "Implement strategies to enhance employee engagement and satisfaction.",
-              iconURL: "logo",
+              iconURL: "light-bulb",
               button: "Learn more",
               redirectURL:
                 "/careers/personal-and-professional-development/talent-management",
@@ -6380,14 +6380,14 @@ export const Content = {
               title: "North America",
               description:
                 "Find opportunities in major cities across the USA and Canada.",
-              iconURL: "logo",
+              iconURL: "hand",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
             {
               title: "Europe",
               description: "Explore careers in our vibrant European offices.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
@@ -6395,7 +6395,7 @@ export const Content = {
               title: "Asia",
               description:
                 "Join our teams in fast-growing markets across Asia.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
@@ -6403,7 +6403,7 @@ export const Content = {
               title: "Latin America",
               description:
                 "Be part of our expanding presence in Latin America.",
-              iconURL: "logo",
+              iconURL: "bullseye-solid",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/explore-novelex-worldwide",
             },
@@ -6440,7 +6440,7 @@ export const Content = {
               title: "Team Projects",
               description:
                 "Collaborate on exciting projects with teams worldwide.",
-              iconURL: "logo",
+              iconURL: "users",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
@@ -6448,7 +6448,7 @@ export const Content = {
               title: "Cultural Exchange",
               description:
                 "Experience a rich cultural environment through collaboration.",
-              iconURL: "logo",
+              iconURL: "key-solid",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
@@ -6456,7 +6456,7 @@ export const Content = {
               title: "Networking Opportunities",
               description:
                 "Expand your professional network on a global scale.",
-              iconURL: "logo",
+              iconURL: "megaphone",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
@@ -6464,7 +6464,7 @@ export const Content = {
               title: "Innovation Hubs",
               description:
                 "Join us in creating the next big thing in technology.",
-              iconURL: "logo",
+              iconURL: "book",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-collaboration-center",
             },
@@ -6501,7 +6501,7 @@ export const Content = {
               title: "Community Engagement",
               description:
                 "Get involved in initiatives that support local communities.",
-              iconURL: "logo",
+              iconURL: "trending-down",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
@@ -6509,7 +6509,7 @@ export const Content = {
               title: "Sustainability Efforts",
               description:
                 "Join us in our commitment to sustainability and environmental responsibility.",
-              iconURL: "logo",
+              iconURL: "paper",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
@@ -6517,7 +6517,7 @@ export const Content = {
               title: "Corporate Social Responsibility",
               description:
                 "Be part of a company that values giving back to society.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
@@ -6525,7 +6525,7 @@ export const Content = {
               title: "Local Partnerships",
               description:
                 "Collaborate with local organizations to drive change.",
-              iconURL: "logo",
+              iconURL: "rocket",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/global-reach-local-impact",
             },
@@ -6562,14 +6562,14 @@ export const Content = {
             {
               title: "North America Hub",
               description: "Join our vibrant North American team.",
-              iconURL: "logo",
+              iconURL: "comment",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
             {
               title: "European Hub",
               description: "Find opportunities in our European offices.",
-              iconURL: "logo",
+              iconURL: "monitor",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
@@ -6577,14 +6577,14 @@ export const Content = {
               title: "Asian Hub",
               description:
                 "Explore job openings in our Asian regional centers.",
-              iconURL: "logo",
+              iconURL: "horse",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
             {
               title: "Latin American Hub",
               description: "Join our growing team in Latin America.",
-              iconURL: "logo",
+              iconURL: "handshake",
               button: "Learn more",
               redirectURL: "/careers/where-we-hire/regional-career-hubs",
             },
