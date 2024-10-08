@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import { Icons } from "@config";
 import "./IconCard.scss";
 
@@ -36,7 +37,7 @@ export const IconCard = ({
         />
       )}
       {!forceHideButton && button && iconURL && (
-        <a href={redirectURL} className={"icon-card__button"}>
+        <Link href={redirectURL} className={"icon-card__button"}>
           <div
             className={"icon-card__icon"}
             dangerouslySetInnerHTML={{ __html: Icons[iconURL] }}
@@ -49,7 +50,7 @@ export const IconCard = ({
           >
             <span className={"icon-card__button-span"}>{button}</span>
           </p>
-        </a>
+        </Link>
       )}
       {title && <h2 className="icon-card__title">{title}</h2>}
       {description && (

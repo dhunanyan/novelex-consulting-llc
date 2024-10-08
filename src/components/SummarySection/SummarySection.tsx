@@ -1,6 +1,7 @@
 import * as React from "react";
-import { Sections } from "@config";
+import Link from "next/link";
 import Image from "next/image";
+import { Sections } from "@config";
 
 import "./SummarySection.scss";
 
@@ -33,9 +34,9 @@ export const SummarySection = ({
         <h3 className="summary__subtitle">{subtitle}</h3>
         <h1 className="summary__title">{title}</h1>
         <p className="summary__description">{description}</p>
-        <a href={redirectURL} className="summary__button">
+        <Link href={redirectURL} className="summary__button">
           {button}
-        </a>
+        </Link>
       </div>
     </div>
   </section>

@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import { FooterData } from "@data";
 
 import "./FooterLinks.scss";
@@ -8,9 +9,9 @@ export const FooterLinks = () => (
     <ul className="footer-links__list">
       {FooterData.map((item) => (
         <li className="footer-links__item" key={item.id}>
-          <a className="footer-links__link" href={item.id}>
+          <Link className="footer-links__link" href={"/" + item.id}>
             {item.text}
-          </a>
+          </Link>
         </li>
       ))}
     </ul>

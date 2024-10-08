@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { useRouter, usePathname } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 
 import { Dropdown } from "./Dropdown";
@@ -13,8 +14,10 @@ import "./Header.scss";
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = React.useState(false);
-  const [currentView, setCurrentView] = React.useState<string>("");
-  const [currentSubView, setCurrentSubView] = React.useState<string>("");
+  const [selectedView, setSelectedView] = React.useState<string>("");
+  const [selectedSubView, setSelectedSubView] = React.useState<string>("");
+  const [isDropdownOpened, setIsDropdownOpened] =
+    React.useState<boolean>(false);
   const router = useRouter();
   const pathname = usePathname();
 
@@ -23,19 +26,27 @@ export const Header = () => {
     id: string
   ) => {
     e.preventDefault();
-    setCurrentSubView("");
-    if (currentView === id) {
+    setSelectedSubView("");
+    setSelectedView(id);
+
+    if (id === "home") {
+      router.push("/");
+      setIsDropdownOpened(false);
+      return;
+    }
+
+    if (pathname.includes(id) && !isDropdownOpened) {
+      setIsDropdownOpened(true);
+      return;
+    }
+
+    if (selectedView === id) {
       router.push("/" + id);
+      setIsDropdownOpened((prev) => !prev);
       return;
     }
 
-    if (id !== "home") {
-      setCurrentView(id);
-      return;
-    }
-
-    setCurrentView("");
-    router.push("/");
+    setIsDropdownOpened(true);
   };
 
   const onSubItemClick = (
@@ -44,12 +55,13 @@ export const Header = () => {
     navItemHref: string
   ) => {
     e.preventDefault();
-    if (currentSubView === navItemId) {
+    if (selectedSubView === navItemId) {
       router.push(navItemHref);
+      setIsDropdownOpened(false);
       return;
     }
 
-    setCurrentSubView(navItemId);
+    setSelectedSubView(navItemId);
   };
 
   React.useEffect(() => {
@@ -71,7 +83,7 @@ export const Header = () => {
       <div className={"header" + (isScrolled ? " header--is-scrolled" : "")}>
         <div>
           <div className="header__container">
-            <a
+            <Link
               className={
                 "header__logo" +
                 (isScrolled ? " header__logo--is-scrolled" : "")
@@ -85,32 +97,27 @@ export const Header = () => {
                 src="/icons/i_logo.svg"
                 alt="Novelex Logo"
               />
-            </a>
+            </Link>
             <nav className="header__nav">
               <ul className="header__list">
-                {NavigationData.map((item) => (
-                  <li
-                    className="header__item"
-                    key={item.id}
-                    onClick={(e: React.MouseEvent<HTMLLIElement, MouseEvent>) =>
-                      onItemClick(e, item.id)
-                    }
-                  >
-                    <a
+                {NavigationData.map(({ id, text }) => (
+                  <li className="header__item" key={id}>
+                    <Link
                       className={
                         "header__link" +
                         (isScrolled ? " header__link--is-scrolled" : "") +
-                        (currentView === item.id
+                        (selectedView === id
                           ? " header__link--view-active"
                           : "") +
-                        (pathname === "/" + item.id
+                        (pathname.includes(id)
                           ? " header__link--route-active"
                           : "")
                       }
-                      href={item.id}
+                      href={"/" + id}
+                      onClick={(e) => onItemClick(e, id)}
                     >
-                      {item.text}
-                    </a>
+                      {text}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -123,17 +130,17 @@ export const Header = () => {
         <div
           className={
             "header__box" +
-            (!!currentView && !!DropdownData[currentView]
+            (!!selectedView && !!DropdownData[selectedView]
               ? " header__box--active"
               : "")
           }
         >
-          {currentView && DropdownData[currentView] && (
+          {isDropdownOpened && DropdownData[selectedView] && (
             <div className="header__box-container">
               <Dropdown
-                closeDropDown={() => setCurrentView("")}
-                viewId={currentView}
-                subViewId={currentSubView}
+                closeDropDown={() => setIsDropdownOpened(false)}
+                viewId={selectedView}
+                subViewId={selectedSubView}
                 onItemClick={onSubItemClick}
               />
             </div>
@@ -141,7 +148,7 @@ export const Header = () => {
         </div>
       </div>
       <div className="header-layout" />
-      {pathname.substring(1).split("/").length > 1 && <Navigator />}
+      <Navigator />
     </>
   );
 };
@@ -151,21 +158,21 @@ export const HeaderFallback = () => {
     <div className="header">
       <div>
         <div className="header__container">
-          <a className="header__logo" href="/">
+          <Link className="header__logo" href="/">
             <Image
               layout="fill"
               objectFit="contain"
               src="/icons/i_logo.svg"
               alt="Novelex Logo"
             />
-          </a>
+          </Link>
           <nav className="header__nav">
             <ul className="header__list">
               {NavigationData.map((item) => (
                 <li className="header__item" key={item.id}>
-                  <a className="header__link" href={item.id}>
+                  <Link className="header__link" href={item.id}>
                     {item.text}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

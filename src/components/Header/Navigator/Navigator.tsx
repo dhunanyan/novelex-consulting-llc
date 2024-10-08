@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 import { MdOutlineKeyboardDoubleArrowRight as Arrow } from "react-icons/md";
 
@@ -12,15 +13,20 @@ import "./Navigator.scss";
 
 export const Navigator = () => {
   const pathname = usePathname();
-  const list = pathname.substring(1).split("/");
+  const list = pathname.split("/");
+  list.splice(0, 1);
+
   const isNavigatorActive = list.length > 1;
 
   const filteredList = list.filter(
     (item) => !!NavigatorData[item as NavigatorID]
   );
-  const isWrongRoute = filteredList.length !== list.length;
 
-  if (isNavigatorActive) {
+  const isWrongRoute = list
+    .map((item) => Object.keys(NavigatorData).some((key) => key === item))
+    .some((bool) => !bool);
+
+  if (!isNavigatorActive) {
     return null;
   }
 
@@ -32,12 +38,12 @@ export const Navigator = () => {
             <li className="navigator__item" key={index}>
               {index !== list.length - 1 ? (
                 <>
-                  <a
+                  <Link
                     className="navigator__link"
                     href={getHref(filteredList, index)}
                   >
                     {NavigatorData[item as NavigatorID]}
-                  </a>
+                  </Link>
                   <div className="navigator__icon">
                     <Arrow />
                   </div>
@@ -51,7 +57,12 @@ export const Navigator = () => {
           ))}
           {isWrongRoute && (
             <li className="navigator__item" key={filteredList.length}>
-              <p className="navigator__text">Error</p>
+              <Link
+                className="navigator__link"
+                href={"/" + filteredList.join("/")}
+              >
+                Go back
+              </Link>
             </li>
           )}
         </ul>

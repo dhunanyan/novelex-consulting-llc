@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import { Sections } from "@config";
 import "./BlankSection.scss";
 
@@ -21,9 +22,9 @@ export const BlankSection = ({
       <h2 className="blank__title">{title}</h2>
       <p className="blank__description">{description}</p>
       {button && redirectURL && (
-        <a href={redirectURL} className="blank__button">
+        <Link href={redirectURL} className="blank__button">
           {button}
-        </a>
+        </Link>
       )}
     </div>
   </section>

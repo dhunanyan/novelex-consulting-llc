@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 import { FaTimes as CloseIcon } from "react-icons/fa";
@@ -25,7 +26,7 @@ export const Dropdown = ({
   closeDropDown,
   onItemClick,
 }: DropdownPropsType) => {
-  const { title, description, goToLink, navList, GeneralContent } =
+  const { title, description, goToLink, navList, mainContent } =
     DropdownData[viewId];
 
   return (
@@ -37,23 +38,23 @@ export const Dropdown = ({
       <div className="dropdown__content">
         <h2 className="dropdown__title">{title}</h2>
         <p className="dropdown__description">{description}</p>
-        <a className="dropdown__go-to-link" href={"/" + viewId}>
+        <Link className="dropdown__go-to-link" href={"/" + viewId}>
           <span>{goToLink}</span>
           <Arrow />
-        </a>
+        </Link>
       </div>
 
       <nav className="dropdown__nav--sub">
         <ul className="dropdown__list">
           {navList.map((navItem) => (
             <li className="dropdown__item" key={navItem.id}>
-              <a
+              <Link
                 className="dropdown__link"
                 onClick={(e) => onItemClick(e, navItem.id, navItem.href)}
                 href={navItem.href}
               >
                 {navItem.text}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -65,18 +66,16 @@ export const Dropdown = ({
             <Image
               layout="fill"
               objectFit="cover"
-              src={GeneralContent.imagePath}
-              alt={GeneralContent.imageAlt}
+              src={mainContent.imagePath}
+              alt={mainContent.imageAlt}
             />
           </div>
 
           <h3 className="dropdown__extra-content-subtitle">
-            {GeneralContent.subtitle}
+            {mainContent.subtitle}
           </h3>
 
-          <h2 className="dropdown__extra-content-motto">
-            {GeneralContent.motto}
-          </h2>
+          <h2 className="dropdown__extra-content-motto">{mainContent.motto}</h2>
         </div>
       ) : (
         <div className="dropdown__extra-content">
@@ -92,9 +91,13 @@ export const Dropdown = ({
                 }
               )[subViewId].map((navItem) => (
                 <li className="dropdown__item" key={navItem.id}>
-                  <a className="dropdown__link" href={navItem.href}>
+                  <Link
+                    className="dropdown__link"
+                    onClick={closeDropDown}
+                    href={navItem.href}
+                  >
                     {navItem.text}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

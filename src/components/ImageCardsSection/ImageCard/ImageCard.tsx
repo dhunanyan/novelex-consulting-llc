@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { Icons } from "@config";
 
@@ -21,7 +22,7 @@ export const ImageCard = ({
     <div className="image-card__image">
       <Image layout="fill" objectFit="cover" src={imageURL} alt={title} />
     </div>
-    <a className="image-card__content" href={redirectURL}>
+    <Link className="image-card__content" href={redirectURL}>
       <h3 className="image-card__title">{title}</h3>
       {iconURL && (
         <div
@@ -29,6 +30,6 @@ export const ImageCard = ({
           dangerouslySetInnerHTML={{ __html: Icons[iconURL] }}
         />
       )}
-    </a>
+    </Link>
   </li>
 );

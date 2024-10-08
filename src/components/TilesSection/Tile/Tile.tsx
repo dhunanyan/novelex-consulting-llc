@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import "./Tile.scss";
 
 export type TilePropsType = {
@@ -17,8 +18,8 @@ export const Tile = ({
   <li className="tile">
     <h3 className="tile__title">{title}</h3>
     <p className="tile__description">{description}</p>
-    <a href={redirectURL} className="tile__button">
+    <Link href={redirectURL} className="tile__button">
       {button}
-    </a>
+    </Link>
   </li>
 );

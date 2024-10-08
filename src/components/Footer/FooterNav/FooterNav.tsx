@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import { NavigationData, SocialMediasData } from "@data";
 import { renderIcon } from "@utils";
 
@@ -10,18 +11,22 @@ export const FooterNav = () => (
       <ul className="footer-nav__list">
         {NavigationData.map((item) => (
           <li className="footer-nav__item" key={item.id}>
-            <a className="footer-nav__link" href={"/" + item.id}>
+            <Link href={"/" + item.id} className="footer-nav__link">
               {item.text}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
       <ul className="footer-nav__social-list">
         {SocialMediasData.map(({ url, id }) => (
           <li className="footer-nav__social-item" key={id}>
-            <a className="footer-nav__social-link" href={url} target="_blank">
+            <Link
+              className="footer-nav__social-link"
+              href={url}
+              target="_blank"
+            >
               <span>{renderIcon(id)}</span>
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

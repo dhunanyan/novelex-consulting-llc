@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 import { Sections } from "@config";
 import { IconCard } from "./IconCard";
 import "./IconCardsSection.scss";
@@ -54,7 +55,7 @@ export const IconCardsSection = ({
         <h3 className="icon-cards__subtitle">{subtitle}</h3>
         <h2 className="icon-cards__title">{title}</h2>
         <p className="icon-cards__description">{description}</p>
-        <a
+        <Link
           href={redirectURL}
           className={
             "icon-cards__button" +
@@ -62,7 +63,7 @@ export const IconCardsSection = ({
           }
         >
           {button}
-        </a>
+        </Link>
       </div>
       <ul className="icon-cards__list">
         <div
