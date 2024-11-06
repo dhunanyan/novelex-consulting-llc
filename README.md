@@ -2,7 +2,9 @@
 
 Welcome to the **Novelex Consulting LLC Website** repository! This project is a Next.js application built to represent Novelex Consulting LLC's professional services. Designed for a polished, user-friendly experience, this website highlights the firm's expertise, service offerings, and unique approach in the consulting industry.
 
-![Logo](./docs/demo-1.png "Logo")
+![Logo](./docs/novelex.png "Logo")
+
+<!-- ![Logo](./docs/demo-1.png "Logo") -->
 
 ## 📖 About
 
