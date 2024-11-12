@@ -1,4 +1,4 @@
-# 🌐 Novelex Consulting LLC Website
+# 🌐 Novelex Consulting LLC Website [![Netlify Status](https://api.netlify.com/api/v1/badges/10b682be-da1e-4fa6-8942-588a22c1e90d/deploy-status)](https://app.netlify.com/sites/novelex-consulting-llc/deploys)
 
 Welcome to the **Novelex Consulting LLC Website** repository! This project is a Next.js application built to represent Novelex Consulting LLC's professional services. Designed for a polished, user-friendly experience, this website highlights the firm's expertise, service offerings, and unique approach in the consulting industry.
 
